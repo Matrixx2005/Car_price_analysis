@@ -1,0 +1,9 @@
+fuel_type,n,median
+Electric,3265,70480.0
+Others,195,52889.0
+Electric/Diesel,1735,47900.0
+Electric/Gasoline,10321,46850.0
+Gasoline,35114,41890.0
+Diesel,24568,25700.0
+CNG,33,23000.0
+LPG,178,7000.0

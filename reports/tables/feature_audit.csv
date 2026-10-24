@@ -1,0 +1,33 @@
+column,role,dtype,pct_missing,n_unique,available_at_prediction,leakage_risk,reason
+price,target,float64,0.0,12073.0,no,-,Giá chào bán EUR – biến mục tiêu y.
+brand,feature,object,0.0,25.0,yes,low,Hãng xe; biến phân loại cardinality thấp–trung bình.
+model,feature,object,0.75,602.0,yes,low,Mẫu xe; cardinality cao; chỉ định danh đầy đủ khi đi cùng brand.
+model_version,feature,object,0.77,71015.0,yes,low,"Phiên bản/trim; cardinality rất cao, nhiều danh mục hiếm – dùng làm thí nghiệm encoding trọng tâm."
+make_model,feature,object,0.75,603.0,yes,low,Tổ hợp brand+model (khử nhầm lẫn model trùng tên giữa các hãng). Trùng thông tin với brand & model → chỉ đưa vào thí nghiệm có kiểm soát số chiều.
+fuel_type,feature,object,0.06,9.0,yes,low,Loại nhiên liệu.
+transmission,feature,object,0.81,3.0,yes,low,Hộp số.
+body_type,feature,object,0.0,8.0,yes,low,Kiểu thân xe.
+country_code,feature,str,0.01,8.0,yes,low,Thị trường; giá/thuế khác nhau giữa các nước.
+seller_type,feature,object,0.01,2.0,yes,medium,"Dealer/Private: biết khi đăng tin, nhưng liên quan chiến lược định giá của người bán."
+drive_train,feature,object,24.18,3.0,yes,low,Dẫn động; thiếu ~23% (cần impute ở Pipeline).
+body_color,feature,object,12.05,14.0,yes,low,Màu thân xe; thiếu ~10%.
+production_year,feature,float64,0.02,58.0,yes,low,"Năm sản xuất (production_year, nếu thiếu thì lấy năm đăng ký)."
+vehicle_age,feature,float64,0.02,57.0,yes,low,= 2025 − production_year; thay thế tuyến tính của production_year – KHÔNG dùng đồng thời với production_year trong mô hình tuyến tính nếu muốn tránh đa cộng tuyến.
+mileage_km,feature,float64,0.0,37310.0,yes,low,Số km đã đi.
+power_kw,feature,float64,1.3,512.0,yes,low,Công suất kW.
+engine_cc,feature,float64,9.42,453.0,yes,low,Dung tích xy-lanh; xe điện = 0/thiếu.
+nr_seats,feature,float64,3.65,9.0,yes,low,Số ghế.
+price_net,excluded,float64,80.8,9509.0,no,high,Giá chưa VAT – dẫn xuất trực tiếp từ price (price/(1+VAT)). Dùng sẽ làm lộ target.
+price_vat_rate,excluded,float64,80.91,10.0,no,high,"Thuế suất VAT, chỉ có khi có price_net (thiếu >74%); gắn với cách tính giá."
+price_tax_deductible,excluded,boolean,0.0,2.0,unclear,medium,"Cờ khấu trừ VAT: thuộc cấu trúc giá của tin đăng, không phải đặc điểm xe."
+price_negotiable,excluded,boolean,0.0,2.0,unclear,medium,Cờ thương lượng: hành vi định giá của người bán.
+vin,excluded,str,70.93,26345.0,yes,high,"Định danh xe duy nhất (nhận dạng được); chỉ dùng để tạo nhóm chia dữ liệu, không là feature."
+listing_id,metadata,object,0.0,94266.0,yes,high,"Mã tin đăng – định danh, không có ý nghĩa dự đoán."
+currency,metadata,str,0.0,1.0,yes,-,Điều kiện lọc (chỉ EUR).
+vehicle_condition,metadata,str,0.0,1.0,yes,-,Điều kiện lọc (chỉ 'used').
+description,excluded,(không có trong bảng sạch),,,yes,medium,Văn bản tự do; có thể chứa giá/thông tin người bán; chưa thuộc phạm vi tuần 1.
+seller_company_name,excluded,object,20.98,16523.0,yes,medium,Tên người bán cụ thể – dễ học thuộc người bán (nhận dạng); chỉ dùng cho khóa nhóm.
+ratings_average,excluded,(không có trong bảng sạch),,,unclear,medium,"Điểm đánh giá của người bán, thiếu 35%; không phải thuộc tính xe."
+registration_date,excluded,object,0.0,391.0,yes,low,Đã được phản ánh qua production_year; giữ lại để suy luận năm.
+equipment_*,excluded,(không có trong bảng sạch),,,yes,low,"Văn bản liệt kê trang bị – cần xử lý NLP, ngoài phạm vi tuần 1."
+zip/city/street/latitude/longitude,excluded,(không có trong bảng sạch),,,yes,medium,Vị trí chi tiết người bán; nguy cơ nhận dạng và học thuộc cửa hàng.

@@ -1,0 +1,731 @@
+{
+  "started_at": "2026-10-24T22:23:42",
+  "raw": {
+    "rows": 118382,
+    "cols": 75,
+    "file_size_bytes": 548610318,
+    "ram_mb_deep": 586.2,
+    "full_row_duplicates": 0,
+    "id_duplicates": 0,
+    "vin_non_null": 40222,
+    "vin_duplicate_rows": 2644,
+    "all_null_columns": [
+      "fuel_cons_city_l100_km",
+      "fuel_cons_highway_l100_km",
+      "has_warranty",
+      "warranty"
+    ],
+    "documented_but_absent": [],
+    "high_missing_cols_over_50pct": [
+      "price_net",
+      "price_vat_rate",
+      "vin",
+      "german_hsn_tsn",
+      "production_year",
+      "electric_range_km",
+      "electric_range_city_km",
+      "fuel_cons_comb_l100_km",
+      "fuel_cons_city_l100_km",
+      "fuel_cons_highway_l100_km",
+      "co2_emission_grper_km",
+      "fuel_cons_comb_l100_wltp_km",
+      "fuel_cons_electric_comb_l100_wltp_km",
+      "co2_emission_grper_wltp_km",
+      "original_market",
+      "has_warranty",
+      "warranty"
+    ],
+    "generated_at": "2026-10-24T22:23:48",
+    "pandas": "3.1.0"
+  },
+  "funnel": [
+    {
+      "step": "raw",
+      "rule": "start (after type/whitespace/missing-token normalisation only)",
+      "rows_before": 118382,
+      "rows_after": 118382,
+      "rows_removed": 0,
+      "reason": ""
+    },
+    {
+      "step": "used_only",
+      "rule": "is_used == True and is_new == False (NaN counts as unconfirmed)",
+      "rows_before": 118382,
+      "rows_after": 95684,
+      "rows_removed": 22698,
+      "reason": "new cars, pre-registered/demo cars and records without a confirmed used flag"
+    },
+    {
+      "step": "offer_type",
+      "rule": "offer_type == 'U' (or missing)",
+      "rows_before": 95684,
+      "rows_after": 95681,
+      "rows_removed": 3,
+      "reason": "offer types other than 'U' (used) are unconfirmed"
+    },
+    {
+      "step": "vehicle_type",
+      "rule": "vehicle_type == 'Car'",
+      "rows_before": 95681,
+      "rows_after": 95600,
+      "rows_removed": 81,
+      "reason": "non-passenger vehicles (e.g. Transporter)"
+    },
+    {
+      "step": "commercial_body_type",
+      "rule": "body_type not in ['box', 'flatbed van', 'flatbed+tarpaulin', 'panel van', 'transporter', 'van-high roof']",
+      "rows_before": 95600,
+      "rows_after": 95407,
+      "rows_removed": 193,
+      "reason": "commercial body types listed under vehicle_type=Car"
+    },
+    {
+      "step": "currency",
+      "rule": "price_currency == 'EUR'",
+      "rows_before": 95407,
+      "rows_after": 95407,
+      "rows_removed": 0,
+      "reason": "other/missing currency (no conversion performed)"
+    },
+    {
+      "step": "price_not_null",
+      "rule": "price is numeric and not null",
+      "rows_before": 95407,
+      "rows_after": 95407,
+      "rows_removed": 0,
+      "reason": "unparseable/missing target"
+    },
+    {
+      "step": "price_positive",
+      "rule": "price > 0",
+      "rows_before": 95407,
+      "rows_after": 95407,
+      "rows_removed": 0,
+      "reason": "zero/negative price"
+    },
+    {
+      "step": "price_min",
+      "rule": "price >= 100 EUR",
+      "rows_before": 95407,
+      "rows_after": 95399,
+      "rows_removed": 8,
+      "reason": "placeholder prices (e.g. price = 1)"
+    },
+    {
+      "step": "content_duplicates",
+      "rule": "drop repeated (valid VIN, price, mileage, registration_date, country)",
+      "rows_before": 95399,
+      "rows_after": 94266,
+      "rows_removed": 1133,
+      "reason": "identical listings re-posted under a different id"
+    }
+  ],
+  "n_clean": 94266,
+  "flags": {
+    "price_review": 6,
+    "future_registration": 21,
+    "year_source": {
+      "registration_date": 82793,
+      "production_year": 11453,
+      "missing": 20
+    },
+    "mileage_zero": 14,
+    "rental_kept": 717,
+    "invalid_vin_format": 387
+  },
+  "implausible_values": [
+    {
+      "column": "nr_seats",
+      "rule": "seats outside (1, 9)",
+      "n_set_to_nan": 7
+    },
+    {
+      "column": "power_kw",
+      "rule": "power_kw outside (10, 1500)",
+      "n_set_to_nan": 33
+    },
+    {
+      "column": "cylinders_volume_cc",
+      "rule": "engine_cc > 10000 or <= 0 for non-electric (electric keeps 0)",
+      "n_set_to_nan": 5
+    },
+    {
+      "column": "mileage_km",
+      "rule": "mileage < 0 or > 1,000,000 km",
+      "n_set_to_nan": 3
+    }
+  ],
+  "cardinality": [
+    {
+      "column": "model_version",
+      "n_unique": 71015,
+      "n_non_missing": 93538,
+      "pct_missing": 0.772,
+      "level": "high (>50)",
+      "top_category": "E-Hybrid",
+      "top_category_share_pct": 0.14,
+      "top10_share_pct": 1.16,
+      "n_cat_count_eq1": 63854,
+      "n_cat_count_lt5": 69713,
+      "n_cat_count_lt10": 70560,
+      "pct_cats_lt5": 98.17,
+      "pct_cats_lt10": 99.36,
+      "pct_rows_in_cats_lt5": 82.792,
+      "pct_rows_in_cats_lt10": 88.444,
+      "n_case_variant_groups": 647,
+      "n_values_format_issue": 2964
+    },
+    {
+      "column": "make_model",
+      "n_unique": 603,
+      "n_non_missing": 93555,
+      "pct_missing": 0.754,
+      "level": "high (>50)",
+      "top_category": "Porsche Cayenne",
+      "top_category_share_pct": 5.66,
+      "top10_share_pct": 30.99,
+      "n_cat_count_eq1": 92,
+      "n_cat_count_lt5": 181,
+      "n_cat_count_lt10": 249,
+      "pct_cats_lt5": 30.02,
+      "pct_cats_lt10": 41.29,
+      "pct_rows_in_cats_lt5": 0.37,
+      "pct_rows_in_cats_lt10": 0.833,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "model",
+      "n_unique": 602,
+      "n_non_missing": 93555,
+      "pct_missing": 0.754,
+      "level": "high (>50)",
+      "top_category": "Cayenne",
+      "top_category_share_pct": 5.66,
+      "top10_share_pct": 30.99,
+      "n_cat_count_eq1": 91,
+      "n_cat_count_lt5": 180,
+      "n_cat_count_lt10": 248,
+      "pct_cats_lt5": 29.9,
+      "pct_cats_lt10": 41.2,
+      "pct_rows_in_cats_lt5": 0.369,
+      "pct_rows_in_cats_lt10": 0.832,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "brand",
+      "n_unique": 25,
+      "n_non_missing": 94266,
+      "pct_missing": 0.0,
+      "level": "medium (11-50)",
+      "top_category": "BMW",
+      "top_category_share_pct": 38.68,
+      "top10_share_pct": 98.12,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 1,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 4.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.005,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "body_color",
+      "n_unique": 14,
+      "n_non_missing": 82907,
+      "pct_missing": 12.05,
+      "level": "medium (11-50)",
+      "top_category": "Black",
+      "top_category_share_pct": 34.37,
+      "top10_share_pct": 99.07,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 0,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 0.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.0,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "fuel_type",
+      "n_unique": 9,
+      "n_non_missing": 94212,
+      "pct_missing": 0.057,
+      "level": "low (<=10)",
+      "top_category": "Gasoline",
+      "top_category_share_pct": 46.66,
+      "top10_share_pct": 100.0,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 1,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 11.11,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.006,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "body_type",
+      "n_unique": 8,
+      "n_non_missing": 94266,
+      "pct_missing": 0.0,
+      "level": "low (<=10)",
+      "top_category": "Off-Road/Pick-up",
+      "top_category_share_pct": 37.45,
+      "top10_share_pct": 100.0,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 0,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 0.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.0,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "country_code",
+      "n_unique": 8,
+      "n_non_missing": 94254,
+      "pct_missing": 0.013,
+      "level": "low (<=10)",
+      "top_category": "DE",
+      "top_category_share_pct": 34.5,
+      "top10_share_pct": 100.0,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 0,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 0.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.0,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "transmission",
+      "n_unique": 3,
+      "n_non_missing": 93505,
+      "pct_missing": 0.807,
+      "level": "low (<=10)",
+      "top_category": "Automatic",
+      "top_category_share_pct": 79.17,
+      "top10_share_pct": 100.0,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 0,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 0.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.0,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "drive_train",
+      "n_unique": 3,
+      "n_non_missing": 71472,
+      "pct_missing": 24.181,
+      "level": "low (<=10)",
+      "top_category": "4WD",
+      "top_category_share_pct": 55.18,
+      "top10_share_pct": 100.0,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 0,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 0.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.0,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    },
+    {
+      "column": "seller_type",
+      "n_unique": 2,
+      "n_non_missing": 94254,
+      "pct_missing": 0.013,
+      "level": "low (<=10)",
+      "top_category": "Dealer",
+      "top_category_share_pct": 79.03,
+      "top10_share_pct": 100.0,
+      "n_cat_count_eq1": 0,
+      "n_cat_count_lt5": 0,
+      "n_cat_count_lt10": 0,
+      "pct_cats_lt5": 0.0,
+      "pct_cats_lt10": 0.0,
+      "pct_rows_in_cats_lt5": 0.0,
+      "pct_rows_in_cats_lt10": 0.0,
+      "n_case_variant_groups": 0,
+      "n_values_format_issue": 0
+    }
+  ],
+  "make_model": {
+    "brand_top20": null,
+    "brand_spelling_variants": {},
+    "brand_n": 25,
+    "brand_missing": 0,
+    "model_n": 602,
+    "model_top20": null,
+    "models_per_brand": null,
+    "model_names_shared_across_brands": null,
+    "model_missing": 711,
+    "make_model_n": 603,
+    "model_version_summary": {
+      "n_unique": 71015,
+      "n_non_missing": 93538,
+      "n_missing": 728,
+      "n_singletons": 63854,
+      "pct_cats_singleton": 89.92,
+      "n_lt5": 69713,
+      "n_lt10": 70560,
+      "pct_rows_in_cats_lt10": 89.13,
+      "median_tokens": 5.0,
+      "mean_tokens": 5.43,
+      "pct_with_ge4_tokens": 72.54,
+      "pct_with_power_or_displacement": 28.38,
+      "pct_with_drivetrain_or_gearbox_words": 28.19
+    },
+    "model_version_top20": null
+  },
+  "country": [
+    {
+      "country_code": "DE",
+      "n": 32516,
+      "median_price": 34970.0,
+      "p10": 11950.0,
+      "p90": 109900.0,
+      "share_pct": 34.49,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "IT",
+      "n": 21181,
+      "median_price": 30900.0,
+      "p10": 10600.0,
+      "p90": 98911.0,
+      "share_pct": 22.47,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "NL",
+      "n": 12381,
+      "median_price": 33945.0,
+      "p10": 6250.0,
+      "p90": 119911.0,
+      "share_pct": 13.13,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "BE",
+      "n": 8525,
+      "median_price": 32450.0,
+      "p10": 12966.000000000004,
+      "p90": 107900.0,
+      "share_pct": 9.04,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "ES",
+      "n": 6887,
+      "median_price": 32228.0,
+      "p10": 15990.0,
+      "p90": 95200.00000000028,
+      "share_pct": 7.31,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "FR",
+      "n": 6057,
+      "median_price": 49990.0,
+      "p10": 17990.0,
+      "p90": 145870.00000000003,
+      "share_pct": 6.43,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "AT",
+      "n": 5974,
+      "median_price": 38500.0,
+      "p10": 16262.000000000004,
+      "p90": 116974.99999999999,
+      "share_pct": 6.34,
+      "flag_small_sample": false
+    },
+    {
+      "country_code": "LU",
+      "n": 733,
+      "median_price": 59890.0,
+      "p10": 19000.0,
+      "p90": 154998.0,
+      "share_pct": 0.78,
+      "flag_small_sample": true
+    },
+    {
+      "country_code": NaN,
+      "n": 12,
+      "median_price": 49995.0,
+      "p10": 29540.0,
+      "p90": 169955.00000000003,
+      "share_pct": 0.01,
+      "flag_small_sample": true
+    }
+  ],
+  "price_stats": {
+    "count": 94266.0,
+    "mean": 54283.42970954533,
+    "std": 119477.52799326958,
+    "min": 250.0,
+    "p0.1": 691.325,
+    "p1": 1950.0,
+    "p5": 6300.0,
+    "p25": 21590.0,
+    "p50": 34490.0,
+    "p75": 65490.0,
+    "p95": 154495.0,
+    "p99": 252900.0,
+    "p99.9": 520998.3450000031,
+    "max": 13500000.0,
+    "skew": 46.97858413656123,
+    "skew_log1p": -0.5407433179481654
+  },
+  "missing_pct_main_features": {
+    "listing_id": 0.0,
+    "brand": 0.0,
+    "model": 0.75,
+    "model_version": 0.77,
+    "production_year": 0.02,
+    "mileage_km": 0.0,
+    "fuel_type": 0.06,
+    "transmission": 0.81,
+    "body_type": 0.0,
+    "country_code": 0.01,
+    "seller_type": 0.01,
+    "engine_cc": 9.42,
+    "power_kw": 1.3,
+    "nr_seats": 3.65,
+    "price": 0.0,
+    "currency": 0.0,
+    "vehicle_condition": 0.0,
+    "vin": 70.93,
+    "price_net": 80.8,
+    "price_vat_rate": 80.91,
+    "price_tax_deductible": 0.0,
+    "price_negotiable": 0.0,
+    "registration_date": 0.0,
+    "body_color": 12.05,
+    "drive_train": 24.18,
+    "seller_company_name": 20.98,
+    "vehicle_age": 0.02,
+    "make_model": 0.75
+  },
+  "split": {
+    "n_total": 94266,
+    "n_train": 75457,
+    "n_test": 18809,
+    "test_fraction": 0.1995,
+    "n_groups": 91263,
+    "n_groups_with_multiple_listings": 1866,
+    "listings_in_multi_listing_groups": 4869,
+    "largest_group": 56,
+    "group_overlap_train_test": 0,
+    "index_overlap_train_test": 0,
+    "seed": 42,
+    "method": "GroupShuffleSplit (groups = VIN ∪ technical-fingerprint connected components)",
+    "features": [
+      "brand",
+      "model",
+      "model_version",
+      "make_model",
+      "fuel_type",
+      "transmission",
+      "body_type",
+      "country_code",
+      "seller_type",
+      "drive_train",
+      "body_color",
+      "production_year",
+      "vehicle_age",
+      "mileage_km",
+      "power_kw",
+      "engine_cc",
+      "nr_seats"
+    ],
+    "target": "price",
+    "dtypes": {
+      "listing_id": "object",
+      "brand": "object",
+      "model": "object",
+      "model_version": "object",
+      "make_model": "object",
+      "fuel_type": "object",
+      "transmission": "object",
+      "body_type": "object",
+      "country_code": "str",
+      "seller_type": "object",
+      "drive_train": "object",
+      "body_color": "object",
+      "production_year": "float64",
+      "vehicle_age": "float64",
+      "mileage_km": "float64",
+      "power_kw": "float64",
+      "engine_cc": "float64",
+      "nr_seats": "float64",
+      "price": "float64",
+      "group_id": "int32"
+    }
+  },
+  "random_split_leak": {
+    "test_rows_with_same_group_in_train": 860,
+    "n_test": 18854,
+    "group_split_same_metric": 0
+  },
+  "unseen": [
+    {
+      "column": "brand",
+      "n_test_non_missing": 18809,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "model",
+      "n_test_non_missing": 18682,
+      "n_unseen_categories": 22,
+      "pct_test_rows_unseen": 0.128
+    },
+    {
+      "column": "model_version",
+      "n_test_non_missing": 18682,
+      "n_unseen_categories": 13076,
+      "pct_test_rows_unseen": 72.176
+    },
+    {
+      "column": "make_model",
+      "n_test_non_missing": 18682,
+      "n_unseen_categories": 22,
+      "pct_test_rows_unseen": 0.128
+    },
+    {
+      "column": "fuel_type",
+      "n_test_non_missing": 18799,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "transmission",
+      "n_test_non_missing": 18659,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "body_type",
+      "n_test_non_missing": 18809,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "country_code",
+      "n_test_non_missing": 18807,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "seller_type",
+      "n_test_non_missing": 18807,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "drive_train",
+      "n_test_non_missing": 14248,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    },
+    {
+      "column": "body_color",
+      "n_test_non_missing": 16524,
+      "n_unseen_categories": 0,
+      "pct_test_rows_unseen": 0.0
+    }
+  ],
+  "figures": [
+    "reports\\figures\\price_histograms.png",
+    "reports\\figures\\price_boxplot.png",
+    "reports\\figures\\year_mileage_distribution.png",
+    "reports\\figures\\categorical_counts.png",
+    "reports\\figures\\cardinality.png",
+    "reports\\figures\\price_relationships.png",
+    "reports\\figures\\price_vs_year_mileage.png",
+    "reports\\figures\\numeric_correlation.png"
+  ],
+  "train_median_price_year_group": [
+    {
+      "year_group": "<=2004",
+      "n": 2728,
+      "median": 9950.0
+    },
+    {
+      "year_group": "2005-09",
+      "n": 3773,
+      "median": 8950.0
+    },
+    {
+      "year_group": "2010-14",
+      "n": 5932,
+      "median": 17900.0
+    },
+    {
+      "year_group": "2015-17",
+      "n": 10599,
+      "median": 24000.0
+    },
+    {
+      "year_group": "2018-19",
+      "n": 10197,
+      "median": 31900.0
+    },
+    {
+      "year_group": "2020-21",
+      "n": 18260,
+      "median": 30900.0
+    },
+    {
+      "year_group": "2022-23",
+      "n": 10442,
+      "median": 48999.0
+    },
+    {
+      "year_group": "2024-26",
+      "n": 13510,
+      "median": 76900.0
+    }
+  ],
+  "train_corr_with_price": {
+    "price": 1.0,
+    "production_year": 0.53,
+    "vehicle_age": -0.53,
+    "mileage_km": -0.644,
+    "power_kw": 0.797,
+    "engine_cc": 0.578,
+    "nr_seats": -0.309,
+    "log10_price": 1.0
+  },
+  "lineage": {
+    "raw_md5": "b23a122cc51baf7de39f449193ff0d28",
+    "seed": 42,
+    "test_size": 0.2,
+    "snapshot_date": "2025-11-08",
+    "python": "3.13.11",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "processed_at": "2026-10-24T22:24:01"
+  }
+}

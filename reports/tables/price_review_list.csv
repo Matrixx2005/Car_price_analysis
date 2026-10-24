@@ -1,0 +1,7 @@
+make,model,price,mileage_km,production_year,country_code
+BMW,316,9500000.0,200000.0,2015.0,IT
+Porsche,Carrera GT,999999.0,18950.0,2005.0,DE
+Audi,100,999999.0,123123.0,2025.0,DE
+Porsche,992,999999.0,1028.0,2023.0,DE
+Audi,100,999999.0,123456.0,2025.0,AT
+Honda,CR-Z,182350.0,6000.0,2012.0,BE

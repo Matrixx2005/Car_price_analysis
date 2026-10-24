@@ -1,0 +1,1001 @@
+brand,model,model_version,make_model,fuel_type,transmission,body_type,country_code,seller_type,drive_train,body_color,production_year,vehicle_age,mileage_km,power_kw,engine_cc,nr_seats,price
+Porsche,Panamera,4S E-Hybrid Sport Turismo,Porsche Panamera,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,4WD,,2024.0,1.0,28210.0,412.0,2894.0,5.0,104750.0
+Mercedes-Benz,GLC 43 AMG,GLC 43 4M NIGHT+PANO+360+AHK+TOTW+KEYLESS+9G,Mercedes-Benz GLC 43 AMG,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2025.0,0.0,3754.0,310.0,1991.0,5.0,79990.0
+Alfa Romeo,Stelvio,2.2 Turbodiesel 210 CV AT8 Q4 Veloce MY24,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Blue,2024.0,1.0,14912.0,154.0,2143.0,5.0,40950.0
+BMW,520,520d GT,BMW 520,Diesel,Automatic,Sedan,ES,Dealer,,Grey,2016.0,9.0,90714.0,,,5.0,20599.0
+Porsche,911,996 4S Coupe 3.6 320CV ITALIANA ! 2 PROPRIETARI !,Porsche 911,Gasoline,Manual,Coupe,IT,Dealer,,Silver,2003.0,22.0,182559.0,235.0,3596.0,4.0,43990.0
+Volkswagen,Golf Variant,R-Line*Standheizung*DSG*PDC*ACC*LED*LM*,Volkswagen Golf Variant,Diesel,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,Grey,2015.0,10.0,216300.0,110.0,1968.0,5.0,8900.0
+BMW,120,120i Msport 5p Auto Zf8HP,BMW 120,Gasoline,Semi-automatic,Sedan,IT,PrivateSeller,Rear Wheel Drive,Black,2018.0,7.0,132000.0,135.0,1998.0,5.0,19200.0
+Audi,A3,Sportback 35 TFSI Advanced AHK/LED/NAVI+VZE/17-ZO,Audi A3,Gasoline,Manual,Sedan,DE,Dealer,Front Wheel Drive,Black,2020.0,5.0,41987.0,110.0,1498.0,5.0,24980.0
+Porsche,Cayenne,S Tiptronic,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,LU,PrivateSeller,,,2019.0,6.0,92000.0,324.0,2894.0,5.0,59900.0
+Porsche,Macan,T 2.0 Turbo/Chrono/LED/Carbon/CarConnect,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Red,2023.0,2.0,54173.0,195.0,1984.0,5.0,61900.0
+Audi,Q2,30 TDI Advanced S tronic 85kW,Audi Q2,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,White,2020.0,5.0,73000.0,85.0,1598.0,5.0,23000.0
+BMW,i3,120 Ah 300km Autonomia*Ottime Condizioni*Finanz,BMW i3,Electric,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Black,2020.0,5.0,48000.0,75.0,,4.0,16800.0
+Audi,Q3,S line TFSI 204 quattro 2xS neuesMod Tech+ Nav ...,Audi Q3,Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Blue,2025.0,0.0,10.0,150.0,1984.0,5.0,63484.0
+Audi,A6,Avant 45 TDI quattro S line LED Navi ACC,Audi A6,Diesel,Automatic,Station wagon,FR,Dealer,4WD,Grey,2025.0,0.0,1100.0,180.0,2967.0,5.0,77980.0
+Porsche,Cayenne,Coupé 4.0 V8 Turbo E-Hybrid|IVA ESP|ASSE STERZ|,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2024.0,1.0,48000.0,544.0,3996.0,4.0,180000.0
+Porsche,992,"Turbo-S "" LIFT/PDLS+/ADAPT-CRUISE/CARBONE """,Porsche 992,Gasoline,Automatic,Convertible,BE,Dealer,,Black,2021.0,4.0,22870.0,478.0,3745.0,4.0,214950.0
+BMW,550,M 550d Touring xdrive M Sport,BMW 550,Diesel,Automatic,Station wagon,IT,Dealer,,White,2015.0,10.0,140000.0,280.0,2993.0,5.0,23500.0
+BMW,X5,xDrive 45e M Sport High Executive | Panorama Skylo,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2020.0,5.0,38147.0,290.0,2998.0,5.0,62950.0
+BMW,116,SERIE F40 116d Edition Sport Garantie 12 mois,BMW 116,Diesel,Manual,Sedan,FR,Dealer,,White,2020.0,5.0,65800.0,86.0,,5.0,19480.0
+Audi,Q7,"60 TFSI e quattro Competition Facelift , Laser Lig",Audi Q7,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2025.0,0.0,110.0,360.0,2995.0,5.0,99500.0
+Porsche,Boxster,S 310,Porsche Boxster,Gasoline,Manual,Coupe,ES,Dealer,Rear Wheel Drive,,2010.0,15.0,99500.0,228.0,3436.0,2.0,39900.0
+BMW,X5,xDrive 25dA,BMW X5,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Blue,2014.0,11.0,163335.0,160.0,1995.0,5.0,21490.0
+Audi,A5,Coupé 40 TDI S-line quattro S-tronic|VIRTUAL-CO...,Audi A5,Diesel,Automatic,Coupe,AT,Dealer,4WD,Blue,2020.0,5.0,57000.0,140.0,1968.0,5.0,41900.0
+Porsche,Panamera,4 E-Hybrid Sport Turismo,Porsche Panamera,Electric/Gasoline,Semi-automatic,Sedan,IT,Dealer,4WD,Black,2018.0,7.0,154250.0,243.0,2894.0,5.0,50000.0
+Porsche,Cayenne,E-Hybrid Aut.,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Grey,2021.0,4.0,59000.0,340.0,2995.0,5.0,99400.0
+BMW,435,4-serie Cabrio 435i High Executive Luxury Line Spo,BMW 435,Gasoline,Automatic,Convertible,NL,Dealer,Rear Wheel Drive,Grey,2015.0,10.0,118571.0,225.0,2979.0,4.0,24950.0
+Volvo,XC90,T8 AWD Twin Engine Inscription Polestar,Volvo XC90,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,PrivateSeller,4WD,,2018.0,7.0,104000.0,311.0,1969.0,7.0,35950.0
+Porsche,Cayman,GT4,Porsche Cayman,Gasoline,,Coupe,DE,PrivateSeller,Rear Wheel Drive,Grey,2022.0,3.0,15900.0,309.0,3995.0,2.0,112900.0
+BMW,640,640i xDrive Gran Turismo *M-Sportpaket*M-Paket*,BMW 640,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2018.0,7.0,166000.0,250.0,2998.0,5.0,28999.0
+BMW,X3,xDrive 20dA,BMW X3,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,White,2016.0,9.0,110838.0,140.0,1995.0,5.0,23500.0
+BMW,Z4,sDrive30i Aut. Sport Line HiFi LED,BMW Z4,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Red,2022.0,3.0,34986.0,190.0,1998.0,2.0,39890.0
+Audi,A5,Sportback quattro ABT MATRIX/KAM/B&O/LEDER,Audi A5,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2020.0,5.0,98000.0,228.0,1984.0,5.0,28490.0
+Alfa Romeo,MiTo,0.9 Twin Air 85 Start & Stop SBK,Alfa Romeo MiTo,Gasoline,Manual,Sedan,IT,PrivateSeller,,,2013.0,12.0,108000.0,62.0,875.0,4.0,3500.0
+Audi,A1,SPB SLINE COCKPIT - GARANZIA-KM CERTIFICATI,Audi A1,Gasoline,Manual,Sedan,IT,Dealer,Front Wheel Drive,,2020.0,5.0,26493.0,70.0,999.0,5.0,22900.0
+Audi,Q3,35 TDI S line tronic,Audi Q3,Diesel,Automatic,Off-Road/Pick-up,ES,PrivateSeller,,Black,2020.0,5.0,125000.0,110.0,1968.0,5.0,23000.0
+BMW,X6,M50i / Selections,BMW X6,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Green,2021.0,4.0,90705.0,390.0,4395.0,5.0,82900.0
+BMW,X3,xDrive30e M Sport 20 Zoll*BMW Garantie,BMW X3,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2021.0,4.0,86500.0,215.0,1998.0,5.0,36999.0
+Porsche,Macan,,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,Black,2023.0,2.0,18300.0,194.0,,5.0,89950.0
+Alfa Romeo,Stelvio,2.2 t Sprint Q4 190cv auto PREZZO PROMO,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,,White,2021.0,4.0,130000.0,140.0,2143.0,5.0,21500.0
+Porsche,Cayenne,E-Hybrid Coupe HA-Lenkung HUD LED-Matrix,Porsche Cayenne,Electric/Gasoline,Automatic,Coupe,DE,Dealer,4WD,Grey,2021.0,4.0,81228.0,340.0,2995.0,5.0,79700.0
+BMW,iX3,iX3 Impressive Dark Shadow M pakket,BMW iX3,Electric,Automatic,Off-Road/Pick-up,BE,PrivateSeller,Rear Wheel Drive,Grey,2022.0,3.0,32500.0,210.0,,5.0,46887.0
+BMW,330,330e Xdrive | M-Sport | Pano | LED | ACC | Virtual,BMW 330,Gasoline,Automatic,Station wagon,NL,PrivateSeller,,,2020.0,5.0,171000.0,215.0,,,22950.0
+BMW,330,e xDrive Touring HUD AD AHK-klappbar AHK El. Panod,BMW 330,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,4WD,Grey,2022.0,3.0,68536.0,215.0,1998.0,5.0,33466.0
+BMW,X1,sDrive18i xLine LED Navi Tempomat AHK schw.,BMW X1,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2018.0,7.0,104424.0,103.0,1499.0,5.0,16990.0
+Mercedes-Benz,V 250,V 250 d STYLE Kompakt AMG DISTRONIC AHK 8-SITZER,Mercedes-Benz V 250,Diesel,Automatic,Van,AT,Dealer,Rear Wheel Drive,Black,2024.0,1.0,11518.0,140.0,1950.0,8.0,92580.0
+Mercedes-Benz,CLA 200,CLA 200 Shooting Brake AMG/Distr/AHK/Mem/Pano/ED,Mercedes-Benz CLA 200,Gasoline,Automatic,Station wagon,DE,Dealer,,Blue,2025.0,0.0,7100.0,120.0,1332.0,5.0,47990.0
+Porsche,718,Cayman Style Edition PDK 1. Hand Approved Garantie,Porsche 718,Gasoline,Automatic,Coupe,DE,PrivateSeller,,,2024.0,1.0,2900.0,220.0,1988.0,2.0,69990.0
+Volvo,XC40,2.0 D3 R-Design LEDER/ALCANTARA LED GPS PDC CAM Pa,Volvo XC40,Diesel,Manual,Off-Road/Pick-up,BE,Dealer,Front Wheel Drive,White,2020.0,5.0,95238.0,110.0,1969.0,5.0,24490.0
+Mercedes-Benz,GLE 53 AMG,4MATIC+ Hybrid | Massage | Head-up | Burmester | S,Mercedes-Benz GLE 53 AMG,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2024.0,1.0,45340.0,400.0,2999.0,5.0,119950.0
+Porsche,Cayenne,Turbo,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Brown,2010.0,15.0,151000.0,368.0,4806.0,5.0,32880.0
+BMW,M3,Competition *Finanzierung*Hamann*,BMW M3,Gasoline,Automatic,Sedan,DE,Dealer,,White,2016.0,9.0,116090.0,331.0,2979.0,5.0,44990.0
+Audi,SQ8,SQ8 4.0 V8 tdi mhev PRONTA CONSEGNA NAZIONALE,Audi SQ8,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2020.0,5.0,82000.0,320.0,3956.0,5.0,73900.0
+BMW,430,430d Gran Coupe Aut.,BMW 430,Diesel,Automatic,Coupe,DE,PrivateSeller,4WD,White,2014.0,11.0,153329.0,190.0,2993.0,5.0,23000.0
+Audi,A4,40 TFSI advanced Aut.*NAVI*PDC*SHZ*TEMPO*ALU*,Audi A4,Gasoline,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,Black,2020.0,5.0,54677.0,140.0,1984.0,5.0,25160.0
+BMW,X6,3.0 dAS xDrive PACK M CAMERA/FULL OP/1ER PROPRIO,BMW X6,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Blue,2019.0,6.0,108000.0,155.0,2993.0,5.0,34990.0
+Mercedes-Benz,A 200,A 200 Kompaktlimousine AMG Line Navi/Distronic,Mercedes-Benz A 200,Gasoline,Automatic,Other,DE,Dealer,Front Wheel Drive,White,2024.0,1.0,9000.0,120.0,1332.0,5.0,38850.0
+Mercedes-Benz,G 63 AMG,Speedshift 9G-TRONIC MWST ausweisbar,Mercedes-Benz G 63 AMG,Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2025.0,0.0,2500.0,430.0,3982.0,5.0,245000.0
+Suzuki,Vitara,Vitara 1.4 HYBRID Comfort Klimaautomatik Allwetter,Suzuki Vitara,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2024.0,1.0,31218.0,95.0,1373.0,5.0,18840.0
+BMW,Z4,roadster 3.0i,BMW Z4,Gasoline,Manual,Convertible,NL,PrivateSeller,,Grey,2003.0,22.0,184281.0,170.0,2979.0,2.0,11750.0
+Audi,A5,Sportback 45 TFSI S line quattro S tronic,Audi A5,Gasoline,Automatic,Sedan,ES,Dealer,4WD,Black,2020.0,5.0,27273.0,180.0,1984.0,5.0,43000.0
+Porsche,Panamera,4S 2.9 V6 Bi-Turbo PDK,Porsche Panamera,Electric/Gasoline,Automatic,Sedan,BE,PrivateSeller,4WD,,2017.0,8.0,165000.0,340.0,2894.0,4.0,54950.0
+Porsche,Cayenne,3.0 E-Hybrid ACC Pano PDLS+ GTS Stoelvent. Sport C,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2018.0,7.0,130000.0,340.0,2995.0,5.0,59900.0
+BMW,X3,X3 E83 3.0d Futura,BMW X3,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2004.0,21.0,185000.0,150.0,2993.0,5.0,4490.0
+Porsche,Macan,S*SHZ*SPORTDESIGN*RÜCKFAHRKAMERA,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Green,2021.0,4.0,45175.0,260.0,2995.0,5.0,57590.0
+Suzuki,Ignis,Hybrid Top 1.2 Mild Hybrid 90CV,Suzuki Ignis,Electric/Gasoline,Manual,Compact,IT,Dealer,Front Wheel Drive,Grey,2018.0,7.0,44991.0,66.0,1242.0,4.0,9990.0
+Audi,A4,Avant 1.8 TFSI Business Edition*Navi*ECC*EXPORTPRI,Audi A4,Gasoline,Manual,Station wagon,NL,Dealer,Front Wheel Drive,Blue,2013.0,12.0,230353.0,125.0,1798.0,5.0,4900.0
+BMW,X1,sdrive18d Advantage,BMW X1,Diesel,Manual,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Black,2017.0,8.0,78859.0,110.0,1995.0,5.0,17400.0
+Suzuki,Vitara,1.4 Mild-Hybrid Comfort+ 4x2 Spur*Abstand,Suzuki Vitara,Electric/Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Grey,2024.0,1.0,10.0,95.0,1373.0,5.0,22980.0
+Porsche,Macan,S Diesel Aut.,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Black,2015.0,10.0,237500.0,190.0,2967.0,5.0,31900.0
+Porsche,Cayenne,Cayenne II 2015 3.0 tiptronic,Porsche Cayenne,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2015.0,10.0,123000.0,184.0,2967.0,5.0,36900.0
+BMW,X1,"28 i xDrive*Autom*Bi-Xenon*Nav*PDC*18""",BMW X1,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2014.0,11.0,63290.0,180.0,1997.0,5.0,18480.0
+BMW,X5,30d High Executive M| Pano| Trekhaak|HUD|Vol|,BMW X5,Diesel,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2019.0,6.0,182999.0,196.0,2993.0,5.0,44999.0
+BMW,M8,M8 Competition coupe,BMW M8,Gasoline,Automatic,Coupe,BE,Dealer,4WD,Blue,2020.0,5.0,80000.0,460.0,4395.0,4.0,79995.0
+BMW,116,i Advantage Tempomat~Klimaauto~1Hand~5Trg~LED,BMW 116,Gasoline,Manual,Compact,DE,Dealer,Rear Wheel Drive,Black,2015.0,10.0,120000.0,80.0,1499.0,5.0,10490.0
+Porsche,Macan,LEDER/PANORAMA/LUFT/APPROVED/BI-XENON/PDC,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2017.0,8.0,94803.0,185.0,1984.0,5.0,34900.0
+Porsche,997,(911) Coupe Carrera 4 *MANUALE*TAGLIANDI PORSCHE*,Porsche 997,Gasoline,Manual,Coupe,IT,Dealer,4WD,Black,2009.0,16.0,64271.0,239.0,3596.0,4.0,65500.0
+BMW,118,"i ""Advantage"" Benzine - Automaat - Euro 6d",BMW 118,Gasoline,Automatic,Station wagon,BE,Dealer,Front Wheel Drive,Blue,2022.0,3.0,63801.0,100.0,1499.0,5.0,19995.0
+BMW,318,(E90) 318I 129CH CONFORT,BMW 318,Gasoline,Manual,Sedan,FR,Dealer,,Black,2007.0,18.0,87860.0,96.0,1995.0,5.0,9990.0
+Mercedes-Benz,GLB 200,200 d AMG Line Advanced Plus auto 7 Posti,Mercedes-Benz GLB 200,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Grey,2025.0,0.0,7140.0,110.0,1950.0,7.0,48900.0
+Porsche,Cayenne,Cayenne II 2010 3.0 V6 tdi 245cv tiptronic,Porsche Cayenne,Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,4WD,Grey,2013.0,12.0,110700.0,180.0,2967.0,5.0,25900.0
+Audi,A3,A3 Lim. 35 TFSI Adv. S tronic *AHK*Opt.-Schwarz*,Audi A3,Gasoline,Automatic,Sedan,DE,Dealer,Front Wheel Drive,Grey,2020.0,5.0,53115.0,110.0,1498.0,5.0,22888.0
+BMW,X3 M,X3 M40i 360ch BVA8,BMW X3 M,Gasoline,Automatic,Off-Road/Pick-up,FR,PrivateSeller,,,2022.0,3.0,53700.0,265.0,,,57000.0
+Audi,A3,Sportback 35 2.0 tdi SLINE 150cv s-tronic TETTO,Audi A3,Diesel,Automatic,Sedan,IT,Dealer,Front Wheel Drive,White,2020.0,5.0,76000.0,110.0,1968.0,5.0,25890.0
+Audi,RS6,Avant 4.0 TFSI V8 quattro tiptronic Performance,Audi RS6,Electric/Gasoline,Automatic,Station wagon,IT,Dealer,4WD,Black,2025.0,0.0,1.0,462.0,3996.0,5.0,129000.0
+Audi,A5,Avant 2.0 TDI S-tronic S-line AHK,Audi A5,Diesel,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,White,2025.0,0.0,3010.0,150.0,1968.0,5.0,68949.0
+BMW,320,320d Touring M Sport - Manual - Full black - trekh,BMW 320,Diesel,Manual,Station wagon,BE,PrivateSeller,,Black,2017.0,8.0,112000.0,140.0,1995.0,5.0,17500.0
+Suzuki,SX4 S-Cross,1.4 Select AUTOMAAT Boosterjet 5-deurs,Suzuki SX4 S-Cross,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,,Black,2022.0,3.0,31986.0,95.0,1373.0,5.0,30950.0
+BMW,550,d G31 xDrive Aut.AHK HUD Soft-Close StHz,BMW 550,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Grey,2019.0,6.0,173700.0,294.0,2993.0,5.0,29990.0
+Mercedes-Benz,E 450,E 450 d AMG Line Premium 4M Standhzg Superscreen,Mercedes-Benz E 450,Diesel,Automatic,Station wagon,AT,Dealer,4WD,Black,2024.0,1.0,9800.0,270.0,2989.0,5.0,116909.0
+Audi,A4,30 TDI/136 CV S tronic Business,Audi A4,Electric/Diesel,Semi-automatic,Sedan,IT,Dealer,Front Wheel Drive,Black,2020.0,5.0,93000.0,100.0,1968.0,5.0,26000.0
+Volvo,XC40,T3 Momentum / PDC / NAVI / CARPLAY / HARMAN-KARDON,Volvo XC40,Gasoline,Manual,Off-Road/Pick-up,BE,Dealer,Front Wheel Drive,Black,2020.0,5.0,66291.0,120.0,1477.0,5.0,23990.0
+Porsche,911,"Carrera S Coupe ""50 Jahre 911"" (991)",Porsche 911,Gasoline,Automatic,Coupe,AT,Dealer,Rear Wheel Drive,Grey,2014.0,11.0,10812.0,294.0,3800.0,2.0,181500.0
+Audi,A4,Avant 35 TFSI Launch edition Sport / Leder / Virtu,Audi A4,Gasoline,Automatic,Station wagon,NL,Dealer,Front Wheel Drive,Black,2020.0,5.0,159822.0,110.0,1984.0,5.0,24999.0
+BMW,320,d Touring xDrive Aut. Sport Line+KLIMA+NAVI+L,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2021.0,4.0,103165.0,140.0,1995.0,5.0,25490.0
+BMW,320,320i touring,BMW 320,Gasoline,Manual,Station wagon,DE,PrivateSeller,,,2001.0,24.0,248000.0,125.0,2171.0,5.0,3000.0
+Audi,RS4,Avant 2.9 tfsi 25 years quattro 470cv tiptronic,Audi RS4,Gasoline,Automatic,Station wagon,IT,Dealer,4WD,Yellow,2025.0,0.0,80.0,346.0,2894.0,5.0,149000.0
+BMW,320,i| 1.HAND| BI-XENON| GSD| PDC| SZH| MFL|KLIMA,BMW 320,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,Black,2006.0,19.0,86000.0,110.0,1995.0,5.0,7990.0
+BMW,135,M 135i 5p XDrive BOLLO E SUPERBOLLO PAGATI!!!,BMW 135,Gasoline,Automatic,Sedan,IT,PrivateSeller,4WD,Grey,2020.0,5.0,95000.0,225.0,1998.0,5.0,29000.0
+BMW,X5,xDrive35i High Executive Panoramadak Sfeerverlicht,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2016.0,9.0,147198.0,225.0,2979.0,5.0,29950.0
+Mercedes-Benz,G 450,G 450d Professional Night Standh 360° AHK SHD,Mercedes-Benz G 450,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,,2024.0,1.0,7351.0,270.0,2989.0,5.0,146370.0
+BMW,318,ci Pack Base,BMW 318,Gasoline,Automatic,Sedan,BE,PrivateSeller,,,2002.0,23.0,127286.0,100.0,1995.0,5.0,4000.0
+BMW,550,5-serie 550e 490Pk Aut. | Plug in Hybride | X-Driv,BMW 550,Electric/Gasoline,Automatic,Sedan,NL,Dealer,4WD,Black,2023.0,2.0,45668.0,360.0,2998.0,5.0,79950.0
+BMW,530,530e iPerformance,BMW 530,Electric/Gasoline,Automatic,Sedan,ES,Dealer,Rear Wheel Drive,Grey,2020.0,5.0,49899.0,185.0,1998.0,5.0,27990.0
+Audi,e-tron,50 Quattro Edition 71 kWh|313PK|LEDER|VIRTUAL|NAVI,Audi e-tron,Electric,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2020.0,5.0,91305.0,230.0,,5.0,23750.0
+Porsche,Boxster,718 GTS 4.0 BOSE Sportabgasanlage,Porsche Boxster,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Black,2021.0,4.0,18990.0,294.0,3995.0,2.0,85460.0
+BMW,X1,xDrive18d,BMW X1,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,White,2021.0,4.0,108983.0,110.0,1995.0,5.0,26990.0
+Porsche,991,3.8 Carrera 4S Cabriolet PDK 430 pk/FULL options /,Porsche 991,Gasoline,Automatic,Convertible,FR,Dealer,4WD,Black,2013.0,12.0,108681.0,316.0,3800.0,4.0,86991.0
+Porsche,Taycan,4 Cross Turismo,Porsche Taycan,Electric,Automatic,Station wagon,BE,Dealer,4WD,Black,2023.0,2.0,19301.0,350.0,,5.0,74995.0
+BMW,X3,xDrive20d 48V,BMW X3,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2022.0,3.0,57005.0,140.0,1995.0,5.0,37900.0
+BMW,320,PACK M SPORT B48 TOIT OUVRANT.LASERCAMÉRA COCK,BMW 320,Gasoline,Automatic,Sedan,BE,Dealer,,White,2021.0,4.0,43000.0,135.0,1998.0,5.0,33490.0
+Audi,Q8,SUV 45 TDI quattro 170(231) kW(PS) tiptronic,Audi Q8,Diesel,Automatic,Off-Road/Pick-up,FR,Dealer,4WD,Black,2025.0,0.0,30890.0,170.0,2967.0,5.0,67300.0
+BMW,640,640d Gran Coupe xdrive Msport edition,BMW 640,Diesel,Automatic,Sedan,IT,Dealer,4WD,Black,2015.0,10.0,159000.0,230.0,2993.0,4.0,23500.0
+BMW,518,518d 48V Luxury,BMW 518,Electric/Diesel,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Black,2021.0,4.0,207000.0,110.0,1995.0,5.0,24000.0
+BMW,420,420d Coupe Cabriolet Sport 184cv auto,BMW 420,Diesel,Automatic,Convertible,IT,Dealer,,White,2014.0,11.0,92000.0,135.0,1995.0,4.0,21200.0
+BMW,520,d Touring *LED*HarmanK*Leder*HUD*Luft*Memory,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Blue,2020.0,5.0,117402.0,140.0,1995.0,5.0,23980.0
+Volvo,V40,V40 T2 You,Volvo V40,Gasoline,Manual,Sedan,DE,PrivateSeller,,Black,2014.0,11.0,175000.0,88.0,1596.0,5.0,7200.0
+Alfa Romeo,Stelvio,2.2 t Executive Q4 210cv auto,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2017.0,8.0,143000.0,154.0,2143.0,5.0,16500.0
+BMW,220,Gran Tourer Advantage Navi LED H-K Shz,BMW 220,Diesel,Automatic,Van,DE,Dealer,,Black,2021.0,4.0,115900.0,140.0,1995.0,5.0,16980.0
+Honda,Jazz,1.4 Elegance Automatik*KLIMAAUT.*Alufelgen,Honda Jazz,Gasoline,Automatic,Compact,DE,Dealer,Front Wheel Drive,Black,2010.0,15.0,174000.0,73.0,1339.0,5.0,7555.0
+BMW,X5,xDrive 45e*M PAKET*PAN*LUFT*NAV*LASER*360*VOL,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2022.0,3.0,110640.0,290.0,2998.0,5.0,49990.0
+BMW,316,i Lim. *Nur 99tkm *2. Hand *SHZ*Klima,BMW 316,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,Silver,2004.0,21.0,99000.0,85.0,1796.0,5.0,1990.0
+BMW,330,3-serie Touring 330e M-Sport LCI FACELIFT | Memory,BMW 330,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,Rear Wheel Drive,Grey,2022.0,3.0,94800.0,215.0,1998.0,5.0,37245.0
+Porsche,Panamera,Sport Turismo 2.9 4 e-hybrid auto,Porsche Panamera,Electric/Gasoline,Automatic,Sedan,IT,PrivateSeller,,Grey,2018.0,7.0,145000.0,243.0,2894.0,5.0,55000.0
+Porsche,Taycan,93.4 kWh GTS,Porsche Taycan,Electric,Automatic,Sedan,BE,Dealer,4WD,Black,2023.0,2.0,85000.0,380.0,,4.0,116000.0
+Audi,A6,TFSI quattro S tronic,Audi A6,Gasoline,Automatic,Station wagon,DE,Dealer,4WD,Grey,2025.0,0.0,9500.0,270.0,2995.0,5.0,84600.0
+BMW,M2,Competition,BMW M2,Gasoline,Automatic,Sedan,DE,PrivateSeller,Rear Wheel Drive,Silver,2018.0,7.0,80000.0,302.0,2979.0,4.0,48500.0
+Audi,RS3,Sportback 2.5 TFSI Quattro 400cv/List. 81.010,Audi RS3,Gasoline,Automatic,Sedan,IT,Dealer,4WD,Black,2025.0,0.0,2900.0,294.0,2480.0,5.0,64800.0
+Mercedes-Benz,GLE 350,Coupé de 4MATIC,Mercedes-Benz GLE 350,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,Blue,2025.0,0.0,16000.0,245.0,,,101990.0
+BMW,M4,M-DKG Coupe Aut.|LED|SHD|F1|MEMORY|NAVI|RFK,BMW M4,Gasoline,Automatic,Coupe,AT,Dealer,Rear Wheel Drive,Grey,2015.0,10.0,159000.0,317.0,2979.0,4.0,40900.0
+Porsche,992,3.0 Carrera PDK Panodak Sportuitlaat 12/2021,Porsche 992,Gasoline,Automatic,Coupe,BE,Dealer,Front Wheel Drive,Blue,2022.0,3.0,45000.0,283.0,2981.0,4.0,109999.0
+Porsche,Cayenne,GTS*Pano*AHK*Hinterachsl.*Beifahrerdisp.,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2025.0,0.0,16500.0,368.0,3996.0,5.0,143900.0
+Alfa Romeo,159,Sportwagon 2.4 JTDM 20V DPF Elegante,Alfa Romeo 159,Diesel,Manual,Station wagon,DE,PrivateSeller,,,2008.0,17.0,290000.0,154.0,2387.0,5.0,1750.0
+Audi,S5,Coupe TDI BOSE/360°/Massage/HuD/Laser/Pano,Audi S5,Diesel,Automatic,Coupe,DE,Dealer,4WD,Grey,2020.0,5.0,112302.0,255.0,2967.0,5.0,39990.0
+BMW,220,M-Lenkrad HUD RFK AHK 1.Hand,BMW 220,Diesel,Automatic,Van,DE,Dealer,Front Wheel Drive,Black,2020.0,5.0,73400.0,140.0,1995.0,5.0,25900.0
+Hyundai,iX35,"2,0 CRDI Go-PLUS 4x4 Automat.,12 Mon Garantie",Hyundai iX35,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Black,2014.0,11.0,159800.0,100.0,1981.0,5.0,9500.0
+Alfa Romeo,Tonale,Tonale 1.6 Super 130cv tct6,Alfa Romeo Tonale,Diesel,Semi-automatic,Off-Road/Pick-up,IT,Dealer,,Black,2023.0,2.0,62000.0,96.0,1598.0,5.0,26800.0
+BMW,X5,"xDrive30d *NAVI*LEDER*AHK*SPORTSITZE*DAB*19""LM-FLG",BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2015.0,10.0,196000.0,190.0,2993.0,5.0,19985.0
+BMW,223,223i Active Tourer mhev 48V Msport auto,BMW 223,Electric/Gasoline,Automatic,Van,IT,PrivateSeller,,Green,2022.0,3.0,53000.0,150.0,1998.0,5.0,32900.0
+BMW,X5,X5 Diesel xDrive30d Sport-Aut.,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,Rear Wheel Drive,Silver,2015.0,10.0,178906.0,190.0,2993.0,5.0,22900.0
+BMW,iX,xDrive40,BMW iX,Electric,Automatic,Sedan,BE,Dealer,4WD,Grey,2022.0,3.0,36226.0,240.0,,5.0,54700.0
+Porsche,Cayman,718 GTS 4.0 BOSE Sportabgasanlage LED,Porsche Cayman,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Black,2024.0,1.0,7900.0,294.0,3995.0,2.0,97500.0
+Porsche,Taycan,(9J1) 680CH TURBO MY22,Porsche Taycan,Electric,Automatic,Sedan,FR,Dealer,,Blue,2021.0,4.0,47800.0,466.0,,4.0,78880.0
+Porsche,Cayenne,Cayenne 3.0 V6 416 ch S E-Hybrid Tiptronic A,Porsche Cayenne,Others,Automatic,Off-Road/Pick-up,FR,PrivateSeller,,Silver,2014.0,11.0,165000.0,245.0,2995.0,5.0,37300.0
+Mercedes-Benz,E 53 AMG,4M Hybrid Driversp Fahrass 360° Pano PTS,Mercedes-Benz E 53 AMG,Electric/Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2025.0,0.0,14823.0,330.0,2999.0,5.0,98990.0
+Audi,RS6,Dynamic,Audi RS6,Gasoline,Automatic,Compact,ES,Dealer,,White,2020.0,5.0,26890.0,441.0,3993.0,,129900.0
+Suzuki,Jimny,"1.5 Top 102 Cv 4 POSTI AUTOVETTURA - Camera, Navi",Suzuki Jimny,Gasoline,Manual,Off-Road/Pick-up,IT,Dealer,4WD,Beige,2020.0,5.0,56600.0,75.0,1462.0,4.0,31500.0
+Volkswagen,Polo,1.2 TSI Highline BMT*TEMPO*PDC*SHZ*KLIMA*,Volkswagen Polo,Gasoline,Manual,Compact,DE,Dealer,Front Wheel Drive,White,2014.0,11.0,79747.0,66.0,1197.0,5.0,9740.0
+Honda,Accord,2.0i Special Edition AUT *191.242 KM*CLIMA*CV,Honda Accord,Gasoline,Automatic,Sedan,NL,Dealer,Front Wheel Drive,White,2010.0,15.0,191242.0,115.0,1997.0,5.0,9450.0
+Mercedes-Benz,GLC 220,d 4M +AMG+SHZ+KeyLess+Edi.+AHK+Night+LM,Mercedes-Benz GLC 220,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2025.0,0.0,15000.0,145.0,1993.0,5.0,57850.0
+BMW,420,4 Serie Coupé 420i High Executive,BMW 420,Gasoline,Automatic,Coupe,NL,Dealer,Rear Wheel Drive,White,2021.0,4.0,99825.0,135.0,1998.0,4.0,33950.0
+BMW,X5,xDrive40i High Executive,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,White,2019.0,6.0,94291.0,250.0,2998.0,5.0,54950.0
+Mercedes-Benz,GLB 220,220d 4Matic 8G-DCT,Mercedes-Benz GLB 220,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,,2025.0,0.0,7600.0,140.0,1950.0,5.0,50990.0
+Audi,A7,40 TDI qu S line Matrix VC HuD 360°,Audi A7,Electric/Diesel,Automatic,Sedan,DE,Dealer,4WD,Black,2025.0,0.0,4838.0,150.0,1968.0,5.0,59920.0
+Porsche,Cayenne,E-Hybrid Coupé,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2024.0,1.0,18000.0,224.0,2995.0,5.0,129900.0
+Porsche,992,911 GT3 mit Touring-Paket,Porsche 992,Gasoline,Manual,Coupe,DE,PrivateSeller,,,2023.0,2.0,450.0,375.0,3996.0,4.0,249999.0
+BMW,X3,xDrive 30d Sport-Aut///M SPORT/KAMERA/PANORAMA/,BMW X3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2019.0,6.0,163700.0,195.0,2993.0,5.0,28900.0
+BMW,530,BMW 530e Hybrid *M Sportpaket* Vollausstattung,BMW 530,Electric/Gasoline,Automatic,Sedan,DE,PrivateSeller,4WD,Black,2019.0,6.0,96000.0,135.0,1998.0,5.0,26900.0
+Suzuki,Vitara,"1,4GL Hybrid Allgrip Shine",Suzuki Vitara,Gasoline,Manual,Off-Road/Pick-up,AT,Dealer,,White,2024.0,1.0,9994.0,95.0,1373.0,5.0,25900.0
+BMW,630,"6-serie Gran Turismo 630i High Executive(NL-auto,",BMW 630,Gasoline,Automatic,Compact,NL,Dealer,Rear Wheel Drive,Black,2018.0,7.0,121401.0,190.0,1998.0,5.0,27595.0
+Porsche,Macan,GTS,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,White,2022.0,3.0,42000.0,324.0,2894.0,5.0,87900.0
+Audi,Q6 e-tron,perf.*AHK*ACC*Wärmep.*8fach,Audi Q6 e-tron,Electric,Automatic,Off-Road/Pick-up,DE,Dealer,Rear Wheel Drive,Grey,2025.0,0.0,12400.0,225.0,,5.0,69290.0
+Audi,e-tron,e-tron SB 50 quattro 71kWh S-Line,Audi e-tron,Electric,Automatic,Off-Road/Pick-up,AT,PrivateSeller,4WD,Black,2020.0,5.0,115000.0,230.0,,5.0,24800.0
+BMW,535,535d Executive,BMW 535,Diesel,Automatic,Station wagon,NL,PrivateSeller,,Black,2005.0,20.0,482000.0,200.0,2993.0,5.0,5000.0
+Porsche,Cayman,718 Cayman III 2016 718 2.0 300cv pdk,Porsche Cayman,Gasoline,Automatic,Coupe,IT,Dealer,,White,2020.0,5.0,42000.0,220.0,1988.0,2.0,61900.0
+BMW,X3,X3 2.5i Aut.,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,4WD,Black,2004.0,21.0,99900.0,141.0,2494.0,5.0,6990.0
+BMW,745,7-serie 745Le xDrive High Executive chauffeur pakk,BMW 745,Electric/Gasoline,Automatic,Sedan,NL,Dealer,4WD,Grey,2021.0,4.0,56360.0,290.0,2998.0,4.0,61995.0
+BMW,X3,xDrive20i M Sport 360° PANO LED Ambiente HuD,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,75722.0,135.0,1998.0,5.0,33880.0
+BMW,216,d Active Tourer Advantage,BMW 216,Diesel,Automatic,Van,IT,Dealer,Front Wheel Drive,Black,2018.0,7.0,132921.0,85.0,1496.0,5.0,12100.0
+Porsche,Macan,Turbo,Porsche Macan,Electric,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2025.0,0.0,1508.0,470.0,,5.0,129900.0
+Porsche,Cayenne,Coupé Aut.,Porsche Cayenne,Gasoline,Automatic,Coupe,ES,Dealer,4WD,Black,2023.0,2.0,40500.0,250.0,2995.0,5.0,91900.0
+Mercedes-Benz,AMG GT,43,Mercedes-Benz AMG GT,Gasoline,Automatic,Coupe,BE,Dealer,,Red,2024.0,1.0,7408.0,310.0,1991.0,,118943.0
+BMW,218,218d Active Tourer Msport,BMW 218,Diesel,Automatic,Van,IT,Dealer,Front Wheel Drive,Grey,2025.0,0.0,24406.0,110.0,1995.0,5.0,32890.0
+Porsche,Cayenne,3.0 V6 tdi TETTO FULL OPTIONAL,Porsche Cayenne,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,,White,2011.0,14.0,167000.0,176.0,2967.0,5.0,25900.0
+Mercedes-Benz,B 200,Progressive Multibeam Rückfahrkamera AHK,Mercedes-Benz B 200,Gasoline,Automatic,Sedan,DE,Dealer,,Silver,2025.0,0.0,18000.0,120.0,1332.0,5.0,37970.0
+Mercedes-Benz,C 200,C 200 T-Modell AMG Line Edition AMG-Line/Navi,Mercedes-Benz C 200,Gasoline,Automatic,Station wagon,DE,Dealer,,Black,2024.0,1.0,15822.0,150.0,1496.0,5.0,49390.0
+BMW,X6,xDrive 30dA,BMW X6,Diesel,Automatic,Coupe,ES,Dealer,4WD,White,2013.0,12.0,197765.0,180.0,2993.0,4.0,19500.0
+Audi,A3,Sportback 40 e-tron Advance Sport / Bovag-garantie,Audi A3,Electric/Gasoline,Automatic,Compact,NL,Dealer,Front Wheel Drive,Red,2020.0,5.0,31324.0,110.0,1395.0,5.0,21995.0
+Volvo,C30,1.6 D 1ER MAIN,Volvo C30,Diesel,Manual,Sedan,FR,Dealer,,Grey,2011.0,14.0,155000.0,81.0,,5.0,5490.0
+BMW,X3,xDrive20d,BMW X3,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,,Grey,2019.0,6.0,123657.0,141.0,2000.0,5.0,25290.0
+BMW,X1,25 d xDrive,BMW X1,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,4WD,Black,2014.0,11.0,90135.0,160.0,1995.0,5.0,15350.0
+BMW,X1,sDrive18d Sport Line Steptronic,BMW X1,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,,Blue,2014.0,11.0,171000.0,105.0,1995.0,5.0,10990.0
+Porsche,911,3.0 Carrera T,Porsche 911,Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,White,2018.0,7.0,40341.0,272.0,2981.0,2.0,99900.0
+Porsche,718,Cayman 2.0,Porsche 718,Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Orange,2019.0,6.0,76819.0,220.0,1988.0,2.0,61900.0
+BMW,530,530d xDrive Gran Turismo Aut.,BMW 530,Diesel,Automatic,Sedan,AT,PrivateSeller,,,2016.0,9.0,110000.0,190.0,2993.0,5.0,29500.0
+Porsche,911,Porsche Turbo (991.2) – 800 PS / TTE850 Umbau,Porsche 911,Gasoline,Automatic,Coupe,AT,Dealer,4WD,Black,2016.0,9.0,99000.0,397.0,3800.0,4.0,164990.0
+Porsche,Macan,3.0d S 250cv pdk my16,Porsche Macan,Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2018.0,7.0,115.0,184.0,2967.0,5.0,39999.0
+Porsche,Cayenne,Cayenne 3.0 Platinum Edition Full Opt. - 119000KM-,Porsche Cayenne,Diesel,Semi-automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2016.0,9.0,119000.0,195.0,2967.0,5.0,36900.0
+Audi,A4,ALLROAD QUATTRO 40 TDI 140kW (190CV) quattro S tro,Audi A4,Diesel,Automatic,Station wagon,ES,Dealer,,White,2020.0,5.0,94370.0,141.0,1968.0,5.0,29900.0
+BMW,M8,✖ M850 M8 COMPETITION | FULL | BOWERS&WILKINS,BMW M8,Gasoline,Automatic,Convertible,BE,Dealer,Front Wheel Drive,Black,2020.0,5.0,50000.0,390.0,4395.0,4.0,74950.0
+Suzuki,Alto,Club 1.0,Suzuki Alto,Gasoline,Manual,Compact,DE,Dealer,Front Wheel Drive,Silver,2009.0,16.0,205000.0,50.0,996.0,5.0,1200.0
+Suzuki,SX4 S-Cross,Comfort Carplay*PDC/Kamera*Klima,Suzuki SX4 S-Cross,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2024.0,1.0,10965.0,,1462.0,5.0,24999.0
+BMW,X1,xDrive 20iAdvantage*Autom.*Leder*AHK*RFK*Navi,BMW X1,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2016.0,9.0,60000.0,141.0,1998.0,5.0,17499.0
+Porsche,Panamera,"GTS, SPORTDESIGN CARBON, PDCC SPORT",Porsche Panamera,Gasoline,Automatic,Sedan,DE,Dealer,4WD,White,2022.0,3.0,8300.0,353.0,3996.0,4.0,114900.0
+BMW,X5,"X5 xDrive45e / M / SKYLOUNGE / COMF S / 22""/ HUPD",BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Black,2021.0,4.0,98998.0,295.0,2998.0,5.0,55990.0
+Porsche,Boxster,S,Porsche Boxster,Gasoline,Manual,Convertible,DE,Dealer,Rear Wheel Drive,Blue,2003.0,22.0,92700.0,191.0,3179.0,2.0,17900.0
+Porsche,Boxster,Descapotable Automático de 2 Puertas,Porsche Boxster,Gasoline,Automatic,Convertible,ES,Dealer,,Blue,2000.0,25.0,55700.0,162.0,,2.0,20000.0
+BMW,M5,5-serie Touring Panoramadak / Driving Assistant Pr,BMW M5,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,4WD,Black,2025.0,0.0,5081.0,535.0,4395.0,5.0,161900.0
+Suzuki,Alto,Alto 1.0 Cool Comfort,Suzuki Alto,Gasoline,Manual,Compact,NL,PrivateSeller,,Grey,2011.0,14.0,234100.0,50.0,,4.0,1500.0
+BMW,630,6-serie Gran Turismo 630i High Exe. Edition 68.661,BMW 630,Gasoline,Automatic,Compact,NL,Dealer,Rear Wheel Drive,Grey,2019.0,6.0,68661.0,190.0,1998.0,5.0,36950.0
+Porsche,718,718 Boxster 2.0,Porsche 718,Gasoline,Manual,Convertible,IT,Dealer,Rear Wheel Drive,Grey,2021.0,4.0,20000.0,220.0,1988.0,2.0,69000.0
+BMW,M550,M550d xDrive M-Performance/Massage/Individual/VOLL,BMW M550,Diesel,Automatic,Station wagon,AT,Dealer,4WD,Black,2019.0,6.0,107000.0,294.0,,5.0,44990.0
+Porsche,Macan,2.9 S,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2021.0,4.0,65584.0,280.0,2894.0,5.0,59890.0
+BMW,118,118iA OPF,BMW 118,Gasoline,Automatic,Sedan,BE,PrivateSeller,Front Wheel Drive,Grey,2021.0,4.0,166560.0,103.0,1499.0,5.0,17990.0
+Audi,Q7,60TFSIe 2x S LINE BLACK/ACC/PANO/360°/SIDE/VC,Audi Q7,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2020.0,5.0,87337.0,335.0,2995.0,,49425.0
+BMW,540,d xDrive Touring M Sport*HUD*Pano*h&k*ACC*,BMW 540,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Grey,2020.0,5.0,175200.0,235.0,2993.0,5.0,29999.0
+Suzuki,Jimny,1.5i 4x4 UTILITAIRE CLIM ATTACHE REMORQUE BLUETOOT,Suzuki Jimny,Gasoline,Manual,Off-Road/Pick-up,BE,Dealer,4WD,White,2024.0,1.0,20490.0,75.0,1462.0,2.0,29990.0
+BMW,520,M Sport DAB HiFi PDC Fernlichtassist Alarm,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,White,2022.0,3.0,116077.0,140.0,1995.0,5.0,30999.0
+BMW,116,116i,BMW 116,Gasoline,Manual,Sedan,BE,PrivateSeller,Rear Wheel Drive,Black,2018.0,7.0,74000.0,80.0,1499.0,5.0,12500.0
+Porsche,996,"Carrera 4S phase 2, Full option, rien à prevoir",Porsche 996,Gasoline,Automatic,Coupe,BE,Dealer,Rear Wheel Drive,Silver,2003.0,22.0,156120.0,235.0,3596.0,4.0,39500.0
+BMW,X1,sdrive18d Advantage,BMW X1,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,White,2020.0,5.0,121400.0,110.0,1995.0,5.0,19500.0
+Porsche,718,GT4 RS Nieuwstaat 9.000 km Weissach Package,Porsche 718,Gasoline,Automatic,Coupe,BE,Dealer,Rear Wheel Drive,Silver,2023.0,2.0,9000.0,368.0,3996.0,2.0,155000.0
+BMW,X1,sDrive 18dA,BMW X1,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,Black,2022.0,3.0,90000.0,110.0,1995.0,5.0,34490.0
+Porsche,Macan,"EV 4S ""CON VINCOLO FINANZIAMENTO IN SEDE""",Porsche Macan,Electric,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2024.0,1.0,8900.0,265.0,,5.0,90650.0
+Porsche,Macan,Macan I 2014 3.0d S 250 cv pdk my16,Porsche Macan,Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,Black,2016.0,9.0,159000.0,184.0,2967.0,5.0,32900.0
+BMW,218,Gran Coupé 218iA /Pack M/Harman kardon/Camera,BMW 218,Gasoline,Automatic,Sedan,BE,Dealer,Front Wheel Drive,Grey,2020.0,5.0,69999.0,103.0,1499.0,5.0,24990.0
+BMW,,BMW Serie 4 Deportivo Automático de 3 Puertas,,Gasoline,Automatic,Coupe,ES,Dealer,,Grey,2015.0,10.0,95384.0,317.0,,4.0,49990.0
+Mercedes-Benz,G 63 AMG,,Mercedes-Benz G 63 AMG,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2024.0,1.0,15050.0,430.0,3982.0,5.0,189000.0
+Porsche,992,Carrera GTS,Porsche 992,Gasoline,Automatic,Coupe,NL,Dealer,Rear Wheel Drive,Grey,2023.0,2.0,16620.0,353.0,3000.0,4.0,189950.0
+BMW,X5 M,"50d [Laser, SkyLounge, HK Sound, DA Prof.]",BMW X5 M,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2020.0,5.0,114600.0,294.0,2993.0,5.0,53890.0
+BMW,520,d Tour M-Sport LCProf Kamera DAB CarPlay,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,White,2022.0,3.0,45068.0,140.0,1995.0,5.0,33449.0
+Audi,Q5,SUV TDI quattro 150 kW,Audi Q5,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2025.0,0.0,5475.0,150.0,1968.0,5.0,72488.0
+BMW,X4,,BMW X4,Diesel,Automatic,Off-Road/Pick-up,IT,PrivateSeller,4WD,Silver,2018.0,7.0,169543.0,140.0,1995.0,5.0,22500.0
+BMW,X3,xDrive 20d MH48V *HIGH BEAM ASSISTANT*,BMW X3,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2022.0,3.0,79500.0,140.0,1995.0,5.0,35900.0
+Audi,e-tron,e-tron Sportback 55 quattro 408 ch S line,Audi e-tron,Electric,Automatic,Off-Road/Pick-up,FR,Dealer,4WD,Grey,2020.0,5.0,88900.0,300.0,,5.0,36990.0
+BMW,330,TOURING PHEV-PACK M- GARANTIE 12 à 48 MOIS-,BMW 330,Electric/Gasoline,Automatic,Station wagon,BE,Dealer,Front Wheel Drive,Black,2020.0,5.0,80850.0,135.0,1998.0,5.0,28990.0
+BMW,218,218 ACTIVE TOURER ADVANTAGE KLIMA NAVI 2.Hd,BMW 218,Gasoline,Manual,Van,DE,Dealer,Front Wheel Drive,Black,2020.0,5.0,35751.0,103.0,1499.0,5.0,18479.0
+Suzuki,Swift,Sport,Suzuki Swift,Gasoline,Manual,Coupe,DE,Dealer,Front Wheel Drive,Grey,2016.0,9.0,122000.0,100.0,1586.0,4.0,8900.0
+Suzuki,Ignis,HYBRID 1.2cc 82cv SAFETYPACK SEDILI RISCALD.,Suzuki Ignis,Electric/Gasoline,Automatic,Sedan,IT,Dealer,,Grey,2021.0,4.0,69235.0,60.0,1200.0,4.0,12800.0
+Alfa Romeo,Giulia,Veloce Q4 Panorama Top Ausstattung!,Alfa Romeo Giulia,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2024.0,1.0,34096.0,206.0,1995.0,5.0,35700.0
+Porsche,Panamera,3.0 4S | 360° Camera | Bose | Porsche onderhouden,Porsche Panamera,Gasoline,Automatic,Compact,NL,Dealer,4WD,Grey,2015.0,10.0,109296.0,309.0,2997.0,4.0,38940.0
+Alfa Romeo,Giulietta,2.0 jtdm(2) Exclusive 170cv tct,Alfa Romeo Giulietta,Diesel,Semi-automatic,Sedan,IT,PrivateSeller,,White,2014.0,11.0,95000.0,125.0,1956.0,5.0,10300.0
+Porsche,Macan,S Diesel PDK,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,AT,PrivateSeller,,,2014.0,11.0,276000.0,190.0,2967.0,5.0,22000.0
+BMW,M2,M2 Coupe 3.0 dkg,BMW M2,Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Grey,2017.0,8.0,53000.0,272.0,2979.0,4.0,41990.0
+BMW,X5,xDrive40i High Executive * Panoramadak Sky Lounge,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2019.0,6.0,165756.0,250.0,2998.0,5.0,49950.0
+Alfa Romeo,Stelvio,2.2JTD RWD Aut. SPRINT - NAVI - LEDER - LED - ADAP,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,FR,Dealer,Rear Wheel Drive,Red,2023.0,2.0,13369.0,118.0,2143.0,5.0,35995.0
+BMW,530,e Luxury PHEV Auto Navi Pelle FariLED Cerchi 18,BMW 530,Electric/Gasoline,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Grey,2019.0,6.0,90000.0,185.0,1998.0,5.0,25400.0
+Porsche,Cayenne,GTS Coupe Tiptronic S,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2020.0,5.0,124000.0,338.0,3996.0,5.0,73300.0
+Porsche,Cayenne,TURBO *** V8 / TIPTRONIC / BELGIAN / 1 OWNER ***,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,4WD,White,2019.0,6.0,59038.0,404.0,3996.0,4.0,89950.0
+BMW,530,530d Touring*Automatik*Xenon*Memory*Navi*PDC*,BMW 530,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2005.0,20.0,201540.0,170.0,2993.0,5.0,4970.0
+Audi,Q5,S line 50 TFSI e quattro S tronic,Audi Q5,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2025.0,0.0,9500.0,220.0,1984.0,5.0,71300.0
+BMW,520,d Limousine | Head-Up | Navi | Kamera | Sitzhz. |,BMW 520,Diesel,Automatic,Sedan,DE,Dealer,,Black,2018.0,7.0,66610.0,140.0,1995.0,5.0,27411.0
+Audi,A4,35 TFSI advanced,Audi A4,Gasoline,Automatic,Station wagon,AT,Dealer,Front Wheel Drive,Black,2019.0,6.0,79503.0,110.0,1984.0,5.0,23990.0
+BMW,116,116i mit LED Tagfahrlichtscheinwerfer,BMW 116,Gasoline,Manual,Sedan,DE,PrivateSeller,,,2021.0,4.0,52791.0,80.0,1499.0,5.0,16550.0
+BMW,M4,Cabriolet 510 ch Competition XDrive,BMW M4,Gasoline,Automatic,Convertible,FR,Dealer,4WD,Green,2022.0,3.0,31900.0,375.0,2979.0,4.0,79900.0
+BMW,330,Baureihe 3 Lim. 330i M-Paket,BMW 330,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Black,2002.0,23.0,211000.0,170.0,2979.0,5.0,6999.0
+BMW,518,dA ** GARANTIE + PACK M + LED + CUIR + GPS PRO ***,BMW 518,Diesel,Automatic,Station wagon,BE,Dealer,,Blue,2022.0,3.0,89000.0,110.0,1995.0,5.0,33450.0
+BMW,220,220 d xDrive Sport #NAVI#LED#PANO#SHZ#KAMERA#AHK,BMW 220,Diesel,Automatic,Van,DE,Dealer,4WD,White,2017.0,8.0,201650.0,140.0,1995.0,5.0,10750.0
+Suzuki,SX4,"1.6 VVT 4x4 Comfort, 1.Hand, Scheckheft gepflegt!",Suzuki SX4,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,4WD,Orange,2014.0,11.0,112551.0,88.0,,5.0,8490.0
+Audi,A5,A5 Coupe 3.0 V6 tdi S Line quattro 218cv s-tronic,Audi A5,Diesel,Automatic,Coupe,IT,Dealer,4WD,Grey,2018.0,7.0,190000.0,160.0,2967.0,4.0,22900.0
+Porsche,,911 Cabrio 3.0 Carrera 4 S *BOSE / Sport-uitlaat / Sto,,Gasoline,Automatic,Convertible,NL,Dealer,4WD,Blue,2019.0,6.0,50250.0,331.0,2981.0,4.0,149900.0
+Porsche,Cayenne,3.0 E-Hybrid *Sport-Chrono / PASM / Panorama / BOS,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2021.0,4.0,74500.0,340.0,2995.0,5.0,72900.0
+Porsche,Macan,Exclusiv,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,4WD,White,2020.0,5.0,46000.0,180.0,1984.0,5.0,51000.0
+Porsche,Boxster,3.2 S beschikbaar,Porsche Boxster,Gasoline,Manual,Convertible,NL,PrivateSeller,,Black,2000.0,25.0,163000.0,185.0,3179.0,2.0,18986.0
+BMW,840,840d Cabrio xDrive,BMW 840,Diesel,Automatic,Convertible,ES,PrivateSeller,4WD,Black,2020.0,5.0,39500.0,235.0,2993.0,4.0,89900.0
+Porsche,997,911 Carrera Cabriolet PDK Black Edition,Porsche 997,Gasoline,Automatic,Convertible,DE,PrivateSeller,,,2011.0,14.0,105480.0,254.0,3614.0,4.0,62480.0
+Audi,S6,"Avant TDI B&O,Kamera,Sportsitze+,Leder,Matrix,Navi",Audi S6,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2025.0,0.0,12914.0,253.0,2967.0,5.0,69780.0
+BMW,745,e G11 LCI Aut/M-Sport/Schiebedach/Massage/SOFT-Clo,BMW 745,Gasoline,Automatic,Sedan,AT,Dealer,Rear Wheel Drive,Black,2021.0,4.0,109000.0,290.0,2998.0,5.0,49990.0
+Mercedes-Benz,Vito,"Vito Tourer 114 CDI LANG 9 SITZE KAMERA,NAVI,AHK",Mercedes-Benz Vito,Diesel,Automatic,Van,DE,Dealer,Rear Wheel Drive,Grey,2025.0,0.0,12968.0,100.0,1950.0,9.0,48880.0
+BMW,320,d Advantage Aut. AHK+LED+ACC+LIVEC.-PLUS+SPURAS.,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2022.0,3.0,98000.0,140.0,1995.0,5.0,23379.0
+BMW,525,Executive,BMW 525,LPG,,Station wagon,NL,PrivateSeller,,Black,2004.0,21.0,318000.0,141.0,2494.0,5.0,3250.0
+BMW,530,530e Touring Msport XDRIVE,BMW 530,Electric/Gasoline,Automatic,Station wagon,IT,Dealer,Rear Wheel Drive,Black,2022.0,3.0,42000.0,135.0,1998.0,5.0,32900.0
+BMW,116,116 dA M Sport Edition,BMW 116,Diesel,Manual,Sedan,BE,Dealer,,Black,2018.0,7.0,145000.0,85.0,,,10950.0
+Porsche,Taycan,21-Zoll Rückfahrkamera Sitzheizung LED,Porsche Taycan,Electric,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Black,2022.0,3.0,19000.0,300.0,0.0,4.0,68880.0
+Alfa Romeo,Junior,Junior 1.2 ibrida 145cv edct6,Alfa Romeo Junior,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,White,2025.0,0.0,7379.0,107.0,1199.0,5.0,23569.0
+BMW,X1,sDrive18d Advantage+R-Kamera+Anhängerkupplung,BMW X1,Diesel,Manual,Off-Road/Pick-up,AT,Dealer,Front Wheel Drive,Black,2016.0,9.0,143000.0,110.0,1995.0,5.0,16999.0
+BMW,520,d/Leder/Ambiente/LED/Kamera/Top Zustand,BMW 520,Diesel,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Blue,2021.0,4.0,93700.0,140.0,1995.0,5.0,31500.0
+Audi,A4,"Avant 40 TDI advanced, elektr. Sitzein, Navi",Audi A4,Diesel,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,Grey,2020.0,5.0,81341.0,140.0,1968.0,5.0,25300.0
+Alfa Romeo,GT,,Alfa Romeo GT,Diesel,Manual,Coupe,FR,PrivateSeller,,,2006.0,19.0,253000.0,110.0,1910.0,5.0,2000.0
+BMW,X5,XDrive30d High Executive,BMW X5,Diesel,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2019.0,6.0,118141.0,195.0,2993.0,5.0,54900.0
+Audi,A4,Avant 30 2.0 tdi mhev Business Advanced 136cv s-tr,Audi A4,Electric/Diesel,Automatic,Station wagon,IT,PrivateSeller,Front Wheel Drive,,2020.0,5.0,125000.0,100.0,1968.0,5.0,21500.0
+BMW,X3,xDrive20d 190ch BVA8 xLine,BMW X3,Diesel,Automatic,Off-Road/Pick-up,FR,PrivateSeller,,,2019.0,6.0,241000.0,140.0,1995.0,5.0,19990.0
+Audi,Q8 e-tron,Sportback S line 55 e-tron quattro 408ch - Pack Platinum - Pack Pilotage - JA 21,Audi Q8 e-tron,Electric,Automatic,Off-Road/Pick-up,FR,Dealer,4WD,Black,2025.0,0.0,9990.0,300.0,1968.0,5.0,75990.0
+Porsche,Macan,3.0 S,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2017.0,8.0,106114.0,184.0,2967.0,5.0,43900.0
+BMW,318,Gran Turismo 318 d,BMW 318,Diesel,Manual,Sedan,BE,PrivateSeller,Rear Wheel Drive,Black,2016.0,9.0,145000.0,100.0,1995.0,5.0,11700.0
+BMW,,M Sport Ultimate,,Gasoline,Manual,Station wagon,FR,Dealer,,Black,2019.0,6.0,54000.0,100.0,,5.0,17900.0
+BMW,316,Serie 3 F30 Berlina Sport,BMW 316,Diesel,Manual,Sedan,IT,PrivateSeller,Rear Wheel Drive,Black,2015.0,10.0,129000.0,118.0,1995.0,5.0,14500.0
+Aston Martin,DB11,,Aston Martin DB11,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Black,2017.0,8.0,33900.0,448.0,5204.0,4.0,119888.0
+Audi,A6,Avant S-Line 2.0 TDI 204PS/150kW Quattro Prolin...,Audi A6,Diesel,Automatic,Station wagon,AT,Dealer,4WD,Green,2025.0,0.0,0.0,150.0,1968.0,5.0,73744.0
+Mercedes-Benz,EQV 300,EQV 300 Lang,Mercedes-Benz EQV 300,Electric,Automatic,Van,FR,Dealer,Rear Wheel Drive,Blue,2025.0,0.0,14923.0,150.0,2989.0,6.0,78964.0
+Maserati,Levante,Levante V6 Diesel 275 CV AWD Gransport,Maserati Levante,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Red,2018.0,7.0,80000.0,202.0,2987.0,5.0,35000.0
+BMW,320,d Touring Aut. *M-Paket*1.Besitz*Panoramadach*,BMW 320,Diesel,Automatic,Station wagon,AT,Dealer,Rear Wheel Drive,White,2020.0,5.0,106950.0,140.0,1995.0,5.0,30900.0
+Mercedes-Benz,V 250,AVANTGARDE/L3/LED/LEDER/360°/NAVI/DISTRONIC/PTS,Mercedes-Benz V 250,Diesel,Automatic,Van,BE,Dealer,Rear Wheel Drive,Black,2025.0,0.0,12559.0,140.0,1950.0,7.0,77990.0
+BMW,530,e xDrive LUXURY LINE LC PROF HUD AHK ALARM SOFT-,BMW 530,Electric/Gasoline,Automatic,Sedan,DE,Dealer,4WD,Blue,2021.0,4.0,54400.0,215.0,1998.0,5.0,35890.0
+Maserati,Grecale,GT 300cv,Maserati Grecale,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2024.0,1.0,21121.0,221.0,1995.0,5.0,58900.0
+Audi,,edition one blue S line Wärmepum,,Electric,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Blue,2025.0,0.0,13805.0,210.0,,5.0,68890.0
+smart,forFour,2ªs. (W453) 70 1.0 Youngster,smart forFour,Gasoline,Manual,Sedan,IT,Dealer,Rear Wheel Drive,,2019.0,6.0,55320.0,52.0,999.0,4.0,10500.0
+Porsche,Macan,S,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,AT,PrivateSeller,,,2021.0,4.0,36300.0,280.0,2894.0,5.0,76500.0
+Honda,Civic,,Honda Civic,Gasoline,,Sedan,ES,PrivateSeller,,,2016.0,9.0,52879.0,228.0,,,26100.0
+Audi,e-tron,50 quattro 230 kW Business,Audi e-tron,Electric,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Black,2020.0,5.0,32967.0,158.0,,5.0,26990.0
+Mercedes-Benz,GLE 350,de Coupé 4MATIC Matrix*Airmatic*ACC*AHK,Mercedes-Benz GLE 350,Electric/Diesel,Automatic,Coupe,AT,Dealer,4WD,Black,2024.0,1.0,17189.0,145.0,1993.0,5.0,93990.0
+Porsche,911,997 (II) SPORT CLASSIC N° 160 / 250,Porsche 911,Gasoline,Manual,Coupe,FR,Dealer,Rear Wheel Drive,Grey,2010.0,15.0,7586.0,300.0,3797.0,2.0,455000.0
+Honda,HR-V,1.5 i-VTEC Comfort - Trekhaak - Stoelverwarming,Honda HR-V,Gasoline,Manual,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Grey,2016.0,9.0,207092.0,96.0,1498.0,5.0,10999.0
+BMW,M3,Lim. Competition*DE*Garantie*Finanzierung*,BMW M3,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Green,2021.0,4.0,21202.0,375.0,2993.0,5.0,66990.0
+Alfa Romeo,Tonale,Tonale 1.5 Hybrid 160cv TCT Veloce,Alfa Romeo Tonale,Electric/Gasoline,Automatic,Other,IT,Dealer,Front Wheel Drive,Grey,2024.0,1.0,14893.0,117.0,1469.0,5.0,28500.0
+Volvo,V60,Inscription AWD/H-UP/H&K/AHK/360°-KAM/PANO,Volvo V60,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,4WD,Blue,2020.0,5.0,47000.0,251.0,1969.0,5.0,31490.0
+BMW,X3,xDrive30d ZA M Sport Head-Up LED WLAN RFK,BMW X3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2019.0,6.0,89350.0,195.0,2993.0,5.0,34930.0
+Audi,A1,Citycarver,Audi A1,Gasoline,Automatic,Other,DE,PrivateSeller,,Red,2020.0,5.0,42000.0,85.0,1.0,,20500.0
+BMW,530,530e full option M packet,BMW 530,Electric/Gasoline,Automatic,Sedan,BE,PrivateSeller,Rear Wheel Drive,Grey,2017.0,8.0,107300.0,185.0,1998.0,5.0,26500.0
+Ford,Focus,Focus 1.0 EcoBoost 125 CV automatico 5p ST-Line,Ford Focus,Gasoline,Automatic,Sedan,IT,Dealer,Front Wheel Drive,Grey,2021.0,4.0,72106.0,92.0,999.0,5.0,15900.0
+BMW,X3,xdrive20d mhev 48V Msport auto,BMW X3,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2022.0,3.0,91057.0,140.0,1995.0,5.0,40900.0
+Audi,A6 e-tron,Sportback performance advanced PANO 20Z,Audi A6 e-tron,Electric,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Blue,2025.0,0.0,3808.0,270.0,0.0,5.0,71998.0
+BMW,530,xDrive*M Sport*Standhzg*Pano*360Kam*Sitzlüft.,BMW 530,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2019.0,6.0,134000.0,195.0,2993.0,5.0,31480.0
+BMW,118,118i,BMW 118,Gasoline,Manual,Compact,ES,Dealer,Front Wheel Drive,White,2019.0,6.0,90000.0,103.0,1499.0,5.0,15490.0
+Mercedes-Benz,CLA 200,"CLA 200 SB Special Ed. AMG Night AHK Kam LED 19""",Mercedes-Benz CLA 200,Gasoline,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,Grey,2025.0,0.0,9900.0,120.0,1332.0,5.0,39940.0
+BMW,118,Exec m pakket shadowline,BMW 118,Gasoline,Manual,Compact,NL,PrivateSeller,,Black,2020.0,5.0,100300.0,103.0,1499.0,5.0,17999.0
+Volvo,XC60,2.0 B4 AWD INSCRIPTION HARMAN/KARDON PELLE LED ITA,Volvo XC60,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2019.0,6.0,133121.0,145.0,1969.0,5.0,21999.0
+BMW,X5,xDrive30d 265 M Sport 22P Harman,BMW X5,Diesel,Automatic,Other,FR,Dealer,,Black,2019.0,6.0,135000.0,195.0,6.0,5.0,44688.0
+Porsche,Cayenne,E-Hybrid Coupé,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,White,2024.0,1.0,25590.0,224.0,2995.0,5.0,109800.0
+Audi,A4,Avant+Advanced+35+TDI+120kW+S+tronic,Audi A4,Electric/Gasoline,Automatic,Station wagon,ES,Dealer,,Blue,2020.0,5.0,53285.0,120.0,1968.0,5.0,21970.0
+Porsche,Boxster,"3.2 S ASI, IMS, conservata!",Porsche Boxster,Gasoline,Manual,Convertible,IT,PrivateSeller,,,2001.0,24.0,58000.0,185.0,3179.0,2.0,28000.0
+Audi,A4,Avant 40 TDI S-tronic,Audi A4,Diesel,Automatic,Station wagon,AT,PrivateSeller,,,2020.0,5.0,72000.0,140.0,1968.0,5.0,35500.0
+BMW,520,d Touring xDrive*Active Guard*Scheckheft,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2022.0,3.0,207720.0,140.0,1995.0,5.0,18802.0
+BMW,216,216d Gran Tourer Aut. Advantage,BMW 216,Diesel,Automatic,Van,LU,Dealer,Front Wheel Drive,Grey,2020.0,5.0,50000.0,85.0,1496.0,5.0,18500.0
+BMW,530,5 Limousine 530 e M SPORT*NAVI*ACC*VOLL*,BMW 530,Electric/Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Black,2017.0,8.0,166000.0,135.0,1998.0,5.0,21900.0
+BMW,218,Active Tourer 218i,BMW 218,Gasoline,Manual,Van,BE,Dealer,Front Wheel Drive,Grey,2016.0,9.0,144116.0,100.0,1499.0,5.0,9950.0
+Alfa Romeo,Tonale,1.3 280CV PHEV AT6 Q4 Veloce,Alfa Romeo Tonale,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,,Red,2023.0,2.0,17401.0,132.0,1332.0,5.0,29500.0
+Suzuki,SX4 S-Cross,1.5 COMFORT AGS,Suzuki SX4 S-Cross,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2024.0,1.0,12810.0,,,5.0,23800.0
+BMW,X6,xdrive30d Msport auto,BMW X6,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2020.0,5.0,178500.0,195.0,2993.0,5.0,45000.0
+BMW,320,i Touring Sport Line Navi RKam LED HiFi Klima,BMW 320,Gasoline,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2021.0,4.0,93496.0,135.0,1998.0,5.0,25450.0
+BMW,X5,xDrive 40d M Sport,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2020.0,5.0,45000.0,250.0,2993.0,5.0,49780.0
+Alfa Romeo,Giulia,Ti Q4/LED/KAMERA/ALLRAD/LEDER/SHZ,Alfa Romeo Giulia,Gasoline,Automatic,Sedan,DE,Dealer,4WD,,2022.0,3.0,59000.0,206.0,1995.0,5.0,28999.0
+Porsche,911,Carrera S,Porsche 911,Gasoline,Automatic,Coupe,AT,Dealer,Rear Wheel Drive,Black,2025.0,0.0,6500.0,353.0,2981.0,4.0,215992.0
+Porsche,Boxster,718 GTS 4.0 PDK°FULL XPEL°KAM°18W°BOSE°CARBON,Porsche Boxster,Gasoline,Automatic,Convertible,LU,Dealer,,Grey,2024.0,1.0,16950.0,294.0,3995.0,2.0,91990.0
+Porsche,Boxster,2.7 228cv 24V cat benzina,Porsche Boxster,Gasoline,Manual,Convertible,IT,Dealer,,Black,2005.0,20.0,99000.0,168.0,2687.0,2.0,26900.0
+Maybach,,"S680 MAYBACH V12 4-M, FULL OPTION, 4-ZIT, KOELKAST",,Gasoline,Automatic,Sedan,FR,Dealer,4WD,Black,2023.0,2.0,17903.0,450.0,5980.0,5.0,199950.0
+Alfa Romeo,Giulietta,Giulietta 1.6 JTDm Sport Collezione Eco TCT,Alfa Romeo Giulietta,Diesel,Automatic,Sedan,BE,Dealer,Front Wheel Drive,Red,2018.0,7.0,130000.0,88.0,1598.0,5.0,12790.0
+Audi,SQ5,3.0 TDI quattro Alu LED AHK Pano Navi ACC B&O Stan,Audi SQ5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2020.0,5.0,61625.0,255.0,2967.0,5.0,49970.0
+BMW,316,3-serie 316i Sedan 2e eigenaar 136pk Clima Multime,BMW 316,Gasoline,Manual,Sedan,NL,Dealer,Rear Wheel Drive,Black,2014.0,11.0,201257.0,100.0,1598.0,5.0,9745.0
+Audi,A3,35 TFSI 3x S line*Parkassist*Touch*Pre Sense,Audi A3,Gasoline,Automatic,Sedan,DE,Dealer,Front Wheel Drive,Grey,2020.0,5.0,103128.0,110.0,1498.0,5.0,23995.0
+BMW,X1,xDrive 20d xLine Aut.*NAVI*LED*CAM*SHZ*ALU*,BMW X1,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2019.0,6.0,63636.0,140.0,1995.0,5.0,24110.0
+Porsche,Cayenne,E-Hybrid Coupé Aut.,Porsche Cayenne,Electric/Gasoline,Automatic,Coupe,ES,Dealer,4WD,Black,2022.0,3.0,54177.0,340.0,2995.0,5.0,72390.0
+BMW,X4,M40 i Kamera ACC Leder Head-up LED Standheizu,BMW X4,Gasoline,Automatic,Coupe,DE,Dealer,4WD,White,2019.0,6.0,79900.0,265.0,2998.0,5.0,39900.0
+BMW,520,"d xDrive Aut. AHK, Leder",BMW 520,Diesel,Automatic,Sedan,AT,Dealer,4WD,Black,2022.0,3.0,122090.0,140.0,,5.0,33999.0
+Mercedes-Benz,GLC 300,e 4M AVANTG+PANO+360+AHK+KEYLESS+9G,Mercedes-Benz GLC 300,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2025.0,0.0,4074.0,150.0,1999.0,5.0,59990.0
+Audi,Q7,45 TDI quattro tiptronic S line,Audi Q7,Diesel,Automatic,Off-Road/Pick-up,BE,PrivateSeller,,Black,2020.0,5.0,230000.0,170.0,2967.0,7.0,45000.0
+BMW,X3,M40 i LED NAVI AHK STHZ,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2019.0,6.0,51816.0,260.0,2998.0,5.0,38990.0
+Honda,CR-V,2.2i DTEC 4WD Automatik Executive,Honda CR-V,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2014.0,11.0,109000.0,110.0,2199.0,5.0,13950.0
+BMW,520,520d Aut. Sport Line in sehr guten Zustand,BMW 520,Diesel,Automatic,Sedan,DE,PrivateSeller,Rear Wheel Drive,Black,2017.0,8.0,197000.0,140.0,1995.0,5.0,19500.0
+BMW,316,"F30 Baureihe, TÜV bis April 2027",BMW 316,Gasoline,Manual,Sedan,DE,PrivateSeller,Rear Wheel Drive,Black,2014.0,11.0,164000.0,100.0,1598.0,5.0,9600.0
+BMW,X2,xDrive20d M Sport X + 2Jahre-BPS.-GARANTIE,BMW X2,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,76002.0,140.0,1995.0,5.0,25688.0
+BMW,X6,xDrive30d NAVI NAVI Klimaautomtik,BMW X6,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2010.0,15.0,250000.0,180.0,2993.0,,14998.0
+Porsche,911,(991) 3.0 450CH GTS PDK,Porsche 911,Gasoline,Automatic,Convertible,FR,Dealer,,Black,2019.0,6.0,17940.0,336.0,2981.0,4.0,129900.0
+BMW,320,320i Vollausstattung Carplay,BMW 320,Gasoline,Automatic,Sedan,DE,PrivateSeller,,,2001.0,24.0,270000.0,125.0,2171.0,5.0,2999.0
+Mercedes-Benz,V 300,V 300 d 4MATIC STYLE L NEUES MODELL EL TÜR 360°,Mercedes-Benz V 300,Diesel,Automatic,Van,AT,Dealer,4WD,Black,2024.0,1.0,17878.0,174.0,1950.0,7.0,100223.0
+BMW,430,Luxury L +HUD +LED +Business,BMW 430,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,White,2017.0,8.0,134492.0,185.0,1998.0,5.0,18799.0
+BMW,X3 M,3.0 Competition OPF,BMW X3 M,Gasoline,Automatic,Off-Road/Pick-up,BE,PrivateSeller,,,2020.0,5.0,98000.0,375.0,2993.0,5.0,51900.0
+Porsche,Cayenne,"II 3,0 Diesel Aut.",Porsche Cayenne,Diesel,Automatic,Off-Road/Pick-up,AT,PrivateSeller,,,2013.0,12.0,260500.0,180.0,2967.0,5.0,22200.0
+Alfa Romeo,Giulia,2.2 t Sprint 190cv auto,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Black,2021.0,4.0,114000.0,140.0,2143.0,5.0,26000.0
+BMW,330,330i Aut. M Sport,BMW 330,Gasoline,Automatic,Sedan,BE,PrivateSeller,Rear Wheel Drive,Grey,2020.0,5.0,60000.0,190.0,1998.0,5.0,33500.0
+Alfa Romeo,Tonale,Tonale 1.6 JTDM Sprint 130cv tct6,Alfa Romeo Tonale,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,White,2023.0,2.0,99000.0,96.0,1598.0,5.0,24300.0
+Porsche,Boxster,718 Spyder RS | Weissach | PDLS,Porsche Boxster,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Silver,2024.0,1.0,800.0,368.0,3996.0,2.0,165900.0
+BMW,M5,M5A,BMW M5,Gasoline,Automatic,Sedan,ES,Dealer,4WD,Black,2018.0,7.0,79978.0,441.0,4395.0,5.0,67990.0
+Audi,S6,e-tron,Audi S6,Electric,Automatic,Station wagon,AT,Dealer,4WD,Grey,2025.0,0.0,13330.0,138.0,,5.0,90750.0
+Alfa Romeo,Tonale,1.6 VGT-D Sprint,Alfa Romeo Tonale,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Red,2023.0,2.0,92456.0,96.0,1598.0,5.0,21699.0
+Porsche,Cayenne,3.0 V6 462ch E-Hybrid,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,,Grey,2019.0,6.0,53500.0,254.0,2995.0,4.0,72790.0
+Volvo,V60,2.0 T5 Inscription | INTELLISAFE SURROUND / ASSIST,Volvo V60,Gasoline,Automatic,Station wagon,NL,Dealer,Front Wheel Drive,Black,2018.0,7.0,90620.0,184.0,1969.0,5.0,27900.0
+Porsche,Macan,S Diesel Aut.,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Grey,2016.0,9.0,149000.0,190.0,2967.0,5.0,39490.0
+BMW,520,dxDr Luxury LEDER+HUD+ACC+LASER+KAM+4xKLIMA,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Blue,2021.0,4.0,77518.0,140.0,1995.0,5.0,30800.0
+Alfa Romeo,Tonale,1.5 160 CV MHEV TCT7 Veloce MY24,Alfa Romeo Tonale,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Grey,2024.0,1.0,14161.0,118.0,1469.0,5.0,29950.0
+BMW,118,118d xdrive Business 5p,BMW 118,Diesel,Manual,Sedan,IT,PrivateSeller,,,2016.0,9.0,204000.0,110.0,1995.0,5.0,9500.0
+BMW,320,Touring xDrive Sport-Line NAV+LED+AHK+HIFI,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,4WD,White,2022.0,3.0,112750.0,140.0,1995.0,5.0,26449.0
+BMW,320,320dA 163ch Edition Lounge BVA Garantie 12 mois,BMW 320,Diesel,Automatic,Sedan,FR,Dealer,,Black,2013.0,12.0,140980.0,120.0,,5.0,11990.0
+BMW,318,Serie 3 F31 Touring 318d Touring Business Adv auto,BMW 318,Diesel,Automatic,Station wagon,IT,PrivateSeller,Rear Wheel Drive,Grey,2019.0,6.0,179000.0,110.0,1995.0,5.0,13600.0
+Honda,Civic,Tourer 1.8 i-VTEC Sport KAMERA,Honda Civic,Gasoline,Manual,Station wagon,DE,Dealer,,White,2014.0,11.0,61000.0,104.0,1798.0,5.0,12990.0
+BMW,440,4-serie Gran Coupé 440i High Executive M-sport | H,BMW 440,Gasoline,Automatic,Compact,NL,Dealer,Rear Wheel Drive,Black,2018.0,7.0,107066.0,241.0,2998.0,5.0,32950.0
+BMW,X5,xDrive45e Head-Up HiFi SHZ,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2022.0,3.0,83430.0,290.0,2998.0,5.0,49480.0
+Audi,Q6 e-tron,e-tron performance,Audi Q6 e-tron,Electric,Automatic,Off-Road/Pick-up,AT,Dealer,Rear Wheel Drive,Blue,2024.0,1.0,10800.0,120.0,,5.0,69980.0
+Audi,Q7,3.0 50 TDI QUATTRO TIPTRONIC S-LINEPREMIUMLASER,Audi Q7,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,White,2020.0,5.0,58415.0,210.0,2967.0,5.0,49999.0
+BMW,M6,4.4V8 Cabrio Full Options 44742Km Config. Unique,BMW M6,Gasoline,Automatic,Convertible,BE,Dealer,Rear Wheel Drive,Blue,2014.0,11.0,44742.0,412.0,4395.0,4.0,52990.0
+Volvo,V50,Kombi 2.0 D Summum,Volvo V50,Diesel,Manual,Station wagon,DE,Dealer,Front Wheel Drive,Silver,2004.0,21.0,194000.0,100.0,1997.0,5.0,2000.0
+Porsche,Taycan,476 SPORT TURISMO,Porsche Taycan,Electric,Automatic,Station wagon,FR,Dealer,,Grey,2022.0,3.0,55000.0,351.0,,,65490.0
+BMW,X5,xDrive40d Sport-Aut. M paket alcantara Pano.dach,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2016.0,9.0,167000.0,230.0,2993.0,5.0,27000.0
+BMW,X1,xDrive25d Aut. M Sport,BMW X1,Diesel,Automatic,Off-Road/Pick-up,AT,PrivateSeller,,,2018.0,7.0,123800.0,170.0,1995.0,5.0,21999.0
+BMW,Z4,Roadster 3.0i *STEPTRONIC/LEDER/XENON/KLIMA*,BMW Z4,Gasoline,Automatic,Convertible,DE,Dealer,,Grey,2003.0,22.0,199960.0,170.0,2979.0,2.0,8900.0
+Porsche,992,911 Cabrio 3.0 Carrera 4S Scarichi-Chrono Pack,Porsche 992,Gasoline,Automatic,Convertible,IT,Dealer,4WD,Black,2019.0,6.0,85272.0,331.0,2981.0,4.0,128000.0
+BMW,420,420dA xDrive 190ch M Sport,BMW 420,Electric/Diesel,Automatic,Sedan,FR,Dealer,,,2022.0,3.0,113183.0,,1995.0,5.0,35299.0
+Mercedes-Benz,EQB 250,PROG+PLUS-PAKET+AHK+KAMERA+KEYLESS+SPUR,Mercedes-Benz EQB 250,Electric,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Silver,2026.0,0.0,7671.0,140.0,,5.0,40990.0
+Porsche,Macan,S Diesel Aut.,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Grey,2015.0,10.0,179000.0,190.0,2967.0,5.0,28990.0
+Porsche,992,911 Carrera 4 GTS PDK,Porsche 992,Gasoline,Automatic,Coupe,BE,PrivateSeller,4WD,Grey,2022.0,3.0,27000.0,353.0,2981.0,4.0,155000.0
+BMW,X1,X1 F48 2019 sdrive18d Business Advantage auto,BMW X1,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,White,2021.0,4.0,59000.0,110.0,1995.0,5.0,23690.0
+BMW,320,Touring 320 d X drive LUXURY,BMW 320,Diesel,Automatic,Station wagon,BE,Dealer,4WD,Grey,2014.0,11.0,192789.0,135.0,1995.0,5.0,10890.0
+BMW,420,420i Gran Coupé M-PAKET/PDC/NAVI/AC-SCHNITZER,BMW 420,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Black,2014.0,11.0,104493.0,180.0,1997.0,5.0,21999.0
+Alfa Romeo,Tonale,1.3 gas Multi-air PHEV Ti Q4,Alfa Romeo Tonale,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Blue,2023.0,2.0,42061.0,206.0,1332.0,5.0,25490.0
+Alfa Romeo,Giulia,2.2 t Veloce Q4 210cv auto,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,Dealer,,White,2024.0,1.0,15000.0,155.0,2143.0,5.0,37800.0
+Alfa Romeo,159,159 1.9 JTDM 16V DPF Elegante,Alfa Romeo 159,Diesel,Manual,Sedan,BE,Dealer,Front Wheel Drive,Black,2008.0,17.0,208000.0,110.0,1910.0,5.0,4500.0
+BMW,218,2-serie Active Tourer 218i Black Edition Sport Aut,BMW 218,Gasoline,Automatic,Van,NL,Dealer,Front Wheel Drive,Black,2016.0,9.0,124461.0,100.0,1499.0,5.0,12945.0
+Porsche,Boxster,Boxster,Porsche Boxster,Gasoline,Manual,Convertible,DE,PrivateSeller,,Black,2010.0,15.0,129700.0,188.0,2893.0,2.0,28500.0
+Volvo,V40,,Volvo V40,Diesel,Manual,Sedan,IT,PrivateSeller,,,2017.0,8.0,104000.0,88.0,1969.0,5.0,8500.0
+BMW,X3,xDrive20i M Sport | AHK | HK HiFi | Lenkradhz. | D,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2022.0,3.0,77727.0,135.0,1998.0,5.0,41710.0
+Porsche,997,carrere 4,Porsche 997,Gasoline,,Coupe,IT,PrivateSeller,,,2007.0,18.0,225000.0,254.0,,4.0,49000.0
+BMW,X5 M,d LED/HUD/CAM/AHK/B&O/A.FAHRWERK/PANO./DAB,BMW X5 M,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2018.0,7.0,187115.0,280.0,2993.0,5.0,34950.0
+Mercedes-Benz,GLC 220,220d 4Matic 9G-Tronic,Mercedes-Benz GLC 220,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,White,2025.0,0.0,8900.0,145.0,1993.0,5.0,61990.0
+BMW,320,320d xDrive Facelift AHK Pano 1.Hand Touring LED,BMW 320,Diesel,Automatic,Station wagon,DE,PrivateSeller,4WD,Black,2020.0,5.0,137400.0,140.0,1995.0,5.0,21950.0
+Suzuki,Swift,Comfort KLIMA/SHZ/NAVI/8FACH,Suzuki Swift,Gasoline,Manual,Compact,DE,Dealer,Front Wheel Drive,Black,2008.0,17.0,100000.0,68.0,1328.0,4.0,3650.0
+Volvo,S90,2.0 D4 Inscription LED_ADAP-CRUIS_B&W_BLISS_D-PILO,Volvo S90,Diesel,Automatic,Sedan,NL,Dealer,Front Wheel Drive,Black,2016.0,9.0,151859.0,140.0,1969.0,5.0,21945.0
+BMW,X5,X5 4x4 25d Experience 231cv auto,BMW X5,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2018.0,7.0,190000.0,170.0,1995.0,5.0,18990.0
+BMW,225,225 xe/PANO/1 HAND/PDC/SHZ,BMW 225,Electric/Gasoline,Automatic,Sedan,DE,Dealer,4WD,White,2017.0,8.0,145900.0,165.0,1499.0,5.0,10900.0
+Volvo,XC60,D4 Inscription AWD,Volvo XC60,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Beige,2019.0,6.0,68170.0,140.0,1969.0,5.0,26990.0
+BMW,216,d 7p. PREZZO VALIDO FINO 08.11 km certificati BMW,BMW 216,Diesel,Automatic,Van,IT,Dealer,Front Wheel Drive,White,2020.0,5.0,40000.0,85.0,1496.0,7.0,18700.0
+BMW,730,d xDrive SHD Head-Up Driving assist+ Stndhzng,BMW 730,Diesel,Automatic,Sedan,DE,Dealer,4WD,Black,2014.0,11.0,125000.0,190.0,2993.0,5.0,21990.0
+Audi,Q5,40 TDI Quattro S Tronic 7,Audi Q5,Diesel,Automatic,Off-Road/Pick-up,FR,Dealer,4WD,Blue,2020.0,5.0,104219.0,150.0,1968.0,5.0,28590.0
+BMW,218,218d Aut. Active Tourer **Getriebeschaden**,BMW 218,Diesel,Automatic,Sedan,AT,Dealer,Front Wheel Drive,Grey,2015.0,10.0,200000.0,110.0,1995.0,5.0,5490.0
+Audi,A6,45 TDI Quattro LED Kamera Pano Digital Touch AHK,Audi A6,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2020.0,5.0,115800.0,170.0,2967.0,5.0,33900.0
+Audi,S8,S8 TFSI quattro tiptronic,Audi S8,Gasoline,Automatic,Other,LU,Dealer,4WD,Silver,2025.0,0.0,30.0,420.0,3996.0,4.0,119000.0
+Mercedes-Benz,C 180,T Avantgarde Totwinkel AHK Carplay Memory,Mercedes-Benz C 180,Gasoline,Automatic,Station wagon,DE,Dealer,,Blue,2025.0,0.0,9900.0,125.0,1496.0,5.0,39970.0
+BMW,320,i M Sport Kamera*LED*HiFi*AHK*Innovationspak,BMW 320,Gasoline,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2023.0,2.0,26128.0,135.0,1998.0,5.0,35190.0
+BMW,530,e iPerformance,BMW 530,Electric/Gasoline,Automatic,Sedan,AT,Dealer,Rear Wheel Drive,Blue,2019.0,6.0,76500.0,185.0,1998.0,5.0,31840.0
+Mercedes-Benz,E 220,E 220 d Limousine,Mercedes-Benz E 220,Diesel,Automatic,Sedan,LU,Dealer,,Silver,2024.0,1.0,20145.0,145.0,1993.0,5.0,69990.0
+Suzuki,S-Cross,"1,5 Strong Hybrid ALLGRIP 6AGS flash Aut.",Suzuki S-Cross,Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Silver,2024.0,1.0,20000.0,75.0,1462.0,5.0,29900.0
+Porsche,992,911 Carrera 4S Cabrio,Porsche 992,Gasoline,Automatic,Convertible,AT,Dealer,4WD,Silver,2021.0,4.0,33300.0,331.0,2981.0,,172992.0
+Porsche,992,Turbo S Aero Paket Sport Chrono Mwst. 19tkm Carbon,Porsche 992,Gasoline,Automatic,Coupe,AT,Dealer,4WD,Red,2021.0,4.0,19800.0,478.0,3745.0,4.0,279990.0
+BMW,X4 M,40d PanoSD/AHK/Laser/Head-Up/ACC/Lordose,BMW X4 M,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2022.0,3.0,68303.0,250.0,3000.0,5.0,57845.0
+Porsche,Cayman,2.0 Style Edition,Porsche Cayman,Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Blue,2024.0,1.0,8500.0,221.0,1988.0,2.0,79900.0
+BMW,X4,35D M-Paket Voll-Ausgestattet,BMW X4,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2014.0,11.0,114000.0,230.0,2993.0,5.0,25990.0
+Porsche,Macan,2.0 CC 245 CV PDK,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2021.0,4.0,75000.0,180.0,1984.0,5.0,63000.0
+Volvo,XC60,D4 Geartronic RDesign,Volvo XC60,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2018.0,7.0,127000.0,140.0,1969.0,5.0,22750.0
+Porsche,Macan,2.9 GTS*TELECAMERA*Sound System BOSE*SEDILI RISC*,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2021.0,4.0,72000.0,324.0,2894.0,5.0,72500.0
+BMW,420,BMW 4er-Reihe 420D M-Optik Sportwagen / Coupé,BMW 420,Diesel,Manual,Coupe,AT,PrivateSeller,,,2015.0,10.0,162000.0,135.0,1995.0,5.0,18999.0
+Porsche,Panamera,Sport Turismo Turbo S EHybrid Burmester,Porsche Panamera,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,4WD,Blue,2020.0,5.0,89221.0,515.0,3996.0,5.0,87990.0
+BMW,M5,xDrive M Drivers Package Klimaaut. Glasdach,BMW M5,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2022.0,3.0,68968.0,441.0,4395.0,5.0,74250.0
+BMW,X3,"20i xDrive MSport ACC,HUD,PANO,HARMAN,21""",BMW X3,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2025.0,0.0,6700.0,140.0,1998.0,5.0,69990.0
+Porsche,992,911 Carrera Sportabgasanlage BOSE 21-Zoll,Porsche 992,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Black,2024.0,1.0,6849.0,290.0,2981.0,,136860.0
+Audi,A4,Avant 35 TFSI Launch Edition Sport S-Line Virtual,Audi A4,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,Front Wheel Drive,Grey,2020.0,5.0,135271.0,110.0,1984.0,5.0,25450.0
+Porsche,Macan,S PDK PDLS LANE SHZ PANO 21-ZOLL 360°,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2018.0,7.0,63634.0,250.0,2997.0,5.0,43950.0
+Porsche,Cayman,Cayman II 981 2.7 275cv,Porsche Cayman,Gasoline,Manual,Coupe,IT,Dealer,Rear Wheel Drive,Black,2014.0,11.0,151000.0,202.0,2706.0,2.0,39999.0
+Honda,Civic,lifestyle,Honda Civic,Diesel,Manual,Other,IT,PrivateSeller,,,2013.0,12.0,268000.0,88.0,1590.0,5.0,5000.0
+Honda,Civic,Lim. 3trg 1.4 TypeS/II.HD/SHZ/PDC/KLIMAAUT,Honda Civic,Gasoline,Manual,Coupe,DE,Dealer,Front Wheel Drive,Orange,2009.0,16.0,123000.0,73.0,1339.0,5.0,6490.0
+Porsche,Panamera,4E-Hybrid | Panorama | PDLS+ | Surround View |,Porsche Panamera,Electric/Gasoline,Automatic,Coupe,AT,Dealer,4WD,Grey,2018.0,7.0,127418.0,340.0,,4.0,59890.0
+Audi,Q7,S LINE Facelift / PHEV,Audi Q7,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Grey,2025.0,0.0,10.0,250.0,2995.0,5.0,99271.0
+BMW,X2,20i sDrive M Sport ACC Pl.°elSitz°grNavi+HIFI,BMW X2,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2024.0,1.0,19400.0,125.0,1499.0,5.0,41700.0
+Audi,Q3,"Q3 45 TFSI qu 3x S LINE STANDHEIZ,360GRAD,BANG+O",Audi Q3,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,50000.0,169.0,1984.0,5.0,32880.0
+Mercedes-Benz,A 200,d,Mercedes-Benz A 200,Diesel,Automatic,Sedan,ES,Dealer,,,2025.0,0.0,6883.0,110.0,1950.0,5.0,35377.0
+Maserati,Levante,V6 AWD Gransport,Maserati Levante,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2019.0,6.0,54000.0,257.0,2979.0,5.0,39900.0
+Ford,Fiesta,1.25 Trend LEES TEKST,Ford Fiesta,Gasoline,Manual,Compact,NL,Dealer,Front Wheel Drive,Blue,2009.0,16.0,173945.0,44.0,1242.0,5.0,1799.0
+Mercedes-Benz,EQA 250,Essential Line,Mercedes-Benz EQA 250,Electric,Automatic,Off-Road/Pick-up,BE,PrivateSeller,Front Wheel Drive,Grey,2025.0,0.0,7500.0,140.0,,5.0,39500.0
+Audi,A6,quattro TDI 150 kW,Audi A6,Diesel,Automatic,Station wagon,AT,Dealer,4WD,Grey,2025.0,0.0,3591.0,150.0,1968.0,5.0,89990.0
+Audi,Q2,35 TFSI S Edition | Automaat | Stoelverwarming | C,Audi Q2,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,White,2020.0,5.0,84045.0,110.0,1498.0,5.0,22945.0
+BMW,X6,xDrive30d,BMW X6,Diesel,Automatic,Off-Road/Pick-up,BE,PrivateSeller,,,2016.0,9.0,200000.0,190.0,2993.0,5.0,19700.0
+Alfa Romeo,Stelvio,2.2D AT8 Q4 Ti 190CV,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Red,2021.0,4.0,76286.0,140.0,2143.0,5.0,25000.0
+Alfa Romeo,Stelvio,2.9 V6 Quadrifoglio Q4 510cv auto,Alfa Romeo Stelvio,Gasoline,Automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2022.0,3.0,58000.0,375.0,2891.0,5.0,57000.0
+Mercedes-Benz,CLA 200,D DCT,Mercedes-Benz CLA 200,Diesel,Automatic,Sedan,ES,Dealer,,White,2025.0,0.0,8205.0,110.0,,,42595.0
+Suzuki,Swift,"1.2 X-TRA+1. Hand+Klima+SHZ+RCD+16"" Alu",Suzuki Swift,Gasoline,Manual,Sedan,DE,Dealer,Front Wheel Drive,Black,2016.0,9.0,108900.0,69.0,1242.0,5.0,5999.0
+BMW,X4,X4 xDrive20d xLine*Gancio traino*Pelle*Navi*Tetto*,BMW X4,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2015.0,10.0,177000.0,140.0,1995.0,5.0,18990.0
+Porsche,Cayenne,S * APPROVED GARANTIE *Sport-Abgasanlage,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2018.0,7.0,114537.0,324.0,2894.0,5.0,49790.0
+BMW,X6,xDrive30d,BMW X6,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,Black,2016.0,9.0,104114.0,190.0,2993.0,5.0,31635.0
+BMW,X3,xDrive20i /PANO-CAMERA-H&K-ADAPTIVE-HUD-KEYLESS...,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Grey,2018.0,7.0,64435.0,135.0,1998.0,5.0,29990.0
+Alfa Romeo,Giulia,Giulia 2.2 Turbodiesel 210 CV AT8 AWD Q4 Veloce,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,Dealer,4WD,Gold,2022.0,3.0,129900.0,155.0,2143.0,5.0,27990.0
+Porsche,911,(992) CABRIOLET 3.0 450 CARRERA S,Porsche 911,Gasoline,Automatic,Convertible,FR,Dealer,,Grey,2019.0,6.0,29600.0,332.0,,,165990.0
+BMW,X3,xDrive30d M Sport PANO RFK NAVI Standh. LED,BMW X3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2022.0,3.0,71196.0,210.0,2993.0,5.0,49995.0
+Audi,Q5,TDI quattro S tronic 150 kW S line Pano Stand,Audi Q5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2025.0,0.0,4911.0,150.0,1968.0,5.0,82711.0
+BMW,550,"d M PAKET - DYNAMIK TRIFFT LUXUS""",BMW 550,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2017.0,8.0,84521.0,280.0,2993.0,5.0,31900.0
+BMW,440,Mi xDrive Gran Coupé M-Pro 2 JAHRE GARANTIE,BMW 440,Gasoline,Automatic,Coupe,DE,Dealer,4WD,Green,2022.0,3.0,14420.0,275.0,2998.0,5.0,51750.0
+BMW,330,330xd Touring FL,BMW 330,Diesel,Manual,Station wagon,IT,PrivateSeller,,,2003.0,22.0,275000.0,135.0,2926.0,5.0,3300.0
+Porsche,Macan,4S,Porsche Macan,Electric,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2025.0,0.0,5000.0,330.0,,5.0,124900.0
+Porsche,992,992 (911) GT3 Touring 4.0 510cv PDK,Porsche 992,Gasoline,Automatic,Coupe,FR,Dealer,Front Wheel Drive,Red,2024.0,1.0,2000.0,375.0,3996.0,2.0,204994.0
+Porsche,992,Cabrio 3.0 Carrera 4S,Porsche 992,Gasoline,Automatic,Convertible,NL,Dealer,4WD,Grey,2021.0,4.0,11630.0,332.0,2981.0,4.0,174950.0
+BMW,320,320dA xDrive,BMW 320,Diesel,Automatic,Sedan,ES,Dealer,4WD,Grey,2020.0,5.0,104779.0,140.0,1995.0,5.0,24537.0
+BMW,X5,"M Paket xDrive, 30d, Sport-Aut. HUD, LED, Panorama",BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2016.0,9.0,159200.0,190.0,2993.0,5.0,27500.0
+BMW,320,d Lim. M3 Front Sternenhimmel Performance,BMW 320,Diesel,Manual,Sedan,DE,Dealer,Rear Wheel Drive,Silver,2006.0,19.0,325000.0,120.0,1995.0,5.0,4999.0
+Porsche,Macan,Electric Basis,Porsche Macan,Electric,Automatic,Off-Road/Pick-up,DE,Dealer,Rear Wheel Drive,Silver,2025.0,0.0,4998.0,265.0,,5.0,87900.0
+Porsche,Taycan,Turbo Cross Turismo,Porsche Taycan,Electric,Automatic,Station wagon,DE,Dealer,4WD,White,2023.0,2.0,22800.0,500.0,0.0,4.0,122900.0
+BMW,320,Kamera DAB HiFi WLAN Stop&Go Alarm LED,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2022.0,3.0,61085.0,140.0,1995.0,5.0,26999.0
+BMW,120,120d 190cv Msport auto TAGLIANDI CERTIFICATI BMW,BMW 120,Diesel,Automatic,Sedan,IT,Dealer,Front Wheel Drive,Grey,2021.0,4.0,96966.0,140.0,1995.0,5.0,24900.0
+BMW,X2,sDrive18d Auto,BMW X2,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,,Grey,2020.0,5.0,119343.0,110.0,1995.0,5.0,20500.0
+BMW,750,"750 i xDrive M SPORT STANDHZ,SOFTCLOSE,LASER,H/K",BMW 750,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2021.0,4.0,41383.0,390.0,4395.0,5.0,61880.0
+BMW,X5,xDrive40d M-Paket Aut. / STHZ / Laser / Sportab...,BMW X5,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2021.0,4.0,72286.0,250.0,2993.0,5.0,79990.0
+Mercedes-Benz,E 300,de 4M AMG+NIGHT+DISTR+AHK+LED+KAMERA+KLIMA,Mercedes-Benz E 300,Electric/Diesel,Automatic,Sedan,DE,Dealer,4WD,Silver,2025.0,0.0,9733.0,145.0,1993.0,5.0,69448.0
+BMW,318,318d,BMW 318,Diesel,Manual,Sedan,ES,Dealer,Rear Wheel Drive,White,2016.0,9.0,63967.0,110.0,1995.0,5.0,19990.0
+Porsche,997,"911/997 3,6 Turbo Cabrio*PCM*PSM*PASM*BOSE*SHZ*",Porsche 997,Gasoline,Automatic,Convertible,DE,Dealer,4WD,Black,2008.0,17.0,149422.0,353.0,3600.0,4.0,59980.0
+BMW,M5,"Competition Edition 1/200 Keramikbremse, B&O, Voll",BMW M5,Gasoline,Automatic,Sedan,DE,PrivateSeller,Rear Wheel Drive,White,2017.0,8.0,69500.0,441.0,4395.0,5.0,69998.0
+BMW,216,Serie 2 F45 2014 Active Tourer 216d,BMW 216,Diesel,Automatic,Van,IT,PrivateSeller,,,2017.0,8.0,119900.0,85.0,1496.0,5.0,10500.0
+Porsche,992,carrera s,Porsche 992,Gasoline,,Other,IT,PrivateSeller,,,2020.0,5.0,27000.0,331.0,,,125000.0
+Suzuki,Swift,1.3 Exclusive,Suzuki Swift,Gasoline,Manual,Compact,NL,PrivateSeller,,Grey,2005.0,20.0,182000.0,68.0,1328.0,5.0,2150.0
+Porsche,992,911 GT3 CLUBSPORT SCARICO TITANIO BOLLO 04/2026,Porsche 992,Gasoline,Semi-automatic,Coupe,IT,Dealer,Rear Wheel Drive,Black,2021.0,4.0,12400.0,375.0,3996.0,2.0,179900.0
+BMW,X1,"XDrive25e eDrive Edition, M-Sport, navigatie, trek",BMW X1,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2022.0,3.0,49743.0,92.0,1499.0,5.0,25950.0
+Porsche,911,992.1 Targa 4 GTS 3.0 Bi-Turbo PDK,Porsche 911,Gasoline,Automatic,Other,FR,Dealer,4WD,Grey,2024.0,1.0,16000.0,353.0,2981.0,4.0,199900.0
+Ford,EcoSport,1.0i - 2020/067.000km/Euro 6b- Gekeurd,Ford EcoSport,Gasoline,Manual,Off-Road/Pick-up,BE,Dealer,,Black,2020.0,5.0,67000.0,74.0,998.0,5.0,10500.0
+BMW,116,Serie 1 F40 116d Msport auto,BMW 116,Diesel,Automatic,Sedan,IT,Dealer,Front Wheel Drive,Black,2021.0,4.0,52000.0,85.0,1496.0,5.0,24800.0
+BMW,X5,50e xDrive | M Performance - Pano - Trekhaak,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2024.0,1.0,25790.0,360.0,2998.0,5.0,109950.0
+BMW,545,5-serie Touring 545i High Executive Zeer Netjes Pa,BMW 545,Gasoline,Automatic,Station wagon,NL,Dealer,Rear Wheel Drive,Black,2006.0,19.0,210049.0,245.0,4398.0,5.0,6399.0
+Suzuki,Swift,"Tüv Neu, Alu-Felgen, Sportfahrwerk,",Suzuki Swift,Gasoline,Manual,Other,DE,PrivateSeller,,,2009.0,16.0,188515.0,68.0,1400.0,4.0,2800.0
+BMW,330,330e Aut. Advantage,BMW 330,Electric/Gasoline,Automatic,Sedan,DE,PrivateSeller,,,2019.0,6.0,140500.0,215.0,1998.0,5.0,23000.0
+BMW,X5,xDrive40i Aut.,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,AT,PrivateSeller,,,2019.0,6.0,117600.0,250.0,2998.0,5.0,53480.0
+BMW,530,Alarm Stop&Go Kamera DAB MSport Parkassist,BMW 530,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2021.0,4.0,110176.0,215.0,1998.0,5.0,25499.0
+Volvo,V90,Kombi B4 B R-Design *LED*H&K*KAM*MEGA-KM* R Design,Volvo V90,Gasoline,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,White,2020.0,5.0,54402.0,145.0,1969.0,5.0,28890.0
+Porsche,911,GT3 Approved fähig. Deutsches Auto,Porsche 911,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Silver,2014.0,11.0,51300.0,350.0,3799.0,2.0,109000.0
+BMW,X5,xDrive40 Pano/HUD/20\/Trailer...,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,4WD,Black,2019.0,6.0,130000.0,250.0,2998.0,5.0,34890.0
+Audi,A6,e-tron,Audi A6,Electric,Automatic,Station wagon,AT,Dealer,Rear Wheel Drive,Black,2025.0,0.0,4303.0,100.0,,5.0,64990.0
+BMW,M5,Competition Eerste Eigenaar!!!! Carbon!!! Full!!!!,BMW M5,Gasoline,Automatic,Sedan,BE,PrivateSeller,,,2021.0,4.0,19950.0,460.0,4395.0,5.0,92500.0
+Volvo,V40,D2 Kinetic,Volvo V40,Diesel,Manual,Sedan,IT,Dealer,Front Wheel Drive,Grey,2018.0,7.0,156000.0,88.0,1969.0,5.0,10900.0
+BMW,X3,xDrive20d M Sport (360 Kamera/Pano/Head-Up),BMW X3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2016.0,9.0,113120.0,140.0,1995.0,5.0,23500.0
+Maserati,Ghibli,2.0 mhev GT 330cv rwd auto,Maserati Ghibli,Electric/Gasoline,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,,2022.0,3.0,51900.0,243.0,1995.0,5.0,43900.0
+BMW,420,420d Gran Coupe Aut. Luxury Line,BMW 420,Diesel,Automatic,Coupe,DE,PrivateSeller,,Black,2018.0,7.0,172000.0,135.0,1995.0,5.0,18300.0
+BMW,530,530D 258CH XDRIVE LUXURYLINE SPORT,BMW 530,Diesel,Automatic,Station wagon,FR,Dealer,,Grey,2015.0,10.0,161922.0,190.0,,5.0,19999.0
+Honda,CR-V,Comfort,Honda CR-V,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,4WD,Black,2009.0,16.0,117725.0,110.0,1997.0,5.0,9490.0
+Mercedes-Benz,S 580,"4M lang , AMG BURM MEMO 360 AIRMATIC DISTR",Mercedes-Benz S 580,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2024.0,1.0,41557.0,370.0,3982.0,5.0,93958.0
+Suzuki,Jimny,1.5 Easy Pro 4wd allgrip IVA 22%,Suzuki Jimny,Gasoline,Manual,Off-Road/Pick-up,IT,Dealer,4WD,Beige,2023.0,2.0,119851.0,75.0,1462.0,2.0,19000.0
+BMW,X5,xDrive40d M-SPORT+HUD+PANO+ACC+AHK+LASER+NAVI,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2022.0,3.0,32551.0,250.0,2993.0,5.0,67990.0
+Aston Martin,Rapide,Rapide S 6.0 V12 Touchtronic 3,Aston Martin Rapide,Gasoline,Automatic,Sedan,FR,Dealer,Rear Wheel Drive,Silver,2015.0,10.0,21250.0,412.0,5935.0,4.0,113500.0
+Porsche,Panamera,"4 CERCHI 21,PVTS PLUS,PACK SPORT CHRONO",Porsche Panamera,Gasoline,Automatic,Sedan,IT,Dealer,4WD,Blue,2020.0,5.0,75000.0,243.0,2894.0,4.0,67900.0
+Audi,Q5,55 TFSIe S Line | Panoramadak | Nappa Leder | 360,Audi Q5,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2020.0,5.0,44023.0,270.0,1984.0,5.0,40895.0
+Audi,Q5,55 TFSI e 367PK S Line | Trekhaak | 360 camera | S,Audi Q5,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Silver,2025.0,0.0,8418.0,270.0,1984.0,5.0,64950.0
+BMW,X6,M50d Standh. Pano. AHK B&W Driv. Ass. Prof. TV,BMW X6,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,123377.0,294.0,2993.0,5.0,61490.0
+Alfa Romeo,Tonale,1.6 Sprint 130cv tct6,Alfa Romeo Tonale,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Grey,2023.0,2.0,39940.0,96.0,1598.0,5.0,29700.0
+BMW,520,d xDrive A M Sport DAP ACC adLED ParkAss Navi Hifi,BMW 520,Diesel,Automatic,Sedan,DE,Dealer,4WD,White,2021.0,4.0,32100.0,140.0,1995.0,5.0,41988.0
+BMW,340,3-serie Touring M340i xDrive | Panorama | Camera |,BMW 340,Gasoline,Automatic,Station wagon,NL,Dealer,4WD,Black,2022.0,3.0,48065.0,275.0,2998.0,5.0,65895.0
+Porsche,Cayenne,COUPE HYBRID,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,Blue,2020.0,5.0,85000.0,340.0,2995.0,,75900.0
+BMW,X3,-46% 20D 190cv BVA 4x4 XLine +T.PANO+GPS+CUIR+Opts,BMW X3,Diesel,Automatic,Off-Road/Pick-up,LU,Dealer,4WD,Black,2021.0,4.0,75000.0,140.0,1995.0,5.0,36950.0
+Ford,Fiesta,"1.0 EcoBoost Silver Edition 1e Eigenaar,Airco,Stoe",Ford Fiesta,Gasoline,Manual,Compact,NL,Dealer,Front Wheel Drive,Grey,2016.0,9.0,112857.0,74.0,998.0,5.0,6443.0
+Porsche,Boxster,987 2.7 240cv,Porsche Boxster,Gasoline,Manual,Convertible,IT,Dealer,,Black,2006.0,19.0,102000.0,176.0,2687.0,2.0,34000.0
+Mercedes-Benz,GLC 220,GLC 220 d 4M AMG+AHK+360°+Pano+Dig.Light+Distr.,Mercedes-Benz GLC 220,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2025.0,0.0,9350.0,145.0,1993.0,5.0,59875.0
+BMW,435,435i Cabrio Sport auto,BMW 435,Gasoline,Semi-automatic,Convertible,IT,PrivateSeller,,Grey,2014.0,11.0,137000.0,225.0,2979.0,4.0,25000.0
+Porsche,992,TURBO S Pano Keyless Venti Seats Sportexhaust,Porsche 992,Gasoline,Automatic,Coupe,FR,Dealer,4WD,Silver,2022.0,3.0,2840.0,478.0,3745.0,4.0,232900.0
+BMW,530,530e Luxury Line HarmanKardon Nachtsicht 360°,BMW 530,Electric/Gasoline,Automatic,Sedan,DE,Dealer,,Black,2017.0,8.0,63195.0,185.0,1998.0,5.0,29950.0
+BMW,320,i Limousine M-Sport Navi/Leder/LED/Ambiente/,BMW 320,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Grey,2019.0,6.0,128000.0,135.0,,5.0,25990.0
+Alfa Romeo,Stelvio,2.2 t Q4 210cv auto,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2022.0,3.0,31000.0,154.0,2143.0,5.0,30990.0
+Audi,S4,avant 3.0 tdi mhev sport attitude quattro 347cv ti,Audi S4,Electric/Diesel,Automatic,Station wagon,IT,Dealer,4WD,Black,2020.0,5.0,51403.0,255.0,2967.0,5.0,38500.0
+Porsche,718,Cayman S,Porsche 718,Gasoline,Automatic,Coupe,FR,Dealer,4WD,Blue,2025.0,0.0,5806.0,257.0,2500.0,2.0,79900.0
+BMW,X3 M,X3 M 510ch BVA8 Competition,BMW X3 M,Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,,Black,2021.0,4.0,27827.0,375.0,2993.0,5.0,94900.0
+BMW,330,e Touring Sport Line Navi DAB WLAN,BMW 330,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2021.0,4.0,18500.0,185.0,1998.0,5.0,30900.0
+Audi,A4,Avant 35 TFSI S-line Automaat | Panoramadak | Leer,Audi A4,Gasoline,Automatic,Station wagon,NL,Dealer,Front Wheel Drive,Black,2020.0,5.0,157174.0,110.0,1984.0,5.0,26950.0
+BMW,435,435d xDrive Cabrio M Sport Aut. VermittlungVK,BMW 435,Diesel,Automatic,Convertible,AT,Dealer,4WD,Blue,2018.0,7.0,159000.0,230.0,2993.0,4.0,27000.0
+BMW,420,420d xDrive Gran Coupé Msport,BMW 420,Diesel,Automatic,Sedan,IT,Dealer,4WD,White,2015.0,10.0,165000.0,140.0,1995.0,5.0,19900.0
+Audi,Q3,Q3 Sportback 1.5 Tfsi Business S Tronic,Audi Q3,Gasoline,,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Grey,2020.0,5.0,106000.0,110.0,1500.0,5.0,29950.0
+Audi,A6,e-tron quattro,Audi A6,Electric,Automatic,Station wagon,AT,Dealer,4WD,Black,2025.0,0.0,10000.0,138.0,,5.0,87450.0
+BMW,Z3,1.9i Roadster Pack 1.8,BMW Z3,Gasoline,Manual,Convertible,BE,PrivateSeller,,,2002.0,23.0,108000.0,85.0,1895.0,2.0,8800.0
+Audi,SQ8,SQ8 4.0 V8 tdi Diesel/Elettrico 4 ruote sterzanti,Audi SQ8,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2020.0,5.0,140000.0,320.0,3956.0,,60000.0
+Porsche,Cayenne,"II 3,0 TDI Aut. *Sport Design; PANO; AHK uvm.*",Porsche Cayenne,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Black,2015.0,10.0,200000.0,193.0,2967.0,5.0,31990.0
+Volvo,XC40,2.0 D3 Momentum | Trekhaak | Stoelverwarming | Har,Volvo XC40,Diesel,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Black,2018.0,7.0,205889.0,110.0,1969.0,5.0,18400.0
+BMW,320,d M Sport NAVI+LED+PDC+TEMPOMAT+GLASDACH,BMW 320,Diesel,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,White,2019.0,6.0,80174.0,140.0,1995.0,5.0,28490.0
+Porsche,Macan,2.9 GTS 440cv pdk,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,PrivateSeller,4WD,Blue,2021.0,4.0,35000.0,324.0,2894.0,5.0,82000.0
+Porsche,Cayenne,E-HYBRID SPORTDESIGN/360°/PSCB/HEADUP/SOFTCLOSE,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,,White,2021.0,4.0,94860.0,340.0,2995.0,5.0,63900.0
+Porsche,Cayenne,"Coupé 3.0 E-Hybrid Platinum Edition *schermi,full",Porsche Cayenne,Electric/Gasoline,Automatic,Coupe,IT,Dealer,4WD,White,2022.0,3.0,55000.0,250.0,2995.0,4.0,86900.0
+Suzuki,Swift,1.2h Cool 2wd,Suzuki Swift,Electric/Gasoline,Manual,Sedan,IT,PrivateSeller,,,2021.0,4.0,70400.0,61.0,1197.0,5.0,13000.0
+BMW,,223i xDrive*ActiveTourer*M Sport*LED*ACC*360*AHK,,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Blue,2022.0,3.0,60000.0,160.0,1998.0,5.0,30990.0
+Alfa Romeo,Stelvio,2.2 TD 210CV AT8 Q4 Veloce #VARI COLORI,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2024.0,1.0,18000.0,154.0,2143.0,5.0,38900.0
+Porsche,Cayenne,Turbo Coupe *Leichtbau Sport-Paket| Chrono*,Porsche Cayenne,Gasoline,Automatic,Coupe,DE,Dealer,4WD,White,2020.0,5.0,123772.0,404.0,3996.0,4.0,77950.0
+BMW,X5,"xDrive 30d M Sport*M-Sitz*360°St-Hzg,Pano,HUD",BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2022.0,3.0,62400.0,210.0,2993.0,5.0,64877.0
+BMW,216,Gran Coupé 216 dA AdBlue,BMW 216,Diesel,Automatic,Sedan,BE,Dealer,,Black,2021.0,4.0,130000.0,85.0,1496.0,5.0,17500.0
+BMW,M850,M850i Coupé xDrive,BMW M850,Gasoline,Automatic,Coupe,ES,Dealer,4WD,Blue,2020.0,5.0,36000.0,390.0,4395.0,4.0,72800.0
+BMW,X5,xDrive50e 489ch M Sport,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,,White,2025.0,0.0,13500.0,234.0,2998.0,5.0,115900.0
+BMW,X2,xDrive 20 d M Sport,BMW X2,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2019.0,6.0,78000.0,140.0,,5.0,26999.0
+BYD,Seal U,DM-i PHEV Boost,BYD Seal U,Electric/Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,Front Wheel Drive,White,2025.0,0.0,10.0,160.0,1497.0,5.0,35990.0
+BMW,320,320d Touring M Sport,BMW 320,Diesel,Manual,Station wagon,AT,PrivateSeller,Rear Wheel Drive,White,2016.0,9.0,160000.0,140.0,1995.0,5.0,22499.0
+Audi,Q7,55 TFSI Q S LINE 360* MATRIX BuO AHK PANO,Audi Q7,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2025.0,0.0,9999.0,250.0,2995.0,7.0,96660.0
+BMW,X5,X5 F15 xdrive30d Luxury 249cv auto,BMW X5,Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,Black,2017.0,8.0,93000.0,183.0,,5.0,33000.0
+Mercedes-Benz,GLA 180,AMG Ambiente Keyless Totwinkel 360° AHK,Mercedes-Benz GLA 180,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,,White,2025.0,0.0,15502.0,100.0,1332.0,5.0,40540.0
+Porsche,Macan,S*3.0*Leder*Klima*SHZ*Sitzbel*Navi*Kam,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2016.0,9.0,273100.0,190.0,2967.0,5.0,26990.0
+BMW,X6 M,X6 M 4.4 Competition,BMW X6 M,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2021.0,4.0,55000.0,460.0,4395.0,5.0,94400.0
+Alfa Romeo,Stelvio,Stelvio 2.2 t Veloce Ti Q4 210cv auto,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2021.0,4.0,79791.0,154.0,2143.0,5.0,31900.0
+Alfa Romeo,Stelvio,2.2 Lusso Q4 210cv auto iva esposta prezzo realele,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Silver,2019.0,6.0,112321.0,154.0,2143.0,5.0,19500.0
+Porsche,Macan,Macan 3.0d S 250cv pdk my16,Porsche Macan,Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,4WD,Black,2017.0,8.0,102170.0,190.0,2967.0,5.0,40700.0
+Honda,Jazz,Jazz 1.4i Comfort,Honda Jazz,Gasoline,Manual,Van,BE,Dealer,,Grey,2009.0,16.0,245000.0,73.0,1339.0,5.0,999.0
+BMW,216,"d NAV,SHZ,PDC",BMW 216,Diesel,Automatic,Van,DE,Dealer,Front Wheel Drive,White,2020.0,5.0,70900.0,85.0,1496.0,5.0,16490.0
+Alfa Romeo,Junior,1.2 145 CV MHEV eDCT6 Speciale #TETTO #VARI COLORI,Alfa Romeo Junior,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Blue,2025.0,0.0,1.0,107.0,1199.0,5.0,28900.0
+BMW,230,230 i Cabrio M-Sport Automatik Steptronic,BMW 230,Gasoline,Automatic,Convertible,DE,PrivateSeller,Rear Wheel Drive,Blue,2017.0,8.0,78450.0,185.0,1998.0,4.0,23700.0
+Porsche,992,911 GT3 / Lift / Carbon / Full PPF Foil / Manual,Porsche 992,Gasoline,Manual,Coupe,BE,Dealer,Rear Wheel Drive,Blue,2022.0,3.0,22500.0,375.0,3996.0,2.0,179911.0
+BMW,430,,BMW 430,Gasoline,Manual,Coupe,NL,PrivateSeller,,Blue,2016.0,9.0,75032.0,185.0,1998.0,,22499.0
+BMW,X2,"sDrive 18i Autom. Navi, Sitzheizung, DAB",BMW X2,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Grey,2022.0,3.0,30201.0,100.0,1499.0,5.0,24950.0
+Audi,Q3,35 TDI S-tronic NAVI+DAB+KLIMA+LED+PDC+SHZ,Audi Q3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2020.0,5.0,119624.0,110.0,1968.0,5.0,23990.0
+Porsche,Macan,GTS 3.0 V6 PDK,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,AT,PrivateSeller,4WD,Black,2018.0,7.0,72000.0,250.0,2997.0,5.0,47990.0
+BMW,116,Serie 1 F/20-21 2015 116d Sport 5p,BMW 116,Diesel,Manual,Sedan,IT,PrivateSeller,Rear Wheel Drive,Black,2016.0,9.0,89000.0,85.0,,5.0,15600.0
+Audi,RS6,Avant TFSI quattro 25 years Tiptronic,Audi RS6,Gasoline,Automatic,Station wagon,ES,Dealer,4WD,Grey,2020.0,5.0,67000.0,441.0,3996.0,5.0,99990.0
+BMW,225,xe DA+ PA ACC HuD HiFi LED DAB Navi+ PDC,BMW 225,Electric/Gasoline,Automatic,Van,DE,Dealer,4WD,Blue,2021.0,4.0,60123.0,162.0,1499.0,5.0,18990.0
+BMW,X5,High Exec.,BMW X5,Gasoline,Automatic,Station wagon,NL,PrivateSeller,,White,2020.0,5.0,95850.0,210.0,2998.0,5.0,49500.0
+BMW,X5,sDrive 25dA,BMW X5,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Rear Wheel Drive,White,2015.0,10.0,156082.0,170.0,1995.0,5.0,22250.0
+Volvo,V40 Cross Country,D2 Plus 120,Volvo V40 Cross Country,Diesel,Manual,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,Red,2018.0,7.0,191640.0,88.0,1969.0,5.0,11619.0
+BMW,X5,M50iAS Bowers&Wilkins Pano Laser Night Vision HUD,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Grey,2021.0,4.0,63896.0,390.0,4395.0,5.0,67900.0
+BMW,X5,xDrive 30 d~Design Pure Experience~,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2017.0,8.0,57000.0,190.0,2993.0,5.0,34700.0
+Porsche,Macan,2.0 TFSI SPORTPAKET LED PANO 20 ZOLL 1.HD,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2018.0,7.0,108000.0,180.0,1984.0,5.0,41900.0
+Alfa Romeo,MiTo,MiTo 1.4 Progression 70cv,Alfa Romeo MiTo,Gasoline,Manual,Sedan,IT,PrivateSeller,Front Wheel Drive,Red,2014.0,11.0,142000.0,51.0,1368.0,4.0,4500.0
+BMW,X5,G05 2018 Diesel xdrive30d mhev 48V Msport auto,BMW X5,Others,,Other,IT,Dealer,,Silver,2022.0,3.0,37921.0,210.0,2993.0,,59200.0
+Mercedes-Benz,GLE 53 AMG,GLE Automaat 4MATIC+ | Premium Plus Pakket | Memor,Mercedes-Benz GLE 53 AMG,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2024.0,1.0,21925.0,330.0,2999.0,5.0,119900.0
+Audi,Q7,60e TFSI hybrid 3x S-line! Competition! Fulloption,Audi Q7,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Black,2025.0,0.0,250.0,380.0,2995.0,5.0,99900.0
+Porsche,Panamera,4 E-Hybrid/Beifahrerdisplay/BOSE/21-Zoll Räder,Porsche Panamera,Electric/Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2025.0,0.0,9000.0,346.0,2894.0,,144900.0
+Alfa Romeo,MiTo,TB 1.4 16V multi air,Alfa Romeo MiTo,Gasoline,Manual,Sedan,DE,PrivateSeller,,,2012.0,13.0,132000.0,88.0,1368.0,4.0,3700.0
+BMW,740,7-serie 740e iPerformance High Executive Soft clos,BMW 740,Electric/Gasoline,Automatic,Sedan,NL,Dealer,Rear Wheel Drive,Grey,2016.0,9.0,139382.0,190.0,1998.0,5.0,29900.0
+Audi,Q3,35 2.0 TDI S line LED ACC Standheizung B&O,Audi Q3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,,White,2020.0,5.0,97820.0,110.0,1968.0,5.0,30890.0
+Audi,Q7,60 TFSI E 3.0 60-TFSI E 456ch V6 QUATTRO,Audi Q7,Electric/Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,,Grey,2020.0,5.0,74500.0,341.0,,5.0,59990.0
+Audi,RS3,Sportback 2.5 TFSI Quattro S tronic,Audi RS3,Gasoline,Automatic,Other,BE,PrivateSeller,,,2025.0,0.0,4500.0,294.0,2480.0,5.0,71900.0
+BMW,216,216d Active Tourer Aut. *SPORTLINE+LED+NAVI*,BMW 216,Diesel,Automatic,Sedan,AT,Dealer,Front Wheel Drive,White,2021.0,4.0,178500.0,85.0,1496.0,5.0,15700.0
+Alfa Romeo,Giulietta,1750 t. Quadrifoglio Verde 240cv tct,Alfa Romeo Giulietta,Gasoline,Semi-automatic,Sedan,IT,Dealer,,Grey,2015.0,10.0,142000.0,177.0,1742.0,5.0,13400.0
+Audi,RS6,Avant 4.0 TFSI V8 quattro tiptronic GT 135 di 660,Audi RS6,Electric/Gasoline,Automatic,Station wagon,IT,Dealer,4WD,Black,2025.0,0.0,10000.0,462.0,3996.0,5.0,249900.0
+BMW,118,1 Lim. 5-trg.118 i Advantage*SHZ*LED*SERVICE NEU,BMW 118,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,White,2017.0,8.0,87500.0,100.0,1499.0,5.0,11990.0
+Porsche,911,Type 991 Carrera S Coupé 3.8 400ch PDK7,Porsche 911,Gasoline,Automatic,Coupe,FR,Dealer,,,2012.0,13.0,58200.0,294.0,3800.0,4.0,94990.0
+BMW,X4,xDrive20d Msport * TETTO PANORAMA *,BMW X4,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2021.0,4.0,10000.0,140.0,1995.0,5.0,39980.0
+BMW,X6,X6 F16 xdrive30d Msport 249cv auto,BMW X6,Diesel,Automatic,Off-Road/Pick-up,IT,PrivateSeller,4WD,Blue,2016.0,9.0,150000.0,183.0,2993.0,5.0,26900.0
+Audi,RS6,RS6 Avant Carboceramici+Tetto+Bang & Olufsen,Audi RS6,Gasoline,Automatic,Station wagon,IT,Dealer,4WD,Grey,2020.0,5.0,66543.0,441.0,3996.0,5.0,93000.0
+Audi,RS6,Avant Performance V8 4.0 TFSI 605 Quattro Tiptro,Audi RS6,Gasoline,Automatic,Station wagon,FR,PrivateSeller,,,2020.0,5.0,45000.0,445.0,3993.0,5.0,95000.0
+Porsche,Cayenne,V6 Luftfederung/Panorama/HeadUP/BOSE,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Blue,2023.0,2.0,9971.0,260.0,2995.0,5.0,89850.0
+BMW,116,d 5p. Msport **NEOPATENTATI **,BMW 116,Diesel,Manual,Sedan,IT,Dealer,Rear Wheel Drive,Black,2018.0,7.0,102000.0,85.0,1496.0,5.0,15499.0
+Porsche,Cayenne,E-Hybrid,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,White,2024.0,1.0,7673.0,224.0,2995.0,5.0,134900.0
+Porsche,Boxster,S,Porsche Boxster,Gasoline,Manual,Convertible,DE,PrivateSeller,,Black,2003.0,22.0,92000.0,185.0,3179.0,2.0,22500.0
+Volvo,V40,1.5 T2 Inscription Aut. - LEDER - FULL LED - NAVI,Volvo V40,Gasoline,Automatic,Compact,NL,Dealer,Front Wheel Drive,Grey,2018.0,7.0,130600.0,90.0,1498.0,5.0,16185.0
+Alfa Romeo,Stelvio,2.2 Turbodiesel 160 CV AT8 RWD Super,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Rear Wheel Drive,,2020.0,5.0,86000.0,118.0,2143.0,5.0,21900.0
+Suzuki,Swift,Swift 1.5 GLS,Suzuki Swift,Gasoline,Manual,Compact,NL,PrivateSeller,Front Wheel Drive,Blue,2005.0,20.0,281236.0,75.0,1490.0,5.0,1700.0
+BMW,,1-serie 136PK/Apple Carplay/Cruise Control/Stoelve,,Gasoline,Manual,Compact,NL,Dealer,Rear Wheel Drive,Black,2016.0,9.0,138965.0,100.0,1499.0,5.0,11250.0
+Audi,A4,30 TDI S-Tronic,Audi A4,Diesel,Automatic,Station wagon,AT,Dealer,Front Wheel Drive,Black,2020.0,5.0,104000.0,100.0,1968.0,5.0,21990.0
+BMW,220,220i Cabrio Aut. M Sport,BMW 220,Gasoline,Automatic,Convertible,BE,PrivateSeller,Rear Wheel Drive,,2018.0,7.0,68000.0,135.0,1998.0,4.0,23500.0
+Audi,A6,Avant S-Line 40 TDI/quattro /Tech +/New Model,Audi A6,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2025.0,0.0,1032.0,150.0,1968.0,5.0,68880.0
+Porsche,Cayenne,Cayenne Coupé 3.0 V6 E-Hybrid,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2019.0,6.0,119000.0,250.0,2995.0,4.0,67900.0
+Aston Martin,V8,Vantage ROADSTER - Ultramarine Black,Aston Martin V8,Gasoline,Automatic,Convertible,FR,Dealer,Front Wheel Drive,Blue,2021.0,4.0,58490.0,375.0,3982.0,2.0,109990.0
+Porsche,Cayenne,E-Hybrid Aut.,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Black,2021.0,4.0,103666.0,340.0,2995.0,5.0,66690.0
+Audi,A7,55 TFSIe quattro S tronic,Audi A7,Electric/Gasoline,Automatic,Coupe,DE,PrivateSeller,,,2020.0,5.0,73500.0,270.0,1984.0,4.0,43500.0
+Audi,A7,A7 Sportback 55 TFSIe 367 S tronic 7 Quattro ultra Competition,Audi A7,Others,Automatic,Sedan,FR,PrivateSeller,,Black,2020.0,5.0,89990.0,185.0,1984.0,4.0,42500.0
+Mercedes-Benz,GLE 53 AMG,Mercedes-AMG Hybrid 4MATIC+ Nightpakket | Trekhaak,Mercedes-Benz GLE 53 AMG,Electric/Gasoline,Semi-automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2025.0,0.0,16306.0,400.0,2999.0,5.0,127950.0
+Suzuki,Vitara,1.4 Hybrid 4WD AllGrip Cool solo 12.500 km,Suzuki Vitara,Electric/Gasoline,Manual,Off-Road/Pick-up,IT,Dealer,4WD,Silver,2023.0,2.0,12500.0,95.0,1373.0,5.0,21500.0
+BMW,X5,xDrive40d M Sportpaket Pro DA. Prof. PA. Prof. B&W,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Blue,2024.0,1.0,14345.0,259.0,2993.0,5.0,109890.0
+Suzuki,S-Cross,"S-CROSS 1,4 EDITION HYBRID",Suzuki S-Cross,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Black,2025.0,0.0,10.0,95.0,1373.0,5.0,20950.0
+BMW,740,7-serie 740e M Sport - 360 Camera - Massage - El.,BMW 740,Electric/Gasoline,Automatic,Sedan,NL,Dealer,Rear Wheel Drive,Grey,2018.0,7.0,219976.0,190.0,1998.0,5.0,28750.0
+Volvo,V40,D2 Kinetic 120,Volvo V40,Diesel,Manual,Compact,ES,Dealer,Front Wheel Drive,Black,2017.0,8.0,158000.0,88.0,1969.0,5.0,11900.0
+BMW,X6,XDrive30d M SPORTPAKKET LUFT LED PANO HUD SILVERST,BMW X6,Diesel,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2024.0,1.0,10112.0,210.0,2993.0,5.0,119420.0
+Porsche,992,911 Carrera GTS Cabriolet Sportabgasanlage,Porsche 992,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Black,2023.0,2.0,7080.0,353.0,2981.0,,159911.0
+Mercedes-Benz,EQA,250+ 190ch,Mercedes-Benz EQA,Electric,Automatic,Off-Road/Pick-up,FR,Dealer,,,2025.0,0.0,5000.0,,,5.0,43990.0
+BMW,745,745e,BMW 745,Electric/Gasoline,Automatic,Sedan,DE,PrivateSeller,Rear Wheel Drive,Grey,2020.0,5.0,97000.0,210.0,2998.0,5.0,45000.0
+Porsche,Macan,4,Porsche Macan,Electric,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Blue,2025.0,0.0,10000.0,300.0,,5.0,101900.0
+Porsche,Macan,Macan S /21 Turbo Design/BOSE/CarPlay/Toit Ouvrant,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,LU,Dealer,4WD,Black,2017.0,8.0,189500.0,190.0,2967.0,5.0,33490.0
+BMW,i3,120 NaviBusiness Kamera LED Sitzheiz.,BMW i3,Electric,Automatic,Compact,DE,Dealer,Rear Wheel Drive,Black,2022.0,3.0,25150.0,125.0,1.0,4.0,19990.0
+BMW,220,220 i Active Tourer,BMW 220,Gasoline,Automatic,Van,DE,Dealer,Front Wheel Drive,Grey,2022.0,3.0,13100.0,125.0,1499.0,5.0,27950.0
+BMW,530,e xDrive Touring M Sport Aut. PANO AHK RFK NAVI,BMW 530,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,4WD,Blue,2022.0,3.0,30340.0,215.0,1998.0,5.0,42990.0
+BMW,320,320i Aut.,BMW 320,Gasoline,Automatic,Sedan,DE,PrivateSeller,,,2005.0,20.0,175000.0,110.0,1995.0,5.0,5500.0
+Volvo,V60 Cross Country,D3 Geartronic Momentum BLACK EDITION Gancio Traino,Volvo V60 Cross Country,Diesel,Automatic,Station wagon,IT,Dealer,Front Wheel Drive,Grey,2016.0,9.0,176000.0,110.0,1969.0,5.0,13500.0
+Alfa Romeo,Stelvio,Alfa Romeo Stelvio 2.2 JTDM Q4 B-Tech,Alfa Romeo Stelvio,Others,,Other,IT,PrivateSeller,,,2018.0,7.0,118656.0,,2143.0,,13220.0
+Porsche,911,992.1 CARRERA GTS COUPE PDK°LIFT°LEICHTBAU°APPROVE,Porsche 911,Gasoline,Automatic,Coupe,LU,Dealer,,Grey,2022.0,3.0,6000.0,353.0,2981.0,2.0,159999.0
+Volvo,C70,Coupe Cabriolet 2.4 d5 Summum automatica pelle,Volvo C70,Diesel,Automatic,Convertible,IT,Dealer,Front Wheel Drive,Silver,2007.0,18.0,200000.0,132.0,2401.0,4.0,5500.0
+Mercedes-Benz,C 220,C 220 d 4MATIC T-Modell,Mercedes-Benz C 220,Diesel,Automatic,Station wagon,LU,Dealer,4WD,Grey,2025.0,0.0,27472.0,145.0,1993.0,5.0,57990.0
+BMW,X2,"sDrive18d Aut Advantage 17"" Navi LED PDC SHZ",BMW X2,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Black,2021.0,4.0,110000.0,110.0,1995.0,5.0,19950.0
+Alfa Romeo,Stelvio,2.2 Turbodiesel 210 CV AT8 Q4 Veloce,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2024.0,1.0,22999.0,154.0,2143.0,5.0,44950.0
+Porsche,Macan,2.0 245cv pdk,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,,Grey,2019.0,6.0,69500.0,180.0,1984.0,5.0,49100.0
+BMW,X4 M,40i Laserlicht-Head Up-Harman Kardon Surround Soun,BMW X4 M,Gasoline,Automatic,Coupe,DE,Dealer,4WD,Grey,2025.0,0.0,24939.0,265.0,2998.0,5.0,64950.0
+Alfa Romeo,Stelvio,2.2 t Sprint rwd 160cv auto,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Rear Wheel Drive,Grey,2024.0,1.0,21651.0,118.0,2143.0,5.0,38200.0
+BMW,320,d xDrive TOURING SPORTSITZE LC PROF AHK AKUSTIK AL,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2022.0,3.0,81705.0,140.0,1995.0,5.0,30890.0
+BMW,320,d Touring Aut.,BMW 320,Diesel,Automatic,Station wagon,AT,Dealer,Rear Wheel Drive,Black,2019.0,6.0,157000.0,140.0,1995.0,5.0,19990.0
+BMW,X1,sDrive18i,BMW X1,Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,Grey,2021.0,4.0,41000.0,101.0,1499.0,5.0,22990.0
+Porsche,Macan,2000 BENZINA CV.252 TETTO + P.A.S.M.+ CERCHI 21',Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2017.0,8.0,126900.0,185.0,1984.0,5.0,35900.0
+Honda,Civic,1.8 Sport,Honda Civic,Gasoline,Automatic,Compact,DE,PrivateSeller,Front Wheel Drive,White,2011.0,14.0,244475.0,103.0,1799.0,5.0,5000.0
+BMW,X2,18i Aut. *SPORT*HUP*RF-KAMERA*NAVI*LED*,BMW X2,Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,,Blue,2020.0,5.0,46000.0,103.0,,5.0,23989.0
+BMW,X4,xDrive 35d *M-Paket*360°Kamera*AHK*ACC*UVM…,BMW X4,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2015.0,10.0,199000.0,230.0,2993.0,5.0,19890.0
+BMW,X5,xDrive45e Leder HUD Laser DrivAss Prof.ParkAss+,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2022.0,3.0,33186.0,290.0,2998.0,5.0,55512.0
+Audi,A6,quattr design Kamera*Virtual*ACC*VollLeder*19,Audi A6,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Blue,2020.0,5.0,66700.0,150.0,1968.0,5.0,30980.0
+Audi,A6,Avant Sport 45 TDI quattro AHK/LED/18-ZOLL/NAVI+V,Audi A6,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2020.0,5.0,159312.0,170.0,2967.0,5.0,28339.0
+Porsche,Cayenne,3.0 Automaat 2018 Panoramadak 32.000 KM,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,,Grey,2018.0,7.0,33264.0,251.0,2995.0,5.0,59950.0
+Mercedes-Benz,GLC 200,GLC 200 4M AMG Line/AHK/EasyP/DigitalLight/360°,Mercedes-Benz GLC 200,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Blue,2024.0,1.0,13350.0,167.0,1999.0,5.0,57780.0
+BMW,X4,Baureihe X4 xDrive30d Advantage,BMW X4,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2017.0,8.0,330000.0,190.0,2993.0,5.0,13999.0
+BMW,116,116d Msport auto,BMW 116,Diesel,Semi-automatic,Sedan,IT,PrivateSeller,,Black,2022.0,3.0,71000.0,85.0,1496.0,5.0,25900.0
+Porsche,Macan,S Diesel PDK,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2016.0,9.0,163000.0,190.0,2967.0,5.0,31100.0
+Porsche,991,Turbo Coupé / DE,Porsche 991,Gasoline,Automatic,Coupe,DE,Dealer,4WD,Silver,2015.0,10.0,61200.0,382.0,3800.0,4.0,113900.0
+BMW,218,"Coupe Luxury 150cv auto ""TAGLIANDI BMW""",BMW 218,Diesel,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Black,2016.0,9.0,130000.0,110.0,1995.0,4.0,15990.0
+Alfa Romeo,Giulia,2.2 t Veloce Q4 210cv awd auto,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,PrivateSeller,,,2017.0,8.0,149000.0,155.0,2143.0,5.0,21000.0
+Porsche,Panamera,4 S,Porsche Panamera,Gasoline,Automatic,Compact,DE,PrivateSeller,4WD,Black,2010.0,15.0,183000.0,294.0,4806.0,4.0,24900.0
+BMW,X6,M Sport 360° HUD H K 22Zoll Individual,BMW X6,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Brown,2022.0,3.0,35987.0,250.0,2993.0,5.0,79499.0
+BMW,X3,"30e xDrive,M-Paket,PHEV,Winterräder,sofort verf",BMW X3,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,4WD,Blue,2025.0,0.0,4990.0,220.0,1998.0,5.0,64990.0
+Porsche,911,Cabrio 3.6 Carrera 320cv,Porsche 911,Gasoline,Manual,Convertible,IT,PrivateSeller,Rear Wheel Drive,,2003.0,22.0,140000.0,235.0,3596.0,4.0,35000.0
+Suzuki,SX4 S-Cross,1.4L Mild Hybrid S2,Suzuki SX4 S-Cross,Gasoline,Manual,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,White,2024.0,1.0,60753.0,95.0,1373.0,5.0,18810.0
+Porsche,Macan,Macan 2.0 T 265cv TETTO VENTILATI PASM,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,,,2024.0,1.0,70000.0,195.0,1984.0,5.0,75900.0
+BMW,118,118d Msport 5p,BMW 118,Diesel,Manual,Sedan,IT,PrivateSeller,Rear Wheel Drive,White,2016.0,9.0,101500.0,110.0,1995.0,5.0,17000.0
+BMW,330,330e M-Sport Touring PHEV LED ACC Navi Kamera,BMW 330,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,,White,2022.0,3.0,102760.0,215.0,1998.0,5.0,32490.0
+BMW,M5,"Competition, Bowers & Wilkins, Shadow, HuD !",BMW M5,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Blue,2019.0,6.0,125000.0,460.0,4395.0,5.0,71900.0
+Suzuki,Vitara,1.5 Dualjet Hybrid AGS Comfort (LY),Suzuki Vitara,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2023.0,2.0,7238.0,85.0,1462.0,5.0,21590.0
+Porsche,Macan,2.0 - 245 pk **Pano / BOSE / Camera / Memory stoel,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,,Black,2019.0,6.0,66200.0,180.0,1984.0,5.0,53400.0
+Audi,A5,2.0 TDI quattro Vermittlungsverkauf,Audi A5,Diesel,Automatic,Station wagon,AT,Dealer,4WD,Grey,2015.0,10.0,106090.0,140.0,1968.0,4.0,20990.0
+BMW,118,118i,BMW 118,Gasoline,Manual,Compact,ES,Dealer,Front Wheel Drive,White,2022.0,3.0,81393.0,100.0,1499.0,5.0,17990.0
+Mercedes-Benz,GLB 200,d,Mercedes-Benz GLB 200,Diesel,Automatic,Sedan,ES,Dealer,,,2025.0,0.0,24389.0,110.0,1950.0,,45800.0
+Porsche,911,Coupe 3.8 Carrera 4S,Porsche 911,Gasoline,Automatic,Coupe,IT,Dealer,4WD,Black,2009.0,16.0,89489.0,283.0,3800.0,2.0,78000.0
+BMW,X1,"20d xDrive MSport Tetto Navi C.18"" Cam M-Sport Nav",BMW X1,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Silver,2024.0,1.0,28000.0,110.0,1995.0,5.0,47900.0
+BMW,X1,"xDrive20dA M-Sport,Navi+, HUD,Pano,AHK,DA+",BMW X1,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2021.0,4.0,87297.0,140.0,1995.0,5.0,31990.0
+Mercedes-Benz,CLA 250,Shooting Brake e Star Edition AMG Line Panorama da,Mercedes-Benz CLA 250,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,Front Wheel Drive,Black,2025.0,0.0,18903.0,120.0,1332.0,5.0,41950.0
+BMW,X4,30d xLine Adapt.LED*Pano*ACC*Leder*Head-Up*19,BMW X4,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2020.0,5.0,138000.0,195.0,2993.0,5.0,31990.0
+Porsche,Boxster,2.9 boîte manuel full carnet,Porsche Boxster,Gasoline,Manual,Convertible,BE,Dealer,Rear Wheel Drive,Black,2009.0,16.0,114000.0,191.0,2900.0,2.0,30987.0
+BMW,116,116 M Sport Edition,BMW 116,Gasoline,Manual,Station wagon,NL,PrivateSeller,Rear Wheel Drive,White,2014.0,11.0,142000.0,100.0,1598.0,4.0,10899.0
+BMW,320,dTouring*LED*ACC*Navi*Kamera*Leder*LiveCockp*,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,White,2022.0,3.0,114600.0,140.0,1995.0,5.0,25990.0
+Porsche,992,911 Carrera 4S Coupé 3.0i 450 PDK,Porsche 992,Gasoline,Automatic,Coupe,FR,Dealer,4WD,Grey,2019.0,6.0,43900.0,331.0,2981.0,4.0,134990.0
+Porsche,997,"3.6 CARRERA 2 CABRIO ""TAGLIANDI PORSCHE""",Porsche 997,Gasoline,Automatic,Convertible,IT,Dealer,Rear Wheel Drive,Grey,2006.0,19.0,95000.0,239.0,3596.0,4.0,57900.0
+BMW,X4,xdrive20d mhev 48V Msport auto,BMW X4,Electric/Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2021.0,4.0,39000.0,140.0,1995.0,5.0,59000.0
+Porsche,992,911 Carrera S Cabrio*Exclusive *Unikat UVP 298T€,Porsche 992,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Silver,2023.0,2.0,2100.0,331.0,2981.0,4.0,154990.0
+BMW,X5,i CRYSTAL PANO-SKY GESTIK H/K HUD LASER,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2022.0,3.0,34847.0,390.0,4395.0,5.0,68680.0
+Porsche,992,911 Carrera Cabriolet Sportabgas 21-Zoll LED,Porsche 992,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Blue,2021.0,4.0,12750.0,283.0,2981.0,,121880.0
+Mercedes-Benz,AMG GT,Mercedes-AMG GT 63 4M+ AERODYN. Keramik Perf-S BC,Mercedes-Benz AMG GT,Gasoline,Automatic,Coupe,DE,Dealer,4WD,Black,2024.0,1.0,14980.0,430.0,3982.0,4.0,183950.0
+Audi,A6,Avant 40 TDI quattro *STHZ*AHK*SHZ*NAV*ACC*,Audi A6,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2020.0,5.0,122582.0,150.0,1968.0,5.0,29990.0
+BMW,530,5 Serie Sedan 530e M Sport pakket | Driving Assist,BMW 530,Electric/Gasoline,Automatic,Sedan,NL,Dealer,Rear Wheel Drive,Grey,2025.0,0.0,26988.0,220.0,1998.0,5.0,58988.0
+BMW,iX3,50 xDrive Neue Klasse,BMW iX3,Electric,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,,,9000.0,345.0,,5.0,68900.0
+Honda,CR-V,Executive 4WD+PANO+AHK+KAMERA+MEMORY,Honda CR-V,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2015.0,10.0,162000.0,110.0,2199.0,5.0,14990.0
+Porsche,Boxster,S PDK,Porsche Boxster,Gasoline,Automatic,Coupe,ES,Dealer,Rear Wheel Drive,Red,2023.0,2.0,25000.0,257.0,2497.0,2.0,82900.0
+BMW,X4,X4 xDrive 20 d M Sport *AHK*Head-Up*Standheizung*,BMW X4,Diesel,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Black,2021.0,4.0,121100.0,140.0,1995.0,5.0,37890.0
+BMW,X6,xDrive 30dA,BMW X6,Diesel,Automatic,Coupe,ES,Dealer,4WD,Black,2018.0,7.0,84850.0,190.0,2993.0,5.0,40950.0
+Audi,A5,TDI quattro,Audi A5,Diesel,Automatic,Station wagon,AT,Dealer,4WD,Grey,2025.0,0.0,8000.0,150.0,1968.0,5.0,66990.0
+Audi,e-tron,"50 quattro Business edition 71 kWh - Carplay, Navi",Audi e-tron,Electric,Automatic,Off-Road/Pick-up,NL,Dealer,,Grey,2020.0,5.0,132632.0,230.0,,5.0,20845.0
+Alfa Romeo,Stelvio,2.2 t competizione q4 210cv auto,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Blue,2023.0,2.0,27697.0,154.0,2143.0,5.0,47990.0
+Mercedes-Benz,GLA 200,200 d AMG Line Premium auto,Mercedes-Benz GLA 200,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Grey,2025.0,0.0,1.0,110.0,1950.0,5.0,52900.0
+Alfa Romeo,Giulietta,1.8 TBi 16V TCT Quadrifoglio Verde,Alfa Romeo Giulietta,Gasoline,Automatic,Sedan,DE,PrivateSeller,,,2015.0,10.0,65000.0,177.0,1742.0,5.0,16500.0
+BMW,320,320d xDrive GT Aut. Sport Line,BMW 320,Diesel,Automatic,Compact,BE,PrivateSeller,,Grey,2021.0,4.0,98000.0,135.0,1995.0,5.0,27000.0
+BMW,118,Baureihe 1 Lim. 118i/SPORTLINE/KAMERA/SHZ/,BMW 118,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,White,2012.0,13.0,149000.0,125.0,1598.0,5.0,9990.0
+Porsche,Panamera,4/PANO/CARPLAY/BOSE/LUFTFED./ACC/LED,Porsche Panamera,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2017.0,8.0,169547.0,243.0,2995.0,4.0,46990.0
+Honda,CR-V,"CR-V 1,6i-DTEC Elegance 4WD Elegance",Honda CR-V,Diesel,Manual,Off-Road/Pick-up,AT,PrivateSeller,4WD,Silver,2015.0,10.0,87550.0,118.0,,5.0,19250.0
+Porsche,911,CARRERA 4S 3.8 400,Porsche 911,Gasoline,Manual,Convertible,FR,Dealer,,Yellow,2014.0,11.0,52500.0,299.0,3800.0,4.0,103500.0
+Porsche,911,Coupe 3.0 Carrera 4S auto,Porsche 911,Gasoline,Automatic,Coupe,IT,Dealer,4WD,Green,2019.0,6.0,73000.0,331.0,2981.0,4.0,118000.0
+Aston Martin,Vantage,V12 S | Aerodynamica pakket | Keramisch | Sport Se,Aston Martin Vantage,Gasoline,Automatic,Coupe,NL,Dealer,Rear Wheel Drive,Black,2014.0,11.0,36975.0,421.0,5935.0,2.0,124900.0
+Mercedes-Benz,A 200,d AMG Line 8G-DCT REGUL GPS CAM PARK KEYLESS NEUVE,Mercedes-Benz A 200,Diesel,Automatic,Sedan,FR,Dealer,4WD,Grey,2025.0,0.0,15.0,110.0,1950.0,5.0,38871.0
+Audi,Q3,35 TDI Advanced S tronic 110kW,Audi Q3,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,Grey,2020.0,5.0,49975.0,110.0,1968.0,5.0,26390.0
+Porsche,Cayenne,E-Hybrid 360 Kamera Memory Sitze Temp,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2024.0,1.0,12891.0,346.0,2995.0,5.0,90690.0
+Porsche,Macan,2.0 265cv pdk,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2022.0,3.0,42000.0,195.0,1984.0,5.0,69900.0
+Porsche,Macan,4S,Porsche Macan,Electric,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2025.0,0.0,5000.0,145.0,,5.0,126200.0
+Audi,Q7,"S-Line 50 TDI quattro / OLED, Pano, AHK, B&O",Audi Q7,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2025.0,0.0,9000.0,210.0,2967.0,5.0,92880.0
+Porsche,Macan,Turbo Exclusive Performance Edition *VOLL*,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2018.0,7.0,136000.0,324.0,3604.0,5.0,42999.0
+Porsche,992,911 Sport Classic LED-Matrix Surround-View,Porsche 992,Gasoline,Manual,Coupe,DE,Dealer,Rear Wheel Drive,Grey,2023.0,2.0,550.0,405.0,3745.0,4.0,379900.0
+Audi,A4,Lim. 35 TFSI advanced-Leder-LED-DAB-S Tronic,Audi A4,Gasoline,Automatic,Sedan,DE,Dealer,Front Wheel Drive,Silver,2020.0,5.0,146000.0,110.0,1984.0,5.0,21480.0
+BMW,X3,xDrive 20i Navi LED El. Heckklappe Live Cockpit P,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2022.0,3.0,47059.0,135.0,1998.0,5.0,36388.0
+BMW,i8,OK PERMUTA Coupe 1.5 auto tetto in carbonio,BMW i8,Electric/Gasoline,Semi-automatic,Coupe,IT,Dealer,,White,2020.0,5.0,89000.0,170.0,1499.0,4.0,89900.0
+BMW,330,xD*MSport*PANO*HUP*AHK*LED*HARMKA*LiveCockpit*,BMW 330,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Blue,2025.0,0.0,10250.0,210.0,2993.0,5.0,40444.0
+BMW,X5 M,"Panodak, 576 pk ! , Leer, Navi, dealer ondh",BMW X5 M,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2015.0,10.0,94766.0,424.0,4395.0,5.0,44950.0
+BMW,116,116d,BMW 116,Diesel,Automatic,Compact,ES,Dealer,Front Wheel Drive,Black,2021.0,4.0,64139.0,85.0,1496.0,5.0,17990.0
+Porsche,911,911 Carrera 4s,Porsche 911,Gasoline,Automatic,Coupe,DE,PrivateSeller,4WD,Black,2008.0,17.0,50000.0,283.0,3125.0,4.0,75000.0
+BMW,M3,F80 Paintwork edition,BMW M3,Gasoline,Manual,Sedan,IT,PrivateSeller,,,2016.0,9.0,111000.0,331.0,2979.0,4.0,52500.0
+Audi,Q7,55e TFSI Quattro Leder Matrix Panorama Air,Audi Q7,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2020.0,5.0,170000.0,250.0,3000.0,5.0,36900.0
+Porsche,992,Turbo S Coupé PDK,Porsche 992,Gasoline,Automatic,Coupe,ES,Dealer,4WD,Grey,2021.0,4.0,41900.0,478.0,3745.0,4.0,247900.0
+Alfa Romeo,Stelvio,"TI + Veloce AWD 2,0 16V 280",Alfa Romeo Stelvio,Gasoline,Automatic,Off-Road/Pick-up,AT,Dealer,4WD,Grey,2023.0,2.0,34825.0,206.0,1995.0,5.0,44900.0
+Audi,Q3,35 TDI Advanced S tronic 110kW,Audi Q3,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,,2020.0,5.0,48351.0,110.0,1968.0,5.0,30600.0
+Alfa Romeo,Tonale,1.6 diesel 130 CV TCT6 Super,Alfa Romeo Tonale,Diesel,Semi-automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Red,2023.0,2.0,48760.0,96.0,1598.0,5.0,22950.0
+BMW,116,116i Advantage,BMW 116,Gasoline,Manual,Compact,DE,PrivateSeller,Rear Wheel Drive,Black,2016.0,9.0,132702.0,80.0,1499.0,5.0,10000.0
+BMW,X3,xDrive 20d Luxury Line Aut.*NAVI*LED*ACC*HUD*H&K*,BMW X3,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,68534.0,140.0,1995.0,5.0,31240.0
+BMW,X5 M,M50 dAS AdBlue,BMW X5 M,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Black,2019.0,6.0,113000.0,294.0,2993.0,5.0,52950.0
+Alfa Romeo,Stelvio,2.2 t Executive Q4 210cv automatica 4x4,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,PrivateSeller,,Blue,2018.0,7.0,220000.0,154.0,2143.0,5.0,16000.0
+BMW,X1,xDrive 25d Driv.Ass+/Navi+/Head-Up/R-Kamera,BMW X1,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2021.0,4.0,36655.0,170.0,1995.0,5.0,32990.0
+Porsche,Panamera,(2) 3.0 420 4S PDK,Porsche Panamera,Gasoline,Automatic,Sedan,FR,Dealer,,Black,2014.0,11.0,112797.0,310.0,,4.0,42990.0
+BMW,730,730d xDrive Aut.,BMW 730,Diesel,Automatic,Sedan,AT,PrivateSeller,4WD,Black,2016.0,9.0,125000.0,195.0,2993.0,5.0,41500.0
+BMW,X3,2.0 sDRIVE-GPS-Leder-AUTOMAT,BMW X3,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,Front Wheel Drive,Black,2016.0,9.0,149000.0,110.0,1995.0,5.0,15995.0
+Porsche,Taycan,4S Sport Turismo,Porsche Taycan,Electric,Automatic,Station wagon,DE,Dealer,4WD,Grey,2022.0,3.0,82000.0,420.0,0.0,5.0,68900.0
+BMW,435,435i Gran Coupe,BMW 435,Gasoline,Manual,Coupe,AT,PrivateSeller,,,2016.0,9.0,98000.0,225.0,2979.0,5.0,36000.0
+Porsche,Cayenne,3.0 Aut 340PK (Pano Sportleder/Memory/Ventilatie L,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2019.0,6.0,74853.0,250.0,2995.0,5.0,65950.0
+BMW,320,"320, 320i, XDrive",BMW 320,Gasoline,Automatic,Sedan,NL,PrivateSeller,4WD,Grey,2014.0,11.0,153000.0,135.0,,5.0,14000.0
+Mercedes-Benz,E 53 AMG,Hybrid 4M+Massage+SUPERSCREEN+Pano,Mercedes-Benz E 53 AMG,Electric/Gasoline,Automatic,Station wagon,DE,Dealer,,White,2024.0,1.0,4160.0,330.0,2999.0,5.0,102977.0
+Volkswagen,Golf,1.2 TSI CUP Edition * Panorama * Keyless * Navigat,Volkswagen Golf,Gasoline,Automatic,Compact,NL,Dealer,Front Wheel Drive,Black,2014.0,11.0,136745.0,77.0,1197.0,5.0,11940.0
+BMW,330,330eA 292ch M Sport,BMW 330,Electric/Gasoline,Automatic,Sedan,FR,Dealer,,,2025.0,0.0,7000.0,,1998.0,5.0,52990.0
+BMW,640,640d Gran Coupe,BMW 640,Diesel,Automatic,Sedan,ES,Dealer,,Black,2016.0,9.0,131000.0,230.0,2993.0,5.0,28900.0
+Volvo,XC40,T3 Business 156CV,Volvo XC40,Gasoline,Manual,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Black,2019.0,6.0,80500.0,115.0,1477.0,5.0,18900.0
+BMW,118,1-serie 118i High Executive Aut. | schuifdak | led,BMW 118,Gasoline,Automatic,Compact,NL,Dealer,Rear Wheel Drive,Blue,2017.0,8.0,105091.0,100.0,1499.0,5.0,15940.0
+Hyundai,iX35,ix35 1.6 2WD 12 Monate Garantie Auf Wunsch,Hyundai iX35,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,,Black,2014.0,11.0,100309.0,99.0,1591.0,5.0,9999.0
+BMW,X1,sDrive18i High Executive Automaat Navigatie/LED.,BMW X1,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Black,2018.0,7.0,101795.0,104.0,1499.0,5.0,19745.0
+Porsche,Boxster,Boxster 2.7i,Porsche Boxster,Gasoline,Manual,Convertible,FR,PrivateSeller,,Black,2005.0,20.0,142000.0,176.0,2687.0,2.0,19400.0
+BMW,116,116d,BMW 116,Diesel,Manual,Compact,ES,Dealer,Rear Wheel Drive,Black,2016.0,9.0,246000.0,85.0,1496.0,5.0,10900.0
+BMW,116,i Klima Sitzheizung - Steuerkette & TÜV NEU,BMW 116,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,Black,2007.0,18.0,136273.0,85.0,1596.0,5.0,4990.0
+BMW,330,330e PHEV 50´anniversaire pack M,BMW 330,Electric/Gasoline,Automatic,Sedan,BE,PrivateSeller,,,2022.0,3.0,58000.0,215.0,1998.0,5.0,39499.0
+Porsche,992,coupe 3.0 carrera s auto,Porsche 992,Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Grey,2023.0,2.0,16026.0,331.0,2981.0,4.0,156911.0
+BMW,540,"d xDrive,HUD,M-Paket,Belüftung,H&K,360Kam",BMW 540,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2018.0,7.0,149789.0,235.0,2993.0,5.0,28590.0
+Porsche,Macan,3.0 S 352cv 260kw,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2021.0,4.0,41458.0,259.0,2995.0,5.0,54990.0
+BMW,530,d xDrive Luxury 360° DrivAss HUD HIFI,BMW 530,Diesel,Automatic,Sedan,DE,Dealer,4WD,Black,2020.0,5.0,80752.0,210.0,2993.0,5.0,34800.0
+BMW,330,i M-PERFORMANCE/H&K/CARPLAY/RFK/LED,BMW 330,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Silver,2017.0,8.0,83780.0,185.0,1998.0,5.0,27700.0
+Volvo,XC60,T5 Automaat Momentum | Trekhaak | Adaptive Cruise,Volvo XC60,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Grey,2018.0,7.0,118439.0,184.0,1969.0,5.0,29950.0
+BMW,230,i xDrive Coupe M-sport UNICOPROPRIETARIO,BMW 230,Gasoline,Automatic,Coupe,IT,Dealer,4WD,Blue,2017.0,8.0,96892.0,185.0,1998.0,4.0,26000.0
+Mercedes-Benz,A 180,Star Edition,Mercedes-Benz A 180,Gasoline,Automatic,Compact,BE,Dealer,Front Wheel Drive,Grey,2025.0,0.0,3073.0,100.0,1332.0,5.0,33999.0
+Porsche,Cayenne,3.0 V6 E-Hybrid,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2023.0,2.0,24018.0,346.0,2995.0,5.0,94900.0
+BMW,316,316i,BMW 316,Gasoline,Manual,Sedan,DE,PrivateSeller,Rear Wheel Drive,Black,2002.0,23.0,314500.0,85.0,1796.0,5.0,3299.0
+Porsche,991,Carrera 4S,Porsche 991,Gasoline,Automatic,Coupe,NL,Dealer,4WD,Grey,2016.0,9.0,75903.0,309.0,2980.0,4.0,114950.0
+BMW,320,320d MHEV Sport,BMW 320,Diesel,Semi-automatic,Sedan,IT,PrivateSeller,,,2021.0,4.0,55000.0,140.0,1995.0,5.0,28000.0
+Audi,A7,SPORTBACK 55TFSie 2x S LINE BLACK/ACC/PANO/20,Audi A7,Electric/Gasoline,Automatic,Sedan,DE,Dealer,4WD,Grey,2020.0,5.0,72808.0,270.0,1984.0,4.0,52665.0
+BMW,220,"220 i Coupe M SPORT SCHIEBEDACH,HARMAN/K,KAMERA",BMW 220,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Grey,2019.0,6.0,45072.0,135.0,1998.0,4.0,26460.0
+Porsche,Panamera,Sport Turismo 2.9 4 E-Hybrid Chrono pack | Elektri,Porsche Panamera,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,4WD,Grey,2018.0,7.0,145380.0,,2894.0,5.0,54900.0
+BMW,X6,xDrive30d M LUCHTVERING/LASER/PANO/HK/HUD/ACC,BMW X6,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,White,2020.0,5.0,107000.0,195.0,2993.0,5.0,58990.0
+Porsche,Macan,3.0 S 354cv pdk,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2020.0,5.0,152246.0,260.0,2995.0,5.0,52000.0
+Audi,Q8 e-tron,55 quattro MATRIX / PANO / 360° / B&O / 21”,Audi Q8 e-tron,Electric,Automatic,Off-Road/Pick-up,BE,PrivateSeller,,Black,2020.0,5.0,19857.0,300.0,,5.0,57950.0
+Alfa Romeo,Giulietta,Giulietta 1.6 jtdm Giulietta 120cv,Alfa Romeo Giulietta,Diesel,Manual,Sedan,IT,PrivateSeller,,Grey,2017.0,8.0,106000.0,88.0,1598.0,5.0,9000.0
+Aston Martin,DB11,V12/B&O/Luxury Pak/CEO Edition/1a/Garantie!,Aston Martin DB11,Gasoline,Automatic,Coupe,DE,Dealer,,Brown,2017.0,8.0,10500.0,447.0,5204.0,4.0,122900.0
+Hyundai,i10,1.0 i-Drive Cool / Airco / Trekhaak / NAP,Hyundai i10,Gasoline,Manual,Compact,NL,Dealer,,Black,2014.0,11.0,139042.0,51.0,998.0,5.0,3950.0
+Porsche,991,Carrera Cabrio / Scheckheftgepflegt,Porsche 991,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,White,2012.0,13.0,105800.0,257.0,3436.0,4.0,69900.0
+BMW,530,d Luxury Line Panorama Leder LED M-Felgen,BMW 530,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2018.0,7.0,124950.0,195.0,2993.0,5.0,23990.0
+Porsche,Boxster,Boxster 3.2S,Porsche Boxster,Gasoline,Manual,Convertible,NL,PrivateSeller,Rear Wheel Drive,Silver,2001.0,24.0,183165.0,185.0,3179.0,2.0,19986.0
+Volkswagen,Polo,Trendline Tüv & Service Neu gepflegter Zustand,Volkswagen Polo,Gasoline,Manual,Compact,DE,Dealer,Front Wheel Drive,Blue,2008.0,17.0,190000.0,44.0,,5.0,2500.0
+Mercedes-Benz,GLA 200,GLA 200 d AMG RüKam Sound AHK Tempomat KEYLESS,Mercedes-Benz GLA 200,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,,White,2025.0,0.0,4983.0,110.0,1950.0,5.0,40480.0
+Audi,A6,Avant*Sport**S line Exterieurpaket 40 TDI*S-...,Audi A6,Diesel,Automatic,Station wagon,AT,Dealer,Front Wheel Drive,Blue,2020.0,5.0,51000.0,150.0,1968.0,5.0,31840.0
+BMW,X5,xDrive45e M-Sport/Pano/Massage/Luchtvering/Laser,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Grey,2022.0,3.0,106000.0,290.0,2998.0,5.0,62499.0
+Porsche,Cayenne,Cayenne 3.6,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Blue,2008.0,17.0,183000.0,213.0,3598.0,5.0,11990.0
+Audi,Q3,35 TFSI Pro Line,Audi Q3,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Black,2020.0,5.0,73083.0,110.0,1498.0,5.0,27500.0
+BMW,318,d Touring **Navi*LED*SHZ*Temp*PDC**,BMW 318,Diesel,Manual,Station wagon,DE,Dealer,,Black,2020.0,5.0,149000.0,110.0,1995.0,5.0,16995.0
+Porsche,992,Carrera GTS,Porsche 992,Electric/Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Grey,2025.0,0.0,7900.0,398.0,3591.0,4.0,195000.0
+Suzuki,Ignis,1.5-16V Sport leuke auto,Suzuki Ignis,Gasoline,Manual,Compact,NL,Dealer,Front Wheel Drive,Yellow,2004.0,21.0,260285.0,80.0,1490.0,5.0,1995.0
+Alfa Romeo,Giulia,ALFA ROMEO GIULIA 2.2 TURBODIESEL 160 CV AT8 SUPER,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Grey,2020.0,5.0,128000.0,118.0,2143.0,5.0,20400.0
+Audi,A5,A5 Coupé 40 TDI S line S tronic 140kW S line,Audi A5,Diesel,Automatic,Coupe,ES,PrivateSeller,,White,2020.0,5.0,154000.0,140.0,1968.0,4.0,24900.0
+BMW,420,4 Serie 420i Gran Coupé M Sport,BMW 420,Gasoline,Automatic,Compact,NL,Dealer,Rear Wheel Drive,Black,2022.0,3.0,34676.0,135.0,1998.0,5.0,39950.0
+Audi,A3,"SB 30 TDI ACC,Leder-Sportstze,B&O Sound,LED,NAVI",Audi A3,Diesel,Manual,Sedan,AT,Dealer,Front Wheel Drive,Silver,2020.0,5.0,32000.0,85.0,1598.0,5.0,21990.0
+BMW,520,520d T AHK+ACC+HuD+HiFi+Park+Dakota+Memory uvm.,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Grey,2022.0,3.0,57155.0,140.0,1995.0,5.0,35999.0
+Porsche,991,Turbo S Exclusive Series I 175 500 I APPROVED,Porsche 991,Gasoline,Automatic,Coupe,DE,Dealer,4WD,Gold,2018.0,7.0,8090.0,446.0,3800.0,4.0,289911.0
+Alfa Romeo,Tonale,1.5 Hybrid 160ch Veloce TCT,Alfa Romeo Tonale,Others,Automatic,Off-Road/Pick-up,FR,Dealer,,Red,2024.0,1.0,8000.0,119.0,1469.0,5.0,38990.0
+BMW,216,i Active Tourer *FULL LED-NAVI-CUIR-CRUISE-PARK*,BMW 216,Gasoline,Manual,Van,FR,Dealer,Front Wheel Drive,Grey,2021.0,4.0,75000.0,80.0,1499.0,5.0,17490.0
+Porsche,Macan,2.0i 245 PDK PHASE 2,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,,Black,2020.0,5.0,105000.0,180.0,1984.0,,48899.0
+Volvo,XC60,2.0 Momentum 2WD Totwinkel ACC Keyless PDC,Volvo XC60,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,,White,2019.0,6.0,94111.0,140.0,1969.0,5.0,28990.0
+BMW,118,118i AUT C.L. Executive 2e eig. NL-auto SCHADEVRIJ,BMW 118,Gasoline,Automatic,Station wagon,NL,PrivateSeller,Rear Wheel Drive,Grey,2017.0,8.0,56003.0,100.0,1500.0,5.0,15495.0
+BMW,120,120dA 163ch M Sport DKG7,BMW 120,Electric/Diesel,Automatic,Sedan,FR,Dealer,,,2025.0,0.0,23638.0,,1995.0,5.0,37499.0
+Alfa Romeo,Stelvio,2.2 Turbodiesel 210 CV AT8 Q4 Veloce,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Grey,2024.0,1.0,23800.0,154.0,2143.0,5.0,38900.0
+BMW,i7,eDrive50 M-Sport | Two Tone Black Wrap | Iconic Gl,BMW i7,Electric,Automatic,Sedan,NL,Dealer,Rear Wheel Drive,White,2025.0,0.0,18061.0,,,5.0,105895.0
+Alfa Romeo,Tonale,Tonale 1.5 160 CV MHEV TCT7 Veloce,Alfa Romeo Tonale,Electric/Gasoline,Semi-automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Blue,2023.0,2.0,39500.0,118.0,1469.0,5.0,27750.0
+BMW,118,i Advantage*Keyless go*Navi*Sportfahrwerk*PDC,BMW 118,Gasoline,Automatic,Sedan,DE,Dealer,,Black,2017.0,8.0,124000.0,100.0,1499.0,5.0,10950.0
+BMW,320,xD M Sport Panorama DAB HiFi PDC AHK Alarm,BMW 320,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Grey,2022.0,3.0,98649.0,140.0,1995.0,5.0,35499.0
+BMW,330,330 E M-Sport met garantie,BMW 330,Electric/Gasoline,Automatic,Sedan,NL,PrivateSeller,,Grey,2022.0,3.0,50500.0,215.0,,5.0,37900.0
+BMW,216,Gran Tourer 216d Adv. 7-Sitze GARANTIE,BMW 216,Diesel,Manual,Van,AT,Dealer,Front Wheel Drive,Blue,2021.0,4.0,94000.0,85.0,1496.0,7.0,19980.0
+BMW,530,iPerf High Exe ACC HUD APK,BMW 530,Gasoline,Automatic,Sedan,NL,PrivateSeller,,Grey,2017.0,8.0,127858.0,185.0,1998.0,5.0,26500.0
+BMW,X1,X1 sDrive 18d Msport,BMW X1,Diesel,Semi-automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Beige,2022.0,3.0,74544.0,110.0,1995.0,5.0,32000.0
+Audi,Q2,40 2.0 TFSI quattro sport S-line AHK Navi LED RFK,Audi Q2,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,41000.0,140.0,1984.0,5.0,27800.0
+BMW,340,G21 M340d Touring mhev 48V xdrive auto - GB876WX,BMW 340,Electric/Diesel,Automatic,Station wagon,IT,Dealer,4WD,Blue,2020.0,5.0,105000.0,250.0,2993.0,5.0,33900.0
+BMW,320,320ci Coupe Eletta 170cv,BMW 320,Gasoline,Manual,Coupe,IT,PrivateSeller,Rear Wheel Drive,Black,2002.0,23.0,98500.0,125.0,2171.0,5.0,9500.0
+Audi,Q5,Sportback 2.0TDI quattro Black line S tronic 150kW,Audi Q5,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,4WD,Red,2025.0,0.0,12000.0,150.0,1968.0,5.0,75900.0
+BMW,X3,X3 xDrive 25d Aut.,BMW X3,Diesel,Automatic,Off-Road/Pick-up,AT,PrivateSeller,4WD,White,2019.0,6.0,125772.0,170.0,1995.0,5.0,31523.0
+Audi,Q5,35 TDI S line S tronic,Audi Q5,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,Silver,2020.0,5.0,72370.0,120.0,1968.0,5.0,31590.0
+Audi,Q3,Sportback 35 TFSI Business Edition 150 PK | Panora,Audi Q3,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Black,2020.0,5.0,33668.0,110.0,1498.0,5.0,36950.0
+Mercedes-Benz,B 250,e,Mercedes-Benz B 250,Electric/Gasoline,Automatic,Station wagon,ES,Dealer,,,2025.0,0.0,25000.0,160.0,,,34990.0
+BMW,X1,xDrive 25e M Sport HUD KAM PANO AHK Harman,BMW X1,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2022.0,3.0,107280.0,162.0,1499.0,5.0,25499.0
+BMW,125,1-serie 125i M-sport Led ALL-Black,BMW 125,Gasoline,Manual,Compact,NL,Dealer,Rear Wheel Drive,Black,2016.0,9.0,114729.0,160.0,1997.0,5.0,20995.0
+Porsche,Cayman,S,Porsche Cayman,Gasoline,Manual,Coupe,ES,Dealer,Rear Wheel Drive,Black,2019.0,6.0,49800.0,257.0,2497.0,2.0,54000.0
+Audi,SQ8,4.0|ACC|HUD|LUFT|KAMERA|MEMORY|PANO|B&O|R22|,Audi SQ8,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2020.0,5.0,122000.0,320.0,3956.0,5.0,65949.0
+Porsche,911,Coupè GT3,Porsche 911,Gasoline,Manual,Coupe,IT,Dealer,,White,2006.0,19.0,85000.0,305.0,3600.0,4.0,99000.0
+BMW,218,d AHK*DriveAssistPlus*ad.LED*Komfortzugang*Sitzhei,BMW 218,Diesel,Automatic,Van,DE,Dealer,Front Wheel Drive,Grey,2022.0,3.0,56014.0,110.0,1995.0,5.0,25990.0
+BMW,X6,xDrive 30dA,BMW X6,Diesel,Automatic,Coupe,ES,Dealer,4WD,Grey,2019.0,6.0,83935.0,195.0,2993.0,5.0,54445.0
+Porsche,Cayman,CAYMAN 718/ 2.H/ SPORTABGAS./ PSM/ PDK/ U-FREI/,Porsche Cayman,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Grey,2018.0,7.0,99987.0,220.0,1988.0,2.0,49990.0
+Porsche,Cayenne,*Pano*Spur*Luft*360Kamera*21 Zoll*Voll*,Porsche Cayenne,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Brown,2015.0,10.0,146410.0,193.0,2967.0,5.0,33749.0
+Volvo,V60,Kombi Inscription Kamera ACC LED CarPlay PDC,Volvo V60,Gasoline,Automatic,Station wagon,DE,Dealer,Front Wheel Drive,Black,2019.0,6.0,58500.0,140.0,1969.0,5.0,24990.0
+BMW,630,630d A Gran Turismo M Sport AHK H&K Panorama,BMW 630,Diesel,Automatic,Sedan,DE,Dealer,,Black,2019.0,6.0,77416.0,195.0,2993.0,5.0,34860.0
+BMW,X3,G01 2021 xdrive20d mhev 48V auto,BMW X3,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2022.0,3.0,113406.0,140.0,1995.0,5.0,32900.0
+BMW,116,1-serie 116i | Met Nieuwe APK | Stoelverwarming |,BMW 116,Gasoline,Manual,Compact,NL,Dealer,Rear Wheel Drive,Black,2006.0,19.0,256164.0,85.0,1596.0,5.0,1950.0
+BMW,530,d xDrive Aut.,BMW 530,Diesel,Automatic,Sedan,AT,Dealer,4WD,Black,2016.0,9.0,63000.0,190.0,2993.0,5.0,32990.0
+Volvo,XC40,T3 automatico Momentum Pro,Volvo XC40,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,,,2020.0,5.0,40188.0,120.0,,,27250.0
+Mercedes-Benz,GLC 300,de 4MATIC,Mercedes-Benz GLC 300,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,Grey,2025.0,0.0,9013.0,245.0,,,65595.0
+BMW,M3,Race Track LASER LIVE-Prof NAVI HUD,BMW M3,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,Grey,2022.0,3.0,58560.0,353.0,2993.0,5.0,72490.0
+Porsche,Panamera,3.6 4 V6,Porsche Panamera,Gasoline,Semi-automatic,Sedan,IT,PrivateSeller,,,2012.0,13.0,182000.0,220.0,3605.0,4.0,23990.0
+BMW,640,640d Coupé Aut.,BMW 640,Diesel,Automatic,Coupe,AT,PrivateSeller,Front Wheel Drive,Black,2015.0,10.0,114500.0,230.0,2993.0,4.0,31500.0
+Audi,Q5,Q5 II 40 2.0 tdi Bus. Sport quattro 190cv s-tronic,Audi Q5,Diesel,Semi-automatic,Off-Road/Pick-up,IT,Dealer,4WD,Silver,2020.0,5.0,99900.0,140.0,1968.0,5.0,28900.0
+Volvo,XC60,2.0 D4 R-Design AUT. NAV ** 18999 NETTO **,Volvo XC60,Diesel,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Black,2020.0,5.0,193969.0,120.0,1998.0,5.0,22990.0
+BMW,520,d Touring *Live*DA*Display*HUD*Standhz.*2.Hd*,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2020.0,5.0,99000.0,140.0,1995.0,4.0,26999.0
+Audi,Q3,35 TFSI S tronic advanced,Audi Q3,Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2020.0,5.0,18600.0,110.0,1498.0,5.0,25000.0
+BMW,118,i 5p. Msport GARANZIA INCLUSA,BMW 118,Gasoline,Automatic,Sedan,IT,Dealer,Front Wheel Drive,White,2020.0,5.0,68000.0,103.0,1499.0,5.0,24900.0
+Mercedes-Benz,B 200,200d,Mercedes-Benz B 200,Diesel,Automatic,Van,ES,Dealer,Front Wheel Drive,,2025.0,0.0,7000.0,110.0,1950.0,5.0,39906.0
+BMW,X1,X1 F48xdrive20d Business auto,BMW X1,Diesel,Automatic,Off-Road/Pick-up,IT,PrivateSeller,4WD,Grey,2016.0,9.0,130000.0,140.0,1995.0,5.0,16500.0
+BMW,X1,F48 Sdrive 18d xLine auto 2wd,BMW X1,Diesel,Semi-automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Grey,2017.0,8.0,128750.0,110.0,1995.0,5.0,15900.0
+BMW,216,2-serie Active Tourer 216d Corporate Lease*Navi*EC,BMW 216,Diesel,Manual,Van,NL,Dealer,Front Wheel Drive,Black,2016.0,9.0,224923.0,85.0,1496.0,5.0,6900.0
+Porsche,Macan,"S Diesel Bi-Xen PANO Kamera BOSE 21"" AHK",Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2016.0,9.0,157400.0,155.0,2967.0,5.0,29990.0
+Audi,Q2,30 TFSI 116ch,Audi Q2,Gasoline,Manual,Off-Road/Pick-up,FR,Dealer,Front Wheel Drive,Blue,2020.0,5.0,60457.0,85.0,999.0,5.0,20490.0
+BMW,135,M xdrive Steptronic con IVA esposta,BMW 135,Gasoline,Automatic,Sedan,IT,Dealer,4WD,White,2022.0,3.0,35416.0,225.0,1998.0,5.0,36599.0
+BMW,X4 M,Panorama*HUD*DrivingA+*ParkA*KEYL*NaviProf*,BMW X4 M,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Red,2019.0,6.0,76900.0,353.0,2993.0,5.0,43900.0
+BMW,X5,2.0dAS xDrive25d (PACK M) TOIT PANO-CAMERA360-CUIR,BMW X5,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Grey,2016.0,9.0,174100.0,155.0,1995.0,5.0,23900.0
+Porsche,992,"-2 (911) Carrera BOSE,Sportabg.,84l,Sport Ch",Porsche 992,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Black,2025.0,0.0,9900.0,290.0,2981.0,2.0,139800.0
+Porsche,Panamera,4 E-Hybrid Sport Turismo Platinum Edition,Porsche Panamera,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,4WD,Green,2024.0,1.0,31243.0,340.0,2894.0,5.0,109900.0
+Audi,Q3,35 TFSI S Edition ** 20inch ** Black Optic ** Stoe,Audi Q3,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,White,2020.0,5.0,67550.0,,1498.0,5.0,29950.0
+Porsche,Cayman,"-GT4 RS Weissach Clubsport,LED schwarz,Approved",Porsche Cayman,Gasoline,Automatic,Coupe,AT,Dealer,Rear Wheel Drive,Silver,2022.0,3.0,3900.0,368.0,3996.0,2.0,214900.0
+Audi,A6,3.0 TDi V6 Biturbo Competition full options,Audi A6,Diesel,Automatic,Sedan,BE,Dealer,4WD,Grey,2016.0,9.0,175000.0,240.0,2967.0,5.0,27950.0
+BMW,120,d xDrive Advantage *GlasSD*ACC*AHK*Leder*Navi,BMW 120,Diesel,Automatic,Sedan,DE,Dealer,4WD,Black,2016.0,9.0,111000.0,140.0,1995.0,5.0,16899.0
+Audi,RS Q3,Q3 Sportback RS 2.5 quattro s-tronic,Audi RS Q3,Gasoline,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,Blue,2020.0,5.0,71000.0,294.0,,5.0,54000.0
+BMW,X5,X5 xDrive30d 258 ps pano,BMW X5,Diesel,Automatic,Off-Road/Pick-up,AT,PrivateSeller,,Black,2016.0,9.0,149300.0,190.0,2993.0,5.0,24199.0
+Porsche,Cayenne,Cayenne Tiptronic S,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,BE,PrivateSeller,4WD,Black,2018.0,7.0,76000.0,250.0,2995.0,5.0,50500.0
+BMW,520,d xDrive LED SHZ DA Prof. PA WLAN DAB AHK,BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Grey,2022.0,3.0,104336.0,140.0,1995.0,5.0,29880.0
+BMW,M2,DKG LCI - H&K - M PERFORMANCE - KEYLESS,BMW M2,Gasoline,Automatic,Coupe,BE,Dealer,Rear Wheel Drive,Grey,2017.0,8.0,77000.0,272.0,2979.0,4.0,42950.0
+Porsche,Cayenne,Cayenne Diesel Tiptronic S,Porsche Cayenne,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,Black,2014.0,11.0,98000.0,180.0,2967.0,5.0,28900.0
+Porsche,991,911 Carrera 4 GTS Cabriolet BOSE Sitzbel. SHZ,Porsche 991,Gasoline,Automatic,Convertible,DE,Dealer,4WD,Black,2017.0,8.0,154000.0,331.0,,4.0,94900.0
+Alfa Romeo,Stelvio,Veloce First Edition Q4 Kamera Keyless,Alfa Romeo Stelvio,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2017.0,8.0,65000.0,206.0,1995.0,5.0,23988.0
+Volvo,S60,Kinetic SHZ Leder Klimaautom AHK-abnehmbar,Volvo S60,Gasoline,Manual,Sedan,DE,Dealer,,Blue,2011.0,14.0,124400.0,110.0,1598.0,5.0,9750.0
+BMW,118,118i Msport 5p auto,BMW 118,Gasoline,Automatic,Sedan,IT,PrivateSeller,,,2019.0,6.0,100000.0,100.0,1499.0,5.0,20000.0
+BMW,X5 M,d Motorschaden Individual,BMW X5 M,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2016.0,9.0,226000.0,280.0,2993.0,5.0,14990.0
+BMW,X4,"xDrive M Sport Aut NavProfBiXenGlasdach20""2HD",BMW X4,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2014.0,11.0,145000.0,140.0,1995.0,5.0,22990.0
+Porsche,718,Boxster T 2.0 Turbo,Porsche 718,Gasoline,Manual,Convertible,BE,PrivateSeller,Rear Wheel Drive,White,2020.0,5.0,15000.0,221.0,1988.0,2.0,64900.0
+BMW,X4,X4 xDrive20i Aut. M Sport,BMW X4,Gasoline,Automatic,Off-Road/Pick-up,DE,PrivateSeller,4WD,Grey,2019.0,6.0,75900.0,135.0,1998.0,5.0,32900.0
+BMW,X1,SDrive20i X-Line Panoramadak Headup Camera,BMW X1,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,Front Wheel Drive,Black,2021.0,4.0,160787.0,131.0,1998.0,5.0,23999.0
+BMW,520,dA Touring M-Pack,BMW 520,Diesel,Automatic,Station wagon,BE,Dealer,Rear Wheel Drive,Grey,2020.0,5.0,119000.0,120.0,1995.0,5.0,24200.0
+BMW,X2,sDrive 18iA,BMW X2,Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,White,2020.0,5.0,97890.0,103.0,1499.0,5.0,21390.0
+BMW,X6,m50d 5.0 d 380 m-performance xdrive bva serie limitee 1 sur 115 origine fr garantie 12 mois,BMW X6,Diesel,Automatic,Off-Road/Pick-up,FR,Dealer,,White,2016.0,9.0,149000.0,281.0,,5.0,36490.0
+BMW,740,7er Diesel 740d xDrive xd Allrad M-Paket AHK,BMW 740,Diesel,Automatic,Sedan,DE,PrivateSeller,4WD,Grey,2017.0,8.0,215000.0,235.0,2993.0,5.0,26500.0
+Volvo,V90,D4 Geartronic Kinetic,Volvo V90,Diesel,Automatic,Station wagon,BE,PrivateSeller,,,2018.0,7.0,172000.0,140.0,1969.0,5.0,17000.0
+Porsche,Macan,2.9 S,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2023.0,2.0,60821.0,280.0,2894.0,5.0,82500.0
+Porsche,Macan,S Diesel Aut.,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,ES,PrivateSeller,,,2018.0,7.0,176000.0,190.0,2967.0,5.0,39900.0
+BMW,220,i Coupe M Sportpaket AUT./LED/360°K/DAB,BMW 220,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Black,2022.0,3.0,4230.0,135.0,1998.0,4.0,34950.0
+Mercedes-Benz,AMG GT,BRABUS 750 auf Basis Mercedes-AMG GT 63 Coupé,Mercedes-Benz AMG GT,Gasoline,Automatic,Coupe,DE,Dealer,4WD,Grey,2025.0,0.0,1000.0,552.0,3982.0,2.0,285481.0
+Alfa Romeo,Giulia,Giulia 2016 2.2 t Veloce Q4 210cv awd auto,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,PrivateSeller,4WD,Red,2018.0,7.0,118000.0,155.0,2143.0,5.0,19990.0
+BMW,540,d xDrive M Sport LASER AHK KOMFORTSITZE H&K,BMW 540,Diesel,Automatic,Station wagon,DE,Dealer,4WD,White,2022.0,3.0,69500.0,250.0,2993.0,5.0,46900.0
+BMW,X3,xDrive20d 48V,BMW X3,Electric/Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2022.0,3.0,42650.0,140.0,1995.0,5.0,40000.0
+BMW,840,d xDrive Cabrio Msport Black edition,BMW 840,Diesel,Automatic,Convertible,IT,Dealer,4WD,Black,2019.0,6.0,104000.0,235.0,2993.0,4.0,53900.0
+BMW,418,Gran Coupé 418 d Pack M Attache remorque Elec,BMW 418,Diesel,Manual,Coupe,BE,PrivateSeller,Rear Wheel Drive,Blue,2017.0,8.0,163000.0,110.0,1995.0,5.0,16450.0
+Alfa Romeo,Giulietta,Giulietta III 2016 1.6 jtdm Tech Edition 120cv,Alfa Romeo Giulietta,Diesel,Manual,Sedan,IT,PrivateSeller,,White,2018.0,7.0,103000.0,88.0,1598.0,5.0,12900.0
+Suzuki,SX4,S-Cross 1.6 Klima Parkhilfe Tempo,Suzuki SX4,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,,White,2015.0,10.0,84948.0,88.0,1586.0,5.0,9490.0
+Porsche,911,911 Carrera 4S TETTUCCIO APRIBILE ELETTRICO,Porsche 911,Gasoline,Automatic,Coupe,IT,Dealer,4WD,Black,2020.0,5.0,53609.0,331.0,2981.0,4.0,123900.0
+Porsche,992,"911 Carrera Cabriolet *LED*Navi*LM20""*Kamera*",Porsche 992,Gasoline,Automatic,Convertible,DE,Dealer,Rear Wheel Drive,Black,2020.0,5.0,34400.0,283.0,2981.0,4.0,115980.0
+BMW,330,E91 Touring 330d Leder Braun Schalter,BMW 330,Diesel,Manual,Station wagon,DE,Dealer,Rear Wheel Drive,Black,2005.0,20.0,344345.0,170.0,2993.0,5.0,2990.0
+Volvo,XC40,1.5 T5 Recharge Plug-in-Hybrid Inscription,Volvo XC40,Electric/Gasoline,Semi-automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,White,2020.0,5.0,35107.0,132.0,1477.0,5.0,26900.0
+Porsche,Cayenne,S Tiptronic,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,LU,PrivateSeller,,,2005.0,20.0,150000.0,250.0,4511.0,5.0,13000.0
+Audi,A6,2.0 TDI quattro S tronic Navi TechPlus,Audi A6,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2025.0,0.0,1890.0,150.0,1968.0,5.0,64990.0
+Suzuki,Jimny,Comfort+ AllGrip KLIMAAUT/AHK/LED,Suzuki Jimny,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,4WD,Yellow,2020.0,5.0,38913.0,75.0,1462.0,,27780.0
+BMW,318,"3er 318i,Klima,AHK,Sitzheizung,Alu,SD,Tüv 11/27",BMW 318,Gasoline,Manual,Sedan,DE,Dealer,Rear Wheel Drive,Silver,2000.0,25.0,218000.0,87.0,1895.0,5.0,2599.0
+BMW,X5,45e xDrive M-PACK **LED/LEDER/HUD/CAM/NAV/H&K**,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Black,2021.0,4.0,70635.0,290.0,2998.0,5.0,53950.0
+BMW,X5,"xDrive35i High Executive, Memory seats, LED, Afn.",BMW X5,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2017.0,8.0,99700.0,225.0,2979.0,5.0,39950.0
+Audi,Q6 e-tron,"qu. S line /Matrix/Leder/0,25% Besteuerung",Audi Q6 e-tron,Electric,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Blue,2025.0,0.0,5074.0,285.0,,5.0,73990.0
+BMW,X3,xDrive30e Aut.,BMW X3,Electric/Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2022.0,3.0,58752.0,135.0,1998.0,5.0,30900.0
+Audi,Q5,Advanced 35 TDI 120kW S tronic,Audi Q5,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,White,2020.0,5.0,114365.0,123.0,,5.0,28590.0
+BMW,320,F31/LCi/Touring/M-Paket/360°/AHK/HUD,BMW 320,Diesel,Automatic,Station wagon,AT,PrivateSeller,Rear Wheel Drive,Black,2015.0,10.0,266000.0,140.0,1995.0,5.0,15999.0
+Porsche,992,992.1 4S,Porsche 992,Gasoline,,Other,IT,PrivateSeller,,White,2019.0,6.0,90000.0,331.0,,2.0,120000.0
+Porsche,Cayenne,3.0 tiptronic,Porsche Cayenne,Diesel,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2016.0,9.0,270000.0,184.0,2967.0,5.0,25500.0
+BMW,118,D Advantage,BMW 118,Diesel,Manual,Sedan,FR,Dealer,Front Wheel Drive,Black,2020.0,5.0,73746.0,110.0,1995.0,,20990.0
+Porsche,Cayenne,"S 4.8 Nav/Leder/Bi-Xenon/Temp/SHZ/20""LM",Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2013.0,12.0,189600.0,294.0,4806.0,5.0,17995.0
+BMW,320,i Touring|Kopfdichtungschaden|PanoramaS-Dach,BMW 320,Gasoline,Manual,Station wagon,DE,Dealer,,Blue,2006.0,19.0,172950.0,110.0,1995.0,5.0,1999.0
+BMW,520,"d xD Luxury L,DA Prof.,HUD,Kamera,AHK,Harman",BMW 520,Diesel,Automatic,Station wagon,DE,Dealer,4WD,Black,2022.0,3.0,172950.0,140.0,1995.0,5.0,24999.0
+BMW,118,118d,BMW 118,Diesel,Manual,Compact,ES,Dealer,Front Wheel Drive,Black,2022.0,3.0,69904.0,110.0,1995.0,5.0,26690.0
+BMW,318,3-serie Touring 318i M Sport Corporate Lease - Die,BMW 318,Gasoline,Automatic,Station wagon,NL,Dealer,Rear Wheel Drive,Black,2019.0,6.0,174914.0,100.0,1499.0,5.0,11450.0
+BMW,420,4-serie Gran Coupé 420i High Executive,BMW 420,Gasoline,Automatic,Compact,NL,Dealer,Rear Wheel Drive,Brown,2015.0,10.0,203285.0,135.0,1997.0,5.0,14975.0
+Porsche,992,992 Carrera Cabrio 3.0 automatica,Porsche 992,Gasoline,Automatic,Convertible,IT,PrivateSeller,,Black,2024.0,1.0,7500.0,283.0,2981.0,4.0,146000.0
+BMW,118,i Sport Line Automatik Kamera Navi LED DAB Sportsi,BMW 118,Gasoline,Automatic,Sedan,DE,Dealer,Front Wheel Drive,White,2020.0,5.0,60700.0,103.0,1499.0,5.0,19950.0
+Porsche,Boxster,Boxster S,Porsche Boxster,Gasoline,Manual,Convertible,DE,PrivateSeller,,White,2008.0,17.0,75000.0,217.0,3387.0,2.0,36500.0
+Volvo,V40,1.9 D Zahnriemen 2023 bei 147.778 km erneuert,Volvo V40,Diesel,Manual,Station wagon,DE,Dealer,Front Wheel Drive,Black,2001.0,24.0,153000.0,85.0,1870.0,5.0,3990.0
+Porsche,992,GT3 RS PCCB Lift Matrix Bose,Porsche 992,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Black,2023.0,2.0,9990.0,386.0,3996.0,2.0,319900.0
+Audi,e-tron GT,e-tron GT S quattro*LASER*PANO*HUD*21ZOLL*NAVI-P,Audi e-tron GT,Electric,Automatic,Sedan,DE,Dealer,4WD,Grey,2025.0,0.0,6500.0,435.0,,5.0,103299.0
+Porsche,911,997 4S *** MANUAL / XENON / SPORT EXHAUST ***,Porsche 911,Gasoline,Manual,Coupe,BE,Dealer,4WD,Black,2006.0,19.0,122946.0,261.0,3824.0,4.0,69950.0
+Porsche,718,Boxster,Porsche 718,Gasoline,Automatic,Convertible,AT,Dealer,Rear Wheel Drive,Green,2023.0,2.0,1500.0,220.0,1988.0,2.0,94718.0
+BMW,840,d xDrive M-Sport Pro Laser/B&W/Panorama-Voll!,BMW 840,Diesel,Automatic,Coupe,DE,Dealer,4WD,Grey,2022.0,3.0,134000.0,250.0,2993.0,5.0,56900.0
+Audi,Q5,Q5 30 TDi Business Edition Advanced S tronic,Audi Q5,Diesel,Automatic,Off-Road/Pick-up,BE,Dealer,,Black,2020.0,5.0,121533.0,100.0,1968.0,5.0,24805.0
+Porsche,991,Carrera S Coupè/C07/CHRONO/PASM/PSE/TETTO/SERV.,Porsche 991,Gasoline,Semi-automatic,Coupe,IT,Dealer,Rear Wheel Drive,White,2012.0,13.0,89900.0,294.0,3800.0,4.0,79000.0
+Porsche,992,.2 Targa 4 GTS InnoDrive/Lift/18-Wege/BOSE/M,Porsche 992,Gasoline,Automatic,Convertible,DE,Dealer,4WD,Black,2024.0,1.0,900.0,398.0,3591.0,4.0,208690.0
+Audi,Q2,30 TDI Advanced S tronic 85kW,Audi Q2,Diesel,Automatic,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,White,2020.0,5.0,55702.0,85.0,1968.0,5.0,23500.0
+BMW,218,2 Serie Gran Tourer 218i Executive Sport Line 7 pe,BMW 218,Gasoline,Manual,Van,NL,Dealer,Front Wheel Drive,Black,2020.0,5.0,124385.0,104.0,1499.0,7.0,17950.0
+BMW,118,Serie 1 F40 118d Msport auto,BMW 118,Diesel,Automatic,Sedan,IT,PrivateSeller,Front Wheel Drive,Grey,2022.0,3.0,45000.0,110.0,1995.0,5.0,30000.0
+Porsche,Cayenne,coupe 4.0 turbo s e-hybrid 5p.ti tiptronic,Porsche Cayenne,Electric/Gasoline,Automatic,Coupe,IT,Dealer,4WD,Grey,2019.0,6.0,111483.0,500.0,3996.0,5.0,89500.0
+BMW,118,118 i Edition Sport Line Shadow,BMW 118,Gasoline,Automatic,Compact,DE,PrivateSeller,Rear Wheel Drive,White,2019.0,6.0,78500.0,100.0,1499.0,5.0,17800.0
+BMW,216,Gran Tourer 216 d*M-look,BMW 216,Diesel,Manual,Van,BE,Dealer,Front Wheel Drive,Black,2017.0,8.0,77000.0,85.0,1496.0,5.0,12900.0
+Suzuki,Vitara,1.5 DUAJET HEV Comfort Navi/Sitzhzg./All.,Suzuki Vitara,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Grey,2025.0,0.0,19578.0,85.0,1462.0,5.0,22990.0
+Porsche,Macan,S Diesel Pano 21Zoll Luftfed el.AHK,Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Silver,2016.0,9.0,86674.0,190.0,2967.0,5.0,43990.0
+Volvo,V90 Cross Country,D4 AWD CC PRO GEAR,Volvo V90 Cross Country,Diesel,Automatic,Station wagon,IT,Dealer,4WD,Grey,2017.0,8.0,120000.0,140.0,1969.0,5.0,29000.0
+Porsche,Boxster,2.9. CAMBIO MANUALE BELLISSIMA,Porsche Boxster,Gasoline,Manual,Convertible,IT,Dealer,,,2011.0,14.0,145000.0,188.0,2893.0,2.0,30000.0
+BMW,325,ci E46 '2001 CH01373,BMW 325,Gasoline,Manual,Convertible,BE,Dealer,,Blue,2001.0,24.0,145470.0,141.0,2494.0,4.0,11250.0
+Mercedes-Benz,CLA 250,e AMG Line (EURO 6d),Mercedes-Benz CLA 250,Diesel,Automatic,Compact,ES,Dealer,,,2025.0,0.0,6000.0,120.0,1332.0,,48900.0
+BMW,118,i NAVI LED PDC V+H DAB Tempomat Sitzheiz. LM,BMW 118,Gasoline,Manual,Sedan,DE,Dealer,Front Wheel Drive,Black,2022.0,3.0,84554.0,100.0,1499.0,5.0,18495.0
+Porsche,992,GT3 RS,Porsche 992,Gasoline,Automatic,Coupe,IT,Dealer,Rear Wheel Drive,Grey,2023.0,2.0,8800.0,386.0,3996.0,2.0,305900.0
+BMW,X3,M40i xDrive M-Sport | Pano | Sportstoelen | Dealer,BMW X3,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2020.0,5.0,94644.0,265.0,2998.0,5.0,54700.0
+BMW,430,430iGranCoupé*M Sport*LED*Navi*ACC*H&K*S.-Dach*,BMW 430,Gasoline,Automatic,Sedan,DE,Dealer,Rear Wheel Drive,Blue,2022.0,3.0,49300.0,180.0,1998.0,5.0,38990.0
+BMW,X5,xDrive35i Navigatie Leder Cruise Control Trekhaak,BMW X5,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2014.0,11.0,179093.0,225.0,2979.0,5.0,23950.0
+Porsche,Macan,4,Porsche Macan,Electric,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Green,2025.0,0.0,9000.0,300.0,,5.0,99900.0
+BMW,XM,50E / M-SPORT / B&W / DRIV PRO / TREKHK / SFT-CLS,BMW XM,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,,2024.0,1.0,25795.0,350.0,2998.0,5.0,119950.0
+Alfa Romeo,Tonale,Tonale 1.6 diesel 130 CV TCT6 Ti,Alfa Romeo Tonale,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,Front Wheel Drive,Red,2023.0,2.0,20000.0,96.0,1598.0,5.0,30890.0
+Alfa Romeo,Stelvio,Stelvio 2.2 t Sprint Q4 190cv auto,Alfa Romeo Stelvio,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2021.0,4.0,138000.0,140.0,2143.0,5.0,22990.0
+Audi,Q8,60 TFSI e quattro S Competition B&O High-End 169k,Audi Q8,Electric/Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Black,2025.0,0.0,15.0,360.0,2995.0,5.0,127995.0
+Porsche,996,,Porsche 996,Gasoline,Automatic,Coupe,DE,PrivateSeller,4WD,Blue,2001.0,24.0,94520.0,221.0,,,29500.0
+BMW,116,116i M Sport Edition,BMW 116,Gasoline,Manual,Sedan,BE,Dealer,Rear Wheel Drive,Black,2018.0,7.0,102811.0,80.0,,4.0,11990.0
+Volvo,C70,Convertible 2.0 T Luxury Line | Autom. | Distr. VV,Volvo C70,Gasoline,Automatic,Convertible,NL,Dealer,Front Wheel Drive,Green,2000.0,25.0,140071.0,120.0,1984.0,4.0,6749.0
+Porsche,Macan,"S Diesel,Matrix-LED,Pano,Standheizung,4x4,AHK sch.",Porsche Macan,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2017.0,8.0,192027.0,190.0,,5.0,29999.0
+Mercedes-Benz,EQS SUV,EQS 580 4Matic AMG Fahrass Pano Burmester Distr+,Mercedes-Benz EQS SUV,Electric,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Grey,2023.0,2.0,11411.0,400.0,,5.0,94890.0
+Alfa Romeo,MiTo,1.4 Quadrifoglio Verde Sabelt TCT 170cv Q2 Limited,Alfa Romeo MiTo,Gasoline,Automatic,Coupe,IT,Dealer,Front Wheel Drive,Grey,2014.0,11.0,140000.0,125.0,1368.0,4.0,12000.0
+Porsche,992,911 Carrera 4-LED-PANO-CARPL-CAM-SPORTCHRONO,Porsche 992,Gasoline,Automatic,Coupe,BE,Dealer,4WD,Black,2020.0,5.0,61560.0,283.0,2981.0,4.0,107999.0
+Porsche,Cayman,718 PDK *PDLS*Sport-AGA*Approved*,Porsche Cayman,Gasoline,Automatic,Coupe,DE,Dealer,Rear Wheel Drive,Silver,2021.0,4.0,36000.0,220.0,1988.0,2.0,61990.0
+BMW,X1,sDrive 18d,BMW X1,Diesel,Manual,Off-Road/Pick-up,ES,PrivateSeller,,,2016.0,9.0,157600.0,110.0,1995.0,5.0,15700.0
+Mercedes-Benz,E 300,E 300 de 4MATIC T-Modell All-Terrain,Mercedes-Benz E 300,Electric/Diesel,Automatic,Station wagon,LU,Dealer,4WD,Grey,2024.0,1.0,17805.0,145.0,1993.0,5.0,96990.0
+Porsche,997,911 Carrera 4S Cabriolet PDK,Porsche 997,Gasoline,Automatic,Convertible,AT,PrivateSeller,,,2011.0,14.0,103000.0,283.0,3800.0,4.0,77500.0
+BMW,840,d xDrive Cabrio M/HUD/H&K/360/Nackenwärmer/20,BMW 840,Diesel,Automatic,Convertible,DE,Dealer,4WD,White,2020.0,5.0,39782.0,235.0,2993.0,4.0,59950.0
+BMW,116,116d,BMW 116,Diesel,Manual,Compact,ES,Dealer,Rear Wheel Drive,White,2019.0,6.0,142660.0,85.0,1496.0,5.0,14537.0
+BMW,X4,X4 xDrive30d Aut. xLine,BMW X4,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,4WD,White,2016.0,9.0,141000.0,190.0,2993.0,5.0,24499.0
+BMW,318,3-serie 318i Executive Edition * Sportstoelen * Hi,BMW 318,Gasoline,Automatic,Sedan,NL,Dealer,Rear Wheel Drive,Grey,2021.0,4.0,141426.0,115.0,1998.0,5.0,24950.0
+BYD,ETP3,ETP3 8J.-GARANTIE KAMERA SITZHZ,BYD ETP3,Electric,Automatic,Van,DE,Dealer,Rear Wheel Drive,White,2025.0,0.0,23.0,100.0,,2.0,17880.0
+Audi,e-tron,"50 quattro edition 71 kWh - Carplay, Navi, Cruise",Audi e-tron,Electric,Automatic,Off-Road/Pick-up,NL,Dealer,,Blue,2020.0,5.0,90471.0,230.0,,5.0,21845.0
+Alfa Romeo,147,1.6 TS 16V 120 Quadrifoglio Verde,Alfa Romeo 147,Gasoline,Manual,Sedan,DE,Dealer,Front Wheel Drive,,2009.0,16.0,216145.0,88.0,,5.0,1990.0
+BMW,440,440i GranCoupé xDrive M-Sport DEUTSCH*ACC*HUD*HK,BMW 440,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Grey,2019.0,6.0,95190.0,240.0,2998.0,5.0,34980.0
+Volvo,XC90,3.2 AWD Geartronic Sport Schuifdak l Navi l Trekha,Volvo XC90,Gasoline,Automatic,Off-Road/Pick-up,NL,Dealer,4WD,Grey,2007.0,18.0,144218.0,175.0,3192.0,5.0,24950.0
+Porsche,Panamera,4.0 Turbo S E-Hybrid Sport Turismo ACC Massage PDL,Porsche Panamera,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,4WD,Blue,2023.0,2.0,54000.0,514.0,3996.0,4.0,144900.0
+Suzuki,Celerio,,Suzuki Celerio,Gasoline,Manual,Sedan,IT,Dealer,Front Wheel Drive,,2016.0,9.0,240000.0,50.0,998.0,5.0,699.0
+Aston Martin,Vantage,,Aston Martin Vantage,Gasoline,Manual,Coupe,FR,Dealer,,Grey,2007.0,18.0,37830.0,282.0,,2.0,59900.0
+Suzuki,Vitara,1.4 Mild-Hybrid Comfort 4x2,Suzuki Vitara,Electric/Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,Silver,2024.0,1.0,29990.0,95.0,1373.0,5.0,19990.0
+Audi,,performance S-line Tech Plus AHK,,Electric,Automatic,Station wagon,DE,Dealer,Rear Wheel Drive,Grey,2025.0,0.0,9760.0,270.0,,5.0,73980.0
+Audi,RS6,AUDI RS6 820CV ceramic,Audi RS6,Electric/Gasoline,Semi-automatic,Station wagon,IT,PrivateSeller,,,2020.0,5.0,100000.0,603.0,3996.0,5.0,75000.0
+Porsche,992,GT3 TOURING,Porsche 992,Gasoline,Automatic,Coupe,LU,Dealer,,Grey,2023.0,2.0,5700.0,375.0,3996.0,2.0,197990.0
+Porsche,992,4s 3.0 Carrera possibilità noleggio no scoring,Porsche 992,Gasoline,Automatic,Coupe,IT,Dealer,4WD,Black,2023.0,2.0,6500.0,331.0,2981.0,4.0,162900.0
+Suzuki,Ignis,Hybrid Comfort+ Tempomat DAB Navi Kamera,Suzuki Ignis,Gasoline,Manual,Compact,DE,Dealer,Front Wheel Drive,Silver,2024.0,1.0,3990.0,61.0,1197.0,4.0,19900.0
+BMW,X7,d/HUD/StandHZG/AHK/Panorama/Navi/Leder,BMW X7,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2019.0,6.0,142300.0,294.0,2993.0,7.0,56900.0
+Suzuki,SX4 S-Cross,1.4 BoosterJet Mild-Hybrid Comfort*NAVI*ACC*AHK*,Suzuki SX4 S-Cross,Gasoline,Manual,Off-Road/Pick-up,DE,Dealer,Front Wheel Drive,White,2020.0,5.0,49611.0,95.0,1373.0,5.0,16980.0
+Porsche,992,911 Carrera Coupe 3.0 394cv auto,Porsche 992,Gasoline,Automatic,Coupe,IT,Dealer,,Green,2025.0,0.0,1037.0,290.0,2981.0,4.0,170900.0
+BMW,X6,xDrive 40dA,BMW X6,Diesel,Automatic,Coupe,ES,Dealer,4WD,Grey,2013.0,12.0,245000.0,225.0,2993.0,4.0,21990.0
+Audi,A6,Avant 55 TFSI e quattro Competition / Panoramadak,Audi A6,Electric/Gasoline,Automatic,Station wagon,NL,Dealer,4WD,Black,2020.0,5.0,105459.0,270.0,1984.0,5.0,38950.0
+Porsche,Cayenne,Cayenne Coupé 3.0i V6 - 450 - BVA Tiptronic S COUPE E-Hybrid,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,FR,Dealer,,Black,2021.0,4.0,41000.0,250.0,2995.0,,74990.0
+Alfa Romeo,Giulia,2.2 t Business 136CV AT8 LED CAR PLAY,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Grey,2020.0,5.0,154000.0,100.0,2143.0,5.0,17999.0
+Porsche,Macan,Macan,Porsche Macan,Gasoline,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,White,2023.0,2.0,24400.0,195.0,1984.0,5.0,88950.0
+Mitsubishi,Outlander,Outlander 2.0 4WD GPL Bi-fuel CVT Instyle SDA 7 p,Mitsubishi Outlander,LPG,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Silver,2021.0,4.0,128000.0,110.0,1998.0,7.0,20900.0
+Porsche,Panamera,2.9 4 E-Hybrid Sport Turismo Platinum Ed. GARANZIA,Porsche Panamera,Electric/Gasoline,Automatic,Station wagon,IT,Dealer,4WD,Black,2023.0,2.0,33000.0,243.0,2894.0,5.0,107900.0
+BMW,530,530d Touring Aut.,BMW 530,Diesel,Automatic,Station wagon,DE,PrivateSeller,Rear Wheel Drive,Black,2018.0,7.0,137000.0,195.0,2993.0,5.0,24499.0
+Honda,Jazz,"1.2 KLIMA, TÜV UND INSPEKTION NEU",Honda Jazz,Gasoline,Manual,Compact,DE,Dealer,Front Wheel Drive,Red,2012.0,13.0,91922.0,66.0,1198.0,5.0,5700.0
+BMW,440,440i Coupe Vollaustt. 20 zoll M Performance 360 ps,BMW 440,Gasoline,Automatic,Coupe,DE,PrivateSeller,,,2017.0,8.0,165000.0,240.0,2998.0,4.0,22500.0
+Mercedes-Benz,GLA 200,200 d AMG Line Advanced Plus 4matic auto,Mercedes-Benz GLA 200,Diesel,Automatic,Off-Road/Pick-up,IT,Dealer,4WD,Black,2025.0,0.0,9438.0,110.0,1950.0,5.0,46990.0
+Porsche,Cayenne,3.0 e-hybrid tiptronic,Porsche Cayenne,Electric/Gasoline,Semi-automatic,Off-Road/Pick-up,IT,PrivateSeller,,,2021.0,4.0,160000.0,250.0,2995.0,5.0,55000.0
+Porsche,Cayenne,PDLS Panorama BOSE Deutsch Orig.28`km,Porsche Cayenne,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,28500.0,250.0,2995.0,5.0,62800.0
+Alfa Romeo,Giulia,2.2 Turbo Executive,Alfa Romeo Giulia,Diesel,Automatic,Sedan,IT,Dealer,Rear Wheel Drive,Grey,2021.0,4.0,79118.0,118.0,2143.0,5.0,25899.0
+BMW,M3,M3 G80 2019 Berlina 3.0 Competition auto,BMW M3,Gasoline,Semi-automatic,Sedan,IT,PrivateSeller,Rear Wheel Drive,Grey,2021.0,4.0,70000.0,375.0,2993.0,5.0,65000.0
+Porsche,Cayenne,E-Hybrid Head-Up LED-Matrix Soft-Close,Porsche Cayenne,Electric/Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Black,2020.0,5.0,78885.0,340.0,2995.0,5.0,69800.0
+Mercedes-Benz,CLA 200,Shooting Brake AMG Line | Panorama - Schuifdak | N,Mercedes-Benz CLA 200,Gasoline,Automatic,Station wagon,NL,Dealer,Front Wheel Drive,Silver,2025.0,0.0,14896.0,120.0,1332.0,5.0,42895.0
+Mercedes-Benz,AMG GT,53 4M+ Night 360°-K KEYLESS-GO DISTRONIC+ Aerodyna,Mercedes-Benz AMG GT,Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2024.0,1.0,3000.0,320.0,2999.0,5.0,98800.0
+BMW,X3 M,X3 M40d,BMW X3 M,Diesel,Automatic,Off-Road/Pick-up,DE,PrivateSeller,,,2019.0,6.0,58000.0,240.0,2993.0,5.0,43990.0
+BMW,,X7 M60i xDrive Individua/M Sportpaket Pro/360°K,,Gasoline,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,Green,2022.0,3.0,20850.0,390.0,4395.0,7.0,109950.0
+BMW,X5,X5 xDrive45e*BMW INDIVIDUAL*LEDER*TREKHAAK*BTW*,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Black,2021.0,4.0,82864.0,155.0,2998.0,5.0,49499.0
+Porsche,Taycan,Taycan Cross Turismo Turbo 5posti,Porsche Taycan,Electric,Automatic,Station wagon,IT,PrivateSeller,4WD,Green,2022.0,3.0,54800.0,500.0,,5.0,75000.0
+Suzuki,Vitara,1.5 Dualjet Hybrid GLE 4x4,Suzuki Vitara,Electric/Gasoline,Automatic,Off-Road/Pick-up,ES,Dealer,,Beige,2022.0,3.0,83749.0,,,5.0,17904.0
+BMW,760,e HIGH.B&W.EXDRIVE.PRO.MASSAGE.KRISTALL,BMW 760,Electric/Gasoline,Automatic,Sedan,DE,Dealer,4WD,Black,2025.0,0.0,9900.0,420.0,2998.0,5.0,134990.0
+BMW,330,3-serie 330e M-sport | Schuifdak | Leder | H&K | 3,BMW 330,Electric/Gasoline,Automatic,Sedan,NL,Dealer,Rear Wheel Drive,Blue,2020.0,5.0,81633.0,215.0,1998.0,5.0,34495.0
+BMW,116,116i,BMW 116,Gasoline,Manual,Sedan,DE,PrivateSeller,,,2005.0,20.0,242000.0,85.0,1596.0,5.0,500.0
+BMW,M3,Berline Competition Individual,BMW M3,Gasoline,Automatic,Sedan,BE,Dealer,Rear Wheel Drive,Blue,2021.0,4.0,31774.0,375.0,2993.0,5.0,72830.0
+Porsche,911,TYPE 992 TURBO S PDK 650 CV - MONACO,Porsche 911,Gasoline,,Coupe,FR,Dealer,4WD,Blue,2023.0,2.0,1990.0,478.0,,4.0,249900.0
+Alfa Romeo,Brera,2.0 jtdm 170cv,Alfa Romeo Brera,Diesel,Manual,Coupe,IT,PrivateSeller,,,2010.0,15.0,213000.0,125.0,1956.0,4.0,6200.0
+BMW,318,ti Compact Klima 8-fach bereift 17 Zoll Sitzheizun,BMW 318,Gasoline,Manual,Sedan,DE,PrivateSeller,Rear Wheel Drive,Blue,2004.0,21.0,229000.0,105.0,1995.0,5.0,1490.0
+BMW,X5,Xdrive 40e Autom. - Pano - GPS- Goede Staat!,BMW X5,Electric/Gasoline,Automatic,Off-Road/Pick-up,BE,Dealer,4WD,Black,2016.0,9.0,189869.0,180.0,1997.0,5.0,19990.0
+BMW,M2,M2 F87 Coupe Coupe 3.0 Competition 410cv dkg,BMW M2,Gasoline,Semi-automatic,Coupe,IT,PrivateSeller,Rear Wheel Drive,Silver,2020.0,5.0,47500.0,302.0,2979.0,4.0,54000.0
+Hyundai,iX35,1.7CRDI Kosmo Sky 4x2,Hyundai iX35,Diesel,Manual,Off-Road/Pick-up,ES,Dealer,Front Wheel Drive,Grey,2014.0,11.0,127000.0,84.0,1685.0,5.0,14999.0
+BMW,X5,xDrive 30 d AHK/STOP&GO/HUD/LED/LEDER,BMW X5,Diesel,Automatic,Off-Road/Pick-up,DE,Dealer,4WD,White,2019.0,6.0,96700.0,195.0,2993.0,5.0,44899.0
+BMW,218,Gran Coupe d Sport Line *LED*ACC*Live+*HiFi*,BMW 218,Diesel,Automatic,Sedan,DE,Dealer,Front Wheel Drive,Black,2020.0,5.0,82688.0,110.0,1995.0,5.0,25380.0
+BMW,640,640d xDrive Gran Coupe M Sport Edition,BMW 640,Diesel,Automatic,Coupe,BE,PrivateSeller,,,2014.0,11.0,149500.0,230.0,2993.0,5.0,19500.0
+BMW,318,318d Business Advantage auto,BMW 318,Diesel,Semi-automatic,Sedan,IT,PrivateSeller,,,2016.0,9.0,172000.0,110.0,1995.0,5.0,11000.0

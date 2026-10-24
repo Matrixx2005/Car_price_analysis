@@ -1,0 +1,12 @@
+column,n_unique,n_non_missing,pct_missing,level,top_category,top_category_share_pct,top10_share_pct,n_cat_count_eq1,n_cat_count_lt5,n_cat_count_lt10,pct_cats_lt5,pct_cats_lt10,pct_rows_in_cats_lt5,pct_rows_in_cats_lt10,n_case_variant_groups,n_values_format_issue
+model_version,71015,93538,0.772,high (>50),E-Hybrid,0.14,1.16,63854,69713,70560,98.17,99.36,82.792,88.444,647,2964
+make_model,603,93555,0.754,high (>50),Porsche Cayenne,5.66,30.99,92,181,249,30.02,41.29,0.37,0.833,0,0
+model,602,93555,0.754,high (>50),Cayenne,5.66,30.99,91,180,248,29.9,41.2,0.369,0.832,0,0
+brand,25,94266,0.0,medium (11-50),BMW,38.68,98.12,0,0,1,0.0,4.0,0.0,0.005,0,0
+body_color,14,82907,12.05,medium (11-50),Black,34.37,99.07,0,0,0,0.0,0.0,0.0,0.0,0,0
+fuel_type,9,94212,0.057,low (<=10),Gasoline,46.66,100.0,0,0,1,0.0,11.11,0.0,0.006,0,0
+body_type,8,94266,0.0,low (<=10),Off-Road/Pick-up,37.45,100.0,0,0,0,0.0,0.0,0.0,0.0,0,0
+country_code,8,94254,0.013,low (<=10),DE,34.5,100.0,0,0,0,0.0,0.0,0.0,0.0,0,0
+transmission,3,93505,0.807,low (<=10),Automatic,79.17,100.0,0,0,0,0.0,0.0,0.0,0.0,0,0
+drive_train,3,71472,24.181,low (<=10),4WD,55.18,100.0,0,0,0,0.0,0.0,0.0,0.0,0,0
+seller_type,2,94254,0.013,low (<=10),Dealer,79.03,100.0,0,0,0,0.0,0.0,0.0,0.0,0,0

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.part
+data/raw/*.csv
+data/interim/*
+data/processed/*
+!data/**/.gitkeep

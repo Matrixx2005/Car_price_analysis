@@ -1,0 +1,9 @@
+is_used,is_new,is_preregistered,is_rental,offer_type,n
+False,False,False,False,U,11117
+False,False,False,True,U,3627
+False,False,True,False,U,3699
+False,False,True,True,U,3
+False,True,False,False,N,4252
+True,False,False,False,A,3
+True,False,False,False,U,94960
+True,False,False,True,U,721

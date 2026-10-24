@@ -1,0 +1,5 @@
+column,rule,n_set_to_nan
+nr_seats,"seats outside (1, 9)",7
+power_kw,"power_kw outside (10, 1500)",33
+cylinders_volume_cc,engine_cc > 10000 or <= 0 for non-electric (electric keeps 0),5
+mileage_km,"mileage < 0 or > 1,000,000 km",3

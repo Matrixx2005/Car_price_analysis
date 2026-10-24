@@ -1,0 +1,11 @@
+step,rule,rows_before,rows_after,rows_removed,reason
+raw,start (after type/whitespace/missing-token normalisation only),118382,118382,0,
+used_only,is_used == True and is_new == False (NaN counts as unconfirmed),118382,95684,22698,"new cars, pre-registered/demo cars and records without a confirmed used flag"
+offer_type,offer_type == 'U' (or missing),95684,95681,3,offer types other than 'U' (used) are unconfirmed
+vehicle_type,vehicle_type == 'Car',95681,95600,81,non-passenger vehicles (e.g. Transporter)
+commercial_body_type,"body_type not in ['box', 'flatbed van', 'flatbed+tarpaulin', 'panel van', 'transporter', 'van-high roof']",95600,95407,193,commercial body types listed under vehicle_type=Car
+currency,price_currency == 'EUR',95407,95407,0,other/missing currency (no conversion performed)
+price_not_null,price is numeric and not null,95407,95407,0,unparseable/missing target
+price_positive,price > 0,95407,95407,0,zero/negative price
+price_min,price >= 100 EUR,95407,95399,8,placeholder prices (e.g. price = 1)
+content_duplicates,"drop repeated (valid VIN, price, mileage, registration_date, country)",95399,94266,1133,identical listings re-posted under a different id

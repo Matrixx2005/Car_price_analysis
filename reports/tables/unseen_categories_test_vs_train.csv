@@ -1,0 +1,12 @@
+column,n_test_non_missing,n_unseen_categories,pct_test_rows_unseen
+brand,18809,0,0.0
+model,18682,22,0.128
+model_version,18682,13076,72.176
+make_model,18682,22,0.128
+fuel_type,18799,0,0.0
+transmission,18659,0,0.0
+body_type,18809,0,0.0
+country_code,18807,0,0.0
+seller_type,18807,0,0.0
+drive_train,14248,0,0.0
+body_color,16524,0,0.0
