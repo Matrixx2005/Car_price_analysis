@@ -1,0 +1,151 @@
+{
+  "scope": "week3_dev",
+  "n_rows": 20001,
+  "n_splits": 5,
+  "seed": 42,
+  "train_md5": "0ee5e350b448e1f791d89be24d5eabf4",
+  "sklearn": "1.9.1",
+  "onehot_min_frequency": 10,
+  "num": [
+    "production_year",
+    "vehicle_age",
+    "mileage_km",
+    "power_kw",
+    "engine_cc",
+    "nr_seats"
+  ],
+  "cat_main": [
+    "brand",
+    "model",
+    "fuel_type",
+    "transmission",
+    "body_type",
+    "country_code",
+    "seller_type",
+    "drive_train",
+    "body_color"
+  ],
+  "cat_with_version": [
+    "brand",
+    "model",
+    "fuel_type",
+    "transmission",
+    "body_type",
+    "country_code",
+    "seller_type",
+    "drive_train",
+    "body_color",
+    "model_version"
+  ],
+  "log_numeric": [
+    "mileage_km",
+    "power_kw",
+    "engine_cc"
+  ],
+  "models": {
+    "knn": "KNeighborsRegressor(n_jobs=1, n_neighbors=10, weights='distance')",
+    "ridge": "Ridge()",
+    "svr": "TransformedTargetRegressor(regressor=SVR(C=10.0), transformer=StandardScaler())",
+    "rf": "RandomForestRegressor(min_samples_leaf=2, n_jobs=1, random_state=42)"
+  },
+  "week3_spaces": {
+    "knn": {
+      "n_neighbors": [
+        3,
+        5,
+        7,
+        10,
+        15,
+        20,
+        30,
+        50
+      ],
+      "weights": [
+        "uniform",
+        "distance"
+      ],
+      "p": [
+        1,
+        2
+      ]
+    },
+    "svr": {
+      "C": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "epsilon": [
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "gamma": [
+        0.012,
+        0.024,
+        "scale",
+        0.1,
+        0.2
+      ]
+    },
+    "rf": {
+      "n_estimators": [
+        100,
+        200
+      ],
+      "max_depth": [
+        null,
+        15,
+        30
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "max_features": [
+        0.3,
+        0.5,
+        1.0
+      ]
+    },
+    "ridge": {
+      "alpha": [
+        0.001,
+        0.0031622776601683794,
+        0.01,
+        0.03162277660168379,
+        0.1,
+        0.31622776601683794,
+        1.0,
+        3.1622776601683795,
+        10.0,
+        31.622776601683793,
+        100.0,
+        316.22776601683796,
+        1000.0
+      ]
+    }
+  },
+  "week3_n_random": {
+    "knn": 20,
+    "svr": 20,
+    "rf": 12
+  },
+  "extreme_qs": [
+    0.999,
+    0.99
+  ],
+  "rare_counts": [
+    null,
+    10,
+    50,
+    200
+  ],
+  "expensive_eur": 100000
+}

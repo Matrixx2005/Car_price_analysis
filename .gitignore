@@ -3,7 +3,11 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 *.part
-data/raw/*.csv
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/SOURCE.json
 data/interim/*
 data/processed/*
 !data/**/.gitkeep
+reports/*.log
+reports/*.err

@@ -6,8 +6,6 @@ test information can influence feature decisions.
 """
 from __future__ import annotations
 
-import re
-
 import matplotlib
 
 matplotlib.use("Agg")

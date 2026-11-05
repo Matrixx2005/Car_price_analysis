@@ -21,7 +21,6 @@ from src.adapters.schema import CATEGORICAL_FEATURES
 from src.cleaning import clean_pipeline
 from src.data_validation import has_errors, issues_to_frame, run_validation, write_validation_report
 from src.feature_engineering import add_features, feature_audit
-from src.load_data import read_raw
 from src.profiling import profile_dataset, write_profile_report
 from src.split_data import build_group_ids, group_split, save_split
 

@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-24T22:23:42",
+  "started_at": "2026-11-05T09:07:38",
   "raw": {
     "rows": 118382,
     "cols": 75,
@@ -35,7 +35,7 @@
       "has_warranty",
       "warranty"
     ],
-    "generated_at": "2026-10-24T22:23:48",
+    "generated_at": "2026-11-05T09:07:46",
     "pandas": "3.1.0"
   },
   "funnel": [
@@ -726,6 +726,6 @@
     "numpy": "2.5.4",
     "sklearn": "1.9.1",
     "matplotlib": "3.11.2",
-    "processed_at": "2026-10-24T22:24:01"
+    "processed_at": "2026-11-05T09:08:09"
   }
 }

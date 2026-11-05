@@ -19,6 +19,22 @@ python -m venv .venv
 
 `main.py` chỉ điều phối; logic nằm trong `src/`. Chạy lại cho cùng kết quả (seed 42, đã kiểm tra manifest chia dữ liệu giống hệt giữa hai lần chạy).
 
+## Tuần 2: Encoding × Scaling × Mô hình (chạy trên tập train, không dùng test)
+
+```powershell
+python -m src.experiments              # lưới 112 cấu hình x 5 fold (~10 phút); chạy tiếp được nếu bị dừng
+python -m src.experiments --confirm    # xác nhận trên toàn bộ train (~16-20 phút); chạy tiếp được
+python -m src.week2_analysis           # bảng tổng hợp + biểu đồ
+python -m src.reporting_week2          # sinh reports/week2_report.md (tự kiểm chứng 14 phát biểu)
+python -m pytest -v                    # 50 test
+```
+Mỗi lần chạy có "chữ ký" (dữ liệu, số fold, seed, siêu tham số, phiên bản sklearn); đổi những thứ đó thì chương trình từ chối ghi tiếp vào kết quả cũ (xóa file kết quả và file chữ ký tương ứng để chạy lại từ đầu).
+Xem `HUONG_DAN_TUAN2.md` (cách xử lý từng vấn đề và các lỗi đã sửa), `reports/week2_report.md` (kết quả) và `notebooks/03_week2_results.ipynb`.
+Để tái lập đúng phiên bản thư viện: `pip install -r requirements-lock.txt`.
+
+## Lưu ý: không sửa file trong `data/raw/`
+Đừng mở CSV gốc bằng Excel/editor rồi lưu: kích thước/MD5 đổi, `download_dataset` sẽ báo `Existing file is NOT valid` và `main.py` dừng. Cách xử lý: đổi tên file hỏng (vd. thêm đuôi `.modified_backup`, đã được `.gitignore` chặn) rồi chạy lại `python -m src.download_dataset` để tải bản chuẩn.
+
 ## Tải dữ liệu thủ công (nếu mạng lỗi)
 Tải `autoscout24_dataset_20251108.csv` (548.610.318 byte, MD5 `b23a122cc51baf7de39f449193ff0d28`) từ trang Zenodo ở trên, đặt vào `data/raw/`. File CSV lớn không được commit (xem `.gitignore`).
 

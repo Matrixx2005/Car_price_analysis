@@ -10,7 +10,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 def make_raw(n: int = 12) -> pd.DataFrame:
     """Small synthetic raw frame with AutoScout24 column names (tests only; never used in reports)."""
-    rng = np.random.default_rng(0)
     df = pd.DataFrame({
         "id": [f"id{i}" for i in range(n)],
         "price": [10000 + 1000 * i for i in range(n)],

@@ -107,7 +107,7 @@ Lưu ý khi đọc: giá trung vị theo nhóm đều kèm số quan sát n; nh�
 
 **Tệp chính:** `src/` (config, download_dataset, load_data, profiling, data_validation, cleaning, feature_engineering, split_data, eda, reporting, adapters/), `tests/`, `main.py`, `notebooks/01_exploratory_data_analysis.ipynb`, `reports/*.md`, `reports/figures/`, `reports/tables/`, `data/interim/*.parquet`, `data/processed/{train,test}.parquet`, `split_manifest.csv`, `split_metadata.json`.
 
-**Kiểm thử:** 25 passed in 2.81s (python -m pytest -v, 4 tệp test, 25 test)
+**Kiểm thử:** 50 passed in 6.37s (python -m pytest -v: tuần 1 gồm 25 test, tuần 2 gồm 25 test)
 
 **Vấn đề chưa giải quyết:**
 

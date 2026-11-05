@@ -1,1 +1,1 @@
-25 passed in 2.81s (python -m pytest -v, 4 tệp test, 25 test)
+50 passed in 6.37s (python -m pytest -v: tuần 1 gồm 25 test, tuần 2 gồm 25 test)

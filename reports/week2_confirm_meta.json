@@ -1,0 +1,13 @@
+{
+  "n_train_rows": 75457,
+  "n_splits": 5,
+  "best_scaler_per_model": {
+    "knn": "standard",
+    "rf": "standard",
+    "ridge": "minmax",
+    "svr": "standard"
+  },
+  "complete": true,
+  "finished_at": "2026-11-05T20:45:03",
+  "n_result_rows": 60
+}

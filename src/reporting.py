@@ -110,7 +110,7 @@ def write_cleaning_log(stats, df, t):
          "- Dòng trùng toàn bộ: 0; `id` trùng: 0 (xem `dataset_profile.md`).",
          f"- **Trùng nội dung chắc chắn (cùng VIN hợp lệ 17 ký tự + giá + km + ngày đăng ký + quốc gia):** "
          f"{int(f.query('step == \"content_duplicates\"').iloc[0]['rows_removed']):,} tin bị loại (giữ tin đầu tiên).",
-         f"- Cùng VIN nhưng khác giá/km/nước: KHÔNG xoá (có thể là tin đăng lại ở thời điểm khác); xử lý bằng chia dữ liệu theo nhóm (xem `week1_report.md`, chương 6).",
+         "- Cùng VIN nhưng khác giá/km/nước: KHÔNG xoá (có thể là tin đăng lại ở thời điểm khác); xử lý bằng chia dữ liệu theo nhóm (xem `week1_report.md`, chương 6).",
          f"- Còn {fl['invalid_vin_format']:,} VIN có định dạng không hợp lệ (không phải 17 ký tự hợp lệ) – không dùng làm khoá nhóm.", "",
          "## 4. Giá trị kỹ thuật không hợp lý → NaN (giữ hàng)", "", md_table(iv), "",
          "Quy tắc đặt theo giới hạn vật lý/hợp lý; không dùng IQR. Điền khuyết (imputation) KHÔNG làm ở tuần 1: thống kê điền sẽ được học trên train trong Pipeline tuần 2.", "",

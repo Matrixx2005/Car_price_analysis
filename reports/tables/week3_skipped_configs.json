@@ -1,0 +1,8 @@
+{
+  "ed498e06e118": {
+    "model": "svr",
+    "params": "{\"C\": 300.0, \"epsilon\": 0.02, \"gamma\": 0.012}",
+    "log_target": true,
+    "reason": "cancelled: no fold finished after more than 60 minutes of computation on 16k rows (C=300, epsilon=0.02, log price); cannot be refit on the full train split"
+  }
+}
