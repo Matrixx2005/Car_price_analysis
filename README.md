@@ -95,3 +95,6 @@ Hash raw, số dòng từng bước, quy tắc, phiên bản thư viện, seed, 
 
 ## Quy tắc chống leakage (tuần 2 phải tuân thủ)
 Imputer/scaler/encoder chỉ `fit` trên train (trong Pipeline/CV); không dùng test để chọn feature hay hyperparameter; không đưa `price_*`, VIN, id, tên người bán vào X. Chi tiết: `reports/leakage_risks.md`.
+
+## Chạy bằng Jupyter Notebook
+Xem `HUONG_DAN_JUPYTER.md` và notebook `notebooks/00_run_everything.ipynb` (chạy từng bước; các bước nặng có công tắc, kết quả của chúng đã có sẵn trong repo).
