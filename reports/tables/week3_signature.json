@@ -3,6 +3,7 @@
   "n_rows": 20001,
   "n_splits": 5,
   "seed": 42,
+  "train_fingerprint": "4b912d149784e7536b4dd319a1161a71",
   "sklearn": "1.9",
   "onehot_min_frequency": 10,
   "num": [
@@ -146,6 +147,5 @@
     50,
     200
   ],
-  "expensive_eur": 100000,
-  "train_fingerprint": "4b912d149784e7536b4dd319a1161a71"
+  "expensive_eur": 100000
 }
