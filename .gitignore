@@ -8,6 +8,7 @@ data/raw/*
 !data/raw/SOURCE.json
 data/interim/*
 data/processed/*
+!data/processed/week3_test_predictions.parquet
 !data/**/.gitkeep
 reports/*.log
 reports/*.err

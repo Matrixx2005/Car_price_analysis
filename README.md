@@ -5,6 +5,30 @@ Dataset: AutoScout24 Car Listings 2025 – Zenodo [17643343](https://zenodo.org/
 
 Tuần 1 **không** có encoding, scaling hay mô hình hồi quy (để dành tuần 2–3).
 
+## Bắt đầu nhanh (người mới clone repo)
+
+Yêu cầu: Python 3.13 (3.12 trở lên), Git, khoảng 2 GB ổ đĩa trống, kết nối mạng (tải 548 MB dữ liệu từ Zenodo, một lần).
+
+```powershell
+git clone https://github.com/Matrixx2005/Car_price_analysis.git
+cd Car_price_analysis
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python main.py                  # tải dữ liệu, làm sạch, chia train/test, EDA, báo cáo tuần 1 (~2-5 phút)
+python -m pytest -q             # kỳ vọng: tất cả đạt
+python demo.py                  # in các bảng số liệu chính
+```
+Linux/macOS: thay `.\.venv\Scripts\Activate.ps1` bằng `source .venv/bin/activate`.
+
+**Đã có sẵn trong repo (không cần chạy lại):** mọi bảng, biểu đồ, báo cáo của tuần 1-3 (`reports/`), notebook đã chạy (`notebooks/`), cấu hình đóng băng và dự đoán test của tuần 3.
+**Được tạo khi chạy `python main.py`:** dữ liệu gốc, `data/interim/`, `data/processed/train.parquet` và `test.parquet` (không đưa lên GitHub vì lớn hoặc chứa VIN).
+
+Sau `python main.py` bạn có thể chạy các lệnh của tuần 2-3 bên dưới (cần `train.parquet`). Lưu ý:
+- Các lệnh thí nghiệm có "chữ ký" chống trộn kết quả; nếu báo chữ ký khác (ví dụ khác phiên bản thư viện), xóa file kết quả và file chữ ký tương ứng rồi chạy lại, hoặc cứ dùng kết quả có sẵn.
+- **Không chạy lại `python -m src.final_eval`**: tập test đã được đánh giá một lần (file `reports/tables/week3_test_evaluation_done.json`), chương trình sẽ từ chối.
+- Tái lập đúng phiên bản thư viện (Windows): `pip install -r requirements-lock.txt`.
+
 ## Chạy lại toàn bộ từ dataset gốc (PowerShell, Windows)
 
 ```powershell
