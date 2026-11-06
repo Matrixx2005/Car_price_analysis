@@ -26,11 +26,23 @@ python -m src.experiments              # lưới 112 cấu hình x 5 fold (~10 p
 python -m src.experiments --confirm    # xác nhận trên toàn bộ train (~16-20 phút); chạy tiếp được
 python -m src.week2_analysis           # bảng tổng hợp + biểu đồ
 python -m src.reporting_week2          # sinh reports/week2_report.md (tự kiểm chứng 14 phát biểu)
-python -m pytest -v                    # 50 test
+python -m pytest -v                    # 66 test
 ```
 Mỗi lần chạy có "chữ ký" (dữ liệu, số fold, seed, siêu tham số, phiên bản sklearn); đổi những thứ đó thì chương trình từ chối ghi tiếp vào kết quả cũ (xóa file kết quả và file chữ ký tương ứng để chạy lại từ đầu).
 Xem `HUONG_DAN_TUAN2.md` (cách xử lý từng vấn đề và các lỗi đã sửa), `reports/week2_report.md` (kết quả) và `notebooks/03_week2_results.ipynb`.
 Để tái lập đúng phiên bản thư viện: `pip install -r requirements-lock.txt`.
+
+## Tuần 3: tinh chỉnh, đóng băng cấu hình, đánh giá cuối trên test
+
+```powershell
+python -m src.week3_experiments --stage all   # 4 giai đoạn CV trên train (chạy tiếp được)
+python -m src.week3_select                    # đóng băng cấu hình
+python -m src.final_eval                      # đánh giá test, CHỈ MỘT LẦN (chương trình từ chối lần hai)
+python -m src.week3_analysis                  # bảng/biểu đồ + phân tích phần dư
+python -m src.reporting_week3                 # sinh reports/week3_report.md
+python -m pytest -v                           # 66 test
+```
+Mọi lựa chọn chỉ dựa trên CV trên train; tập test chỉ được đọc bởi `src/final_eval.py`. Xem `HUONG_DAN_TUAN3.md` và `reports/week3_report.md`.
 
 ## Lưu ý: không sửa file trong `data/raw/`
 Đừng mở CSV gốc bằng Excel/editor rồi lưu: kích thước/MD5 đổi, `download_dataset` sẽ báo `Existing file is NOT valid` và `main.py` dừng. Cách xử lý: đổi tên file hỏng (vd. thêm đuôi `.modified_backup`, đã được `.gitignore` chặn) rồi chạy lại `python -m src.download_dataset` để tải bản chuẩn.

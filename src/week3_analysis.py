@@ -162,6 +162,24 @@ def group_errors(df: pd.DataFrame, pred: str, key: str, min_n: int) -> pd.DataFr
     return out[out.n >= min_n].sort_values("mae", ascending=False).reset_index(drop=True)
 
 
+def sensitivity(df: pd.DataFrame) -> pd.DataFrame:
+    """Descriptive check AFTER the single evaluation (never used to choose a model): how much do a handful of label errors
+    and the worst predictions drive RMSE/R²? Excludes the rows flagged as suspicious prices in the week-1 data screen."""
+    from src.experiments import regression_metrics
+    flags = pd.read_parquet(config.DATA_INTERIM / "autoscout24_used_common.parquet", columns=["listing_id", "flag_price_review"])
+    flagged = set(flags.loc[flags["flag_price_review"], "listing_id"])
+    mask = ~df["listing_id"].isin(flagged)
+    rows = []
+    for c in [c for c in df.columns if c.startswith("pred_")]:
+        err = (df[c] - df["price"]).to_numpy()
+        sse = np.sort(err ** 2)[::-1]
+        m_all, m_clean = regression_metrics(df["price"], df[c]), regression_metrics(df.loc[mask, "price"], df.loc[mask, c])
+        rows.append({"name": c.removeprefix("pred_"), "n_flagged_excluded": int((~mask).sum()), "mae": m_all["mae"], "mae_without_flagged": m_clean["mae"],
+                     "rmse": m_all["rmse"], "rmse_without_flagged": m_clean["rmse"], "r2": m_all["r2"], "r2_without_flagged": m_clean["r2"],
+                     "share_sse_top5_errors_pct": sse[:5].sum() / sse.sum() * 100})
+    return pd.DataFrame(rows).sort_values("mae").reset_index(drop=True)
+
+
 def test_analysis(selected: str) -> dict:
     """Residual analysis of the selected model on the saved test predictions."""
     df = pd.read_parquet(PRED_PATH)
@@ -177,6 +195,9 @@ def test_analysis(selected: str) -> dict:
     tabs["worst"] = worst[["brand", "model", "production_year", "mileage_km", "country_code", "price", "pred", "err"]].reset_index(drop=True)
     for k, v in tabs.items():
         v.to_csv(T / f"week3_test_errors_by_{k}.csv", index=False)
+    sens = sensitivity(df)
+    sens.to_csv(T / "week3_test_sensitivity.csv", index=False)
+    tabs["sensitivity"] = sens
 
     figs = []
     fig, ax = plt.subplots(1, 2, figsize=(13, 5))
