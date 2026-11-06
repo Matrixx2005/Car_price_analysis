@@ -3,8 +3,7 @@
   "n_rows": 20001,
   "n_splits": 5,
   "seed": 42,
-  "train_md5": "0ee5e350b448e1f791d89be24d5eabf4",
-  "sklearn": "1.9.1",
+  "sklearn": "1.9",
   "onehot_min_frequency": 10,
   "num": [
     "production_year",
@@ -147,5 +146,6 @@
     50,
     200
   ],
-  "expensive_eur": 100000
+  "expensive_eur": 100000,
+  "train_fingerprint": "4b912d149784e7536b4dd319a1161a71"
 }

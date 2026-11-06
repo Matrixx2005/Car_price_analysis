@@ -115,18 +115,18 @@ def define_confirm_experiments(best_scaler: dict) -> list[dict]:
 
 
 # ------------------------------------------------------------------ run signature (guards resuming)
-def _md5(path: Path) -> str:
-    h = hashlib.md5()
-    with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(1 << 20), b""):
-            h.update(chunk)
-    return h.hexdigest()
+def data_fingerprint(path: Path | None = None) -> str:
+    """Hash of the CONTENT of the train split (ids, price, group ids), not of the file bytes: the same data written by a
+    different pandas/pyarrow version gives the same fingerprint, so other machines can resume/re-run safely."""
+    path = path or config.DATA_PROCESSED / "train.parquet"
+    df = pd.read_parquet(path, columns=["listing_id", "price", "group_id"])
+    return hashlib.md5(pd.util.hash_pandas_object(df, index=False).to_numpy().tobytes()).hexdigest()
 
 
 def run_signature(scope: str, n_rows: int, n_splits: int) -> dict:
-    """Everything that changes the numbers: data, folds, seed, model settings, library version."""
+    """Everything that changes the numbers: data content, folds, seed, model settings, library version (major.minor)."""
     return {"scope": scope, "n_rows": int(n_rows), "n_splits": int(n_splits), "seed": config.RANDOM_SEED,
-            "train_md5": _md5(config.DATA_PROCESSED / "train.parquet"), "sklearn": sklearn.__version__,
+            "train_fingerprint": data_fingerprint(), "sklearn": ".".join(sklearn.__version__.split(".")[:2]),
             "onehot_min_frequency": ONEHOT_MIN_FREQUENCY, "num": NUM, "cat_main": CAT_MAIN, "cat_with_version": CAT_WITH_VERSION,
             "log_numeric": LOG_NUM, "models": {m: repr(make_model(m)) for m in MODELS}}
 
