@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import numpy as np
 from sklearn.compose import ColumnTransformer, TransformedTargetRegressor
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import HistGradientBoostingRegressor, RandomForestRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import KFold
@@ -34,6 +34,14 @@ ONEHOT_MIN_FREQUENCY = 10   # categories seen < 10 times in the training fold ar
 SEED = config.RANDOM_SEED
 
 
+EXTRA_MODELS = ["hgb"]      # models used only by the week-3 supplement
+
+
+def to_dense(X):
+    """Sparse -> dense (module-level so that it can be pickled by joblib)."""
+    return X.toarray() if hasattr(X, "toarray") else X
+
+
 def make_scaler(name: str):
     return {"none": "passthrough", "standard": StandardScaler(), "minmax": MinMaxScaler(),
             "robust": RobustScaler()}[name]
@@ -57,6 +65,8 @@ def make_encoder(name: str, target_smooth="auto"):
 
 # Week-2 defaults (untuned). Week 3 overrides them through `params`; any key outside this set is rejected.
 DEFAULT_PARAMS = {
+    # Gradient boosting (week-3 addition). NOT in MODELS: the week-2/3 grids and their signatures stay unchanged.
+    "hgb": {"learning_rate": 0.1, "max_iter": 100, "max_leaf_nodes": 31, "max_depth": None, "min_samples_leaf": 20, "l2_regularization": 0.0},
     "ridge": {"alpha": 1.0},
     "knn": {"n_neighbors": 10, "weights": "distance", "p": 2},
     "svr": {"C": 10.0, "epsilon": 0.1, "gamma": "scale"},
@@ -72,6 +82,9 @@ def make_model(name: str, params: dict | None = None, n_jobs: int = 1):
     if unknown:
         raise ValueError(f"unknown {name} parameters: {sorted(unknown)}")
     p = {**DEFAULT_PARAMS[name], **(params or {})}
+    if name == "hgb":
+        # fixed number of iterations (no internal validation split), so the fit depends only on the training rows given
+        return HistGradientBoostingRegressor(**p, early_stopping=False, random_state=SEED)
     if name == "ridge":
         return Ridge(**p)
     if name == "knn":
@@ -119,8 +132,10 @@ def build_preprocessor(encoder: str, scaler: str, cat_cols=CAT_MAIN, num_cols=NU
 def build_estimator(encoder: str, scaler: str, model: str, log_target: bool = False,
                     cat_cols=CAT_MAIN, num_cols=NUM, log_features: bool = False, model_params: dict | None = None,
                     rare_min_count: int | None = None, target_smooth="auto", n_jobs: int = 1):
-    pipe = Pipeline([("pre", build_preprocessor(encoder, scaler, cat_cols, num_cols, log_features, rare_min_count, target_smooth)),
-                     ("m", make_model(model, model_params, n_jobs))])
+    steps = [("pre", build_preprocessor(encoder, scaler, cat_cols, num_cols, log_features, rare_min_count, target_smooth))]
+    if model == "hgb":      # HistGradientBoosting needs a dense matrix (One-hot output is sparse)
+        steps.append(("dense", FunctionTransformer(to_dense, accept_sparse=True)))
+    pipe = Pipeline(steps + [("m", make_model(model, model_params, n_jobs))])
     if log_target:
         # fit on log1p(price); predictions are mapped back with expm1 so metrics are in EUR
         return TransformedTargetRegressor(regressor=pipe, func=np.log1p, inverse_func=np.expm1)

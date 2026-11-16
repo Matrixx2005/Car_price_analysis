@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-11-16T21:33:15",
+  "final": {
+    "config_id": "c08b30ae0ba7",
+    "model": "hgb",
+    "encoder": "target",
+    "scaler": "none",
+    "log_target": true,
+    "params": {
+      "l2_regularization": 10.0,
+      "learning_rate": 0.05,
+      "max_depth": null,
+      "max_iter": 800,
+      "max_leaf_nodes": 127,
+      "min_samples_leaf": 20
+    },
+    "extreme_q": null,
+    "feature_set": "main",
+    "rare_min_count": null,
+    "target_smooth": "auto",
+    "cv": {
+      "mae_mean": 5880.385974132327,
+      "mae_std": 211.92179666153194,
+      "rmse_mean": 47302.19649606503,
+      "r2_mean": 0.8309286725078353,
+      "medape_pct_mean": 7.423296899843434
+    }
+  },
+  "default_same_encoder": {
+    "config_id": "f3afcd65db21",
+    "model": "hgb",
+    "encoder": "target",
+    "scaler": "none",
+    "log_target": true,
+    "params": {},
+    "extreme_q": null,
+    "feature_set": "main",
+    "rare_min_count": null,
+    "target_smooth": "auto",
+    "cv": {
+      "mae_mean": 7240.178208748909,
+      "mae_std": 329.84643850769686,
+      "rmse_mean": 54298.07128004434,
+      "r2_mean": 0.7828481618370737,
+      "medape_pct_mean": 9.083779817442212
+    }
+  },
+  "encoder_stage": [
+    {
+      "encoder": "onehot",
+      "log_target": false,
+      "mae_mean": 8593.87774833612,
+      "r2_mean": 0.812708394261848,
+      "medape_pct_mean": 11.727922827867934
+    },
+    {
+      "encoder": "target",
+      "log_target": false,
+      "mae_mean": 8516.039219158189,
+      "r2_mean": 0.791266245260861,
+      "medape_pct_mean": 11.20515363002107
+    },
+    {
+      "encoder": "ordinal",
+      "log_target": false,
+      "mae_mean": 8779.637855750465,
+      "r2_mean": 0.7837560969856255,
+      "medape_pct_mean": 11.65787120725152
+    },
+    {
+      "encoder": "onehot",
+      "log_target": true,
+      "mae_mean": 7597.1451436530715,
+      "r2_mean": 0.7661702695683925,
+      "medape_pct_mean": 9.411543603842642
+    },
+    {
+      "encoder": "ordinal",
+      "log_target": true,
+      "mae_mean": 7541.767517938219,
+      "r2_mean": 0.8016471641729226,
+      "medape_pct_mean": 9.49042348628796
+    },
+    {
+      "encoder": "target",
+      "log_target": true,
+      "mae_mean": 7240.178208748909,
+      "r2_mean": 0.7828481618370737,
+      "medape_pct_mean": 9.083779817442212
+    }
+  ],
+  "n_tuned_configs": 60,
+  "version_decision": {
+    "baseline_mae": 5880.385974132326,
+    "candidates": {
+      "45067076cea9": {
+        "mae": 5939.275618053631,
+        "wins": 1
+      },
+      "5594724ddc9b": {
+        "mae": 5963.056644491415,
+        "wins": 2
+      },
+      "bf75b4213354": {
+        "mae": 6139.373285462083,
+        "wins": 0
+      }
+    },
+    "chosen": "c08b30ae0ba7",
+    "chosen_mae": 5880.385974132326
+  },
+  "tune_best_id": "c08b30ae0ba7",
+  "adopted_model_version": false
+}

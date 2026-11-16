@@ -89,7 +89,7 @@ SKIPPED = config.TABLES / "week3_skipped_configs.json"
 # A configuration whose fits are so slow that it can never be refit on the full train split is not a usable candidate.
 FULL_FIT_BUDGET_S = 1800.0
 # time ~ n^exponent: SVR (libsvm) is about quadratic in the number of rows, Random Forest about n log n, KNN/Ridge about linear
-SCALING_EXPONENT = {"svr": 2.0, "rf": 1.2, "knn": 1.0, "ridge": 1.0}
+SCALING_EXPONENT = {"svr": 2.0, "rf": 1.2, "knn": 1.0, "ridge": 1.0, "hgb": 1.0}
 
 
 def skipped_ids() -> dict:
@@ -122,11 +122,23 @@ def tune_configs() -> list[dict]:
 
 
 # ------------------------------------------------------------------ one fold
-def run_fold3(cfg: dict, X: pd.DataFrame, y: pd.Series, tr_idx, va_idx) -> dict:
+def estimator_from_cfg(cfg: dict, n_jobs: int = 1):
+    """Unfitted estimator for a configuration made by make_cfg."""
     cat_cols = CAT_WITH_VERSION if cfg["feature_set"] == "with_model_version" else CAT_MAIN
-    est = build_estimator(cfg["encoder"], cfg["scaler"], cfg["model"], log_target=cfg["log_target"], cat_cols=cat_cols,
-                          model_params=json.loads(cfg["params"]), rare_min_count=cfg["rare_min_count"],
-                          target_smooth=cfg["target_smooth"])
+    rare = cfg["rare_min_count"]
+    rare = None if rare is None or (isinstance(rare, float) and np.isnan(rare)) else int(rare)
+    return build_estimator(cfg["encoder"], cfg["scaler"], cfg["model"], log_target=bool(cfg["log_target"]), cat_cols=cat_cols,
+                           model_params=json.loads(cfg["params"]), rare_min_count=rare, target_smooth=cfg["target_smooth"], n_jobs=n_jobs)
+
+
+def cfg_from_entry(e: dict, stage: str = "") -> dict:
+    """make_cfg configuration from a frozen-config entry (params stored as a dict there)."""
+    return make_cfg(e["model"], e["encoder"], e["scaler"], e["log_target"], e["params"], e["extreme_q"], e["feature_set"],
+                    e["rare_min_count"], e["target_smooth"], stage=stage)
+
+
+def run_fold3(cfg: dict, X: pd.DataFrame, y: pd.Series, tr_idx, va_idx) -> dict:
+    est = estimator_from_cfg(cfg)
     ytr_all = y.iloc[tr_idx]
     keep = drop_extreme_prices(ytr_all, cfg["extreme_q"])           # threshold from the training fold only
     tr_used = tr_idx[keep]
@@ -154,13 +166,17 @@ def week3_signature(n_rows: int) -> dict:
     return sig
 
 
-def run_configs(cfgs: list[dict], dev: pd.DataFrame, n_jobs: int = -1) -> pd.DataFrame:
-    check_signature(SIG3, week3_signature(len(dev)), RESULTS3)
+def run_configs(cfgs: list[dict], dev: pd.DataFrame, n_jobs: int = -1, results_path=None, sig_path=None,
+                signature: dict | None = None) -> pd.DataFrame:
+    """Run (config, fold) tasks in parallel, appending to a CSV (resumable). By default writes the week-3 development
+    results; other callers (e.g. the boosting supplement on the full train split) pass their own files and signature."""
+    results_path = results_path or RESULTS3
+    check_signature(sig_path or SIG3, signature if signature is not None else week3_signature(len(dev)), results_path)
     X, y, g = dev[CAT_WITH_VERSION + NUM], dev["price"], dev["group_id"]
     folds = list(GroupKFold(n_splits=N_SPLITS).split(X, y, g))
     done = set()
-    if RESULTS3.exists():
-        prev = pd.read_csv(RESULTS3)
+    if results_path.exists():
+        prev = pd.read_csv(results_path)
         done = set(zip(prev["config_id"], prev["fold"]))
     seen, tasks = set(), []
     for cfg in cfgs:
@@ -179,7 +195,7 @@ def run_configs(cfgs: list[dict], dev: pd.DataFrame, n_jobs: int = -1) -> pd.Dat
 
         def flush():
             if buf:
-                pd.DataFrame(buf).to_csv(RESULTS3, mode="a", header=not RESULTS3.exists(), index=False)
+                pd.DataFrame(buf).to_csv(results_path, mode="a", header=not results_path.exists(), index=False)
                 buf.clear()
         try:
             for i, r in enumerate(gen, 1):
@@ -189,7 +205,7 @@ def run_configs(cfgs: list[dict], dev: pd.DataFrame, n_jobs: int = -1) -> pd.Dat
                     print(f"  {i}/{len(tasks)} tasks | {time.time() - t0:,.0f}s", flush=True)
         finally:
             flush()
-    return pd.read_csv(RESULTS3) if RESULTS3.exists() else pd.DataFrame()
+    return pd.read_csv(results_path) if results_path.exists() else pd.DataFrame()
 
 
 def _task(cfg, X, y, tr, va):

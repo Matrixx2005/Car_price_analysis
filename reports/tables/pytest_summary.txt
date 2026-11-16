@@ -1,1 +1,1 @@
-66 passed in 6.14s (python -m pytest -v: tuần 1 gồm 25 test, tuần 2 gồm 25 test, tuần 3 gồm 16 test)
+81 passed (python -m pytest -v: tuần 1 gồm 25 test, tuần 2 gồm 25 test, tuần 3 và phần bổ sung gồm 31 test)

@@ -1,0 +1,2161 @@
+name,data,fold,feature,kind,repeat,delta_mae
+ridge_tuned,dev20k,1,brand,single,0,16689.305705853316
+ridge_tuned,dev20k,1,brand,single,1,16440.56210922524
+ridge_tuned,dev20k,1,brand,single,2,16095.183098775979
+ridge_tuned,dev20k,1,model,single,0,8559.48813680881
+ridge_tuned,dev20k,1,model,single,1,8500.45346865672
+ridge_tuned,dev20k,1,model,single,2,8364.2276551385
+ridge_tuned,dev20k,1,fuel_type,single,0,475.0075590715678
+ridge_tuned,dev20k,1,fuel_type,single,1,491.688133825166
+ridge_tuned,dev20k,1,fuel_type,single,2,516.4214620978391
+ridge_tuned,dev20k,1,transmission,single,0,52.85679647629513
+ridge_tuned,dev20k,1,transmission,single,1,89.8954403236894
+ridge_tuned,dev20k,1,transmission,single,2,75.94988077591734
+ridge_tuned,dev20k,1,body_type,single,0,444.45608278363943
+ridge_tuned,dev20k,1,body_type,single,1,508.35202826879504
+ridge_tuned,dev20k,1,body_type,single,2,453.8370500371175
+ridge_tuned,dev20k,1,country_code,single,0,1012.3187604113982
+ridge_tuned,dev20k,1,country_code,single,1,1045.5475605815673
+ridge_tuned,dev20k,1,country_code,single,2,849.8585764328445
+ridge_tuned,dev20k,1,seller_type,single,0,-9.574610364918954
+ridge_tuned,dev20k,1,seller_type,single,1,-8.360234857359501
+ridge_tuned,dev20k,1,seller_type,single,2,-34.15667787360508
+ridge_tuned,dev20k,1,drive_train,single,0,33.57226640339104
+ridge_tuned,dev20k,1,drive_train,single,1,33.57103995673333
+ridge_tuned,dev20k,1,drive_train,single,2,41.26684710162226
+ridge_tuned,dev20k,1,body_color,single,0,36.63821478250884
+ridge_tuned,dev20k,1,body_color,single,1,12.932096243588603
+ridge_tuned,dev20k,1,body_color,single,2,28.923870004628043
+ridge_tuned,dev20k,1,model_version,single,0,30.061455792355446
+ridge_tuned,dev20k,1,model_version,single,1,39.88756069829651
+ridge_tuned,dev20k,1,model_version,single,2,37.532306787965354
+ridge_tuned,dev20k,1,production_year,single,0,3772.6740951938673
+ridge_tuned,dev20k,1,production_year,single,1,3507.594537347267
+ridge_tuned,dev20k,1,production_year,single,2,3593.633452815274
+ridge_tuned,dev20k,1,vehicle_age,single,0,4102.9117629890015
+ridge_tuned,dev20k,1,vehicle_age,single,1,4139.971508508849
+ridge_tuned,dev20k,1,vehicle_age,single,2,3990.9979659437677
+ridge_tuned,dev20k,1,mileage_km,single,0,6162.457201355367
+ridge_tuned,dev20k,1,mileage_km,single,1,6415.318956776448
+ridge_tuned,dev20k,1,mileage_km,single,2,6124.619895583405
+ridge_tuned,dev20k,1,power_kw,single,0,7008.613160415684
+ridge_tuned,dev20k,1,power_kw,single,1,7036.543594573391
+ridge_tuned,dev20k,1,power_kw,single,2,7309.775866625184
+ridge_tuned,dev20k,1,engine_cc,single,0,1104.0189739825428
+ridge_tuned,dev20k,1,engine_cc,single,1,963.8568613105954
+ridge_tuned,dev20k,1,engine_cc,single,2,1068.4484295569682
+ridge_tuned,dev20k,1,nr_seats,single,0,-14.700842148567972
+ridge_tuned,dev20k,1,nr_seats,single,1,-17.164180663111438
+ridge_tuned,dev20k,1,nr_seats,single,2,-16.406362390497634
+ridge_tuned,dev20k,1,identity (brand+model[+version]),joint,0,17215.3693991307
+ridge_tuned,dev20k,1,identity (brand+model[+version]),joint,1,17303.869999503302
+ridge_tuned,dev20k,1,identity (brand+model[+version]),joint,2,17054.879406619395
+ridge_tuned,dev20k,1,age (year+vehicle_age),joint,0,10578.354710341388
+ridge_tuned,dev20k,1,age (year+vehicle_age),joint,1,10952.7329165468
+ridge_tuned,dev20k,1,age (year+vehicle_age),joint,2,10837.144808077195
+ridge_tuned,dev20k,3,brand,single,0,15890.845927104487
+ridge_tuned,dev20k,3,brand,single,1,16430.05262691737
+ridge_tuned,dev20k,3,brand,single,2,15575.301582772414
+ridge_tuned,dev20k,3,model,single,0,8211.255694913745
+ridge_tuned,dev20k,3,model,single,1,8248.009710698765
+ridge_tuned,dev20k,3,model,single,2,8609.890840387774
+ridge_tuned,dev20k,3,fuel_type,single,0,580.5618245488986
+ridge_tuned,dev20k,3,fuel_type,single,1,569.9963446418205
+ridge_tuned,dev20k,3,fuel_type,single,2,640.5020288032101
+ridge_tuned,dev20k,3,transmission,single,0,52.75152099810475
+ridge_tuned,dev20k,3,transmission,single,1,10.4675752354633
+ridge_tuned,dev20k,3,transmission,single,2,32.66533435915153
+ridge_tuned,dev20k,3,body_type,single,0,516.1811331726549
+ridge_tuned,dev20k,3,body_type,single,1,527.6020603697762
+ridge_tuned,dev20k,3,body_type,single,2,567.4548786584546
+ridge_tuned,dev20k,3,country_code,single,0,787.213316126119
+ridge_tuned,dev20k,3,country_code,single,1,860.3001531183636
+ridge_tuned,dev20k,3,country_code,single,2,882.6961371744947
+ridge_tuned,dev20k,3,seller_type,single,0,-5.752091777518217
+ridge_tuned,dev20k,3,seller_type,single,1,-10.175885238288174
+ridge_tuned,dev20k,3,seller_type,single,2,-14.008253181918917
+ridge_tuned,dev20k,3,drive_train,single,0,33.15212371240523
+ridge_tuned,dev20k,3,drive_train,single,1,59.22111463931287
+ridge_tuned,dev20k,3,drive_train,single,2,33.17571189465525
+ridge_tuned,dev20k,3,body_color,single,0,8.357504345338384
+ridge_tuned,dev20k,3,body_color,single,1,2.8232647620734497
+ridge_tuned,dev20k,3,body_color,single,2,10.06719426714153
+ridge_tuned,dev20k,3,model_version,single,0,24.50838807873879
+ridge_tuned,dev20k,3,model_version,single,1,-6.8337005710036465
+ridge_tuned,dev20k,3,model_version,single,2,24.04467824405583
+ridge_tuned,dev20k,3,production_year,single,0,3579.6444460600887
+ridge_tuned,dev20k,3,production_year,single,1,3234.0470061934066
+ridge_tuned,dev20k,3,production_year,single,2,3357.8875060202936
+ridge_tuned,dev20k,3,vehicle_age,single,0,3688.4064449521866
+ridge_tuned,dev20k,3,vehicle_age,single,1,3671.1150810402305
+ridge_tuned,dev20k,3,vehicle_age,single,2,3508.1951301413446
+ridge_tuned,dev20k,3,mileage_km,single,0,6280.240065669339
+ridge_tuned,dev20k,3,mileage_km,single,1,6069.402161762338
+ridge_tuned,dev20k,3,mileage_km,single,2,6302.573355701479
+ridge_tuned,dev20k,3,power_kw,single,0,6886.015627688441
+ridge_tuned,dev20k,3,power_kw,single,1,7026.199563937549
+ridge_tuned,dev20k,3,power_kw,single,2,7155.617909655612
+ridge_tuned,dev20k,3,engine_cc,single,0,880.3403133308511
+ridge_tuned,dev20k,3,engine_cc,single,1,717.1969853723058
+ridge_tuned,dev20k,3,engine_cc,single,2,990.8650832887615
+ridge_tuned,dev20k,3,nr_seats,single,0,-2.4778527370581287
+ridge_tuned,dev20k,3,nr_seats,single,1,6.478251195816483
+ridge_tuned,dev20k,3,nr_seats,single,2,-1.2055195870616444
+ridge_tuned,dev20k,3,identity (brand+model[+version]),joint,0,17519.887356048755
+ridge_tuned,dev20k,3,identity (brand+model[+version]),joint,1,17250.982295503207
+ridge_tuned,dev20k,3,identity (brand+model[+version]),joint,2,16834.933834844516
+ridge_tuned,dev20k,3,age (year+vehicle_age),joint,0,10294.765145715131
+ridge_tuned,dev20k,3,age (year+vehicle_age),joint,1,10372.712603735521
+ridge_tuned,dev20k,3,age (year+vehicle_age),joint,2,10112.74101392261
+ridge_tuned,dev20k,2,brand,single,0,15713.076856986592
+ridge_tuned,dev20k,2,brand,single,1,16163.049041269567
+ridge_tuned,dev20k,2,brand,single,2,15746.49980311594
+ridge_tuned,dev20k,2,model,single,0,8050.47564655265
+ridge_tuned,dev20k,2,model,single,1,7786.133687979191
+ridge_tuned,dev20k,2,model,single,2,7904.126376421378
+ridge_tuned,dev20k,2,fuel_type,single,0,511.82015986797524
+ridge_tuned,dev20k,2,fuel_type,single,1,512.229501729511
+ridge_tuned,dev20k,2,fuel_type,single,2,522.3725334070441
+ridge_tuned,dev20k,2,transmission,single,0,56.227042914797494
+ridge_tuned,dev20k,2,transmission,single,1,85.81899795406935
+ridge_tuned,dev20k,2,transmission,single,2,70.45493123974302
+ridge_tuned,dev20k,2,body_type,single,0,525.2704098018385
+ridge_tuned,dev20k,2,body_type,single,1,585.7779554963927
+ridge_tuned,dev20k,2,body_type,single,2,550.569730495552
+ridge_tuned,dev20k,2,country_code,single,0,862.9870062531081
+ridge_tuned,dev20k,2,country_code,single,1,787.1384431458082
+ridge_tuned,dev20k,2,country_code,single,2,885.064106246029
+ridge_tuned,dev20k,2,seller_type,single,0,-1.6616849404344975
+ridge_tuned,dev20k,2,seller_type,single,1,-11.46053632107396
+ridge_tuned,dev20k,2,seller_type,single,2,-12.945697881943488
+ridge_tuned,dev20k,2,drive_train,single,0,72.48550980932123
+ridge_tuned,dev20k,2,drive_train,single,1,137.7173903288367
+ridge_tuned,dev20k,2,drive_train,single,2,103.0406369082848
+ridge_tuned,dev20k,2,body_color,single,0,26.052137725848297
+ridge_tuned,dev20k,2,body_color,single,1,33.711841749418454
+ridge_tuned,dev20k,2,body_color,single,2,33.12290875884901
+ridge_tuned,dev20k,2,model_version,single,0,43.541233260188164
+ridge_tuned,dev20k,2,model_version,single,1,52.81499495708158
+ridge_tuned,dev20k,2,model_version,single,2,42.20616255025925
+ridge_tuned,dev20k,2,production_year,single,0,3755.6090273126883
+ridge_tuned,dev20k,2,production_year,single,1,3575.533903105148
+ridge_tuned,dev20k,2,production_year,single,2,3778.580658902918
+ridge_tuned,dev20k,2,vehicle_age,single,0,4015.1577245825265
+ridge_tuned,dev20k,2,vehicle_age,single,1,3828.652531499889
+ridge_tuned,dev20k,2,vehicle_age,single,2,3850.9780831471453
+ridge_tuned,dev20k,2,mileage_km,single,0,6113.109296243481
+ridge_tuned,dev20k,2,mileage_km,single,1,5994.022135705478
+ridge_tuned,dev20k,2,mileage_km,single,2,5977.602657959662
+ridge_tuned,dev20k,2,power_kw,single,0,7157.221010041465
+ridge_tuned,dev20k,2,power_kw,single,1,7030.022931513868
+ridge_tuned,dev20k,2,power_kw,single,2,6743.928560407925
+ridge_tuned,dev20k,2,engine_cc,single,0,976.2177216182226
+ridge_tuned,dev20k,2,engine_cc,single,1,968.376335466377
+ridge_tuned,dev20k,2,engine_cc,single,2,1030.727565529287
+ridge_tuned,dev20k,2,nr_seats,single,0,-25.120699604331094
+ridge_tuned,dev20k,2,nr_seats,single,1,-9.975762435489742
+ridge_tuned,dev20k,2,nr_seats,single,2,-13.307982219557744
+ridge_tuned,dev20k,2,identity (brand+model[+version]),joint,0,16470.67769181836
+ridge_tuned,dev20k,2,identity (brand+model[+version]),joint,1,16430.978826425286
+ridge_tuned,dev20k,2,identity (brand+model[+version]),joint,2,16638.53193581588
+ridge_tuned,dev20k,2,age (year+vehicle_age),joint,0,10872.123479485332
+ridge_tuned,dev20k,2,age (year+vehicle_age),joint,1,10552.610872500469
+ridge_tuned,dev20k,2,age (year+vehicle_age),joint,2,10903.42809887073
+ridge_tuned,dev20k,4,brand,single,0,16022.885621858422
+ridge_tuned,dev20k,4,brand,single,1,16407.42725534923
+ridge_tuned,dev20k,4,brand,single,2,16281.639236419665
+ridge_tuned,dev20k,4,model,single,0,8861.854720953961
+ridge_tuned,dev20k,4,model,single,1,8291.821006960581
+ridge_tuned,dev20k,4,model,single,2,8508.876797227498
+ridge_tuned,dev20k,4,fuel_type,single,0,575.2467072577329
+ridge_tuned,dev20k,4,fuel_type,single,1,651.152685821
+ridge_tuned,dev20k,4,fuel_type,single,2,632.3671878750574
+ridge_tuned,dev20k,4,transmission,single,0,65.14650600352252
+ridge_tuned,dev20k,4,transmission,single,1,77.66281506856649
+ridge_tuned,dev20k,4,transmission,single,2,69.4393942130173
+ridge_tuned,dev20k,4,body_type,single,0,475.8897592625581
+ridge_tuned,dev20k,4,body_type,single,1,485.9395904841531
+ridge_tuned,dev20k,4,body_type,single,2,417.7804532020018
+ridge_tuned,dev20k,4,country_code,single,0,845.610779822453
+ridge_tuned,dev20k,4,country_code,single,1,933.8336052412415
+ridge_tuned,dev20k,4,country_code,single,2,1005.6463324413744
+ridge_tuned,dev20k,4,seller_type,single,0,-5.8086317407214665
+ridge_tuned,dev20k,4,seller_type,single,1,-2.287620522592988
+ridge_tuned,dev20k,4,seller_type,single,2,-17.605194947165728
+ridge_tuned,dev20k,4,drive_train,single,0,69.18219552382106
+ridge_tuned,dev20k,4,drive_train,single,1,50.34570279185027
+ridge_tuned,dev20k,4,drive_train,single,2,49.33883254083594
+ridge_tuned,dev20k,4,body_color,single,0,-3.444136781819907
+ridge_tuned,dev20k,4,body_color,single,1,-30.142124098532804
+ridge_tuned,dev20k,4,body_color,single,2,-12.279909593353295
+ridge_tuned,dev20k,4,model_version,single,0,26.838310723705945
+ridge_tuned,dev20k,4,model_version,single,1,65.05830655632053
+ridge_tuned,dev20k,4,model_version,single,2,51.102220561135255
+ridge_tuned,dev20k,4,production_year,single,0,3471.150714026755
+ridge_tuned,dev20k,4,production_year,single,1,3644.5138378950323
+ridge_tuned,dev20k,4,production_year,single,2,3717.8624270316795
+ridge_tuned,dev20k,4,vehicle_age,single,0,3659.29758716833
+ridge_tuned,dev20k,4,vehicle_age,single,1,3618.5830083230467
+ridge_tuned,dev20k,4,vehicle_age,single,2,3812.177727856084
+ridge_tuned,dev20k,4,mileage_km,single,0,6326.569887103327
+ridge_tuned,dev20k,4,mileage_km,single,1,6292.107238352703
+ridge_tuned,dev20k,4,mileage_km,single,2,6166.9044194097405
+ridge_tuned,dev20k,4,power_kw,single,0,7484.675872547141
+ridge_tuned,dev20k,4,power_kw,single,1,7672.000772778276
+ridge_tuned,dev20k,4,power_kw,single,2,7199.636079014905
+ridge_tuned,dev20k,4,engine_cc,single,0,1056.858773962922
+ridge_tuned,dev20k,4,engine_cc,single,1,1025.6089593578454
+ridge_tuned,dev20k,4,engine_cc,single,2,1002.9029293971125
+ridge_tuned,dev20k,4,nr_seats,single,0,-23.15109532245333
+ridge_tuned,dev20k,4,nr_seats,single,1,-41.78373786852717
+ridge_tuned,dev20k,4,nr_seats,single,2,-34.80078780872827
+ridge_tuned,dev20k,4,identity (brand+model[+version]),joint,0,18272.897376380755
+ridge_tuned,dev20k,4,identity (brand+model[+version]),joint,1,18086.622092552316
+ridge_tuned,dev20k,4,identity (brand+model[+version]),joint,2,18049.451954021188
+ridge_tuned,dev20k,4,age (year+vehicle_age),joint,0,10881.26572027136
+ridge_tuned,dev20k,4,age (year+vehicle_age),joint,1,10723.816082195019
+ridge_tuned,dev20k,4,age (year+vehicle_age),joint,2,11062.432033160625
+ridge_tuned,dev20k,0,brand,single,0,15903.38757692205
+ridge_tuned,dev20k,0,brand,single,1,16107.874498374891
+ridge_tuned,dev20k,0,brand,single,2,15779.078588933131
+ridge_tuned,dev20k,0,model,single,0,8114.0024767143295
+ridge_tuned,dev20k,0,model,single,1,8008.938987152658
+ridge_tuned,dev20k,0,model,single,2,8198.285708184696
+ridge_tuned,dev20k,0,fuel_type,single,0,656.5731354920681
+ridge_tuned,dev20k,0,fuel_type,single,1,712.8911185337693
+ridge_tuned,dev20k,0,fuel_type,single,2,675.831679802619
+ridge_tuned,dev20k,0,transmission,single,0,91.51002651619274
+ridge_tuned,dev20k,0,transmission,single,1,64.10111955737375
+ridge_tuned,dev20k,0,transmission,single,2,87.63794892123406
+ridge_tuned,dev20k,0,body_type,single,0,288.2670243345874
+ridge_tuned,dev20k,0,body_type,single,1,344.03871534327664
+ridge_tuned,dev20k,0,body_type,single,2,373.94430520219794
+ridge_tuned,dev20k,0,country_code,single,0,898.2252141796598
+ridge_tuned,dev20k,0,country_code,single,1,1012.408187780009
+ridge_tuned,dev20k,0,country_code,single,2,1010.5826688117686
+ridge_tuned,dev20k,0,seller_type,single,0,-6.576780773959399
+ridge_tuned,dev20k,0,seller_type,single,1,-3.92766737839338
+ridge_tuned,dev20k,0,seller_type,single,2,-12.262057810799888
+ridge_tuned,dev20k,0,drive_train,single,0,17.650230837805793
+ridge_tuned,dev20k,0,drive_train,single,1,10.973406629958845
+ridge_tuned,dev20k,0,drive_train,single,2,34.29099316033171
+ridge_tuned,dev20k,0,body_color,single,0,-7.580159580094914
+ridge_tuned,dev20k,0,body_color,single,1,-21.24609880663229
+ridge_tuned,dev20k,0,body_color,single,2,5.314689289969465
+ridge_tuned,dev20k,0,model_version,single,0,49.536852694347544
+ridge_tuned,dev20k,0,model_version,single,1,51.8115219042229
+ridge_tuned,dev20k,0,model_version,single,2,16.143516535883464
+ridge_tuned,dev20k,0,production_year,single,0,3151.5932046952566
+ridge_tuned,dev20k,0,production_year,single,1,3151.7805990970355
+ridge_tuned,dev20k,0,production_year,single,2,3305.0731227492506
+ridge_tuned,dev20k,0,vehicle_age,single,0,3538.49208540586
+ridge_tuned,dev20k,0,vehicle_age,single,1,3688.690712288957
+ridge_tuned,dev20k,0,vehicle_age,single,2,3597.085250964523
+ridge_tuned,dev20k,0,mileage_km,single,0,5923.657440057654
+ridge_tuned,dev20k,0,mileage_km,single,1,6279.946604919931
+ridge_tuned,dev20k,0,mileage_km,single,2,6226.266938846202
+ridge_tuned,dev20k,0,power_kw,single,0,6843.317033900359
+ridge_tuned,dev20k,0,power_kw,single,1,6728.282594332393
+ridge_tuned,dev20k,0,power_kw,single,2,6752.458433356705
+ridge_tuned,dev20k,0,engine_cc,single,0,667.5590434125261
+ridge_tuned,dev20k,0,engine_cc,single,1,524.4599312628507
+ridge_tuned,dev20k,0,engine_cc,single,2,684.8508928483625
+ridge_tuned,dev20k,0,nr_seats,single,0,-16.666918886421627
+ridge_tuned,dev20k,0,nr_seats,single,1,-18.99388405942591
+ridge_tuned,dev20k,0,nr_seats,single,2,-15.715154314055326
+ridge_tuned,dev20k,0,identity (brand+model[+version]),joint,0,16718.7188030512
+ridge_tuned,dev20k,0,identity (brand+model[+version]),joint,1,16433.17258666829
+ridge_tuned,dev20k,0,identity (brand+model[+version]),joint,2,16440.220023709724
+ridge_tuned,dev20k,0,age (year+vehicle_age),joint,0,10400.221682757576
+ridge_tuned,dev20k,0,age (year+vehicle_age),joint,1,9780.994821127508
+ridge_tuned,dev20k,0,age (year+vehicle_age),joint,2,10390.35177146711
+knn_tuned,dev20k,0,brand,single,0,2216.312816673755
+knn_tuned,dev20k,0,brand,single,1,1991.1527805548776
+knn_tuned,dev20k,0,brand,single,2,2156.765205303862
+knn_tuned,dev20k,0,model,single,0,1350.5099850328934
+knn_tuned,dev20k,0,model,single,1,1248.7347431125927
+knn_tuned,dev20k,0,model,single,2,1222.43306955377
+knn_tuned,dev20k,0,fuel_type,single,0,442.99254783358265
+knn_tuned,dev20k,0,fuel_type,single,1,520.2615843450312
+knn_tuned,dev20k,0,fuel_type,single,2,445.44736272759474
+knn_tuned,dev20k,0,transmission,single,0,359.6129829339243
+knn_tuned,dev20k,0,transmission,single,1,427.29229899375605
+knn_tuned,dev20k,0,transmission,single,2,418.3913180981381
+knn_tuned,dev20k,0,body_type,single,0,891.0743676590355
+knn_tuned,dev20k,0,body_type,single,1,949.8802908907346
+knn_tuned,dev20k,0,body_type,single,2,880.1685841470262
+knn_tuned,dev20k,0,country_code,single,0,320.45891334389853
+knn_tuned,dev20k,0,country_code,single,1,365.3217390803966
+knn_tuned,dev20k,0,country_code,single,2,360.3894710019267
+knn_tuned,dev20k,0,seller_type,single,0,122.92629896316612
+knn_tuned,dev20k,0,seller_type,single,1,186.8162786405901
+knn_tuned,dev20k,0,seller_type,single,2,161.7749858592615
+knn_tuned,dev20k,0,drive_train,single,0,446.75394456804315
+knn_tuned,dev20k,0,drive_train,single,1,409.5858555851428
+knn_tuned,dev20k,0,drive_train,single,2,453.934476684537
+knn_tuned,dev20k,0,body_color,single,0,44.73325470977761
+knn_tuned,dev20k,0,body_color,single,1,122.80157640754987
+knn_tuned,dev20k,0,body_color,single,2,115.31633275677632
+knn_tuned,dev20k,0,model_version,single,0,0.3448581868397014
+knn_tuned,dev20k,0,model_version,single,1,39.068880510334566
+knn_tuned,dev20k,0,model_version,single,2,56.481249209122325
+knn_tuned,dev20k,0,production_year,single,0,1054.860576414263
+knn_tuned,dev20k,0,production_year,single,1,1085.599934673568
+knn_tuned,dev20k,0,production_year,single,2,1161.580025209263
+knn_tuned,dev20k,0,vehicle_age,single,0,1112.6608852388636
+knn_tuned,dev20k,0,vehicle_age,single,1,1220.5035223662362
+knn_tuned,dev20k,0,vehicle_age,single,2,1258.2192394760168
+knn_tuned,dev20k,0,mileage_km,single,0,1838.6839259972367
+knn_tuned,dev20k,0,mileage_km,single,1,1955.849966862159
+knn_tuned,dev20k,0,mileage_km,single,2,1923.2590708120424
+knn_tuned,dev20k,0,power_kw,single,0,2115.5946283304947
+knn_tuned,dev20k,0,power_kw,single,1,2188.8038003489073
+knn_tuned,dev20k,0,power_kw,single,2,2204.1179229082572
+knn_tuned,dev20k,0,engine_cc,single,0,1840.4670284999338
+knn_tuned,dev20k,0,engine_cc,single,1,1830.4155707237678
+knn_tuned,dev20k,0,engine_cc,single,2,1903.7002377295066
+knn_tuned,dev20k,0,nr_seats,single,0,785.4924176768873
+knn_tuned,dev20k,0,nr_seats,single,1,648.3041263790656
+knn_tuned,dev20k,0,nr_seats,single,2,673.8099222595556
+knn_tuned,dev20k,0,identity (brand+model[+version]),joint,0,7979.748856583985
+knn_tuned,dev20k,0,identity (brand+model[+version]),joint,1,7627.687301411905
+knn_tuned,dev20k,0,identity (brand+model[+version]),joint,2,7622.857511465627
+knn_tuned,dev20k,0,age (year+vehicle_age),joint,0,7127.406610204169
+knn_tuned,dev20k,0,age (year+vehicle_age),joint,1,6654.20620233232
+knn_tuned,dev20k,0,age (year+vehicle_age),joint,2,6729.2329204611415
+knn_tuned,dev20k,3,brand,single,0,2176.729487042636
+knn_tuned,dev20k,3,brand,single,1,2276.0263299475446
+knn_tuned,dev20k,3,brand,single,2,2361.071178502307
+knn_tuned,dev20k,3,model,single,0,1669.902211634033
+knn_tuned,dev20k,3,model,single,1,1720.670294485044
+knn_tuned,dev20k,3,model,single,2,1692.0508128873862
+knn_tuned,dev20k,3,fuel_type,single,0,487.06765501690825
+knn_tuned,dev20k,3,fuel_type,single,1,449.4842992653921
+knn_tuned,dev20k,3,fuel_type,single,2,428.76215393565326
+knn_tuned,dev20k,3,transmission,single,0,307.5095905347407
+knn_tuned,dev20k,3,transmission,single,1,343.244224859518
+knn_tuned,dev20k,3,transmission,single,2,382.6822241920654
+knn_tuned,dev20k,3,body_type,single,0,738.4914684210198
+knn_tuned,dev20k,3,body_type,single,1,903.6173651838981
+knn_tuned,dev20k,3,body_type,single,2,977.4712565790833
+knn_tuned,dev20k,3,country_code,single,0,203.2730452117903
+knn_tuned,dev20k,3,country_code,single,1,185.24916362751355
+knn_tuned,dev20k,3,country_code,single,2,235.49474240892596
+knn_tuned,dev20k,3,seller_type,single,0,40.253744925565115
+knn_tuned,dev20k,3,seller_type,single,1,137.27136212843288
+knn_tuned,dev20k,3,seller_type,single,2,92.60541994911546
+knn_tuned,dev20k,3,drive_train,single,0,338.630939343062
+knn_tuned,dev20k,3,drive_train,single,1,459.6295931254663
+knn_tuned,dev20k,3,drive_train,single,2,402.30723037397183
+knn_tuned,dev20k,3,body_color,single,0,6.806027984324828
+knn_tuned,dev20k,3,body_color,single,1,36.69064667777093
+knn_tuned,dev20k,3,body_color,single,2,83.11941791517893
+knn_tuned,dev20k,3,model_version,single,0,42.24439602723942
+knn_tuned,dev20k,3,model_version,single,1,59.69460710396197
+knn_tuned,dev20k,3,model_version,single,2,60.78144928409529
+knn_tuned,dev20k,3,production_year,single,0,1079.326065606172
+knn_tuned,dev20k,3,production_year,single,1,1039.8252727283598
+knn_tuned,dev20k,3,production_year,single,2,1063.489215988755
+knn_tuned,dev20k,3,vehicle_age,single,0,1061.3862300476321
+knn_tuned,dev20k,3,vehicle_age,single,1,1054.1398808144604
+knn_tuned,dev20k,3,vehicle_age,single,2,1144.5582530298725
+knn_tuned,dev20k,3,mileage_km,single,0,1860.4786927529785
+knn_tuned,dev20k,3,mileage_km,single,1,1890.9847006056025
+knn_tuned,dev20k,3,mileage_km,single,2,1964.8875297458362
+knn_tuned,dev20k,3,power_kw,single,0,2299.0739373399156
+knn_tuned,dev20k,3,power_kw,single,1,2241.842081992385
+knn_tuned,dev20k,3,power_kw,single,2,2256.046731832528
+knn_tuned,dev20k,3,engine_cc,single,0,2228.0899321306406
+knn_tuned,dev20k,3,engine_cc,single,1,1907.2545943246841
+knn_tuned,dev20k,3,engine_cc,single,2,2152.477067965392
+knn_tuned,dev20k,3,nr_seats,single,0,616.017582860828
+knn_tuned,dev20k,3,nr_seats,single,1,804.0432761730553
+knn_tuned,dev20k,3,nr_seats,single,2,647.0981732909586
+knn_tuned,dev20k,3,identity (brand+model[+version]),joint,0,8005.231774992519
+knn_tuned,dev20k,3,identity (brand+model[+version]),joint,1,8183.392810990061
+knn_tuned,dev20k,3,identity (brand+model[+version]),joint,2,8311.801157954442
+knn_tuned,dev20k,3,age (year+vehicle_age),joint,0,6802.413526383154
+knn_tuned,dev20k,3,age (year+vehicle_age),joint,1,6616.400499178655
+knn_tuned,dev20k,3,age (year+vehicle_age),joint,2,6595.245341186153
+knn_tuned,dev20k,2,brand,single,0,2464.8484162204295
+knn_tuned,dev20k,2,brand,single,1,2445.5763045860385
+knn_tuned,dev20k,2,brand,single,2,2545.7203524223605
+knn_tuned,dev20k,2,model,single,0,1807.5268947200911
+knn_tuned,dev20k,2,model,single,1,1789.5288001372974
+knn_tuned,dev20k,2,model,single,2,1792.4768003000045
+knn_tuned,dev20k,2,fuel_type,single,0,589.0513611626648
+knn_tuned,dev20k,2,fuel_type,single,1,387.9803230145035
+knn_tuned,dev20k,2,fuel_type,single,2,618.9671199744535
+knn_tuned,dev20k,2,transmission,single,0,727.3282455907065
+knn_tuned,dev20k,2,transmission,single,1,467.336669686385
+knn_tuned,dev20k,2,transmission,single,2,446.7640885997844
+knn_tuned,dev20k,2,body_type,single,0,965.734105048843
+knn_tuned,dev20k,2,body_type,single,1,996.1774701414361
+knn_tuned,dev20k,2,body_type,single,2,750.8986193350138
+knn_tuned,dev20k,2,country_code,single,0,398.2113449951503
+knn_tuned,dev20k,2,country_code,single,1,607.1260341552388
+knn_tuned,dev20k,2,country_code,single,2,438.4527127964502
+knn_tuned,dev20k,2,seller_type,single,0,295.25588966527357
+knn_tuned,dev20k,2,seller_type,single,1,68.58377948349334
+knn_tuned,dev20k,2,seller_type,single,2,107.64472448375182
+knn_tuned,dev20k,2,drive_train,single,0,482.568540353177
+knn_tuned,dev20k,2,drive_train,single,1,474.4726718733946
+knn_tuned,dev20k,2,drive_train,single,2,439.76940141055456
+knn_tuned,dev20k,2,body_color,single,0,72.01619195649255
+knn_tuned,dev20k,2,body_color,single,1,95.17903335478331
+knn_tuned,dev20k,2,body_color,single,2,1.8829774828718655
+knn_tuned,dev20k,2,model_version,single,0,89.19326124074269
+knn_tuned,dev20k,2,model_version,single,1,81.22023279141558
+knn_tuned,dev20k,2,model_version,single,2,80.97681813409326
+knn_tuned,dev20k,2,production_year,single,0,1083.7353243185062
+knn_tuned,dev20k,2,production_year,single,1,939.723184876093
+knn_tuned,dev20k,2,production_year,single,2,972.1140565193109
+knn_tuned,dev20k,2,vehicle_age,single,0,1139.9297007747173
+knn_tuned,dev20k,2,vehicle_age,single,1,909.1115452644553
+knn_tuned,dev20k,2,vehicle_age,single,2,953.6846582770431
+knn_tuned,dev20k,2,mileage_km,single,0,1703.3572625797915
+knn_tuned,dev20k,2,mileage_km,single,1,1751.719256559416
+knn_tuned,dev20k,2,mileage_km,single,2,1859.4052150729403
+knn_tuned,dev20k,2,power_kw,single,0,2565.994283765722
+knn_tuned,dev20k,2,power_kw,single,1,2561.4757483489448
+knn_tuned,dev20k,2,power_kw,single,2,2534.1497340160804
+knn_tuned,dev20k,2,engine_cc,single,0,2313.9990008729656
+knn_tuned,dev20k,2,engine_cc,single,1,2448.519076002285
+knn_tuned,dev20k,2,engine_cc,single,2,2365.0618275999186
+knn_tuned,dev20k,2,nr_seats,single,0,1028.5574357430523
+knn_tuned,dev20k,2,nr_seats,single,1,1137.4500338524467
+knn_tuned,dev20k,2,nr_seats,single,2,981.6097440672183
+knn_tuned,dev20k,2,identity (brand+model[+version]),joint,0,8433.302481796507
+knn_tuned,dev20k,2,identity (brand+model[+version]),joint,1,8538.234713242951
+knn_tuned,dev20k,2,identity (brand+model[+version]),joint,2,8350.557007567186
+knn_tuned,dev20k,2,age (year+vehicle_age),joint,0,7217.21748187559
+knn_tuned,dev20k,2,age (year+vehicle_age),joint,1,6689.79566537883
+knn_tuned,dev20k,2,age (year+vehicle_age),joint,2,6903.4323191621825
+knn_tuned,dev20k,1,brand,single,0,2089.5769899109473
+knn_tuned,dev20k,1,brand,single,1,2072.982017827251
+knn_tuned,dev20k,1,brand,single,2,1882.473582959381
+knn_tuned,dev20k,1,model,single,0,1471.548498321201
+knn_tuned,dev20k,1,model,single,1,1388.2377011516746
+knn_tuned,dev20k,1,model,single,2,1444.1888539937863
+knn_tuned,dev20k,1,fuel_type,single,0,478.1351337769811
+knn_tuned,dev20k,1,fuel_type,single,1,469.3338782315759
+knn_tuned,dev20k,1,fuel_type,single,2,523.731223391881
+knn_tuned,dev20k,1,transmission,single,0,439.71011800055385
+knn_tuned,dev20k,1,transmission,single,1,518.9498201456108
+knn_tuned,dev20k,1,transmission,single,2,454.9312477559042
+knn_tuned,dev20k,1,body_type,single,0,996.3396238116602
+knn_tuned,dev20k,1,body_type,single,1,964.8736676430235
+knn_tuned,dev20k,1,body_type,single,2,913.4423388546238
+knn_tuned,dev20k,1,country_code,single,0,354.9797748858691
+knn_tuned,dev20k,1,country_code,single,1,421.13531180405244
+knn_tuned,dev20k,1,country_code,single,2,386.08679130359724
+knn_tuned,dev20k,1,seller_type,single,0,110.78282142463286
+knn_tuned,dev20k,1,seller_type,single,1,78.97869334711322
+knn_tuned,dev20k,1,seller_type,single,2,52.35683187134964
+knn_tuned,dev20k,1,drive_train,single,0,574.1874780113394
+knn_tuned,dev20k,1,drive_train,single,1,489.25960813414895
+knn_tuned,dev20k,1,drive_train,single,2,355.58417804635155
+knn_tuned,dev20k,1,body_color,single,0,223.43622518179018
+knn_tuned,dev20k,1,body_color,single,1,156.0384988828837
+knn_tuned,dev20k,1,body_color,single,2,90.36493977886221
+knn_tuned,dev20k,1,model_version,single,0,148.82528928228385
+knn_tuned,dev20k,1,model_version,single,1,103.6565366951354
+knn_tuned,dev20k,1,model_version,single,2,100.71024941772066
+knn_tuned,dev20k,1,production_year,single,0,1169.9037301427434
+knn_tuned,dev20k,1,production_year,single,1,1233.8013397612904
+knn_tuned,dev20k,1,production_year,single,2,1321.8158759681592
+knn_tuned,dev20k,1,vehicle_age,single,0,1323.6794634368252
+knn_tuned,dev20k,1,vehicle_age,single,1,1307.0521292057274
+knn_tuned,dev20k,1,vehicle_age,single,2,1247.2896229935195
+knn_tuned,dev20k,1,mileage_km,single,0,1794.4258249915983
+knn_tuned,dev20k,1,mileage_km,single,1,1987.3045448372577
+knn_tuned,dev20k,1,mileage_km,single,2,1793.3066945327919
+knn_tuned,dev20k,1,power_kw,single,0,2203.323509287862
+knn_tuned,dev20k,1,power_kw,single,1,2177.1053911229174
+knn_tuned,dev20k,1,power_kw,single,2,2380.6287176218593
+knn_tuned,dev20k,1,engine_cc,single,0,2135.09568471049
+knn_tuned,dev20k,1,engine_cc,single,1,2064.813806238577
+knn_tuned,dev20k,1,engine_cc,single,2,1984.579305175961
+knn_tuned,dev20k,1,nr_seats,single,0,1015.7536310901287
+knn_tuned,dev20k,1,nr_seats,single,1,969.4786340891442
+knn_tuned,dev20k,1,nr_seats,single,2,1066.7032908725014
+knn_tuned,dev20k,1,identity (brand+model[+version]),joint,0,7825.510078936615
+knn_tuned,dev20k,1,identity (brand+model[+version]),joint,1,7804.850358990208
+knn_tuned,dev20k,1,identity (brand+model[+version]),joint,2,8049.281804901939
+knn_tuned,dev20k,1,age (year+vehicle_age),joint,0,6826.129988346762
+knn_tuned,dev20k,1,age (year+vehicle_age),joint,1,7244.6472739915225
+knn_tuned,dev20k,1,age (year+vehicle_age),joint,2,7274.557851770633
+knn_tuned,dev20k,4,brand,single,0,2753.060430918529
+knn_tuned,dev20k,4,brand,single,1,2949.9185773394547
+knn_tuned,dev20k,4,brand,single,2,2845.9991720849885
+knn_tuned,dev20k,4,model,single,0,2138.1289524502317
+knn_tuned,dev20k,4,model,single,1,2215.201082195832
+knn_tuned,dev20k,4,model,single,2,2261.003773425189
+knn_tuned,dev20k,4,fuel_type,single,0,739.174534218977
+knn_tuned,dev20k,4,fuel_type,single,1,643.8100846267243
+knn_tuned,dev20k,4,fuel_type,single,2,676.0613771916924
+knn_tuned,dev20k,4,transmission,single,0,435.6707072651352
+knn_tuned,dev20k,4,transmission,single,1,623.2225903753952
+knn_tuned,dev20k,4,transmission,single,2,382.683577500904
+knn_tuned,dev20k,4,body_type,single,0,972.6903538552397
+knn_tuned,dev20k,4,body_type,single,1,1123.547005712122
+knn_tuned,dev20k,4,body_type,single,2,981.9675047583369
+knn_tuned,dev20k,4,country_code,single,0,465.89598677329195
+knn_tuned,dev20k,4,country_code,single,1,363.42763545050366
+knn_tuned,dev20k,4,country_code,single,2,498.66400167745996
+knn_tuned,dev20k,4,seller_type,single,0,166.49386264949862
+knn_tuned,dev20k,4,seller_type,single,1,275.71431641694653
+knn_tuned,dev20k,4,seller_type,single,2,185.83822065646018
+knn_tuned,dev20k,4,drive_train,single,0,626.2100062403952
+knn_tuned,dev20k,4,drive_train,single,1,492.8192273239474
+knn_tuned,dev20k,4,drive_train,single,2,582.1208682473934
+knn_tuned,dev20k,4,body_color,single,0,-160.76219706752272
+knn_tuned,dev20k,4,body_color,single,1,188.79368672001692
+knn_tuned,dev20k,4,body_color,single,2,154.54220771646214
+knn_tuned,dev20k,4,model_version,single,0,126.53471417063884
+knn_tuned,dev20k,4,model_version,single,1,111.84326226571466
+knn_tuned,dev20k,4,model_version,single,2,132.51157861543106
+knn_tuned,dev20k,4,production_year,single,0,1204.245828023617
+knn_tuned,dev20k,4,production_year,single,1,1231.8049202899056
+knn_tuned,dev20k,4,production_year,single,2,1082.9051572939352
+knn_tuned,dev20k,4,vehicle_age,single,0,1274.9906284639073
+knn_tuned,dev20k,4,vehicle_age,single,1,1123.99608638274
+knn_tuned,dev20k,4,vehicle_age,single,2,1169.6670984907414
+knn_tuned,dev20k,4,mileage_km,single,0,2508.5983939124053
+knn_tuned,dev20k,4,mileage_km,single,1,2146.695437520644
+knn_tuned,dev20k,4,mileage_km,single,2,2173.5940154185573
+knn_tuned,dev20k,4,power_kw,single,0,3353.960678980584
+knn_tuned,dev20k,4,power_kw,single,1,3347.283844620926
+knn_tuned,dev20k,4,power_kw,single,2,3254.1633585328
+knn_tuned,dev20k,4,engine_cc,single,0,2833.1239187920582
+knn_tuned,dev20k,4,engine_cc,single,1,2854.392313505865
+knn_tuned,dev20k,4,engine_cc,single,2,2898.0401756547562
+knn_tuned,dev20k,4,nr_seats,single,0,1132.738234309676
+knn_tuned,dev20k,4,nr_seats,single,1,1313.8746098846823
+knn_tuned,dev20k,4,nr_seats,single,2,1080.088289341198
+knn_tuned,dev20k,4,identity (brand+model[+version]),joint,0,9299.66912964152
+knn_tuned,dev20k,4,identity (brand+model[+version]),joint,1,8852.809248289534
+knn_tuned,dev20k,4,identity (brand+model[+version]),joint,2,8919.56617304323
+knn_tuned,dev20k,4,age (year+vehicle_age),joint,0,7282.164559762292
+knn_tuned,dev20k,4,age (year+vehicle_age),joint,1,6807.578451718684
+knn_tuned,dev20k,4,age (year+vehicle_age),joint,2,7178.433386121531
+hgb_best,dev20k,0,brand,single,0,3643.362881537305
+hgb_best,dev20k,0,brand,single,1,3699.6866873653908
+hgb_best,dev20k,0,brand,single,2,3786.8901752442034
+hgb_best,dev20k,0,model,single,0,11940.612751480146
+hgb_best,dev20k,0,model,single,1,11713.150208176792
+hgb_best,dev20k,0,model,single,2,11451.082012620425
+hgb_best,dev20k,0,fuel_type,single,0,511.48751339232695
+hgb_best,dev20k,0,fuel_type,single,1,531.1905923183313
+hgb_best,dev20k,0,fuel_type,single,2,591.5243620233505
+hgb_best,dev20k,0,transmission,single,0,165.38807416197415
+hgb_best,dev20k,0,transmission,single,1,181.25362558331562
+hgb_best,dev20k,0,transmission,single,2,178.16523446833799
+hgb_best,dev20k,0,body_type,single,0,554.8639338125886
+hgb_best,dev20k,0,body_type,single,1,687.9938951330187
+hgb_best,dev20k,0,body_type,single,2,666.1256979630907
+hgb_best,dev20k,0,country_code,single,0,749.721056692164
+hgb_best,dev20k,0,country_code,single,1,715.8800046258893
+hgb_best,dev20k,0,country_code,single,2,802.4536858012652
+hgb_best,dev20k,0,seller_type,single,0,37.06957394170331
+hgb_best,dev20k,0,seller_type,single,1,36.550125410952205
+hgb_best,dev20k,0,seller_type,single,2,63.43751131966292
+hgb_best,dev20k,0,drive_train,single,0,259.69796217005296
+hgb_best,dev20k,0,drive_train,single,1,261.8880103756537
+hgb_best,dev20k,0,drive_train,single,2,273.6360035027119
+hgb_best,dev20k,0,body_color,single,0,191.4704963926706
+hgb_best,dev20k,0,body_color,single,1,108.15988252765601
+hgb_best,dev20k,0,body_color,single,2,116.08378873587571
+hgb_best,dev20k,0,model_version,single,0,0.0
+hgb_best,dev20k,0,model_version,single,1,0.0
+hgb_best,dev20k,0,model_version,single,2,0.0
+hgb_best,dev20k,0,production_year,single,0,4963.524646361495
+hgb_best,dev20k,0,production_year,single,1,4908.293111273626
+hgb_best,dev20k,0,production_year,single,2,4916.039423184917
+hgb_best,dev20k,0,vehicle_age,single,0,496.2588141471588
+hgb_best,dev20k,0,vehicle_age,single,1,504.7963800081543
+hgb_best,dev20k,0,vehicle_age,single,2,556.764075764675
+hgb_best,dev20k,0,mileage_km,single,0,7118.664793077425
+hgb_best,dev20k,0,mileage_km,single,1,7562.8483686703385
+hgb_best,dev20k,0,mileage_km,single,2,7595.538265553028
+hgb_best,dev20k,0,power_kw,single,0,8674.186796749605
+hgb_best,dev20k,0,power_kw,single,1,8382.352272929158
+hgb_best,dev20k,0,power_kw,single,2,8453.596850593003
+hgb_best,dev20k,0,engine_cc,single,0,1224.1752772126565
+hgb_best,dev20k,0,engine_cc,single,1,1268.6237214115772
+hgb_best,dev20k,0,engine_cc,single,2,1173.796948281597
+hgb_best,dev20k,0,nr_seats,single,0,182.81545147751694
+hgb_best,dev20k,0,nr_seats,single,1,157.9192487001974
+hgb_best,dev20k,0,nr_seats,single,2,183.0050000528472
+hgb_best,dev20k,0,identity (brand+model[+version]),joint,0,16772.820241290945
+hgb_best,dev20k,0,identity (brand+model[+version]),joint,1,16553.95493724884
+hgb_best,dev20k,0,identity (brand+model[+version]),joint,2,16733.378002952115
+hgb_best,dev20k,0,age (year+vehicle_age),joint,0,6723.580613624465
+hgb_best,dev20k,0,age (year+vehicle_age),joint,1,6491.172509293454
+hgb_best,dev20k,0,age (year+vehicle_age),joint,2,6628.503151833333
+rf_tuned,dev20k,4,brand,single,0,7393.189782654554
+rf_tuned,dev20k,4,brand,single,1,7543.307665426515
+rf_tuned,dev20k,4,brand,single,2,7534.481881311927
+rf_tuned,dev20k,4,model,single,0,1412.6429612273168
+rf_tuned,dev20k,4,model,single,1,1510.261786360934
+rf_tuned,dev20k,4,model,single,2,1423.3517589201529
+rf_tuned,dev20k,4,fuel_type,single,0,638.3771035876453
+rf_tuned,dev20k,4,fuel_type,single,1,822.4298407947153
+rf_tuned,dev20k,4,fuel_type,single,2,757.6180147953037
+rf_tuned,dev20k,4,transmission,single,0,178.9196180452618
+rf_tuned,dev20k,4,transmission,single,1,195.63687409568593
+rf_tuned,dev20k,4,transmission,single,2,253.69548992202363
+rf_tuned,dev20k,4,body_type,single,0,493.0730082101709
+rf_tuned,dev20k,4,body_type,single,1,436.4496178512527
+rf_tuned,dev20k,4,body_type,single,2,478.24802480774997
+rf_tuned,dev20k,4,country_code,single,0,500.16524450726865
+rf_tuned,dev20k,4,country_code,single,1,488.2228058080491
+rf_tuned,dev20k,4,country_code,single,2,581.7092966752316
+rf_tuned,dev20k,4,seller_type,single,0,5.792647873084206
+rf_tuned,dev20k,4,seller_type,single,1,12.767055664902728
+rf_tuned,dev20k,4,seller_type,single,2,-4.949287428815296
+rf_tuned,dev20k,4,drive_train,single,0,264.3545652704943
+rf_tuned,dev20k,4,drive_train,single,1,215.55131360651103
+rf_tuned,dev20k,4,drive_train,single,2,169.99433951562423
+rf_tuned,dev20k,4,body_color,single,0,-48.26279747805711
+rf_tuned,dev20k,4,body_color,single,1,0.9726287712292105
+rf_tuned,dev20k,4,body_color,single,2,7.918274049658066
+rf_tuned,dev20k,4,model_version,single,0,0.0
+rf_tuned,dev20k,4,model_version,single,1,0.0
+rf_tuned,dev20k,4,model_version,single,2,0.0
+rf_tuned,dev20k,4,production_year,single,0,2435.631508198365
+rf_tuned,dev20k,4,production_year,single,1,2464.982142954588
+rf_tuned,dev20k,4,production_year,single,2,2527.0247243762606
+rf_tuned,dev20k,4,vehicle_age,single,0,2626.0003282257658
+rf_tuned,dev20k,4,vehicle_age,single,1,2556.638895528369
+rf_tuned,dev20k,4,vehicle_age,single,2,2583.0558151264304
+rf_tuned,dev20k,4,mileage_km,single,0,8970.06240577348
+rf_tuned,dev20k,4,mileage_km,single,1,8511.036215660619
+rf_tuned,dev20k,4,mileage_km,single,2,8221.701513114467
+rf_tuned,dev20k,4,power_kw,single,0,18338.31692496559
+rf_tuned,dev20k,4,power_kw,single,1,17985.915834009124
+rf_tuned,dev20k,4,power_kw,single,2,17493.722951039883
+rf_tuned,dev20k,4,engine_cc,single,0,5658.344788028884
+rf_tuned,dev20k,4,engine_cc,single,1,5394.39168842873
+rf_tuned,dev20k,4,engine_cc,single,2,5633.127168400899
+rf_tuned,dev20k,4,nr_seats,single,0,775.3345871588608
+rf_tuned,dev20k,4,nr_seats,single,1,817.1129438426906
+rf_tuned,dev20k,4,nr_seats,single,2,649.3644801408209
+rf_tuned,dev20k,4,identity (brand+model[+version]),joint,0,9877.204057664972
+rf_tuned,dev20k,4,identity (brand+model[+version]),joint,1,9502.338861192586
+rf_tuned,dev20k,4,identity (brand+model[+version]),joint,2,9615.753244541947
+rf_tuned,dev20k,4,age (year+vehicle_age),joint,0,6816.1516197992205
+rf_tuned,dev20k,4,age (year+vehicle_age),joint,1,6595.082446426712
+rf_tuned,dev20k,4,age (year+vehicle_age),joint,2,6770.957665195616
+rf_tuned,dev20k,3,brand,single,0,7583.405216758586
+rf_tuned,dev20k,3,brand,single,1,8037.597410480249
+rf_tuned,dev20k,3,brand,single,2,7989.658642503439
+rf_tuned,dev20k,3,model,single,0,1936.390113224431
+rf_tuned,dev20k,3,model,single,1,1807.211954151776
+rf_tuned,dev20k,3,model,single,2,1996.3598585005775
+rf_tuned,dev20k,3,fuel_type,single,0,390.4595921233904
+rf_tuned,dev20k,3,fuel_type,single,1,474.3467976638649
+rf_tuned,dev20k,3,fuel_type,single,2,495.8347561864193
+rf_tuned,dev20k,3,transmission,single,0,383.7060635377866
+rf_tuned,dev20k,3,transmission,single,1,346.02545861628005
+rf_tuned,dev20k,3,transmission,single,2,354.7691017179486
+rf_tuned,dev20k,3,body_type,single,0,435.9979528315507
+rf_tuned,dev20k,3,body_type,single,1,561.6496064614503
+rf_tuned,dev20k,3,body_type,single,2,580.2179792266033
+rf_tuned,dev20k,3,country_code,single,0,410.6595006456255
+rf_tuned,dev20k,3,country_code,single,1,446.5423234251639
+rf_tuned,dev20k,3,country_code,single,2,389.74092944696713
+rf_tuned,dev20k,3,seller_type,single,0,7.621439324859239
+rf_tuned,dev20k,3,seller_type,single,1,15.64858154839385
+rf_tuned,dev20k,3,seller_type,single,2,9.320202937321483
+rf_tuned,dev20k,3,drive_train,single,0,198.7206025408541
+rf_tuned,dev20k,3,drive_train,single,1,198.50546719974682
+rf_tuned,dev20k,3,drive_train,single,2,218.73818704936184
+rf_tuned,dev20k,3,body_color,single,0,0.8720124690453304
+rf_tuned,dev20k,3,body_color,single,1,-11.230336322802032
+rf_tuned,dev20k,3,body_color,single,2,-16.53032702049495
+rf_tuned,dev20k,3,model_version,single,0,0.0
+rf_tuned,dev20k,3,model_version,single,1,0.0
+rf_tuned,dev20k,3,model_version,single,2,0.0
+rf_tuned,dev20k,3,production_year,single,0,4846.758694666202
+rf_tuned,dev20k,3,production_year,single,1,4904.319467531562
+rf_tuned,dev20k,3,production_year,single,2,5062.763519450217
+rf_tuned,dev20k,3,vehicle_age,single,0,4596.361220889289
+rf_tuned,dev20k,3,vehicle_age,single,1,4397.933076944718
+rf_tuned,dev20k,3,vehicle_age,single,2,4454.797809135284
+rf_tuned,dev20k,3,mileage_km,single,0,10989.583560217998
+rf_tuned,dev20k,3,mileage_km,single,1,11091.59653578707
+rf_tuned,dev20k,3,mileage_km,single,2,10741.260635717466
+rf_tuned,dev20k,3,power_kw,single,0,14922.651767923358
+rf_tuned,dev20k,3,power_kw,single,1,15086.776365516609
+rf_tuned,dev20k,3,power_kw,single,2,15385.64628267166
+rf_tuned,dev20k,3,engine_cc,single,0,4077.970116604224
+rf_tuned,dev20k,3,engine_cc,single,1,3683.3247499673625
+rf_tuned,dev20k,3,engine_cc,single,2,3799.869512548711
+rf_tuned,dev20k,3,nr_seats,single,0,565.7979714047733
+rf_tuned,dev20k,3,nr_seats,single,1,567.8224279181632
+rf_tuned,dev20k,3,nr_seats,single,2,618.3369131790487
+rf_tuned,dev20k,3,identity (brand+model[+version]),joint,0,8956.25218541826
+rf_tuned,dev20k,3,identity (brand+model[+version]),joint,1,9111.73328140956
+rf_tuned,dev20k,3,identity (brand+model[+version]),joint,2,8884.0177314514
+rf_tuned,dev20k,3,age (year+vehicle_age),joint,0,11087.963160524687
+rf_tuned,dev20k,3,age (year+vehicle_age),joint,1,11694.08498644417
+rf_tuned,dev20k,3,age (year+vehicle_age),joint,2,11758.28876082578
+hgb_best,dev20k,1,brand,single,0,3324.346904897351
+hgb_best,dev20k,1,brand,single,1,3119.925599817667
+hgb_best,dev20k,1,brand,single,2,3071.890396866964
+hgb_best,dev20k,1,model,single,0,11998.3186505386
+hgb_best,dev20k,1,model,single,1,12166.15159698651
+hgb_best,dev20k,1,model,single,2,12182.723739165522
+hgb_best,dev20k,1,fuel_type,single,0,660.8753780242505
+hgb_best,dev20k,1,fuel_type,single,1,694.1385057146726
+hgb_best,dev20k,1,fuel_type,single,2,682.5982884441082
+hgb_best,dev20k,1,transmission,single,0,243.1725975606696
+hgb_best,dev20k,1,transmission,single,1,227.26105780943362
+hgb_best,dev20k,1,transmission,single,2,175.4072698798591
+hgb_best,dev20k,1,body_type,single,0,551.239185930257
+hgb_best,dev20k,1,body_type,single,1,560.8557631713329
+hgb_best,dev20k,1,body_type,single,2,538.4033964354958
+hgb_best,dev20k,1,country_code,single,0,1015.7689305401291
+hgb_best,dev20k,1,country_code,single,1,1032.815626692619
+hgb_best,dev20k,1,country_code,single,2,1032.6787972765542
+hgb_best,dev20k,1,seller_type,single,0,-27.553837697120798
+hgb_best,dev20k,1,seller_type,single,1,4.333638174107364
+hgb_best,dev20k,1,seller_type,single,2,-19.549987360388513
+hgb_best,dev20k,1,drive_train,single,0,95.56724261212821
+hgb_best,dev20k,1,drive_train,single,1,173.1576047181543
+hgb_best,dev20k,1,drive_train,single,2,138.26037477940827
+hgb_best,dev20k,1,body_color,single,0,23.745860735582937
+hgb_best,dev20k,1,body_color,single,1,48.478701854035535
+hgb_best,dev20k,1,body_color,single,2,56.70522895074373
+hgb_best,dev20k,1,model_version,single,0,0.0
+hgb_best,dev20k,1,model_version,single,1,0.0
+hgb_best,dev20k,1,model_version,single,2,0.0
+hgb_best,dev20k,1,production_year,single,0,4700.685272144201
+hgb_best,dev20k,1,production_year,single,1,4686.810651103973
+hgb_best,dev20k,1,production_year,single,2,4754.228633989249
+hgb_best,dev20k,1,vehicle_age,single,0,406.58677301924945
+hgb_best,dev20k,1,vehicle_age,single,1,404.87086515730243
+hgb_best,dev20k,1,vehicle_age,single,2,375.766905430979
+hgb_best,dev20k,1,mileage_km,single,0,7157.433736815079
+hgb_best,dev20k,1,mileage_km,single,1,7407.158816353762
+hgb_best,dev20k,1,mileage_km,single,2,6950.82256263913
+hgb_best,dev20k,1,power_kw,single,0,8020.824956020679
+hgb_best,dev20k,1,power_kw,single,1,8128.62148131689
+hgb_best,dev20k,1,power_kw,single,2,8027.1364849315905
+hgb_best,dev20k,1,engine_cc,single,0,1124.38070051659
+hgb_best,dev20k,1,engine_cc,single,1,1064.2045244431565
+hgb_best,dev20k,1,engine_cc,single,2,1131.48853539208
+hgb_best,dev20k,1,nr_seats,single,0,330.6202782598966
+hgb_best,dev20k,1,nr_seats,single,1,270.6859446086737
+hgb_best,dev20k,1,nr_seats,single,2,275.3567070875588
+hgb_best,dev20k,1,identity (brand+model[+version]),joint,0,16306.94268132007
+hgb_best,dev20k,1,identity (brand+model[+version]),joint,1,15979.394018440038
+hgb_best,dev20k,1,identity (brand+model[+version]),joint,2,16456.39201481539
+hgb_best,dev20k,1,age (year+vehicle_age),joint,0,6135.6598480292
+hgb_best,dev20k,1,age (year+vehicle_age),joint,1,6176.825402724764
+hgb_best,dev20k,1,age (year+vehicle_age),joint,2,6050.671469982337
+rf_tuned,dev20k,0,brand,single,0,6052.298596623805
+rf_tuned,dev20k,0,brand,single,1,6250.050586226411
+rf_tuned,dev20k,0,brand,single,2,6429.111319580166
+rf_tuned,dev20k,0,model,single,0,1218.2941584806395
+rf_tuned,dev20k,0,model,single,1,1327.7799657534451
+rf_tuned,dev20k,0,model,single,2,1363.466606216145
+rf_tuned,dev20k,0,fuel_type,single,0,436.48421920480723
+rf_tuned,dev20k,0,fuel_type,single,1,390.3774136015054
+rf_tuned,dev20k,0,fuel_type,single,2,516.0818538584608
+rf_tuned,dev20k,0,transmission,single,0,266.5836259604803
+rf_tuned,dev20k,0,transmission,single,1,289.7318650413108
+rf_tuned,dev20k,0,transmission,single,2,244.51531210324174
+rf_tuned,dev20k,0,body_type,single,0,465.78836425305417
+rf_tuned,dev20k,0,body_type,single,1,428.6837247066287
+rf_tuned,dev20k,0,body_type,single,2,461.8694003263299
+rf_tuned,dev20k,0,country_code,single,0,527.4883105407407
+rf_tuned,dev20k,0,country_code,single,1,582.8305956698896
+rf_tuned,dev20k,0,country_code,single,2,576.1609004654838
+rf_tuned,dev20k,0,seller_type,single,0,12.075639065524228
+rf_tuned,dev20k,0,seller_type,single,1,4.425300982917179
+rf_tuned,dev20k,0,seller_type,single,2,26.49452763892259
+rf_tuned,dev20k,0,drive_train,single,0,218.26624543175785
+rf_tuned,dev20k,0,drive_train,single,1,197.64898797400565
+rf_tuned,dev20k,0,drive_train,single,2,214.12657142796888
+rf_tuned,dev20k,0,body_color,single,0,19.071296494006674
+rf_tuned,dev20k,0,body_color,single,1,27.092423307958597
+rf_tuned,dev20k,0,body_color,single,2,48.882142624952394
+rf_tuned,dev20k,0,model_version,single,0,0.0
+rf_tuned,dev20k,0,model_version,single,1,0.0
+rf_tuned,dev20k,0,model_version,single,2,0.0
+rf_tuned,dev20k,0,production_year,single,0,6907.028942567804
+rf_tuned,dev20k,0,production_year,single,1,6903.927694110711
+rf_tuned,dev20k,0,production_year,single,2,7147.828694507056
+rf_tuned,dev20k,0,vehicle_age,single,0,6517.581423878919
+rf_tuned,dev20k,0,vehicle_age,single,1,6414.878782044174
+rf_tuned,dev20k,0,vehicle_age,single,2,6285.939118615206
+rf_tuned,dev20k,0,mileage_km,single,0,12821.928329267785
+rf_tuned,dev20k,0,mileage_km,single,1,13907.330923133324
+rf_tuned,dev20k,0,mileage_km,single,2,14116.417500196532
+rf_tuned,dev20k,0,power_kw,single,0,13128.71183427709
+rf_tuned,dev20k,0,power_kw,single,1,13370.315515042419
+rf_tuned,dev20k,0,power_kw,single,2,13465.83528029324
+rf_tuned,dev20k,0,engine_cc,single,0,3627.6927583761208
+rf_tuned,dev20k,0,engine_cc,single,1,3693.51141863721
+rf_tuned,dev20k,0,engine_cc,single,2,3617.8772548907964
+rf_tuned,dev20k,0,nr_seats,single,0,277.8820277088271
+rf_tuned,dev20k,0,nr_seats,single,1,263.1588431673281
+rf_tuned,dev20k,0,nr_seats,single,2,389.9555929565413
+rf_tuned,dev20k,0,identity (brand+model[+version]),joint,0,8342.551410173395
+rf_tuned,dev20k,0,identity (brand+model[+version]),joint,1,8001.264101585433
+rf_tuned,dev20k,0,identity (brand+model[+version]),joint,2,8398.094096661998
+rf_tuned,dev20k,0,age (year+vehicle_age),joint,0,15785.308120637723
+rf_tuned,dev20k,0,age (year+vehicle_age),joint,1,15365.174107533216
+rf_tuned,dev20k,0,age (year+vehicle_age),joint,2,15063.749637416478
+rf_tuned,dev20k,2,brand,single,0,8149.584611571656
+rf_tuned,dev20k,2,brand,single,1,7938.052855305636
+rf_tuned,dev20k,2,brand,single,2,8047.321653678922
+rf_tuned,dev20k,2,model,single,0,1790.6781848269202
+rf_tuned,dev20k,2,model,single,1,1886.5316187920216
+rf_tuned,dev20k,2,model,single,2,1930.157508271801
+rf_tuned,dev20k,2,fuel_type,single,0,500.46910172285516
+rf_tuned,dev20k,2,fuel_type,single,1,585.8599001986267
+rf_tuned,dev20k,2,fuel_type,single,2,475.20570324255186
+rf_tuned,dev20k,2,transmission,single,0,496.51823187619993
+rf_tuned,dev20k,2,transmission,single,1,360.740987718812
+rf_tuned,dev20k,2,transmission,single,2,383.8985117784241
+rf_tuned,dev20k,2,body_type,single,0,455.1691008614689
+rf_tuned,dev20k,2,body_type,single,1,412.7034431524535
+rf_tuned,dev20k,2,body_type,single,2,430.7053558797352
+rf_tuned,dev20k,2,country_code,single,0,522.8756415049993
+rf_tuned,dev20k,2,country_code,single,1,513.7895298041776
+rf_tuned,dev20k,2,country_code,single,2,464.8938295329399
+rf_tuned,dev20k,2,seller_type,single,0,17.18099894437637
+rf_tuned,dev20k,2,seller_type,single,1,21.177472236489848
+rf_tuned,dev20k,2,seller_type,single,2,14.11767874133966
+rf_tuned,dev20k,2,drive_train,single,0,188.7446438683146
+rf_tuned,dev20k,2,drive_train,single,1,156.11789848202807
+rf_tuned,dev20k,2,drive_train,single,2,144.14302786092958
+rf_tuned,dev20k,2,body_color,single,0,46.87028998410369
+rf_tuned,dev20k,2,body_color,single,1,57.30594413067047
+rf_tuned,dev20k,2,body_color,single,2,55.20353598087968
+rf_tuned,dev20k,2,model_version,single,0,0.0
+rf_tuned,dev20k,2,model_version,single,1,0.0
+rf_tuned,dev20k,2,model_version,single,2,0.0
+rf_tuned,dev20k,2,production_year,single,0,4608.502868241174
+rf_tuned,dev20k,2,production_year,single,1,4406.110354151233
+rf_tuned,dev20k,2,production_year,single,2,4954.699880370032
+rf_tuned,dev20k,2,vehicle_age,single,0,4835.3301090856585
+rf_tuned,dev20k,2,vehicle_age,single,1,4829.016368254546
+rf_tuned,dev20k,2,vehicle_age,single,2,4674.873733921611
+rf_tuned,dev20k,2,mileage_km,single,0,10678.840476236554
+rf_tuned,dev20k,2,mileage_km,single,1,10853.69369421144
+rf_tuned,dev20k,2,mileage_km,single,2,9907.29844516018
+rf_tuned,dev20k,2,power_kw,single,0,14465.847221066382
+rf_tuned,dev20k,2,power_kw,single,1,14177.005555088603
+rf_tuned,dev20k,2,power_kw,single,2,14328.649508145954
+rf_tuned,dev20k,2,engine_cc,single,0,4395.554045853814
+rf_tuned,dev20k,2,engine_cc,single,1,4236.234827518487
+rf_tuned,dev20k,2,engine_cc,single,2,4199.803930771017
+rf_tuned,dev20k,2,nr_seats,single,0,501.0457102026021
+rf_tuned,dev20k,2,nr_seats,single,1,380.6857043798873
+rf_tuned,dev20k,2,nr_seats,single,2,340.1410559710839
+rf_tuned,dev20k,2,identity (brand+model[+version]),joint,0,8897.922481005966
+rf_tuned,dev20k,2,identity (brand+model[+version]),joint,1,8657.578037724612
+rf_tuned,dev20k,2,identity (brand+model[+version]),joint,2,8839.965675736206
+rf_tuned,dev20k,2,age (year+vehicle_age),joint,0,11186.202379726798
+rf_tuned,dev20k,2,age (year+vehicle_age),joint,1,11596.94241879349
+rf_tuned,dev20k,2,age (year+vehicle_age),joint,2,11565.54961589312
+rf_tuned,dev20k,1,brand,single,0,7197.687608518674
+rf_tuned,dev20k,1,brand,single,1,6843.494620675983
+rf_tuned,dev20k,1,brand,single,2,6933.2188571967
+rf_tuned,dev20k,1,model,single,0,1339.7319692594783
+rf_tuned,dev20k,1,model,single,1,1343.736919346673
+rf_tuned,dev20k,1,model,single,2,1294.5827405288564
+rf_tuned,dev20k,1,fuel_type,single,0,364.97087409530286
+rf_tuned,dev20k,1,fuel_type,single,1,461.59478782481347
+rf_tuned,dev20k,1,fuel_type,single,2,381.03416946618927
+rf_tuned,dev20k,1,transmission,single,0,236.33181348856306
+rf_tuned,dev20k,1,transmission,single,1,266.9036069767326
+rf_tuned,dev20k,1,transmission,single,2,223.80012590870774
+rf_tuned,dev20k,1,body_type,single,0,360.90509655296046
+rf_tuned,dev20k,1,body_type,single,1,389.642992462811
+rf_tuned,dev20k,1,body_type,single,2,346.0659820862502
+rf_tuned,dev20k,1,country_code,single,0,560.7946014737463
+rf_tuned,dev20k,1,country_code,single,1,585.8674907867271
+rf_tuned,dev20k,1,country_code,single,2,601.4876130430912
+rf_tuned,dev20k,1,seller_type,single,0,4.401296608715711
+rf_tuned,dev20k,1,seller_type,single,1,9.70928616191759
+rf_tuned,dev20k,1,seller_type,single,2,18.703205332806647
+rf_tuned,dev20k,1,drive_train,single,0,214.68374644138748
+rf_tuned,dev20k,1,drive_train,single,1,197.87783956452222
+rf_tuned,dev20k,1,drive_train,single,2,205.0298785200439
+rf_tuned,dev20k,1,body_color,single,0,41.94210300259783
+rf_tuned,dev20k,1,body_color,single,1,20.671437846836852
+rf_tuned,dev20k,1,body_color,single,2,27.9499476700139
+rf_tuned,dev20k,1,model_version,single,0,0.0
+rf_tuned,dev20k,1,model_version,single,1,0.0
+rf_tuned,dev20k,1,model_version,single,2,0.0
+rf_tuned,dev20k,1,production_year,single,0,5623.922757842291
+rf_tuned,dev20k,1,production_year,single,1,5652.071776269457
+rf_tuned,dev20k,1,production_year,single,2,5945.323049321236
+rf_tuned,dev20k,1,vehicle_age,single,0,4278.886136331912
+rf_tuned,dev20k,1,vehicle_age,single,1,4438.022425255394
+rf_tuned,dev20k,1,vehicle_age,single,2,4255.038465039304
+rf_tuned,dev20k,1,mileage_km,single,0,10919.80689097201
+rf_tuned,dev20k,1,mileage_km,single,1,11987.029895081258
+rf_tuned,dev20k,1,mileage_km,single,2,10817.382478587508
+rf_tuned,dev20k,1,power_kw,single,0,13553.834562898053
+rf_tuned,dev20k,1,power_kw,single,1,13567.587674133472
+rf_tuned,dev20k,1,power_kw,single,2,13894.219239154932
+rf_tuned,dev20k,1,engine_cc,single,0,3659.840563589072
+rf_tuned,dev20k,1,engine_cc,single,1,3677.076493307939
+rf_tuned,dev20k,1,engine_cc,single,2,3696.417631578337
+rf_tuned,dev20k,1,nr_seats,single,0,482.0481838004471
+rf_tuned,dev20k,1,nr_seats,single,1,521.0964246357826
+rf_tuned,dev20k,1,nr_seats,single,2,506.00102578249425
+rf_tuned,dev20k,1,identity (brand+model[+version]),joint,0,9271.306022130944
+rf_tuned,dev20k,1,identity (brand+model[+version]),joint,1,9037.350302717037
+rf_tuned,dev20k,1,identity (brand+model[+version]),joint,2,9154.642307836124
+rf_tuned,dev20k,1,age (year+vehicle_age),joint,0,11472.579972648291
+rf_tuned,dev20k,1,age (year+vehicle_age),joint,1,11405.505133528546
+rf_tuned,dev20k,1,age (year+vehicle_age),joint,2,11269.594939363982
+hgb_best,dev20k,2,brand,single,0,4647.836732215568
+hgb_best,dev20k,2,brand,single,1,4763.8291056385115
+hgb_best,dev20k,2,brand,single,2,4515.5981969305885
+hgb_best,dev20k,2,model,single,0,13285.82902452747
+hgb_best,dev20k,2,model,single,1,12503.597278768255
+hgb_best,dev20k,2,model,single,2,12733.632700494862
+hgb_best,dev20k,2,fuel_type,single,0,744.336862946433
+hgb_best,dev20k,2,fuel_type,single,1,683.7743075820854
+hgb_best,dev20k,2,fuel_type,single,2,697.4297435734625
+hgb_best,dev20k,2,transmission,single,0,216.58066251787113
+hgb_best,dev20k,2,transmission,single,1,207.97637218661202
+hgb_best,dev20k,2,transmission,single,2,187.70586387490948
+hgb_best,dev20k,2,body_type,single,0,1010.7954409750282
+hgb_best,dev20k,2,body_type,single,1,1049.2803568333156
+hgb_best,dev20k,2,body_type,single,2,842.7704692375228
+hgb_best,dev20k,2,country_code,single,0,1454.1635727781013
+hgb_best,dev20k,2,country_code,single,1,1412.674946849117
+hgb_best,dev20k,2,country_code,single,2,1443.9957977941322
+hgb_best,dev20k,2,seller_type,single,0,7.286690828198516
+hgb_best,dev20k,2,seller_type,single,1,24.451410017411035
+hgb_best,dev20k,2,seller_type,single,2,26.12793909762877
+hgb_best,dev20k,2,drive_train,single,0,372.6059255762739
+hgb_best,dev20k,2,drive_train,single,1,299.58607988059975
+hgb_best,dev20k,2,drive_train,single,2,288.97312467580923
+hgb_best,dev20k,2,body_color,single,0,324.8486005121158
+hgb_best,dev20k,2,body_color,single,1,248.3737848837054
+hgb_best,dev20k,2,body_color,single,2,241.92617855831668
+hgb_best,dev20k,2,model_version,single,0,0.0
+hgb_best,dev20k,2,model_version,single,1,0.0
+hgb_best,dev20k,2,model_version,single,2,0.0
+hgb_best,dev20k,2,production_year,single,0,5164.933983357738
+hgb_best,dev20k,2,production_year,single,1,5081.320299626475
+hgb_best,dev20k,2,production_year,single,2,5220.158200757198
+hgb_best,dev20k,2,vehicle_age,single,0,560.8798589046783
+hgb_best,dev20k,2,vehicle_age,single,1,639.7718688576142
+hgb_best,dev20k,2,vehicle_age,single,2,602.6930985335721
+hgb_best,dev20k,2,mileage_km,single,0,7373.35267367656
+hgb_best,dev20k,2,mileage_km,single,1,7445.999615439268
+hgb_best,dev20k,2,mileage_km,single,2,7897.79942143771
+hgb_best,dev20k,2,power_kw,single,0,9662.371008722486
+hgb_best,dev20k,2,power_kw,single,1,9599.354244698945
+hgb_best,dev20k,2,power_kw,single,2,9291.900094782524
+hgb_best,dev20k,2,engine_cc,single,0,1627.0482418499232
+hgb_best,dev20k,2,engine_cc,single,1,1610.0793829465365
+hgb_best,dev20k,2,engine_cc,single,2,1591.1228375559604
+hgb_best,dev20k,2,nr_seats,single,0,280.13043840346745
+hgb_best,dev20k,2,nr_seats,single,1,305.270596197598
+hgb_best,dev20k,2,nr_seats,single,2,302.22931075148335
+hgb_best,dev20k,2,identity (brand+model[+version]),joint,0,17120.638165396667
+hgb_best,dev20k,2,identity (brand+model[+version]),joint,1,16809.672522689434
+hgb_best,dev20k,2,identity (brand+model[+version]),joint,2,16828.494317068173
+hgb_best,dev20k,2,age (year+vehicle_age),joint,0,6907.279465379903
+hgb_best,dev20k,2,age (year+vehicle_age),joint,1,6905.861596984623
+hgb_best,dev20k,2,age (year+vehicle_age),joint,2,7264.04803762017
+rf_default,dev20k,4,brand,single,0,7850.997923471217
+rf_default,dev20k,4,brand,single,1,8004.644315091229
+rf_default,dev20k,4,brand,single,2,7998.680859434806
+rf_default,dev20k,4,model,single,0,1633.8670674810928
+rf_default,dev20k,4,model,single,1,1825.8805641349663
+rf_default,dev20k,4,model,single,2,1841.8912231976956
+rf_default,dev20k,4,fuel_type,single,0,666.7196041684565
+rf_default,dev20k,4,fuel_type,single,1,692.8242625739331
+rf_default,dev20k,4,fuel_type,single,2,686.0695728036826
+rf_default,dev20k,4,transmission,single,0,156.09999950362726
+rf_default,dev20k,4,transmission,single,1,133.56309469913867
+rf_default,dev20k,4,transmission,single,2,140.21131701109516
+rf_default,dev20k,4,body_type,single,0,408.14868049410507
+rf_default,dev20k,4,body_type,single,1,362.6915413687075
+rf_default,dev20k,4,body_type,single,2,388.6094002538248
+rf_default,dev20k,4,country_code,single,0,705.2885306034204
+rf_default,dev20k,4,country_code,single,1,685.7908468311725
+rf_default,dev20k,4,country_code,single,2,744.1222420541199
+rf_default,dev20k,4,seller_type,single,0,5.350061314644336
+rf_default,dev20k,4,seller_type,single,1,3.1307719837441255
+rf_default,dev20k,4,seller_type,single,2,3.0737705638821353
+rf_default,dev20k,4,drive_train,single,0,258.7695463988148
+rf_default,dev20k,4,drive_train,single,1,159.56761948514395
+rf_default,dev20k,4,drive_train,single,2,96.15812056638788
+rf_default,dev20k,4,body_color,single,0,1.0813077512466407
+rf_default,dev20k,4,body_color,single,1,75.5350811978733
+rf_default,dev20k,4,body_color,single,2,54.88133148300949
+rf_default,dev20k,4,model_version,single,0,0.0
+rf_default,dev20k,4,model_version,single,1,0.0
+rf_default,dev20k,4,model_version,single,2,0.0
+rf_default,dev20k,4,production_year,single,0,1867.4718667947764
+rf_default,dev20k,4,production_year,single,1,1848.1227921493737
+rf_default,dev20k,4,production_year,single,2,1922.3669400494582
+rf_default,dev20k,4,vehicle_age,single,0,2644.5000756460504
+rf_default,dev20k,4,vehicle_age,single,1,2503.7067091884983
+rf_default,dev20k,4,vehicle_age,single,2,2591.2369334008617
+rf_default,dev20k,4,mileage_km,single,0,10037.3503305012
+rf_default,dev20k,4,mileage_km,single,1,9900.654409813467
+rf_default,dev20k,4,mileage_km,single,2,9682.805414889624
+rf_default,dev20k,4,power_kw,single,0,22501.32138225747
+rf_default,dev20k,4,power_kw,single,1,22638.499159169223
+rf_default,dev20k,4,power_kw,single,2,21529.36495434973
+rf_default,dev20k,4,engine_cc,single,0,3847.510042464244
+rf_default,dev20k,4,engine_cc,single,1,3509.371190646578
+rf_default,dev20k,4,engine_cc,single,2,3575.3984178723167
+rf_default,dev20k,4,nr_seats,single,0,667.7307431836234
+rf_default,dev20k,4,nr_seats,single,1,664.6875947144035
+rf_default,dev20k,4,nr_seats,single,2,474.84894815167536
+rf_default,dev20k,4,identity (brand+model[+version]),joint,0,10322.203457178277
+rf_default,dev20k,4,identity (brand+model[+version]),joint,1,9995.098875657206
+rf_default,dev20k,4,identity (brand+model[+version]),joint,2,10185.074666929597
+rf_default,dev20k,4,age (year+vehicle_age),joint,0,6155.553578035862
+rf_default,dev20k,4,age (year+vehicle_age),joint,1,6032.376907927217
+rf_default,dev20k,4,age (year+vehicle_age),joint,2,6080.476569547973
+rf_default,dev20k,2,brand,single,0,8345.293497534352
+rf_default,dev20k,2,brand,single,1,8016.857371015958
+rf_default,dev20k,2,brand,single,2,7989.717135806362
+rf_default,dev20k,2,model,single,0,1389.0938333689392
+rf_default,dev20k,2,model,single,1,1361.3778581879305
+rf_default,dev20k,2,model,single,2,1341.5148030802884
+rf_default,dev20k,2,fuel_type,single,0,599.9329495013353
+rf_default,dev20k,2,fuel_type,single,1,754.6787981132084
+rf_default,dev20k,2,fuel_type,single,2,732.3383607083333
+rf_default,dev20k,2,transmission,single,0,218.2920054990127
+rf_default,dev20k,2,transmission,single,1,183.80527832058033
+rf_default,dev20k,2,transmission,single,2,174.14456753496415
+rf_default,dev20k,2,body_type,single,0,427.25296646967854
+rf_default,dev20k,2,body_type,single,1,394.43998832133184
+rf_default,dev20k,2,body_type,single,2,422.62709265460035
+rf_default,dev20k,2,country_code,single,0,724.3733793663469
+rf_default,dev20k,2,country_code,single,1,748.1451810763847
+rf_default,dev20k,2,country_code,single,2,737.6717205996974
+rf_default,dev20k,2,seller_type,single,0,13.801746216637184
+rf_default,dev20k,2,seller_type,single,1,12.108339307942515
+rf_default,dev20k,2,seller_type,single,2,17.422778293772353
+rf_default,dev20k,2,drive_train,single,0,154.13633979403585
+rf_default,dev20k,2,drive_train,single,1,123.19492591968174
+rf_default,dev20k,2,drive_train,single,2,137.8807874990389
+rf_default,dev20k,2,body_color,single,0,54.85249562943682
+rf_default,dev20k,2,body_color,single,1,-5.065851304493663
+rf_default,dev20k,2,body_color,single,2,47.9963986248149
+rf_default,dev20k,2,model_version,single,0,0.0
+rf_default,dev20k,2,model_version,single,1,0.0
+rf_default,dev20k,2,model_version,single,2,0.0
+rf_default,dev20k,2,production_year,single,0,5124.906673018388
+rf_default,dev20k,2,production_year,single,1,4814.366775592243
+rf_default,dev20k,2,production_year,single,2,5368.944872069873
+rf_default,dev20k,2,vehicle_age,single,0,4937.223054233071
+rf_default,dev20k,2,vehicle_age,single,1,5086.44944456349
+rf_default,dev20k,2,vehicle_age,single,2,5056.731696858242
+rf_default,dev20k,2,mileage_km,single,0,11077.374393735608
+rf_default,dev20k,2,mileage_km,single,1,10965.404869785743
+rf_default,dev20k,2,mileage_km,single,2,10219.579631092132
+rf_default,dev20k,2,power_kw,single,0,17941.331899227633
+rf_default,dev20k,2,power_kw,single,1,17755.133361040087
+rf_default,dev20k,2,power_kw,single,2,17610.088387291475
+rf_default,dev20k,2,engine_cc,single,0,2694.664958796766
+rf_default,dev20k,2,engine_cc,single,1,2534.1135951909055
+rf_default,dev20k,2,engine_cc,single,2,2435.060054757909
+rf_default,dev20k,2,nr_seats,single,0,255.71325674050695
+rf_default,dev20k,2,nr_seats,single,1,189.4714653522351
+rf_default,dev20k,2,nr_seats,single,2,205.3589699334043
+rf_default,dev20k,2,identity (brand+model[+version]),joint,0,9651.789412675495
+rf_default,dev20k,2,identity (brand+model[+version]),joint,1,9119.726658618254
+rf_default,dev20k,2,identity (brand+model[+version]),joint,2,9460.04228618985
+rf_default,dev20k,2,age (year+vehicle_age),joint,0,11921.898299950019
+rf_default,dev20k,2,age (year+vehicle_age),joint,1,12190.303928743015
+rf_default,dev20k,2,age (year+vehicle_age),joint,2,12139.210142169064
+rf_default,dev20k,3,brand,single,0,8118.7688561419445
+rf_default,dev20k,3,brand,single,1,8380.621303587937
+rf_default,dev20k,3,brand,single,2,8393.824955675376
+rf_default,dev20k,3,model,single,0,1513.8029136818814
+rf_default,dev20k,3,model,single,1,1467.2626008451089
+rf_default,dev20k,3,model,single,2,1505.2226189027688
+rf_default,dev20k,3,fuel_type,single,0,670.6396874551992
+rf_default,dev20k,3,fuel_type,single,1,641.9202881282736
+rf_default,dev20k,3,fuel_type,single,2,676.199757622242
+rf_default,dev20k,3,transmission,single,0,152.97650691399485
+rf_default,dev20k,3,transmission,single,1,167.3208421158206
+rf_default,dev20k,3,transmission,single,2,147.5303864820171
+rf_default,dev20k,3,body_type,single,0,489.5169708583435
+rf_default,dev20k,3,body_type,single,1,509.42057716468935
+rf_default,dev20k,3,body_type,single,2,541.1310753486032
+rf_default,dev20k,3,country_code,single,0,580.48105897389
+rf_default,dev20k,3,country_code,single,1,650.054763225744
+rf_default,dev20k,3,country_code,single,2,613.9246339420661
+rf_default,dev20k,3,seller_type,single,0,-0.8882252743369463
+rf_default,dev20k,3,seller_type,single,1,0.27403425804186554
+rf_default,dev20k,3,seller_type,single,2,3.281600688593244
+rf_default,dev20k,3,drive_train,single,0,172.09764376560906
+rf_default,dev20k,3,drive_train,single,1,148.7046905673933
+rf_default,dev20k,3,drive_train,single,2,154.9847862116785
+rf_default,dev20k,3,body_color,single,0,18.811557162048302
+rf_default,dev20k,3,body_color,single,1,22.17078315193521
+rf_default,dev20k,3,body_color,single,2,27.8828346983164
+rf_default,dev20k,3,model_version,single,0,0.0
+rf_default,dev20k,3,model_version,single,1,0.0
+rf_default,dev20k,3,model_version,single,2,0.0
+rf_default,dev20k,3,production_year,single,0,5502.284166676954
+rf_default,dev20k,3,production_year,single,1,5387.3119733815265
+rf_default,dev20k,3,production_year,single,2,5906.1900261041255
+rf_default,dev20k,3,vehicle_age,single,0,3992.076062618621
+rf_default,dev20k,3,vehicle_age,single,1,3781.5571385857793
+rf_default,dev20k,3,vehicle_age,single,2,3971.1554213975205
+rf_default,dev20k,3,mileage_km,single,0,11096.289870818644
+rf_default,dev20k,3,mileage_km,single,1,11089.473701872208
+rf_default,dev20k,3,mileage_km,single,2,11190.929421636378
+rf_default,dev20k,3,power_kw,single,0,18597.018739214494
+rf_default,dev20k,3,power_kw,single,1,18689.913344851226
+rf_default,dev20k,3,power_kw,single,2,19029.531509158896
+rf_default,dev20k,3,engine_cc,single,0,2705.1019912251422
+rf_default,dev20k,3,engine_cc,single,1,2629.070191302947
+rf_default,dev20k,3,engine_cc,single,2,2692.125902392946
+rf_default,dev20k,3,nr_seats,single,0,182.88733797229088
+rf_default,dev20k,3,nr_seats,single,1,167.66394193806718
+rf_default,dev20k,3,nr_seats,single,2,196.81780554809757
+rf_default,dev20k,3,identity (brand+model[+version]),joint,0,9883.46939926349
+rf_default,dev20k,3,identity (brand+model[+version]),joint,1,10408.927168772087
+rf_default,dev20k,3,identity (brand+model[+version]),joint,2,10069.647599880962
+rf_default,dev20k,3,age (year+vehicle_age),joint,0,11412.157674407266
+rf_default,dev20k,3,age (year+vehicle_age),joint,1,12344.18310418498
+rf_default,dev20k,3,age (year+vehicle_age),joint,2,12688.175842813478
+hgb_best,dev20k,3,brand,single,0,3377.8931247934534
+hgb_best,dev20k,3,brand,single,1,3745.8307511295143
+hgb_best,dev20k,3,brand,single,2,3447.7005468221605
+hgb_best,dev20k,3,model,single,0,12821.08475933742
+hgb_best,dev20k,3,model,single,1,13079.032585621972
+hgb_best,dev20k,3,model,single,2,12967.946190232436
+hgb_best,dev20k,3,fuel_type,single,0,700.194739338267
+hgb_best,dev20k,3,fuel_type,single,1,757.7147358867151
+hgb_best,dev20k,3,fuel_type,single,2,821.1407425251746
+hgb_best,dev20k,3,transmission,single,0,68.9613389978449
+hgb_best,dev20k,3,transmission,single,1,110.97744717425212
+hgb_best,dev20k,3,transmission,single,2,157.84780747124205
+hgb_best,dev20k,3,body_type,single,0,487.2605376116726
+hgb_best,dev20k,3,body_type,single,1,559.7355345400683
+hgb_best,dev20k,3,body_type,single,2,492.39601082200716
+hgb_best,dev20k,3,country_code,single,0,982.0496849601595
+hgb_best,dev20k,3,country_code,single,1,1151.2388265189566
+hgb_best,dev20k,3,country_code,single,2,1006.9896206947633
+hgb_best,dev20k,3,seller_type,single,0,36.165105452725584
+hgb_best,dev20k,3,seller_type,single,1,68.59410103964001
+hgb_best,dev20k,3,seller_type,single,2,19.95706322894239
+hgb_best,dev20k,3,drive_train,single,0,241.4200392978537
+hgb_best,dev20k,3,drive_train,single,1,215.88155960629683
+hgb_best,dev20k,3,drive_train,single,2,233.6135741631624
+hgb_best,dev20k,3,body_color,single,0,65.98037284796555
+hgb_best,dev20k,3,body_color,single,1,24.53462776665492
+hgb_best,dev20k,3,body_color,single,2,47.86243297051169
+hgb_best,dev20k,3,model_version,single,0,0.0
+hgb_best,dev20k,3,model_version,single,1,0.0
+hgb_best,dev20k,3,model_version,single,2,0.0
+hgb_best,dev20k,3,production_year,single,0,5034.15332289928
+hgb_best,dev20k,3,production_year,single,1,4863.870900629449
+hgb_best,dev20k,3,production_year,single,2,5071.0465382315915
+hgb_best,dev20k,3,vehicle_age,single,0,375.65586276130125
+hgb_best,dev20k,3,vehicle_age,single,1,400.01010451886395
+hgb_best,dev20k,3,vehicle_age,single,2,397.7581533674147
+hgb_best,dev20k,3,mileage_km,single,0,7581.639416414485
+hgb_best,dev20k,3,mileage_km,single,1,7458.2449558637645
+hgb_best,dev20k,3,mileage_km,single,2,7626.250665674596
+hgb_best,dev20k,3,power_kw,single,0,9320.028607567969
+hgb_best,dev20k,3,power_kw,single,1,9511.751040042756
+hgb_best,dev20k,3,power_kw,single,2,9367.316566319634
+hgb_best,dev20k,3,engine_cc,single,0,1228.025002654772
+hgb_best,dev20k,3,engine_cc,single,1,1118.1968408622834
+hgb_best,dev20k,3,engine_cc,single,2,1229.8950507049167
+hgb_best,dev20k,3,nr_seats,single,0,280.73628367702986
+hgb_best,dev20k,3,nr_seats,single,1,209.9034768641868
+hgb_best,dev20k,3,nr_seats,single,2,305.7239061811797
+hgb_best,dev20k,3,identity (brand+model[+version]),joint,0,16725.08400959125
+hgb_best,dev20k,3,identity (brand+model[+version]),joint,1,17067.92548370069
+hgb_best,dev20k,3,identity (brand+model[+version]),joint,2,17080.208863352676
+hgb_best,dev20k,3,age (year+vehicle_age),joint,0,6761.968510509271
+hgb_best,dev20k,3,age (year+vehicle_age),joint,1,6740.449430564754
+hgb_best,dev20k,3,age (year+vehicle_age),joint,2,6655.955027626679
+rf_default,dev20k,1,brand,single,0,8255.415396136865
+rf_default,dev20k,1,brand,single,1,7835.824571275502
+rf_default,dev20k,1,brand,single,2,8214.421088300962
+rf_default,dev20k,1,model,single,0,1430.682745761792
+rf_default,dev20k,1,model,single,1,1367.1351095790378
+rf_default,dev20k,1,model,single,2,1325.7174863179225
+rf_default,dev20k,1,fuel_type,single,0,582.7888157052712
+rf_default,dev20k,1,fuel_type,single,1,563.3031190777901
+rf_default,dev20k,1,fuel_type,single,2,481.3198961376829
+rf_default,dev20k,1,transmission,single,0,168.01612933839442
+rf_default,dev20k,1,transmission,single,1,165.4664068068878
+rf_default,dev20k,1,transmission,single,2,117.49847423812116
+rf_default,dev20k,1,body_type,single,0,383.38630926733094
+rf_default,dev20k,1,body_type,single,1,371.7699789354001
+rf_default,dev20k,1,body_type,single,2,371.07716555274874
+rf_default,dev20k,1,country_code,single,0,729.5739645455978
+rf_default,dev20k,1,country_code,single,1,770.1432369830973
+rf_default,dev20k,1,country_code,single,2,796.1418284151932
+rf_default,dev20k,1,seller_type,single,0,-4.467512587379133
+rf_default,dev20k,1,seller_type,single,1,0.6953976581635288
+rf_default,dev20k,1,seller_type,single,2,4.112777905757866
+rf_default,dev20k,1,drive_train,single,0,181.28779003087038
+rf_default,dev20k,1,drive_train,single,1,207.36112384488024
+rf_default,dev20k,1,drive_train,single,2,194.81382673590542
+rf_default,dev20k,1,body_color,single,0,11.330394435265589
+rf_default,dev20k,1,body_color,single,1,5.07839342819625
+rf_default,dev20k,1,body_color,single,2,6.094665463405363
+rf_default,dev20k,1,model_version,single,0,0.0
+rf_default,dev20k,1,model_version,single,1,0.0
+rf_default,dev20k,1,model_version,single,2,0.0
+rf_default,dev20k,1,production_year,single,0,4553.940020663617
+rf_default,dev20k,1,production_year,single,1,4508.739704893383
+rf_default,dev20k,1,production_year,single,2,4541.955712052014
+rf_default,dev20k,1,vehicle_age,single,0,5046.262539285129
+rf_default,dev20k,1,vehicle_age,single,1,5076.43741417603
+rf_default,dev20k,1,vehicle_age,single,2,4845.6626543835
+rf_default,dev20k,1,mileage_km,single,0,10075.042919895597
+rf_default,dev20k,1,mileage_km,single,1,11037.144378289086
+rf_default,dev20k,1,mileage_km,single,2,9918.040981926799
+rf_default,dev20k,1,power_kw,single,0,16402.329424806718
+rf_default,dev20k,1,power_kw,single,1,16341.28195391201
+rf_default,dev20k,1,power_kw,single,2,16572.7626912812
+rf_default,dev20k,1,engine_cc,single,0,2774.8306302142346
+rf_default,dev20k,1,engine_cc,single,1,2571.406694289616
+rf_default,dev20k,1,engine_cc,single,2,2502.706586886271
+rf_default,dev20k,1,nr_seats,single,0,117.65993790553875
+rf_default,dev20k,1,nr_seats,single,1,141.27591455186393
+rf_default,dev20k,1,nr_seats,single,2,113.40257429984194
+rf_default,dev20k,1,identity (brand+model[+version]),joint,0,10260.45028544778
+rf_default,dev20k,1,identity (brand+model[+version]),joint,1,9930.31476592576
+rf_default,dev20k,1,identity (brand+model[+version]),joint,2,10120.767112679998
+rf_default,dev20k,1,age (year+vehicle_age),joint,0,11456.356541679088
+rf_default,dev20k,1,age (year+vehicle_age),joint,1,11488.183207654616
+rf_default,dev20k,1,age (year+vehicle_age),joint,2,11132.201788029444
+rf_default,dev20k,0,brand,single,0,6142.621936883807
+rf_default,dev20k,0,brand,single,1,6131.590769610445
+rf_default,dev20k,0,brand,single,2,6101.1608804354355
+rf_default,dev20k,0,model,single,0,1172.7700601130755
+rf_default,dev20k,0,model,single,1,1274.7463119056292
+rf_default,dev20k,0,model,single,2,1351.159000362978
+rf_default,dev20k,0,fuel_type,single,0,790.9327202046379
+rf_default,dev20k,0,fuel_type,single,1,766.3370002764814
+rf_default,dev20k,0,fuel_type,single,2,920.5948081287488
+rf_default,dev20k,0,transmission,single,0,161.5688434178337
+rf_default,dev20k,0,transmission,single,1,211.788370289677
+rf_default,dev20k,0,transmission,single,2,164.3230326093244
+rf_default,dev20k,0,body_type,single,0,576.3893906518488
+rf_default,dev20k,0,body_type,single,1,456.49934432105056
+rf_default,dev20k,0,body_type,single,2,544.0660153623257
+rf_default,dev20k,0,country_code,single,0,726.9023697834264
+rf_default,dev20k,0,country_code,single,1,789.8200421798965
+rf_default,dev20k,0,country_code,single,2,789.5609257721017
+rf_default,dev20k,0,seller_type,single,0,9.497241360665612
+rf_default,dev20k,0,seller_type,single,1,15.327060044447535
+rf_default,dev20k,0,seller_type,single,2,21.6600875869608
+rf_default,dev20k,0,drive_train,single,0,227.73509497301438
+rf_default,dev20k,0,drive_train,single,1,246.0588928633142
+rf_default,dev20k,0,drive_train,single,2,228.2290795245981
+rf_default,dev20k,0,body_color,single,0,32.63843157430256
+rf_default,dev20k,0,body_color,single,1,31.390626563879778
+rf_default,dev20k,0,body_color,single,2,42.14562455047144
+rf_default,dev20k,0,model_version,single,0,0.0
+rf_default,dev20k,0,model_version,single,1,0.0
+rf_default,dev20k,0,model_version,single,2,0.0
+rf_default,dev20k,0,production_year,single,0,6422.648079184127
+rf_default,dev20k,0,production_year,single,1,6264.36235954902
+rf_default,dev20k,0,production_year,single,2,6661.944295899494
+rf_default,dev20k,0,vehicle_age,single,0,6200.371630893139
+rf_default,dev20k,0,vehicle_age,single,1,6078.18410497157
+rf_default,dev20k,0,vehicle_age,single,2,5879.731159901276
+rf_default,dev20k,0,mileage_km,single,0,11378.123682018104
+rf_default,dev20k,0,mileage_km,single,1,12213.17010792255
+rf_default,dev20k,0,mileage_km,single,2,12488.351476511762
+rf_default,dev20k,0,power_kw,single,0,16774.094479416795
+rf_default,dev20k,0,power_kw,single,1,17014.45586886504
+rf_default,dev20k,0,power_kw,single,2,17155.635534534176
+rf_default,dev20k,0,engine_cc,single,0,2547.407279103719
+rf_default,dev20k,0,engine_cc,single,1,2632.308800110807
+rf_default,dev20k,0,engine_cc,single,2,2470.095484574168
+rf_default,dev20k,0,nr_seats,single,0,196.03467269798693
+rf_default,dev20k,0,nr_seats,single,1,260.0763466483395
+rf_default,dev20k,0,nr_seats,single,2,315.8897124158693
+rf_default,dev20k,0,identity (brand+model[+version]),joint,0,7929.781500233393
+rf_default,dev20k,0,identity (brand+model[+version]),joint,1,7579.107828909892
+rf_default,dev20k,0,identity (brand+model[+version]),joint,2,7831.003662246251
+rf_default,dev20k,0,age (year+vehicle_age),joint,0,15316.812534463264
+rf_default,dev20k,0,age (year+vehicle_age),joint,1,15113.490913494988
+rf_default,dev20k,0,age (year+vehicle_age),joint,2,14829.482943810843
+knn_default,dev20k,0,brand,single,0,1751.616859913167
+knn_default,dev20k,0,brand,single,1,1625.9983244595023
+knn_default,dev20k,0,brand,single,2,1639.5969986680193
+knn_default,dev20k,0,model,single,0,914.2542742395708
+knn_default,dev20k,0,model,single,1,900.5875990062959
+knn_default,dev20k,0,model,single,2,933.4308670348801
+knn_default,dev20k,0,fuel_type,single,0,393.26410821182617
+knn_default,dev20k,0,fuel_type,single,1,316.7263853105651
+knn_default,dev20k,0,fuel_type,single,2,311.6241553392483
+knn_default,dev20k,0,transmission,single,0,334.2631653232784
+knn_default,dev20k,0,transmission,single,1,245.8183763441939
+knn_default,dev20k,0,transmission,single,2,265.33436281213653
+knn_default,dev20k,0,body_type,single,0,418.323088609317
+knn_default,dev20k,0,body_type,single,1,452.80978152264106
+knn_default,dev20k,0,body_type,single,2,428.10182783230266
+knn_default,dev20k,0,country_code,single,0,446.56552378436027
+knn_default,dev20k,0,country_code,single,1,554.9863708760586
+knn_default,dev20k,0,country_code,single,2,482.8312400157065
+knn_default,dev20k,0,seller_type,single,0,48.724484872129324
+knn_default,dev20k,0,seller_type,single,1,23.237505820334263
+knn_default,dev20k,0,seller_type,single,2,27.26000924303662
+knn_default,dev20k,0,drive_train,single,0,435.81752088215217
+knn_default,dev20k,0,drive_train,single,1,431.5020518534493
+knn_default,dev20k,0,drive_train,single,2,474.0837982456269
+knn_default,dev20k,0,body_color,single,0,-6.2424590932951105
+knn_default,dev20k,0,body_color,single,1,32.14056294193324
+knn_default,dev20k,0,body_color,single,2,88.01239018133492
+knn_default,dev20k,0,model_version,single,0,0.0
+knn_default,dev20k,0,model_version,single,1,0.0
+knn_default,dev20k,0,model_version,single,2,0.0
+knn_default,dev20k,0,production_year,single,0,2174.3706457587396
+knn_default,dev20k,0,production_year,single,1,2047.8657535178954
+knn_default,dev20k,0,production_year,single,2,2239.5082094414593
+knn_default,dev20k,0,vehicle_age,single,0,2281.4710971861914
+knn_default,dev20k,0,vehicle_age,single,1,2356.1655390886754
+knn_default,dev20k,0,vehicle_age,single,2,2272.81333944218
+knn_default,dev20k,0,mileage_km,single,0,3325.676711631857
+knn_default,dev20k,0,mileage_km,single,1,3551.051679458489
+knn_default,dev20k,0,mileage_km,single,2,3645.185461822479
+knn_default,dev20k,0,power_kw,single,0,4369.39128019161
+knn_default,dev20k,0,power_kw,single,1,4592.669018507826
+knn_default,dev20k,0,power_kw,single,2,4675.445513470542
+knn_default,dev20k,0,engine_cc,single,0,3059.852404783818
+knn_default,dev20k,0,engine_cc,single,1,2849.474472005466
+knn_default,dev20k,0,engine_cc,single,2,3122.506415881013
+knn_default,dev20k,0,nr_seats,single,0,1727.1595559385423
+knn_default,dev20k,0,nr_seats,single,1,1776.0806404370505
+knn_default,dev20k,0,nr_seats,single,2,1801.5738027792595
+knn_default,dev20k,0,identity (brand+model[+version]),joint,0,4761.859888202538
+knn_default,dev20k,0,identity (brand+model[+version]),joint,1,4471.7066168046695
+knn_default,dev20k,0,identity (brand+model[+version]),joint,2,4476.789611771426
+knn_default,dev20k,0,age (year+vehicle_age),joint,0,7074.562343370788
+knn_default,dev20k,0,age (year+vehicle_age),joint,1,6641.450155766044
+knn_default,dev20k,0,age (year+vehicle_age),joint,2,6872.486069703311
+hgb_best,dev20k,4,brand,single,0,6619.496013068614
+hgb_best,dev20k,4,brand,single,1,6369.364100573208
+hgb_best,dev20k,4,brand,single,2,6286.006000821519
+hgb_best,dev20k,4,model,single,0,14194.37583179189
+hgb_best,dev20k,4,model,single,1,14103.473458982362
+hgb_best,dev20k,4,model,single,2,15231.038947084819
+hgb_best,dev20k,4,fuel_type,single,0,791.8276931992095
+hgb_best,dev20k,4,fuel_type,single,1,757.027934233387
+hgb_best,dev20k,4,fuel_type,single,2,714.9174951425721
+hgb_best,dev20k,4,transmission,single,0,159.46072200235176
+hgb_best,dev20k,4,transmission,single,1,149.68042098978003
+hgb_best,dev20k,4,transmission,single,2,177.7825039718191
+hgb_best,dev20k,4,body_type,single,0,1044.5568492175735
+hgb_best,dev20k,4,body_type,single,1,1161.918996447832
+hgb_best,dev20k,4,body_type,single,2,1075.0607992237292
+hgb_best,dev20k,4,country_code,single,0,1118.0550268801217
+hgb_best,dev20k,4,country_code,single,1,1106.7440866143388
+hgb_best,dev20k,4,country_code,single,2,1204.1228891966166
+hgb_best,dev20k,4,seller_type,single,0,17.344678600131374
+hgb_best,dev20k,4,seller_type,single,1,64.00134773784703
+hgb_best,dev20k,4,seller_type,single,2,-0.2081796610618767
+hgb_best,dev20k,4,drive_train,single,0,275.57309098611404
+hgb_best,dev20k,4,drive_train,single,1,177.71168084350757
+hgb_best,dev20k,4,drive_train,single,2,195.3955029466124
+hgb_best,dev20k,4,body_color,single,0,-21.064357124780145
+hgb_best,dev20k,4,body_color,single,1,33.33833366700674
+hgb_best,dev20k,4,body_color,single,2,60.374090028359205
+hgb_best,dev20k,4,model_version,single,0,0.0
+hgb_best,dev20k,4,model_version,single,1,0.0
+hgb_best,dev20k,4,model_version,single,2,0.0
+hgb_best,dev20k,4,production_year,single,0,4555.152293065583
+hgb_best,dev20k,4,production_year,single,1,4738.5147647109225
+hgb_best,dev20k,4,production_year,single,2,4702.725380058706
+hgb_best,dev20k,4,vehicle_age,single,0,460.81152821772594
+hgb_best,dev20k,4,vehicle_age,single,1,394.9502678602803
+hgb_best,dev20k,4,vehicle_age,single,2,357.4764740745759
+hgb_best,dev20k,4,mileage_km,single,0,10295.964457338536
+hgb_best,dev20k,4,mileage_km,single,1,9691.637992900532
+hgb_best,dev20k,4,mileage_km,single,2,9810.1602079721
+hgb_best,dev20k,4,power_kw,single,0,11206.97242744141
+hgb_best,dev20k,4,power_kw,single,1,11589.94759904438
+hgb_best,dev20k,4,power_kw,single,2,11134.04420734718
+hgb_best,dev20k,4,engine_cc,single,0,1713.6176537534084
+hgb_best,dev20k,4,engine_cc,single,1,1556.713199103966
+hgb_best,dev20k,4,engine_cc,single,2,1673.2969105908433
+hgb_best,dev20k,4,nr_seats,single,0,313.08459023709474
+hgb_best,dev20k,4,nr_seats,single,1,282.0018832362275
+hgb_best,dev20k,4,nr_seats,single,2,267.07621574256154
+hgb_best,dev20k,4,identity (brand+model[+version]),joint,0,20685.974963232948
+hgb_best,dev20k,4,identity (brand+model[+version]),joint,1,20756.00225097563
+hgb_best,dev20k,4,identity (brand+model[+version]),joint,2,20529.948767961592
+hgb_best,dev20k,4,age (year+vehicle_age),joint,0,6296.025884350103
+hgb_best,dev20k,4,age (year+vehicle_age),joint,1,6176.753155752793
+hgb_best,dev20k,4,age (year+vehicle_age),joint,2,6454.078682838075
+knn_default,dev20k,1,brand,single,0,1721.2823712352656
+knn_default,dev20k,1,brand,single,1,1806.9668766893792
+knn_default,dev20k,1,brand,single,2,1671.8035688914606
+knn_default,dev20k,1,model,single,0,834.9236985903099
+knn_default,dev20k,1,model,single,1,835.2248258557738
+knn_default,dev20k,1,model,single,2,977.0489516148118
+knn_default,dev20k,1,fuel_type,single,0,302.7004555897238
+knn_default,dev20k,1,fuel_type,single,1,315.006716657741
+knn_default,dev20k,1,fuel_type,single,2,279.135740098116
+knn_default,dev20k,1,transmission,single,0,229.56786091180584
+knn_default,dev20k,1,transmission,single,1,325.1816951694309
+knn_default,dev20k,1,transmission,single,2,266.941911637241
+knn_default,dev20k,1,body_type,single,0,400.42828727594497
+knn_default,dev20k,1,body_type,single,1,386.74950590401204
+knn_default,dev20k,1,body_type,single,2,458.1351000281138
+knn_default,dev20k,1,country_code,single,0,309.79544465068466
+knn_default,dev20k,1,country_code,single,1,696.2386857237034
+knn_default,dev20k,1,country_code,single,2,530.102547668399
+knn_default,dev20k,1,seller_type,single,0,29.414758377834005
+knn_default,dev20k,1,seller_type,single,1,41.22112023487534
+knn_default,dev20k,1,seller_type,single,2,-7.794257673169341
+knn_default,dev20k,1,drive_train,single,0,624.7474404191234
+knn_default,dev20k,1,drive_train,single,1,599.8937296409113
+knn_default,dev20k,1,drive_train,single,2,523.047078885902
+knn_default,dev20k,1,body_color,single,0,31.549176122602148
+knn_default,dev20k,1,body_color,single,1,87.71756186782113
+knn_default,dev20k,1,body_color,single,2,-111.27337666335188
+knn_default,dev20k,1,model_version,single,0,0.0
+knn_default,dev20k,1,model_version,single,1,0.0
+knn_default,dev20k,1,model_version,single,2,0.0
+knn_default,dev20k,1,production_year,single,0,2651.571391190342
+knn_default,dev20k,1,production_year,single,1,2519.0435587075935
+knn_default,dev20k,1,production_year,single,2,2515.1956175723717
+knn_default,dev20k,1,vehicle_age,single,0,2668.52681265476
+knn_default,dev20k,1,vehicle_age,single,1,2729.815287016494
+knn_default,dev20k,1,vehicle_age,single,2,2592.0553640427315
+knn_default,dev20k,1,mileage_km,single,0,3436.8183515242017
+knn_default,dev20k,1,mileage_km,single,1,3796.7435849914655
+knn_default,dev20k,1,mileage_km,single,2,3506.2212582357624
+knn_default,dev20k,1,power_kw,single,0,4565.168603250244
+knn_default,dev20k,1,power_kw,single,1,4503.214021370422
+knn_default,dev20k,1,power_kw,single,2,5104.081632133131
+knn_default,dev20k,1,engine_cc,single,0,3231.2648229326114
+knn_default,dev20k,1,engine_cc,single,1,2948.9998707469676
+knn_default,dev20k,1,engine_cc,single,2,2812.340920453369
+knn_default,dev20k,1,nr_seats,single,0,1612.864263129106
+knn_default,dev20k,1,nr_seats,single,1,1652.8101442797633
+knn_default,dev20k,1,nr_seats,single,2,1744.3985963293671
+knn_default,dev20k,1,identity (brand+model[+version]),joint,0,4283.864990228989
+knn_default,dev20k,1,identity (brand+model[+version]),joint,1,4455.961315589084
+knn_default,dev20k,1,identity (brand+model[+version]),joint,2,4374.87774372626
+knn_default,dev20k,1,age (year+vehicle_age),joint,0,6957.61639897291
+knn_default,dev20k,1,age (year+vehicle_age),joint,1,7393.1209043190265
+knn_default,dev20k,1,age (year+vehicle_age),joint,2,7634.108428364696
+svr_tuned,dev20k,0,brand,single,0,10052.62678335616
+svr_tuned,dev20k,0,brand,single,1,10199.656152086829
+svr_tuned,dev20k,0,brand,single,2,10210.807063918457
+svr_tuned,dev20k,0,model,single,0,3918.2267390258257
+svr_tuned,dev20k,0,model,single,1,4118.245105848704
+svr_tuned,dev20k,0,model,single,2,4056.889513713695
+svr_tuned,dev20k,0,fuel_type,single,0,1075.1389295981535
+svr_tuned,dev20k,0,fuel_type,single,1,1121.318248848509
+svr_tuned,dev20k,0,fuel_type,single,2,1136.1415394012638
+svr_tuned,dev20k,0,transmission,single,0,133.22415786382044
+svr_tuned,dev20k,0,transmission,single,1,101.27832096011662
+svr_tuned,dev20k,0,transmission,single,2,183.83996566501264
+svr_tuned,dev20k,0,body_type,single,0,855.6723473309576
+svr_tuned,dev20k,0,body_type,single,1,908.1703523456836
+svr_tuned,dev20k,0,body_type,single,2,883.3484543122777
+svr_tuned,dev20k,0,country_code,single,0,1139.3169827362908
+svr_tuned,dev20k,0,country_code,single,1,1245.5256987454068
+svr_tuned,dev20k,0,country_code,single,2,1295.7183044216654
+svr_tuned,dev20k,0,seller_type,single,0,6.724800371290257
+svr_tuned,dev20k,0,seller_type,single,1,28.381608136689465
+svr_tuned,dev20k,0,seller_type,single,2,15.134053442789082
+svr_tuned,dev20k,0,drive_train,single,0,263.03272663192
+svr_tuned,dev20k,0,drive_train,single,1,299.59922294444186
+svr_tuned,dev20k,0,drive_train,single,2,270.6149437324875
+svr_tuned,dev20k,0,body_color,single,0,44.52411281529385
+svr_tuned,dev20k,0,body_color,single,1,36.49815037313783
+svr_tuned,dev20k,0,body_color,single,2,39.02178643631669
+svr_tuned,dev20k,0,model_version,single,0,0.0
+svr_tuned,dev20k,0,model_version,single,1,0.0
+svr_tuned,dev20k,0,model_version,single,2,0.0
+svr_tuned,dev20k,0,production_year,single,0,3453.8501477357513
+svr_tuned,dev20k,0,production_year,single,1,3550.6690967805607
+svr_tuned,dev20k,0,production_year,single,2,3556.6451257629724
+svr_tuned,dev20k,0,vehicle_age,single,0,3953.1429997335417
+svr_tuned,dev20k,0,vehicle_age,single,1,4124.571138351688
+svr_tuned,dev20k,0,vehicle_age,single,2,4102.693914288391
+svr_tuned,dev20k,0,mileage_km,single,0,6031.099710062797
+svr_tuned,dev20k,0,mileage_km,single,1,6412.998556190505
+svr_tuned,dev20k,0,mileage_km,single,2,6341.694248978047
+svr_tuned,dev20k,0,power_kw,single,0,11468.765819776358
+svr_tuned,dev20k,0,power_kw,single,1,11690.524579881849
+svr_tuned,dev20k,0,power_kw,single,2,11783.811819712982
+svr_tuned,dev20k,0,engine_cc,single,0,2218.1279903498416
+svr_tuned,dev20k,0,engine_cc,single,1,2157.452576390642
+svr_tuned,dev20k,0,engine_cc,single,2,2152.3759637267303
+svr_tuned,dev20k,0,nr_seats,single,0,599.5515966757484
+svr_tuned,dev20k,0,nr_seats,single,1,544.7566936985677
+svr_tuned,dev20k,0,nr_seats,single,2,539.0222647497976
+svr_tuned,dev20k,0,identity (brand+model[+version]),joint,0,12101.572172292685
+svr_tuned,dev20k,0,identity (brand+model[+version]),joint,1,11844.771511710112
+svr_tuned,dev20k,0,identity (brand+model[+version]),joint,2,11907.509255657138
+svr_tuned,dev20k,0,age (year+vehicle_age),joint,0,9957.462490434204
+svr_tuned,dev20k,0,age (year+vehicle_age),joint,1,9469.966706233508
+svr_tuned,dev20k,0,age (year+vehicle_age),joint,2,9824.171881459233
+svr_tuned,dev20k,2,brand,single,0,10271.722333651527
+svr_tuned,dev20k,2,brand,single,1,10356.260875250093
+svr_tuned,dev20k,2,brand,single,2,10467.127087367502
+svr_tuned,dev20k,2,model,single,0,4123.689049805424
+svr_tuned,dev20k,2,model,single,1,4152.380964828062
+svr_tuned,dev20k,2,model,single,2,4138.877252613685
+svr_tuned,dev20k,2,fuel_type,single,0,1026.1469621945298
+svr_tuned,dev20k,2,fuel_type,single,1,1008.9189050933483
+svr_tuned,dev20k,2,fuel_type,single,2,966.7984065412602
+svr_tuned,dev20k,2,transmission,single,0,150.36979687071562
+svr_tuned,dev20k,2,transmission,single,1,182.6390496648719
+svr_tuned,dev20k,2,transmission,single,2,155.02518914149277
+svr_tuned,dev20k,2,body_type,single,0,992.1541164750806
+svr_tuned,dev20k,2,body_type,single,1,1017.717400168819
+svr_tuned,dev20k,2,body_type,single,2,823.7920260990195
+svr_tuned,dev20k,2,country_code,single,0,1247.288726405076
+svr_tuned,dev20k,2,country_code,single,1,1255.0899450934912
+svr_tuned,dev20k,2,country_code,single,2,1244.831752953186
+svr_tuned,dev20k,2,seller_type,single,0,93.27524598313266
+svr_tuned,dev20k,2,seller_type,single,1,35.64707057452051
+svr_tuned,dev20k,2,seller_type,single,2,38.45391561253746
+svr_tuned,dev20k,2,drive_train,single,0,242.24074443003246
+svr_tuned,dev20k,2,drive_train,single,1,279.8626587233912
+svr_tuned,dev20k,2,drive_train,single,2,231.86317985293954
+svr_tuned,dev20k,2,body_color,single,0,70.34322231233637
+svr_tuned,dev20k,2,body_color,single,1,73.59071265227703
+svr_tuned,dev20k,2,body_color,single,2,45.976936287372155
+svr_tuned,dev20k,2,model_version,single,0,0.0
+svr_tuned,dev20k,2,model_version,single,1,0.0
+svr_tuned,dev20k,2,model_version,single,2,0.0
+svr_tuned,dev20k,2,production_year,single,0,3919.0203277690216
+svr_tuned,dev20k,2,production_year,single,1,3750.5668449517107
+svr_tuned,dev20k,2,production_year,single,2,3949.385397956663
+svr_tuned,dev20k,2,vehicle_age,single,0,4381.578620835133
+svr_tuned,dev20k,2,vehicle_age,single,1,4100.265803057608
+svr_tuned,dev20k,2,vehicle_age,single,2,4210.491351416242
+svr_tuned,dev20k,2,mileage_km,single,0,6338.361740132126
+svr_tuned,dev20k,2,mileage_km,single,1,6206.734901105572
+svr_tuned,dev20k,2,mileage_km,single,2,6367.709682408369
+svr_tuned,dev20k,2,power_kw,single,0,12579.873230450801
+svr_tuned,dev20k,2,power_kw,single,1,12207.513693952984
+svr_tuned,dev20k,2,power_kw,single,2,12018.339725074344
+svr_tuned,dev20k,2,engine_cc,single,0,2625.2916393270007
+svr_tuned,dev20k,2,engine_cc,single,1,2671.4176654310704
+svr_tuned,dev20k,2,engine_cc,single,2,2657.8710699672956
+svr_tuned,dev20k,2,nr_seats,single,0,752.8881587011983
+svr_tuned,dev20k,2,nr_seats,single,1,710.0342168818688
+svr_tuned,dev20k,2,nr_seats,single,2,658.5798557510534
+svr_tuned,dev20k,2,identity (brand+model[+version]),joint,0,11971.488390379684
+svr_tuned,dev20k,2,identity (brand+model[+version]),joint,1,12032.581480755172
+svr_tuned,dev20k,2,identity (brand+model[+version]),joint,2,12254.959171350536
+svr_tuned,dev20k,2,age (year+vehicle_age),joint,0,10146.344136522897
+svr_tuned,dev20k,2,age (year+vehicle_age),joint,1,9958.953663443914
+svr_tuned,dev20k,2,age (year+vehicle_age),joint,2,10090.277929748161
+svr_tuned,dev20k,1,brand,single,0,10385.971463716596
+svr_tuned,dev20k,1,brand,single,1,10264.355104721926
+svr_tuned,dev20k,1,brand,single,2,10245.385631417954
+svr_tuned,dev20k,1,model,single,0,4282.497446285784
+svr_tuned,dev20k,1,model,single,1,4293.342180897015
+svr_tuned,dev20k,1,model,single,2,4257.572991488892
+svr_tuned,dev20k,1,fuel_type,single,0,890.2360365449094
+svr_tuned,dev20k,1,fuel_type,single,1,906.0658709266108
+svr_tuned,dev20k,1,fuel_type,single,2,933.0029613062425
+svr_tuned,dev20k,1,transmission,single,0,168.95947621286086
+svr_tuned,dev20k,1,transmission,single,1,191.98585380342683
+svr_tuned,dev20k,1,transmission,single,2,137.76349538143404
+svr_tuned,dev20k,1,body_type,single,0,887.1435104284155
+svr_tuned,dev20k,1,body_type,single,1,912.5931854720884
+svr_tuned,dev20k,1,body_type,single,2,835.9890114126083
+svr_tuned,dev20k,1,country_code,single,0,1235.1509637402141
+svr_tuned,dev20k,1,country_code,single,1,1483.4585928005517
+svr_tuned,dev20k,1,country_code,single,2,1309.920275259503
+svr_tuned,dev20k,1,seller_type,single,0,47.9478273344248
+svr_tuned,dev20k,1,seller_type,single,1,61.030948764911045
+svr_tuned,dev20k,1,seller_type,single,2,54.39290332734163
+svr_tuned,dev20k,1,drive_train,single,0,201.76588381976035
+svr_tuned,dev20k,1,drive_train,single,1,268.94572538845296
+svr_tuned,dev20k,1,drive_train,single,2,190.61869004196433
+svr_tuned,dev20k,1,body_color,single,0,76.14743437665402
+svr_tuned,dev20k,1,body_color,single,1,87.02906487192286
+svr_tuned,dev20k,1,body_color,single,2,60.631248052074625
+svr_tuned,dev20k,1,model_version,single,0,0.0
+svr_tuned,dev20k,1,model_version,single,1,0.0
+svr_tuned,dev20k,1,model_version,single,2,0.0
+svr_tuned,dev20k,1,production_year,single,0,3791.90967345809
+svr_tuned,dev20k,1,production_year,single,1,3753.4734069258184
+svr_tuned,dev20k,1,production_year,single,2,3767.346788727168
+svr_tuned,dev20k,1,vehicle_age,single,0,4155.0566237990015
+svr_tuned,dev20k,1,vehicle_age,single,1,4382.9401359628255
+svr_tuned,dev20k,1,vehicle_age,single,2,4074.8058467083038
+svr_tuned,dev20k,1,mileage_km,single,0,6431.477942490578
+svr_tuned,dev20k,1,mileage_km,single,1,6653.262990239257
+svr_tuned,dev20k,1,mileage_km,single,2,6324.969949469162
+svr_tuned,dev20k,1,power_kw,single,0,11978.200803842465
+svr_tuned,dev20k,1,power_kw,single,1,11971.505919666026
+svr_tuned,dev20k,1,power_kw,single,2,12485.979710940439
+svr_tuned,dev20k,1,engine_cc,single,0,2404.4061067715893
+svr_tuned,dev20k,1,engine_cc,single,1,2221.5266900973775
+svr_tuned,dev20k,1,engine_cc,single,2,2216.955870209994
+svr_tuned,dev20k,1,nr_seats,single,0,614.1756270877404
+svr_tuned,dev20k,1,nr_seats,single,1,573.8457672568375
+svr_tuned,dev20k,1,nr_seats,single,2,567.8759658803683
+svr_tuned,dev20k,1,identity (brand+model[+version]),joint,0,12595.936747081676
+svr_tuned,dev20k,1,identity (brand+model[+version]),joint,1,12475.418228976308
+svr_tuned,dev20k,1,identity (brand+model[+version]),joint,2,12591.44487847088
+svr_tuned,dev20k,1,age (year+vehicle_age),joint,0,9576.135721458275
+svr_tuned,dev20k,1,age (year+vehicle_age),joint,1,9801.47178330487
+svr_tuned,dev20k,1,age (year+vehicle_age),joint,2,9719.009515368507
+svr_tuned,dev20k,4,brand,single,0,10637.010574628197
+svr_tuned,dev20k,4,brand,single,1,10950.152563309182
+svr_tuned,dev20k,4,brand,single,2,10870.493480985648
+svr_tuned,dev20k,4,model,single,0,4561.558154801203
+svr_tuned,dev20k,4,model,single,1,4352.48948473784
+svr_tuned,dev20k,4,model,single,2,4485.842949239488
+svr_tuned,dev20k,4,fuel_type,single,0,1065.7207600331076
+svr_tuned,dev20k,4,fuel_type,single,1,1053.9085872629857
+svr_tuned,dev20k,4,fuel_type,single,2,1000.798812480245
+svr_tuned,dev20k,4,transmission,single,0,170.17517330077135
+svr_tuned,dev20k,4,transmission,single,1,164.68071091370075
+svr_tuned,dev20k,4,transmission,single,2,171.48496683172016
+svr_tuned,dev20k,4,body_type,single,0,1069.3757842293853
+svr_tuned,dev20k,4,body_type,single,1,1046.9125336938741
+svr_tuned,dev20k,4,body_type,single,2,1122.228501077263
+svr_tuned,dev20k,4,country_code,single,0,1166.4498318438
+svr_tuned,dev20k,4,country_code,single,1,1185.0066220610279
+svr_tuned,dev20k,4,country_code,single,2,1313.127296831346
+svr_tuned,dev20k,4,seller_type,single,0,33.339590685898656
+svr_tuned,dev20k,4,seller_type,single,1,79.37390617287019
+svr_tuned,dev20k,4,seller_type,single,2,30.848666875268464
+svr_tuned,dev20k,4,drive_train,single,0,248.08426533562124
+svr_tuned,dev20k,4,drive_train,single,1,207.8621990356387
+svr_tuned,dev20k,4,drive_train,single,2,241.605466887484
+svr_tuned,dev20k,4,body_color,single,0,70.4891969994278
+svr_tuned,dev20k,4,body_color,single,1,31.525392425306563
+svr_tuned,dev20k,4,body_color,single,2,51.51558763788853
+svr_tuned,dev20k,4,model_version,single,0,0.0
+svr_tuned,dev20k,4,model_version,single,1,0.0
+svr_tuned,dev20k,4,model_version,single,2,0.0
+svr_tuned,dev20k,4,production_year,single,0,3876.045544219909
+svr_tuned,dev20k,4,production_year,single,1,3876.0377367138026
+svr_tuned,dev20k,4,production_year,single,2,3855.6353950560497
+svr_tuned,dev20k,4,vehicle_age,single,0,4083.7357103545255
+svr_tuned,dev20k,4,vehicle_age,single,1,3989.7272691521557
+svr_tuned,dev20k,4,vehicle_age,single,2,4113.969451643308
+svr_tuned,dev20k,4,mileage_km,single,0,6994.7428094097795
+svr_tuned,dev20k,4,mileage_km,single,1,6650.920161519696
+svr_tuned,dev20k,4,mileage_km,single,2,6598.1113497478345
+svr_tuned,dev20k,4,power_kw,single,0,13601.488906173816
+svr_tuned,dev20k,4,power_kw,single,1,13802.237942172595
+svr_tuned,dev20k,4,power_kw,single,2,13298.983536159334
+svr_tuned,dev20k,4,engine_cc,single,0,2879.211434968711
+svr_tuned,dev20k,4,engine_cc,single,1,2817.3142872440385
+svr_tuned,dev20k,4,engine_cc,single,2,2925.177373595623
+svr_tuned,dev20k,4,nr_seats,single,0,787.476188753144
+svr_tuned,dev20k,4,nr_seats,single,1,757.6519362097297
+svr_tuned,dev20k,4,nr_seats,single,2,702.4161207172292
+svr_tuned,dev20k,4,identity (brand+model[+version]),joint,0,13071.41939254596
+svr_tuned,dev20k,4,identity (brand+model[+version]),joint,1,12908.096579746541
+svr_tuned,dev20k,4,identity (brand+model[+version]),joint,2,12996.62455431069
+svr_tuned,dev20k,4,age (year+vehicle_age),joint,0,10024.726029321062
+svr_tuned,dev20k,4,age (year+vehicle_age),joint,1,9698.12997837334
+svr_tuned,dev20k,4,age (year+vehicle_age),joint,2,10091.353244071362
+hgb_best,full,0,brand,single,0,5062.642353646366
+hgb_best,full,0,brand,single,1,5046.26416558341
+hgb_best,full,0,brand,single,2,4955.545443691588
+hgb_best,full,0,model,single,0,14976.449881286526
+hgb_best,full,0,model,single,1,15031.042742040498
+hgb_best,full,0,model,single,2,14820.094256364211
+hgb_best,full,0,fuel_type,single,0,1092.98469919957
+hgb_best,full,0,fuel_type,single,1,1022.4066691948256
+hgb_best,full,0,fuel_type,single,2,871.2854860665611
+hgb_best,full,0,transmission,single,0,328.4435577642489
+hgb_best,full,0,transmission,single,1,271.7589799163452
+hgb_best,full,0,transmission,single,2,337.44456495589566
+hgb_best,full,0,body_type,single,0,642.0602377136884
+hgb_best,full,0,body_type,single,1,396.1118222796531
+hgb_best,full,0,body_type,single,2,394.49071368346813
+hgb_best,full,0,country_code,single,0,1539.9552288471987
+hgb_best,full,0,country_code,single,1,1461.6508398840724
+hgb_best,full,0,country_code,single,2,1414.307256639764
+hgb_best,full,0,seller_type,single,0,-12.365897870786284
+hgb_best,full,0,seller_type,single,1,3.58529655172606
+hgb_best,full,0,seller_type,single,2,9.19586835500013
+hgb_best,full,0,drive_train,single,0,116.63403062411999
+hgb_best,full,0,drive_train,single,1,180.08711413895162
+hgb_best,full,0,drive_train,single,2,194.54759600812667
+hgb_best,full,0,body_color,single,0,85.7175637859591
+hgb_best,full,0,body_color,single,1,-3.9358564353715337
+hgb_best,full,0,body_color,single,2,8.69689826081958
+hgb_best,full,0,model_version,single,0,0.0
+hgb_best,full,0,model_version,single,1,0.0
+hgb_best,full,0,model_version,single,2,0.0
+hgb_best,full,0,production_year,single,0,5501.56635279311
+hgb_best,full,0,production_year,single,1,5633.5029594260395
+hgb_best,full,0,production_year,single,2,5656.696490129842
+hgb_best,full,0,vehicle_age,single,0,397.8802222242002
+hgb_best,full,0,vehicle_age,single,1,431.8410994845299
+hgb_best,full,0,vehicle_age,single,2,438.40889450232135
+hgb_best,full,0,mileage_km,single,0,9354.501664307936
+hgb_best,full,0,mileage_km,single,1,9933.595101674435
+hgb_best,full,0,mileage_km,single,2,9534.359210865834
+hgb_best,full,0,power_kw,single,0,10319.802914906906
+hgb_best,full,0,power_kw,single,1,10633.146464301919
+hgb_best,full,0,power_kw,single,2,10683.451835898368
+hgb_best,full,0,engine_cc,single,0,1068.9350854096556
+hgb_best,full,0,engine_cc,single,1,1186.0642230152735
+hgb_best,full,0,engine_cc,single,2,1053.5088493159083
+hgb_best,full,0,nr_seats,single,0,603.8961405829741
+hgb_best,full,0,nr_seats,single,1,589.6038985298119
+hgb_best,full,0,nr_seats,single,2,653.6598388327993
+hgb_best,full,0,identity (brand+model[+version]),joint,0,20025.45823405403
+hgb_best,full,0,identity (brand+model[+version]),joint,1,19694.682055543817
+hgb_best,full,0,identity (brand+model[+version]),joint,2,19980.867254831806
+hgb_best,full,0,age (year+vehicle_age),joint,0,7180.842716029958
+hgb_best,full,0,age (year+vehicle_age),joint,1,7037.868260004963
+hgb_best,full,0,age (year+vehicle_age),joint,2,7119.330903987686
+knn_default,dev20k,2,brand,single,0,1465.2271704571303
+knn_default,dev20k,2,brand,single,1,1488.2202743435446
+knn_default,dev20k,2,brand,single,2,1618.5090666293709
+knn_default,dev20k,2,model,single,0,994.6032761250353
+knn_default,dev20k,2,model,single,1,998.1237403782361
+knn_default,dev20k,2,model,single,2,992.5687610109944
+knn_default,dev20k,2,fuel_type,single,0,361.0677141511642
+knn_default,dev20k,2,fuel_type,single,1,361.23157222228656
+knn_default,dev20k,2,fuel_type,single,2,314.92265879935803
+knn_default,dev20k,2,transmission,single,0,282.4655990315914
+knn_default,dev20k,2,transmission,single,1,287.47818154191737
+knn_default,dev20k,2,transmission,single,2,245.39555610328716
+knn_default,dev20k,2,body_type,single,0,474.2415466526654
+knn_default,dev20k,2,body_type,single,1,500.9268502114355
+knn_default,dev20k,2,body_type,single,2,335.733617775275
+knn_default,dev20k,2,country_code,single,0,680.4545749611134
+knn_default,dev20k,2,country_code,single,1,616.5910151436747
+knn_default,dev20k,2,country_code,single,2,604.9421990763622
+knn_default,dev20k,2,seller_type,single,0,119.71526084493962
+knn_default,dev20k,2,seller_type,single,1,107.55682264373536
+knn_default,dev20k,2,seller_type,single,2,51.95110694035611
+knn_default,dev20k,2,drive_train,single,0,401.3520487756414
+knn_default,dev20k,2,drive_train,single,1,354.8563440442431
+knn_default,dev20k,2,drive_train,single,2,360.2618972098553
+knn_default,dev20k,2,body_color,single,0,-14.815386002223022
+knn_default,dev20k,2,body_color,single,1,41.347481291304575
+knn_default,dev20k,2,body_color,single,2,-9.328748338404694
+knn_default,dev20k,2,model_version,single,0,0.0
+knn_default,dev20k,2,model_version,single,1,0.0
+knn_default,dev20k,2,model_version,single,2,0.0
+knn_default,dev20k,2,production_year,single,0,2677.794652615581
+knn_default,dev20k,2,production_year,single,1,2622.2273197362865
+knn_default,dev20k,2,production_year,single,2,2815.866830560899
+knn_default,dev20k,2,vehicle_age,single,0,2808.940893807705
+knn_default,dev20k,2,vehicle_age,single,1,2595.383797295315
+knn_default,dev20k,2,vehicle_age,single,2,2714.2460325905813
+knn_default,dev20k,2,mileage_km,single,0,3676.435214940542
+knn_default,dev20k,2,mileage_km,single,1,3644.028205082799
+knn_default,dev20k,2,mileage_km,single,2,3620.9499758320435
+knn_default,dev20k,2,power_kw,single,0,5308.281631929402
+knn_default,dev20k,2,power_kw,single,1,4956.699990492469
+knn_default,dev20k,2,power_kw,single,2,5025.459423308204
+knn_default,dev20k,2,engine_cc,single,0,3896.9246810510176
+knn_default,dev20k,2,engine_cc,single,1,4122.2733899592295
+knn_default,dev20k,2,engine_cc,single,2,4002.6479694716872
+knn_default,dev20k,2,nr_seats,single,0,2584.886277294865
+knn_default,dev20k,2,nr_seats,single,1,2328.143246567557
+knn_default,dev20k,2,nr_seats,single,2,2281.744816841465
+knn_default,dev20k,2,identity (brand+model[+version]),joint,0,4510.852877685673
+knn_default,dev20k,2,identity (brand+model[+version]),joint,1,4422.61924936455
+knn_default,dev20k,2,identity (brand+model[+version]),joint,2,4539.042946844351
+knn_default,dev20k,2,age (year+vehicle_age),joint,0,7715.1261268678845
+knn_default,dev20k,2,age (year+vehicle_age),joint,1,7423.628408761253
+knn_default,dev20k,2,age (year+vehicle_age),joint,2,7425.069973850315
+svr_tuned,dev20k,3,brand,single,0,10549.166122937884
+svr_tuned,dev20k,3,brand,single,1,10867.707599230169
+svr_tuned,dev20k,3,brand,single,2,10614.177597465445
+svr_tuned,dev20k,3,model,single,0,4214.272606776921
+svr_tuned,dev20k,3,model,single,1,4371.286270334745
+svr_tuned,dev20k,3,model,single,2,4374.670180264301
+svr_tuned,dev20k,3,fuel_type,single,0,934.3882270065615
+svr_tuned,dev20k,3,fuel_type,single,1,923.288074972399
+svr_tuned,dev20k,3,fuel_type,single,2,1002.6491818516361
+svr_tuned,dev20k,3,transmission,single,0,191.1221155410576
+svr_tuned,dev20k,3,transmission,single,1,159.88645377342073
+svr_tuned,dev20k,3,transmission,single,2,166.52864391619823
+svr_tuned,dev20k,3,body_type,single,0,907.4473758282302
+svr_tuned,dev20k,3,body_type,single,1,958.3305293464609
+svr_tuned,dev20k,3,body_type,single,2,973.7289254764682
+svr_tuned,dev20k,3,country_code,single,0,1129.7508779120717
+svr_tuned,dev20k,3,country_code,single,1,1161.039344036456
+svr_tuned,dev20k,3,country_code,single,2,1156.0566831977058
+svr_tuned,dev20k,3,seller_type,single,0,48.238493825097066
+svr_tuned,dev20k,3,seller_type,single,1,54.89679687748048
+svr_tuned,dev20k,3,seller_type,single,2,34.41761112158474
+svr_tuned,dev20k,3,drive_train,single,0,223.09459918675657
+svr_tuned,dev20k,3,drive_train,single,1,211.00133276505858
+svr_tuned,dev20k,3,drive_train,single,2,235.24079279480793
+svr_tuned,dev20k,3,body_color,single,0,84.86382458267326
+svr_tuned,dev20k,3,body_color,single,1,59.550912334124405
+svr_tuned,dev20k,3,body_color,single,2,71.97630335812573
+svr_tuned,dev20k,3,model_version,single,0,0.0
+svr_tuned,dev20k,3,model_version,single,1,0.0
+svr_tuned,dev20k,3,model_version,single,2,0.0
+svr_tuned,dev20k,3,production_year,single,0,3799.826028750881
+svr_tuned,dev20k,3,production_year,single,1,3618.9790130112297
+svr_tuned,dev20k,3,production_year,single,2,3665.932955059704
+svr_tuned,dev20k,3,vehicle_age,single,0,4122.23919484863
+svr_tuned,dev20k,3,vehicle_age,single,1,4112.11947392116
+svr_tuned,dev20k,3,vehicle_age,single,2,4085.091180406319
+svr_tuned,dev20k,3,mileage_km,single,0,6517.776253463292
+svr_tuned,dev20k,3,mileage_km,single,1,6449.720270537176
+svr_tuned,dev20k,3,mileage_km,single,2,6653.312953908536
+svr_tuned,dev20k,3,power_kw,single,0,12215.40195291198
+svr_tuned,dev20k,3,power_kw,single,1,12384.35475123378
+svr_tuned,dev20k,3,power_kw,single,2,12575.352295785935
+svr_tuned,dev20k,3,engine_cc,single,0,2658.4006740097766
+svr_tuned,dev20k,3,engine_cc,single,1,2564.232713700213
+svr_tuned,dev20k,3,engine_cc,single,2,2626.865389408168
+svr_tuned,dev20k,3,nr_seats,single,0,619.207128482778
+svr_tuned,dev20k,3,nr_seats,single,1,654.3539394412919
+svr_tuned,dev20k,3,nr_seats,single,2,626.8022046613578
+svr_tuned,dev20k,3,identity (brand+model[+version]),joint,0,12739.799877292739
+svr_tuned,dev20k,3,identity (brand+model[+version]),joint,1,12681.713188006397
+svr_tuned,dev20k,3,identity (brand+model[+version]),joint,2,12443.395533210012
+svr_tuned,dev20k,3,age (year+vehicle_age),joint,0,9793.71484444424
+svr_tuned,dev20k,3,age (year+vehicle_age),joint,1,9899.383533988697
+svr_tuned,dev20k,3,age (year+vehicle_age),joint,2,9638.50624321758
+hgb_best,full,2,brand,single,0,5431.443938575561
+hgb_best,full,2,brand,single,1,5480.79684917253
+hgb_best,full,2,brand,single,2,5303.911049428802
+hgb_best,full,2,model,single,0,13290.711099434317
+hgb_best,full,2,model,single,1,12929.428050121925
+hgb_best,full,2,model,single,2,12819.98003516542
+hgb_best,full,2,fuel_type,single,0,888.1770698166838
+hgb_best,full,2,fuel_type,single,1,874.7043475604396
+hgb_best,full,2,fuel_type,single,2,820.4056493528815
+hgb_best,full,2,transmission,single,0,350.9181563243201
+hgb_best,full,2,transmission,single,1,299.45968562766666
+hgb_best,full,2,transmission,single,2,308.0665272477172
+hgb_best,full,2,body_type,single,0,1049.2285278938525
+hgb_best,full,2,body_type,single,1,1062.3194060748474
+hgb_best,full,2,body_type,single,2,987.7064798034535
+hgb_best,full,2,country_code,single,0,1460.9694324638867
+hgb_best,full,2,country_code,single,1,1493.6425386454039
+hgb_best,full,2,country_code,single,2,1425.0523635898353
+hgb_best,full,2,seller_type,single,0,50.27637334807059
+hgb_best,full,2,seller_type,single,1,41.690048073426624
+hgb_best,full,2,seller_type,single,2,69.50616544609329
+hgb_best,full,2,drive_train,single,0,218.04072092965907
+hgb_best,full,2,drive_train,single,1,222.74322515536915
+hgb_best,full,2,drive_train,single,2,186.11709311074446
+hgb_best,full,2,body_color,single,0,-11.037746527937088
+hgb_best,full,2,body_color,single,1,37.79351197626238
+hgb_best,full,2,body_color,single,2,-22.61343989553552
+hgb_best,full,2,model_version,single,0,0.0
+hgb_best,full,2,model_version,single,1,0.0
+hgb_best,full,2,model_version,single,2,0.0
+hgb_best,full,2,production_year,single,0,5727.091816649108
+hgb_best,full,2,production_year,single,1,5707.089157763885
+hgb_best,full,2,production_year,single,2,5631.114299984783
+hgb_best,full,2,vehicle_age,single,0,650.8364908962349
+hgb_best,full,2,vehicle_age,single,1,606.6459084481212
+hgb_best,full,2,vehicle_age,single,2,589.5898381534198
+hgb_best,full,2,mileage_km,single,0,8503.345304564398
+hgb_best,full,2,mileage_km,single,1,8452.6084643334
+hgb_best,full,2,mileage_km,single,2,8670.911938657597
+hgb_best,full,2,power_kw,single,0,9850.216135470102
+hgb_best,full,2,power_kw,single,1,9821.376964604942
+hgb_best,full,2,power_kw,single,2,9984.002827244383
+hgb_best,full,2,engine_cc,single,0,1547.1484283041054
+hgb_best,full,2,engine_cc,single,1,1539.3554501427052
+hgb_best,full,2,engine_cc,single,2,1496.6698807686707
+hgb_best,full,2,nr_seats,single,0,756.0962114145768
+hgb_best,full,2,nr_seats,single,1,734.0781043305351
+hgb_best,full,2,nr_seats,single,2,616.0300528150065
+hgb_best,full,2,identity (brand+model[+version]),joint,0,18806.506333018002
+hgb_best,full,2,identity (brand+model[+version]),joint,1,18828.02370963375
+hgb_best,full,2,identity (brand+model[+version]),joint,2,19164.492393967965
+hgb_best,full,2,age (year+vehicle_age),joint,0,7382.23468977318
+hgb_best,full,2,age (year+vehicle_age),joint,1,7343.861191897115
+hgb_best,full,2,age (year+vehicle_age),joint,2,7392.858707176314
+hgb_best,full,1,brand,single,0,5778.990283487271
+hgb_best,full,1,brand,single,1,5640.738493142021
+hgb_best,full,1,brand,single,2,5752.8874281428625
+hgb_best,full,1,model,single,0,13892.94291544761
+hgb_best,full,1,model,single,1,13770.987104483407
+hgb_best,full,1,model,single,2,13272.881322045148
+hgb_best,full,1,fuel_type,single,0,874.3796231169881
+hgb_best,full,1,fuel_type,single,1,868.6982842245052
+hgb_best,full,1,fuel_type,single,2,961.0713211562052
+hgb_best,full,1,transmission,single,0,333.8680533421584
+hgb_best,full,1,transmission,single,1,387.6043037896825
+hgb_best,full,1,transmission,single,2,440.3381463307978
+hgb_best,full,1,body_type,single,0,1012.0313627647101
+hgb_best,full,1,body_type,single,1,964.0162073886058
+hgb_best,full,1,body_type,single,2,852.6989542316087
+hgb_best,full,1,country_code,single,0,1577.756963157035
+hgb_best,full,1,country_code,single,1,1594.1605413307852
+hgb_best,full,1,country_code,single,2,1617.306560746366
+hgb_best,full,1,seller_type,single,0,57.21065900992562
+hgb_best,full,1,seller_type,single,1,53.387349983683634
+hgb_best,full,1,seller_type,single,2,114.57727946294835
+hgb_best,full,1,drive_train,single,0,256.9398258655374
+hgb_best,full,1,drive_train,single,1,287.47209150265917
+hgb_best,full,1,drive_train,single,2,279.9828680061837
+hgb_best,full,1,body_color,single,0,73.254813532144
+hgb_best,full,1,body_color,single,1,46.27010044850795
+hgb_best,full,1,body_color,single,2,61.53023739316086
+hgb_best,full,1,model_version,single,0,0.0
+hgb_best,full,1,model_version,single,1,0.0
+hgb_best,full,1,model_version,single,2,0.0
+hgb_best,full,1,production_year,single,0,5684.78300674967
+hgb_best,full,1,production_year,single,1,5660.665041630816
+hgb_best,full,1,production_year,single,2,5645.738855804323
+hgb_best,full,1,vehicle_age,single,0,565.2452872708036
+hgb_best,full,1,vehicle_age,single,1,539.0663767546994
+hgb_best,full,1,vehicle_age,single,2,577.4623302190575
+hgb_best,full,1,mileage_km,single,0,9080.122102206282
+hgb_best,full,1,mileage_km,single,1,9007.261473565792
+hgb_best,full,1,mileage_km,single,2,8978.040091391962
+hgb_best,full,1,power_kw,single,0,11354.554986810126
+hgb_best,full,1,power_kw,single,1,11445.938256845413
+hgb_best,full,1,power_kw,single,2,11262.554089138106
+hgb_best,full,1,engine_cc,single,0,1297.6309800909858
+hgb_best,full,1,engine_cc,single,1,1334.2685129346528
+hgb_best,full,1,engine_cc,single,2,1325.415354178278
+hgb_best,full,1,nr_seats,single,0,588.5258084914076
+hgb_best,full,1,nr_seats,single,1,671.2894851988513
+hgb_best,full,1,nr_seats,single,2,581.9802982914789
+hgb_best,full,1,identity (brand+model[+version]),joint,0,19499.267801376616
+hgb_best,full,1,identity (brand+model[+version]),joint,1,19520.21135016788
+hgb_best,full,1,identity (brand+model[+version]),joint,2,19889.85556030139
+hgb_best,full,1,age (year+vehicle_age),joint,0,7315.161887340787
+hgb_best,full,1,age (year+vehicle_age),joint,1,7483.879522123204
+hgb_best,full,1,age (year+vehicle_age),joint,2,7435.365753534969
+knn_default,dev20k,4,brand,single,0,1622.4349544243996
+knn_default,dev20k,4,brand,single,1,1669.0258571964168
+knn_default,dev20k,4,brand,single,2,1779.6851655635273
+knn_default,dev20k,4,model,single,0,1191.5782122542223
+knn_default,dev20k,4,model,single,1,1147.0379926773385
+knn_default,dev20k,4,model,single,2,1221.666997358885
+knn_default,dev20k,4,fuel_type,single,0,360.6302478636335
+knn_default,dev20k,4,fuel_type,single,1,468.4084178044086
+knn_default,dev20k,4,fuel_type,single,2,409.0478220926216
+knn_default,dev20k,4,transmission,single,0,235.76386502648347
+knn_default,dev20k,4,transmission,single,1,209.45446456170248
+knn_default,dev20k,4,transmission,single,2,266.17107005307844
+knn_default,dev20k,4,body_type,single,0,564.8862940425315
+knn_default,dev20k,4,body_type,single,1,562.3104580589006
+knn_default,dev20k,4,body_type,single,2,537.4915054853973
+knn_default,dev20k,4,country_code,single,0,445.76245358771666
+knn_default,dev20k,4,country_code,single,1,564.1625624439257
+knn_default,dev20k,4,country_code,single,2,435.68909013085795
+knn_default,dev20k,4,seller_type,single,0,49.25504957058183
+knn_default,dev20k,4,seller_type,single,1,121.27211506506683
+knn_default,dev20k,4,seller_type,single,2,0.7881494295161247
+knn_default,dev20k,4,drive_train,single,0,376.4659121463319
+knn_default,dev20k,4,drive_train,single,1,424.7857266998508
+knn_default,dev20k,4,drive_train,single,2,388.0420589317455
+knn_default,dev20k,4,body_color,single,0,30.346715695040984
+knn_default,dev20k,4,body_color,single,1,123.15638535671133
+knn_default,dev20k,4,body_color,single,2,99.48285225350446
+knn_default,dev20k,4,model_version,single,0,0.0
+knn_default,dev20k,4,model_version,single,1,0.0
+knn_default,dev20k,4,model_version,single,2,0.0
+knn_default,dev20k,4,production_year,single,0,2404.6608296022296
+knn_default,dev20k,4,production_year,single,1,2373.3515340463127
+knn_default,dev20k,4,production_year,single,2,2462.764611577759
+knn_default,dev20k,4,vehicle_age,single,0,2565.8540773103396
+knn_default,dev20k,4,vehicle_age,single,1,2435.450294254155
+knn_default,dev20k,4,vehicle_age,single,2,2469.115094176632
+knn_default,dev20k,4,mileage_km,single,0,4196.903049174998
+knn_default,dev20k,4,mileage_km,single,1,3777.3801116605555
+knn_default,dev20k,4,mileage_km,single,2,3685.6329283937303
+knn_default,dev20k,4,power_kw,single,0,6362.688299661266
+knn_default,dev20k,4,power_kw,single,1,6433.436206330967
+knn_default,dev20k,4,power_kw,single,2,6223.366427726072
+knn_default,dev20k,4,engine_cc,single,0,4517.953771720659
+knn_default,dev20k,4,engine_cc,single,1,4064.566383738198
+knn_default,dev20k,4,engine_cc,single,2,3932.1004975408014
+knn_default,dev20k,4,nr_seats,single,0,2138.3475886748747
+knn_default,dev20k,4,nr_seats,single,1,2279.5955774878967
+knn_default,dev20k,4,nr_seats,single,2,2061.382364143763
+knn_default,dev20k,4,identity (brand+model[+version]),joint,0,4948.286450646228
+knn_default,dev20k,4,identity (brand+model[+version]),joint,1,4687.6579516392885
+knn_default,dev20k,4,identity (brand+model[+version]),joint,2,4737.9156366251555
+knn_default,dev20k,4,age (year+vehicle_age),joint,0,7601.15359243863
+knn_default,dev20k,4,age (year+vehicle_age),joint,1,7075.163348304002
+knn_default,dev20k,4,age (year+vehicle_age),joint,2,7415.642116404011
+hgb_best,full,3,brand,single,0,6327.279031832185
+hgb_best,full,3,brand,single,1,6198.363670572736
+hgb_best,full,3,brand,single,2,6258.47617628991
+hgb_best,full,3,model,single,0,13889.438793539888
+hgb_best,full,3,model,single,1,13819.046066420826
+hgb_best,full,3,model,single,2,14211.231264632821
+hgb_best,full,3,fuel_type,single,0,940.1181205903058
+hgb_best,full,3,fuel_type,single,1,1021.7051879152823
+hgb_best,full,3,fuel_type,single,2,987.7837104195314
+hgb_best,full,3,transmission,single,0,274.043997549762
+hgb_best,full,3,transmission,single,1,341.4353265716891
+hgb_best,full,3,transmission,single,2,293.9592625041132
+hgb_best,full,3,body_type,single,0,845.3737389520711
+hgb_best,full,3,body_type,single,1,958.9738675619383
+hgb_best,full,3,body_type,single,2,980.9059495341944
+hgb_best,full,3,country_code,single,0,1258.6938839387976
+hgb_best,full,3,country_code,single,1,1284.116199353196
+hgb_best,full,3,country_code,single,2,1268.3955862603061
+hgb_best,full,3,seller_type,single,0,-2.6892997353388637
+hgb_best,full,3,seller_type,single,1,43.12504998907025
+hgb_best,full,3,seller_type,single,2,29.601873804636853
+hgb_best,full,3,drive_train,single,0,265.3737886641575
+hgb_best,full,3,drive_train,single,1,252.32562197167135
+hgb_best,full,3,drive_train,single,2,275.46751087899884
+hgb_best,full,3,body_color,single,0,70.99189691085667
+hgb_best,full,3,body_color,single,1,68.01312378529019
+hgb_best,full,3,body_color,single,2,62.851274406030825
+hgb_best,full,3,model_version,single,0,0.0
+hgb_best,full,3,model_version,single,1,0.0
+hgb_best,full,3,model_version,single,2,0.0
+hgb_best,full,3,production_year,single,0,5475.974959272501
+hgb_best,full,3,production_year,single,1,5508.667298867077
+hgb_best,full,3,production_year,single,2,5579.7638901594755
+hgb_best,full,3,vehicle_age,single,0,646.477980859645
+hgb_best,full,3,vehicle_age,single,1,635.2939337756288
+hgb_best,full,3,vehicle_age,single,2,642.1122415763757
+hgb_best,full,3,mileage_km,single,0,8812.466879766554
+hgb_best,full,3,mileage_km,single,1,8975.692617893412
+hgb_best,full,3,mileage_km,single,2,9087.386699030867
+hgb_best,full,3,power_kw,single,0,10916.43781976174
+hgb_best,full,3,power_kw,single,1,10897.367318220287
+hgb_best,full,3,power_kw,single,2,10958.350654612183
+hgb_best,full,3,engine_cc,single,0,1643.0122855242944
+hgb_best,full,3,engine_cc,single,1,1706.9515623603156
+hgb_best,full,3,engine_cc,single,2,1713.839423449017
+hgb_best,full,3,nr_seats,single,0,1072.0739875001018
+hgb_best,full,3,nr_seats,single,1,1005.5658982063287
+hgb_best,full,3,nr_seats,single,2,1111.229454366442
+hgb_best,full,3,identity (brand+model[+version]),joint,0,20752.556321940643
+hgb_best,full,3,identity (brand+model[+version]),joint,1,20981.515378937205
+hgb_best,full,3,identity (brand+model[+version]),joint,2,20547.567723886597
+hgb_best,full,3,age (year+vehicle_age),joint,0,7312.518681358467
+hgb_best,full,3,age (year+vehicle_age),joint,1,7410.028370520981
+hgb_best,full,3,age (year+vehicle_age),joint,2,7473.298233854731
+knn_default,dev20k,3,brand,single,0,1708.3894820154892
+knn_default,dev20k,3,brand,single,1,1811.1842951139697
+knn_default,dev20k,3,brand,single,2,1865.1779192701706
+knn_default,dev20k,3,model,single,0,1188.5709183182735
+knn_default,dev20k,3,model,single,1,1190.4648257361077
+knn_default,dev20k,3,model,single,2,1138.4251439702548
+knn_default,dev20k,3,fuel_type,single,0,371.9623811241581
+knn_default,dev20k,3,fuel_type,single,1,393.8408376229854
+knn_default,dev20k,3,fuel_type,single,2,370.9151614808634
+knn_default,dev20k,3,transmission,single,0,503.2762531882163
+knn_default,dev20k,3,transmission,single,1,248.19155605211563
+knn_default,dev20k,3,transmission,single,2,426.29352538048624
+knn_default,dev20k,3,body_type,single,0,503.6805125386254
+knn_default,dev20k,3,body_type,single,1,606.7102586743222
+knn_default,dev20k,3,body_type,single,2,657.2803213728348
+knn_default,dev20k,3,country_code,single,0,563.0862278018394
+knn_default,dev20k,3,country_code,single,1,496.57417167368294
+knn_default,dev20k,3,country_code,single,2,474.71379353525845
+knn_default,dev20k,3,seller_type,single,0,137.90060892977635
+knn_default,dev20k,3,seller_type,single,1,69.32411433874222
+knn_default,dev20k,3,seller_type,single,2,98.23295517885344
+knn_default,dev20k,3,drive_train,single,0,343.36213350402613
+knn_default,dev20k,3,drive_train,single,1,448.45401419967493
+knn_default,dev20k,3,drive_train,single,2,418.85785841920915
+knn_default,dev20k,3,body_color,single,0,243.58314271470954
+knn_default,dev20k,3,body_color,single,1,190.39131602108137
+knn_default,dev20k,3,body_color,single,2,342.7914277628024
+knn_default,dev20k,3,model_version,single,0,0.0
+knn_default,dev20k,3,model_version,single,1,0.0
+knn_default,dev20k,3,model_version,single,2,0.0
+knn_default,dev20k,3,production_year,single,0,2501.0576753983623
+knn_default,dev20k,3,production_year,single,1,2390.6429188279817
+knn_default,dev20k,3,production_year,single,2,2343.3568254800102
+knn_default,dev20k,3,vehicle_age,single,0,2339.5475489234523
+knn_default,dev20k,3,vehicle_age,single,1,2475.9258849818634
+knn_default,dev20k,3,vehicle_age,single,2,2613.091129517814
+knn_default,dev20k,3,mileage_km,single,0,3458.885117569076
+knn_default,dev20k,3,mileage_km,single,1,3568.7809059597257
+knn_default,dev20k,3,mileage_km,single,2,3668.626167169925
+knn_default,dev20k,3,power_kw,single,0,5178.296231136874
+knn_default,dev20k,3,power_kw,single,1,5038.779797502179
+knn_default,dev20k,3,power_kw,single,2,4955.111353551032
+knn_default,dev20k,3,engine_cc,single,0,3856.1052112612397
+knn_default,dev20k,3,engine_cc,single,1,3484.355033324242
+knn_default,dev20k,3,engine_cc,single,2,3621.327504956298
+knn_default,dev20k,3,nr_seats,single,0,2067.4740541891115
+knn_default,dev20k,3,nr_seats,single,1,1718.7662123833907
+knn_default,dev20k,3,nr_seats,single,2,1898.2571576434912
+knn_default,dev20k,3,identity (brand+model[+version]),joint,0,4631.869192634707
+knn_default,dev20k,3,identity (brand+model[+version]),joint,1,4868.10397774458
+knn_default,dev20k,3,identity (brand+model[+version]),joint,2,4897.990016687394
+knn_default,dev20k,3,age (year+vehicle_age),joint,0,7069.346321775756
+knn_default,dev20k,3,age (year+vehicle_age),joint,1,6943.055225435484
+knn_default,dev20k,3,age (year+vehicle_age),joint,2,6747.378618637869
+hgb_best,full,4,brand,single,0,6131.2807906715025
+hgb_best,full,4,brand,single,1,6164.434254176993
+hgb_best,full,4,brand,single,2,5909.124007996848
+hgb_best,full,4,model,single,0,13947.678542545775
+hgb_best,full,4,model,single,1,14465.098263294189
+hgb_best,full,4,model,single,2,14177.47606533761
+hgb_best,full,4,fuel_type,single,0,909.6437902135494
+hgb_best,full,4,fuel_type,single,1,908.1462492965766
+hgb_best,full,4,fuel_type,single,2,911.6898237219402
+hgb_best,full,4,transmission,single,0,339.31698609971136
+hgb_best,full,4,transmission,single,1,349.84148315597577
+hgb_best,full,4,transmission,single,2,393.3023495758889
+hgb_best,full,4,body_type,single,0,998.3540435798468
+hgb_best,full,4,body_type,single,1,1074.9767800881436
+hgb_best,full,4,body_type,single,2,879.9087632123883
+hgb_best,full,4,country_code,single,0,1597.4561122112282
+hgb_best,full,4,country_code,single,1,1456.6475278547541
+hgb_best,full,4,country_code,single,2,1621.1298913034698
+hgb_best,full,4,seller_type,single,0,35.74995485451382
+hgb_best,full,4,seller_type,single,1,39.986181321773074
+hgb_best,full,4,seller_type,single,2,60.60388891983257
+hgb_best,full,4,drive_train,single,0,279.6191405287136
+hgb_best,full,4,drive_train,single,1,289.15697376437674
+hgb_best,full,4,drive_train,single,2,245.5510451398377
+hgb_best,full,4,body_color,single,0,164.61687656081722
+hgb_best,full,4,body_color,single,1,84.3528535510568
+hgb_best,full,4,body_color,single,2,72.60385899810535
+hgb_best,full,4,model_version,single,0,0.0
+hgb_best,full,4,model_version,single,1,0.0
+hgb_best,full,4,model_version,single,2,0.0
+hgb_best,full,4,production_year,single,0,5441.330732702898
+hgb_best,full,4,production_year,single,1,5475.9050069751665
+hgb_best,full,4,production_year,single,2,5473.828248723046
+hgb_best,full,4,vehicle_age,single,0,534.8087311220906
+hgb_best,full,4,vehicle_age,single,1,524.5280792184258
+hgb_best,full,4,vehicle_age,single,2,544.3487159941769
+hgb_best,full,4,mileage_km,single,0,9583.686188838097
+hgb_best,full,4,mileage_km,single,1,9432.008287418954
+hgb_best,full,4,mileage_km,single,2,9365.307426192223
+hgb_best,full,4,power_kw,single,0,9991.795768698916
+hgb_best,full,4,power_kw,single,1,10048.580258794955
+hgb_best,full,4,power_kw,single,2,9931.83380062789
+hgb_best,full,4,engine_cc,single,0,1335.7015476196639
+hgb_best,full,4,engine_cc,single,1,1362.6680808343972
+hgb_best,full,4,engine_cc,single,2,1325.1438621029056
+hgb_best,full,4,nr_seats,single,0,754.8266870236757
+hgb_best,full,4,nr_seats,single,1,711.2255176451417
+hgb_best,full,4,nr_seats,single,2,759.5355690031056
+hgb_best,full,4,identity (brand+model[+version]),joint,0,20259.71350222712
+hgb_best,full,4,identity (brand+model[+version]),joint,1,20425.61284768997
+hgb_best,full,4,identity (brand+model[+version]),joint,2,20218.59291879866
+hgb_best,full,4,age (year+vehicle_age),joint,0,7245.40332562344
+hgb_best,full,4,age (year+vehicle_age),joint,1,7117.923551132191
+hgb_best,full,4,age (year+vehicle_age),joint,2,7076.7773444825925

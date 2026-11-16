@@ -151,8 +151,8 @@ def test_only_final_eval_reads_the_test_split():
         if p.name in ("final_eval.py", "reporting_week3.py", "reporting.py", "reporting_week2.py", "split_data.py", "week3_select.py"):
             continue
         assert "test.parquet" not in text, p.name
-    assert "test.parquet" in inspect.getsource(final_eval.read_test)
-    assert inspect.getsource(final_eval).count("read_parquet") == 1
+    src = inspect.getsource(final_eval)
+    assert src.count("test.parquet") == 1 and "TEST_PATH" in inspect.getsource(final_eval.read_test)   # one constant, one reader
     assert "test.parquet" not in inspect.getsource(week3_select)           # freezing never touches the test split
 
 
@@ -167,6 +167,65 @@ def test_final_eval_refuses_second_run_and_missing_or_stale_freeze(tmp_path):
     marker.write_text("{}")
     with pytest.raises(final_eval.TestAlreadyUsed):
         final_eval.check_ready(frozen, marker, check_hashes=False)
+
+
+def _fake_frozen():
+    return {"models": {m: {"default": {"model": m}, "final": {"model": m}} for m in MODELS}, "selected_model": "rf", "created_at": "t"}
+
+
+def test_final_eval_saves_each_model_and_resumes_only_the_missing_ones(tmp_path):
+    frozen = _fake_frozen()
+    test = pd.DataFrame({"listing_id": [f"L{i}" for i in range(6)], "price": np.arange(6, dtype=float) + 1000, "group_id": np.arange(6)})
+    calls = []
+
+    def runner_failing(name, cfg, train, test_, partial_dir, sha, fail="svr_tuned"):
+        if name == fail:
+            raise RuntimeError("simulated crash")
+        calls.append(name)
+        res = {"name": name, "pred": np.full(len(test_), 1.0), "fit_seconds": 1.0, "n_train_used": 5}
+        final_eval.save_partial(res, test_["listing_id"].to_numpy(), partial_dir, sha)
+        return res
+
+    with pytest.raises(RuntimeError, match="simulated"):
+        final_eval.compute_predictions(frozen, None, test, tmp_path, n_jobs=1, runner=runner_failing)
+    saved = {p.stem for p in tmp_path.glob("*.parquet")}
+    assert "svr_tuned" not in saved and "naive_median" in saved and not list(tmp_path.glob("*.tmp"))   # finished models survived
+    calls.clear()
+
+    def runner_ok(name, cfg, train, test_, partial_dir, sha):
+        calls.append(name)
+        return runner_failing(name, cfg, train, test_, partial_dir, sha, fail=None)
+
+    res = final_eval.compute_predictions(frozen, None, test, tmp_path, n_jobs=1, runner=runner_ok)
+    assert "svr_tuned" in calls and not (set(calls) & saved)                  # only the missing models were computed again
+    assert set(res) == set(final_eval.entries(frozen)) and all(len(r["pred"]) == 6 for r in res.values())
+    assert all(final_eval.status(frozen, test["listing_id"].to_numpy(), tmp_path).values())
+
+
+def test_final_eval_refuses_stale_or_mismatched_partial_files(tmp_path):
+    frozen = _fake_frozen()
+    ids = np.array(["A", "B"])
+    res = {"name": "naive_median", "pred": np.array([1.0, 2.0]), "fit_seconds": 0.0, "n_train_used": 3}
+    final_eval.save_partial(res, ids, tmp_path, "sha-old")
+    assert final_eval.load_partial("naive_median", ids, tmp_path, "sha-old")["pred"].tolist() == [1.0, 2.0]
+    assert final_eval.load_partial("missing_model", ids, tmp_path, "sha-old") is None
+    with pytest.raises(RuntimeError, match="different frozen"):
+        final_eval.load_partial("naive_median", ids, tmp_path, "sha-new")                  # configuration changed
+    with pytest.raises(RuntimeError, match="different frozen"):
+        final_eval.load_partial("naive_median", np.array(["A", "C"]), tmp_path, "sha-old")  # other test rows
+    assert final_eval._frozen_sha(frozen) == final_eval._frozen_sha(json.loads(json.dumps(frozen)))
+
+
+def test_summarise_builds_metrics_ci_and_prediction_frame():
+    rng = np.random.default_rng(0)
+    n = 90
+    test = pd.DataFrame({"listing_id": [f"L{i}" for i in range(n)], "price": rng.uniform(5000, 90000, n), "group_id": np.repeat(np.arange(30), 3)})
+    frozen = _fake_frozen()
+    res = {nm: {"name": nm, "pred": test["price"].to_numpy() + rng.normal(0, 1000 * (i + 1), n), "fit_seconds": 1.0, "n_train_used": 10}
+           for i, nm in enumerate(final_eval.entries(frozen))}
+    metrics, ci, frame = final_eval.summarise(frozen, res, test, n_boot=30)
+    assert len(metrics) == len(res) and metrics["is_selected"].sum() == 1 and "pred_rf_tuned" in frame.columns
+    assert {"metric", "paired_mae_diff"} == set(ci["kind"])
 
 
 def test_cluster_bootstrap_resamples_whole_groups_and_is_deterministic():

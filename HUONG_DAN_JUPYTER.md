@@ -24,7 +24,7 @@ Máy ít nhân hơn (4-8 nhân) sẽ lâu hơn tỉ lệ thuận với số nhâ
    - Không thấy `.venv`? Chạy trong terminal: `.\.venv\Scripts\python -m ipykernel install --user --name car-price --display-name "Car price (.venv)"` rồi chọn kernel `Car price (.venv)`.
 4. Chạy lần lượt từng ô (**Shift+Enter**) từ trên xuống:
    - Ô 1 (chuẩn bị) → Ô 2 (công tắc `RUN_HEAVY = False`, **giữ nguyên False**) → Bước 1 `main.py` → Bước 2 pytest → Bước 3 demo → Bước 4 sinh báo cáo → Bước 6 xem báo cáo.
-5. Kết quả mong đợi: bước 1 kết thúc bằng `Done. n_clean = 94266 | train/test = 75457 / 18809`; bước 2 báo `66 passed`.
+5. Kết quả mong đợi: bước 1 kết thúc bằng `Done. n_clean = 94266 | train/test = 75457 / 18809`; bước 2 báo `81 passed`.
 
 Các notebook khác (chỉ **hiển thị** kết quả, đã chạy sẵn, mở ra xem được ngay; không đọc tập test):
 
