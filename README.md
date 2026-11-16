@@ -54,7 +54,7 @@ python -m src.experiments --confirm    # xác nhận trên toàn bộ train (~16
 python -m src.week2_analysis           # bảng tổng hợp + biểu đồ
 python -m src.reporting_week2          # sinh reports/week2_report.md (tự kiểm chứng 14 phát biểu)
 python -m src.week2_extra              # phân tích bổ sung (~10-20 phút, 12 lõi); --quick để chạy thử, --plots để vẽ lại hình
-python -m pytest -v                    # 70 test
+python -m pytest -v                    # 85 test
 ```
 `src.week2_extra` chạy lại đúng cấu hình tốt nhất của mỗi mô hình trên cùng tập con 20.001 dòng và cùng 5 GroupKFold, ghi thêm:
 sai số trên phần train và phần validation từng fold (nhận diện quá khớp/chưa khớp), baseline trung vị theo fold,
@@ -73,9 +73,17 @@ python -m src.week3_select                    # đóng băng cấu hình
 python -m src.final_eval                      # đánh giá test, CHỈ MỘT LẦN (chương trình từ chối lần hai)
 python -m src.week3_analysis                  # bảng/biểu đồ + phân tích phần dư
 python -m src.reporting_week3                 # sinh reports/week3_report.md
-python -m pytest -v                           # 70 test
+python -m pytest -v                           # 85 test
 ```
 Mọi lựa chọn chỉ dựa trên CV trên train; tập test chỉ được đọc bởi `src/final_eval.py`. Xem `HUONG_DAN_TUAN3.md` và `reports/week3_report.md`.
+
+**Phần bổ sung tuần 3 (chỉ dùng tập train; boosting chưa được đánh giá trên test, chủ ý):**
+```powershell
+python -m src.week3_extra --part all --jobs 14   # boosting tinh chỉnh trên toàn train, chẩn đoán overfit + độ quan trọng đặc trưng, đường cong học (~1 giờ)
+python -m src.week3_extra_analysis               # bảng + biểu đồ
+python -m src.reporting_week3_extra              # reports/week3_extra_report.md
+```
+`src.final_eval` giờ ghi từng mô hình ngay khi xong và chạy tiếp được nếu bị gián đoạn (`--status` xem tiến độ). Xem `HUONG_DAN_TUAN3_BO_SUNG.md`.
 
 ## Lưu ý: không sửa file trong `data/raw/`
 Đừng mở CSV gốc bằng Excel/editor rồi lưu: kích thước/MD5 đổi, `download_dataset` sẽ báo `Existing file is NOT valid` và `main.py` dừng. Cách xử lý: đổi tên file hỏng (vd. thêm đuôi `.modified_backup`, đã được `.gitignore` chặn) rồi chạy lại `python -m src.download_dataset` để tải bản chuẩn.

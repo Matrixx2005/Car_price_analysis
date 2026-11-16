@@ -1,1 +1,1 @@
-81 passed (python -m pytest -v: tuần 1 gồm 25 test, tuần 2 gồm 25 test, tuần 3 và phần bổ sung gồm 31 test)
+85 passed (python -m pytest -v: tuần 1 gồm 25 test, tuần 2 gồm 29 test (4 test của bạn Thơ), tuần 3 và phần bổ sung gồm 31 test)

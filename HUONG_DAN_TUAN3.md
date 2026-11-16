@@ -21,7 +21,7 @@ python -m src.week3_select                    # đóng băng cấu hình -> repo
 python -m src.final_eval                      # đánh giá test, CHỈ MỘT LẦN (~1,3 giờ trên máy 16 nhân)
 python -m src.week3_analysis                  # bảng/biểu đồ CV + phân tích phần dư test
 python -m src.reporting_week3                 # sinh reports/week3_report.md (tự kiểm chứng phát biểu)
-python -m pytest -v                           # 81 test
+python -m pytest -v                           # 85 test
 ```
 
 **Quan trọng:** đừng chạy lại `final_eval` sau khi đã có file `reports/tables/week3_test_evaluation_done.json` (chương trình từ chối). Muốn phân tích thêm, dùng dự đoán đã lưu `data/processed/week3_test_predictions.parquet`. Xem kết quả: `reports/week3_report.md`, `notebooks/04_week3_results.ipynb`, `reports/figures/week3_*.png`.
