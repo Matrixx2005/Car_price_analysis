@@ -1,9 +1,12 @@
 # Dự đoán giá ô tô cũ trên dữ liệu có nhiều thuộc tính phân loại
 
-Dự án môn Học máy – **Tuần 1: dữ liệu, EDA, cardinality, schema, cleaning, train/test split an toàn.**
+Dự án môn Học máy – dự đoán giá chào bán ô tô cũ (hồi quy), so sánh các phương pháp mã hóa và chuẩn hóa dữ liệu.
 Dataset: AutoScout24 Car Listings 2025 – Zenodo [17643343](https://zenodo.org/records/17643343), DOI `10.5281/zenodo.17643343` (giấy phép MIT theo metadata Zenodo).
 
-Tuần 1 **không** có encoding, scaling hay mô hình hồi quy (để dành tuần 2–3).
+Tiến độ:
+- **Tuần 1:** dữ liệu, EDA, cardinality, schema, làm sạch, chia train/test theo nhóm xe (không có mô hình).
+- **Tuần 2:** lưới Encoding × Scaling × Mô hình (KNN, Ridge, SVR, Random Forest) bằng GroupKFold trên train; phân tích bổ sung sai số train–validation, baseline theo fold, đường cong học tập, phần dư và độ quan trọng đặc trưng (`src/week2_extra.py`).
+- **Tuần 3:** tinh chỉnh, đóng băng cấu hình, đánh giá cuối một lần trên test.
 
 ## Bắt đầu nhanh (người mới clone repo)
 
@@ -50,8 +53,14 @@ python -m src.experiments              # lưới 112 cấu hình x 5 fold (~10 p
 python -m src.experiments --confirm    # xác nhận trên toàn bộ train (~16-20 phút); chạy tiếp được
 python -m src.week2_analysis           # bảng tổng hợp + biểu đồ
 python -m src.reporting_week2          # sinh reports/week2_report.md (tự kiểm chứng 14 phát biểu)
-python -m pytest -v                    # 66 test
+python -m src.week2_extra              # phân tích bổ sung (~10-20 phút, 12 lõi); --quick để chạy thử, --plots để vẽ lại hình
+python -m pytest -v                    # 70 test
 ```
+`src.week2_extra` chạy lại đúng cấu hình tốt nhất của mỗi mô hình trên cùng tập con 20.001 dòng và cùng 5 GroupKFold, ghi thêm:
+sai số trên phần train và phần validation từng fold (nhận diện quá khớp/chưa khớp), baseline trung vị theo fold,
+đường cong học tập (20–100 % phần train của fold, lấy nguyên nhóm xe), dự đoán ngoài fold (biểu đồ phần dư) và
+permutation importance theo cột gốc. Kết quả: `reports/tables/week2_extra_*.csv`, `reports/figures/week2_extra_*.png`,
+`reports/week2_extra_meta.json` (có kiểm tra MAE validation khớp với `week2_fold_results.csv`). Không đọc tập test.
 Mỗi lần chạy có "chữ ký" (dữ liệu, số fold, seed, siêu tham số, phiên bản sklearn); đổi những thứ đó thì chương trình từ chối ghi tiếp vào kết quả cũ (xóa file kết quả và file chữ ký tương ứng để chạy lại từ đầu).
 Xem `HUONG_DAN_TUAN2.md` (cách xử lý từng vấn đề và các lỗi đã sửa), `reports/week2_report.md` (kết quả) và `notebooks/03_week2_results.ipynb`.
 Để tái lập đúng phiên bản thư viện: `pip install -r requirements-lock.txt`.
@@ -64,7 +73,7 @@ python -m src.week3_select                    # đóng băng cấu hình
 python -m src.final_eval                      # đánh giá test, CHỈ MỘT LẦN (chương trình từ chối lần hai)
 python -m src.week3_analysis                  # bảng/biểu đồ + phân tích phần dư
 python -m src.reporting_week3                 # sinh reports/week3_report.md
-python -m pytest -v                           # 66 test
+python -m pytest -v                           # 70 test
 ```
 Mọi lựa chọn chỉ dựa trên CV trên train; tập test chỉ được đọc bởi `src/final_eval.py`. Xem `HUONG_DAN_TUAN3.md` và `reports/week3_report.md`.
 

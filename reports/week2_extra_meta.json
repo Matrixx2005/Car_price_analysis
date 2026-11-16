@@ -1,0 +1,54 @@
+{
+  "scope": "dev",
+  "n_dev_rows": 20001,
+  "n_splits": 5,
+  "fractions": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "n_repeats": 5,
+  "best_configs": {
+    "knn": [
+      "onehot",
+      "standard"
+    ],
+    "rf": [
+      "onehot",
+      "standard"
+    ],
+    "ridge": [
+      "onehot",
+      "minmax"
+    ],
+    "svr": [
+      "onehot",
+      "standard"
+    ]
+  },
+  "seed": 42,
+  "train_fingerprint": "4b912d149784e7536b4dd319a1161a71",
+  "sklearn": "1.9.1",
+  "check_vs_week2": [
+    {
+      "model": "knn",
+      "max_abs_diff_mae": 0.0
+    },
+    {
+      "model": "rf",
+      "max_abs_diff_mae": 0.0
+    },
+    {
+      "model": "ridge",
+      "max_abs_diff_mae": 0.0
+    },
+    {
+      "model": "svr",
+      "max_abs_diff_mae": 0.0
+    }
+  ],
+  "elapsed_seconds": 1814.7,
+  "finished_at": "2026-11-08T20:19:19"
+}
